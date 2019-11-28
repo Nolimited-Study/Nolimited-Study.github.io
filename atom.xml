@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://nolimited-study.github.io/"/>
-  <updated>2019-11-27T11:09:35.260Z</updated>
+  <updated>2019-11-28T15:11:12.125Z</updated>
   <id>https://nolimited-study.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>C语言基础课程（1）——hello world程序理解</title>
+    <link href="https://nolimited-study.github.io/2019/11/28/C%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E8%AF%BE%E7%A8%8B%EF%BC%881%EF%BC%89%E2%80%94%E2%80%94hello%20world%E7%A8%8B%E5%BA%8F%E7%90%86%E8%A7%A3/"/>
+    <id>https://nolimited-study.github.io/2019/11/28/C%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E8%AF%BE%E7%A8%8B%EF%BC%881%EF%BC%89%E2%80%94%E2%80%94hello%20world%E7%A8%8B%E5%BA%8F%E7%90%86%E8%A7%A3/</id>
+    <published>2019-11-28T14:06:07.000Z</published>
+    <updated>2019-11-28T15:11:12.125Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;因工作需要，特书写一套简单易入门的C语言基础教程，供大家使用。但是，注意下：该教程&lt;b&gt;&lt;font color=&quot;#000ccc&quot;&gt;最适合程序小白&lt;/font&gt;&lt;/b&gt;食用，如果已经有良好C语言基础的童鞋可以移步其他教程啦~&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="C语言" scheme="https://Nolimited-Study.github.io/categories/C%E8%AF%AD%E8%A8%80/"/>
+    
+    
+      <category term="C语言" scheme="https://Nolimited-Study.github.io/tags/C%E8%AF%AD%E8%A8%80/"/>
+    
+      <category term="hello world" scheme="https://Nolimited-Study.github.io/tags/hello-world/"/>
+    
+  </entry>
   
   <entry>
     <title>多种截图方式以及如何截取右键菜单？</title>
