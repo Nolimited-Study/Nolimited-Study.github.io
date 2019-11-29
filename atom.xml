@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://nolimited-study.github.io/"/>
-  <updated>2019-11-28T15:11:12.125Z</updated>
+  <updated>2019-11-29T09:40:22.764Z</updated>
   <id>https://nolimited-study.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo优化：Markdown语法引入Flowchart和Mermaid流程图</title>
+    <link href="https://nolimited-study.github.io/2019/11/29/hexo%E4%BC%98%E5%8C%96%EF%BC%9AMarkdown%E8%AF%AD%E6%B3%95%E5%BC%95%E5%85%A5Flowchart%E5%92%8CMermaid%E6%B5%81%E7%A8%8B%E5%9B%BE/"/>
+    <id>https://nolimited-study.github.io/2019/11/29/hexo%E4%BC%98%E5%8C%96%EF%BC%9AMarkdown%E8%AF%AD%E6%B3%95%E5%BC%95%E5%85%A5Flowchart%E5%92%8CMermaid%E6%B5%81%E7%A8%8B%E5%9B%BE/</id>
+    <published>2019-11-29T09:16:07.000Z</published>
+    <updated>2019-11-29T09:40:22.764Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;我们在写Hexo博客文章时候，常常需要用图形来描述。但是有的时候画图不易修改，原图需要在本地保存，另外上传图片比较麻烦，加载图片又相对耗时。所以如何直接使用Markdown编写的流程图能够在hexo博客上直接生成就成了一个问题，另外，怎样通过Markdown来画流程图呢？&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="hexo" scheme="https://Nolimited-Study.github.io/categories/hexo/"/>
+    
+    
+      <category term="hexo" scheme="https://Nolimited-Study.github.io/tags/hexo/"/>
+    
+      <category term="流程图" scheme="https://Nolimited-Study.github.io/tags/%E6%B5%81%E7%A8%8B%E5%9B%BE/"/>
+    
+      <category term="markdown" scheme="https://Nolimited-Study.github.io/tags/markdown/"/>
+    
+  </entry>
   
   <entry>
     <title>C语言基础课程（1）——hello world程序理解</title>
