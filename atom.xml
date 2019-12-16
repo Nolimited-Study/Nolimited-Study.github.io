@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://nolimited-study.github.io/"/>
-  <updated>2019-11-29T09:40:22.764Z</updated>
+  <updated>2019-12-16T01:54:27.895Z</updated>
   <id>https://nolimited-study.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>相册型PPT制作指导</title>
+    <link href="https://nolimited-study.github.io/2019/12/16/%E7%9B%B8%E5%86%8C%E5%9E%8BPPT%E5%88%B6%E4%BD%9C%E6%8C%87%E5%AF%BC/"/>
+    <id>https://nolimited-study.github.io/2019/12/16/%E7%9B%B8%E5%86%8C%E5%9E%8BPPT%E5%88%B6%E4%BD%9C%E6%8C%87%E5%AF%BC/</id>
+    <published>2019-12-16T01:47:07.000Z</published>
+    <updated>2019-12-16T01:54:27.895Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;在工作和生活中，我们经常会需要制作一些相册集，如公司年会的总结展示，成员介绍、活动回顾、亲子相册等都可能会用到。如果会用视频编辑软件或者动画制作软件的话，那肯定是最好的，但是如果不会，我们也不用担心，用PowerPoint也能够很快的制作相册。以下，提供在PPT中制作相册的几种方式，以及如何进行美化。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="office学习" scheme="https://Nolimited-Study.github.io/categories/office%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="PPT使用" scheme="https://Nolimited-Study.github.io/tags/PPT%E4%BD%BF%E7%94%A8/"/>
+    
+      <category term="相册" scheme="https://Nolimited-Study.github.io/tags/%E7%9B%B8%E5%86%8C/"/>
+    
+  </entry>
   
   <entry>
     <title>hexo优化：Markdown语法引入Flowchart和Mermaid流程图</title>
