@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://nolimited-study.github.io/"/>
-  <updated>2019-12-16T01:54:27.895Z</updated>
+  <updated>2019-12-16T07:26:37.754Z</updated>
   <id>https://nolimited-study.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Excel中ROUND、ROUNDUP、ROUNDDOWN函数详解</title>
+    <link href="https://nolimited-study.github.io/2019/12/16/Excel%E4%B8%ADROUND%E3%80%81ROUNDUP%E3%80%81ROUNDDOWN%E5%87%BD%E6%95%B0%E8%AF%A6%E8%A7%A3/"/>
+    <id>https://nolimited-study.github.io/2019/12/16/Excel%E4%B8%ADROUND%E3%80%81ROUNDUP%E3%80%81ROUNDDOWN%E5%87%BD%E6%95%B0%E8%AF%A6%E8%A7%A3/</id>
+    <published>2019-12-16T07:21:07.000Z</published>
+    <updated>2019-12-16T07:26:37.754Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;﻿在Excel中，很多时候都会用到Round函数，今天就来看下 Microsoft Excel 中 ROUND 函数、ROUNDUP函数和ROUNDDOWN函数的公式语法和用法。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="office学习" scheme="https://Nolimited-Study.github.io/categories/office%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="Excel使用" scheme="https://Nolimited-Study.github.io/tags/Excel%E4%BD%BF%E7%94%A8/"/>
+    
+      <category term="Round函数" scheme="https://Nolimited-Study.github.io/tags/Round%E5%87%BD%E6%95%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>相册型PPT制作指导</title>

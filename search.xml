@@ -1,6 +1,137 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Excel中ROUND、ROUNDUP、ROUNDDOWN函数详解</title>
+    <url>/2019/12/16/Excel%E4%B8%ADROUND%E3%80%81ROUNDUP%E3%80%81ROUNDDOWN%E5%87%BD%E6%95%B0%E8%AF%A6%E8%A7%A3/</url>
+    <content><![CDATA[<p>﻿在Excel中，很多时候都会用到Round函数，今天就来看下 Microsoft Excel 中 ROUND 函数、ROUNDUP函数和ROUNDDOWN函数的公式语法和用法。</p>
+<a id="more"></a>
+
+<h1 id="ROUND函数（对数值四舍五入）"><a href="#ROUND函数（对数值四舍五入）" class="headerlink" title="ROUND函数（对数值四舍五入）"></a><font color="Blue">ROUND函数（对数值四舍五入）</font></h1><p>round函数用来对数值进行四舍五入。</p>
+<h2 id="语法"><a href="#语法" class="headerlink" title="语法"></a><font color="gray">语法</font></h2><p>语法：ROUND(number, num_digits)<br>其中：</p>
+<ul>
+<li><p>number表示需要进行四舍五入的数值或单元格内容。</p>
+</li>
+<li><p>num_digits表示需要取多少位的参数。其中：</p>
+<p>  1） num_digits&gt;0时，表示取小数点后对应小数位数的四舍五入数值。<br>  2）num_digits=0时，表示则将数字四舍五入到最接近的整数。</p>
+<pre><code>3） num_digits&lt; 0时，表示对小数点左侧前几位进行四舍五入。</code></pre><p><em>注释：四舍五入指的是：如果对应的数值≤4（即0、1、2、3、4），则直接舍去，如果对应的数值≥5（即5、6、7、8、9），则向前进1。</em></p>
+</li>
+</ul>
+<h2 id="示例"><a href="#示例" class="headerlink" title="示例"></a><font color="gray">示例</font></h2><p> 接下来，我们举几个实例给大家看下，num_digits取不同值的效果。</p>
+<h3 id="第一种情况：num-digits-gt-0"><a href="#第一种情况：num-digits-gt-0" class="headerlink" title="第一种情况：num_digits&gt;0"></a>第一种情况：num_digits&gt;0</h3><hr>
+<p> 例题：</p>
+<ul>
+<li>=ROUND(123.456，2) = 123.46（ 位数大于0，表示保留位数指定的小数，此处保留小数点后两位，看小数点第三位上的值为6，故向前进1，小数点第二位上面的值变成6）<ul>
+<li>=ROUND(123.456，1) =123.5（ 位数大于0，表示保留位数指定的小数，此处保留小数点后一位，看小数点第二位上的值为5，故向前进1，小数点第一位上面的值变成5）</li>
+<li>=ROUND(123.123，1) =123.1（ 位数大于0，表示保留位数指定的小数，此处保留小数点后一位，看小数点第二位上的值为2，舍去）</li>
+</ul>
+</li>
+<li>=ROUND(123.123，2) =123.12（ 位数大于0，表示保留位数指定的小数，此处保留小数点后两位，看小数点第三位上的值为3，舍去）</li>
+</ul>
+<p>总结：num_digits&gt;0时，保留小数到小数点后num_digits位，看小数点后num_digits+1位上的值是≤4则直接舍去（包括其右侧的所有数值），如果是≥5，则在原小数点后num_digits位上的值的基础上+1后再舍去其右侧的所有数值。</p>
+<h3 id="第二种情况：-num-digits-0"><a href="#第二种情况：-num-digits-0" class="headerlink" title="第二种情况： num_digits=0"></a>第二种情况： num_digits=0</h3><hr>
+<ul>
+<li>=ROUND(123.456，0) =123（ 位数等于0，表示保留整数，看小数点后一位是4，直接舍去）</li>
+<li>=ROUND(123.656，0) =124（ 位数等于0，表示保留整数，看小数点后一位是6，向前进1，再舍去）</li>
+</ul>
+<p>总结：num_digits=0时，即保留整数，看小数点后第1位上的值是≤4则直接舍去，如果是≥5，则在整数值的基础上+1即可。（舍去小数点后面所有的数值）</p>
+<h3 id="第三种情况：-num-digits-lt-0"><a href="#第三种情况：-num-digits-lt-0" class="headerlink" title="第三种情况： num_digits&lt;0"></a>第三种情况： num_digits&lt;0</h3><hr>
+<ul>
+<li>=ROUND(123.456，-1) =120（ 位数小于0，表示从个位向左对第几位进行舍入，此处舍去个位上的数，各位上的数值为3，小于4，直接舍去，并设置该位为0）</li>
+<li>=ROUND(123.456，-2) =100 （ 位数小于0，表示从个位向左对第几位进行舍入，此处舍去十位、个位上的数，十位上的数值为2，小于4，直接舍去，并设置十位和个位为0 ） </li>
+<li>=ROUND(156.456，-1) =160 （ 位数小于0，表示从个位向左对第几位进行舍入，此处舍去个位上的数，个位上的数值为6，向前进1，十位上的值+1，并设置个位为0 ） </li>
+<li>=ROUND(156.456，-2) =200 （ 位数小于0，表示从个位向左对第几位进行舍入，此处舍去十位、个位上的数，十位上的数值为5，向前进1，百位上的值+1，并设置十位和个位为0 ） </li>
+</ul>
+<p>总结：num_digits&gt;0时，保留小数到小数点左num_digits位，看该位上的值是≤4则直接舍去，并将该位及其后面的位数上都设置为0；如果是≥5，则该位前一位的值+1后，再将该位及其后面的位数上都设置为0。</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a><font color="gray">总结</font></h2><ol>
+<li>num_digits&gt;0时，保留小数到小数点后num_digits位，看小数点后num_digits+1位上的值是≤4则直接舍去（包括其右侧的所有数值），如果是≥5，则在原小数点后num_digits位上的值的基础上+1后再舍去其右侧的所有数值。</li>
+<li>num_digits=0时，即保留整数，看小数点后第1位上的值是≤4则直接舍去，如果是≥5，则在整数值的基础上+1即可。（舍去小数点后面所有的数值）</li>
+<li>num_digits&gt;0时，保留小数到小数点左num_digits位，看该位上的值是≤4则直接舍去，并将该位及其后面的位数上都设置为0；如果是≥5，则该位前一位的值+1后，再将该位及其后面的位数上都设置为0。</li>
+</ol>
+<p><img src="https://img-blog.csdnimg.cn/20191216115739298.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h1 id="ROUNDUP函数"><a href="#ROUNDUP函数" class="headerlink" title="ROUNDUP函数"></a><font color="blue">ROUNDUP函数</font></h1><p>接下来，我们来看下ROUNDUP这个函数，如果要始终进行向上舍入（远离 0），或者说按照绝对值方向向上，那么可以使用 ROUNDUP 函数。</p>
+<h2 id="语法-1"><a href="#语法-1" class="headerlink" title="语法"></a><font color="gray">语法</font></h2><p>ROUNDUP 函数语法具有下列参数：</p>
+<ul>
+<li>Number  必需。需要向上舍入的任意实数。</li>
+<li>Num_digits  必需。四舍五入后的数字的位数。</li>
+</ul>
+<p>函数 ROUNDUP 和函数 ROUND 功能相似，不同之处在于函数 ROUNDUP 总是按绝对值方向向上舍入数字。 其中，Num_digits也可以取正数、负数和0，如下：</p>
+<ol>
+<li>如果num_digits 大于 0，则向上舍入到指定的小数位。</li>
+<li>如果num_digits 等于 0，则向上舍入到最接近的整数。</li>
+<li>如果num_digits 小于 0，则在小数点左侧向上进行舍入。</li>
+</ol>
+<h2 id="示例-1"><a href="#示例-1" class="headerlink" title="示例"></a><font color="gray">示例</font></h2><p>举几个例子看一下：</p>
+<ul>
+<li>=ROUNDUP(1763.426，2) = 1763.43（保留2位小数，后面有值，需要在第2位小数上+1）</li>
+<li>=ROUNDUP(-1763.426，2) = -1763.43（保留2位小数，后面有值，需要在第2位小数上+1）</li>
+<li>=ROUNDUP(1763.426，1) = 1763.5（保留1位小数，后面有值，需要在第1位小数上+1）<ul>
+<li>=ROUNDUP(-1763.426，1) = -1763.5（保留1位小数，后面有值，需要在第1位小数上+1）</li>
+<li>=ROUNDUP(1763.426，0) = 1764（保留整数，后面有值，需要在整数上+1）</li>
+<li>=ROUNDUP(-1763.426，0) = -1764（保留整数，后面有值，需要在整数上+1）</li>
+<li>=ROUNDUP(1763.426，-1) = 1770（小数点左侧舍去一位，后面有值，需要在十位数上+1）</li>
+<li>=ROUNDUP(-1763.426，-1) = -1770（小数点左侧舍去一位，后面有值，需要在十位数上+1）</li>
+</ul>
+</li>
+</ul>
+<h2 id="总结-1"><a href="#总结-1" class="headerlink" title="总结"></a><font color="gray">总结</font></h2><p>先看需要保留的位数，然后看其后面有没有值，如果有，则保留的末尾位上的值要+1，并且不管是正数还是负数，其结果也只有符号位的不同。（注意，是绝对值方向向上）</p>
+<h2 id="练习"><a href="#练习" class="headerlink" title="练习"></a><font color="gray">练习</font></h2><p>再看下如下例题：</p>
+<ol>
+<li>=ROUNDUP(-1763.00001，0) 大家判断下结果是<strong><strong>____</strong></strong></li>
+<li>=ROUNDUP(-1763，0) 大家判断下结果是<strong><strong>____</strong></strong></li>
+<li>=ROUNDUP(1763.00001，0) 大家判断下结果是<strong><strong>____</strong></strong></li>
+<li>=ROUNDUP(1763，0) 大家判断下结果是<strong><strong>____</strong></strong></li>
+</ol>
+<p>答案是：</p>
+<ol> 
+<li>-1764
+<li>-1763
+<li>1764
+<li>1763
+</ol>
+不知道大家回答正确没有呢？
+
+<h1 id="ROUNDOWN函数"><a href="#ROUNDOWN函数" class="headerlink" title="ROUNDOWN函数"></a><font color="blue">ROUNDOWN函数</font></h1><p>最后，我们来看下ROUNDDOWN这个函数，如果要始终进行向下舍入（接近 0），或者说按照绝对值方向向下，那么可以使用 ROUNDDOWN 函数。</p>
+<h2 id="语法-2"><a href="#语法-2" class="headerlink" title="语法"></a><font color="gray">语法</font></h2><p>ROUNDDOWN 函数语法具有下列参数：</p>
+<ul>
+<li>Number  必需。需要向下舍入的任意实数。</li>
+<li>Num_digits  必需。四舍五入后的数字的位数。</li>
+</ul>
+<p>函数 ROUNDDOWN 和函数 ROUND 、函数ROUNDUP功能相似，不同之处在于函数 ROUNDDOWN 总是按绝对值方向向下舍入数字。 其中，Num_digits也可以取正数、负数和0，如下：</p>
+<ol>
+<li>如果num_digits 大于 0，则向下舍入到指定的小数位。</li>
+<li>如果num_digits 等于 0，则向下舍入到最接近的整数。</li>
+<li>如果num_digits 小于 0，则在小数点左侧向下进行舍入。</li>
+</ol>
+<h2 id="示例-2"><a href="#示例-2" class="headerlink" title="示例"></a><font color="gray">示例</font></h2><p>举几个例子看一下：</p>
+<ul>
+<li>=ROUNDDOWN(1763.426，2) = 1763.42（保留2位小数，后面的值直接舍去）</li>
+<li>=ROUNDDOWN(-1763.426，2) = -1763.42（保留2位小数，后面的值直接舍去）</li>
+<li>=ROUNDDOWN(1763.426，1) = 1763.4（保留1位小数，后面的值直接舍去）</li>
+<li>=ROUNDDOWN(-1763.426，1) = -1763.4（保留1位小数，后面的值直接舍去）</li>
+<li>=ROUNDDOWN(1763.426，0) = 1763（保留整数，后面的值直接舍去）</li>
+<li>=ROUNDDOWN(-1763.426，0) = -1763（保留整数，后面的值直接舍去）</li>
+<li>=ROUNDDOWN(1763.426，-1) = 1760（小数点左侧舍去一位，后面的值直接舍去）</li>
+<li>=ROUNDDOWN(-1763.426，-1) = -1760（小数点左侧舍去一位，后面的值直接舍去）</li>
+</ul>
+<h2 id="总结-2"><a href="#总结-2" class="headerlink" title="总结"></a><font color="gray">总结</font></h2><p>先看需要保留的位数，然后直接舍去保留位数后面的值，并且不管是正数还是负数，其结果也只有符号位的不同。（注意，是绝对值方向向下）</p>
+<h2 id="练习-1"><a href="#练习-1" class="headerlink" title="练习"></a><font color="gray">练习</font></h2><p>再看下如下例题：</p>
+<ol>
+<li>=ROUNDDOWN(-1763.9999，0) 大家判断下结果是<strong><strong>____</strong></strong></li>
+<li>=ROUNDDOWN(-1763，0) 大家判断下结果是<strong><strong>____</strong></strong></li>
+<li>=ROUNDDOWN(1763.9999，0) 大家判断下结果是<strong><strong>____</strong></strong></li>
+<li>=ROUNDDOWN(1763，0) 大家判断下结果是<strong><strong>____</strong></strong><br>答案是：<br>1.-1763<br>2.-1763<br>3.1763<br>4.1763<br>不知道大家回答正确没有呢？</li>
+</ol>
+<p>如果还不熟悉，可以随机取一些数然后先算一下，再到Excel中试验一下看计算结果是否正确。</p>
+]]></content>
+      <categories>
+        <category>office学习</category>
+      </categories>
+      <tags>
+        <tag>Excel使用</tag>
+        <tag>Round函数</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>相册型PPT制作指导</title>
     <url>/2019/12/16/%E7%9B%B8%E5%86%8C%E5%9E%8BPPT%E5%88%B6%E4%BD%9C%E6%8C%87%E5%AF%BC/</url>
     <content><![CDATA[<p>在工作和生活中，我们经常会需要制作一些相册集，如公司年会的总结展示，成员介绍、活动回顾、亲子相册等都可能会用到。如果会用视频编辑软件或者动画制作软件的话，那肯定是最好的，但是如果不会，我们也不用担心，用PowerPoint也能够很快的制作相册。以下，提供在PPT中制作相册的几种方式，以及如何进行美化。</p>
