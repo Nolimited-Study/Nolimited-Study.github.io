@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://nolimited-study.github.io/"/>
-  <updated>2019-12-16T07:26:37.754Z</updated>
+  <updated>2019-12-18T02:54:39.126Z</updated>
   <id>https://nolimited-study.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>office 图标异常解决办法</title>
+    <link href="https://nolimited-study.github.io/2019/12/18/OFFICE%20%E5%9B%BE%E6%A0%87%E5%BC%82%E5%B8%B8%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/"/>
+    <id>https://nolimited-study.github.io/2019/12/18/OFFICE%20%E5%9B%BE%E6%A0%87%E5%BC%82%E5%B8%B8%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</id>
+    <published>2019-12-18T02:47:07.000Z</published>
+    <updated>2019-12-18T02:54:39.126Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;﻿有的时候我们安装好Office办公软件之后，或者安装了WPS之后，可能会导致Office图标出现异常，那么应该怎么办呢？以下提供几种方式供大家参考，希望能解决你的问题~&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="windows学习" scheme="https://Nolimited-Study.github.io/categories/windows%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="Office使用" scheme="https://Nolimited-Study.github.io/tags/Office%E4%BD%BF%E7%94%A8/"/>
+    
+      <category term="图标异常" scheme="https://Nolimited-Study.github.io/tags/%E5%9B%BE%E6%A0%87%E5%BC%82%E5%B8%B8/"/>
+    
+  </entry>
   
   <entry>
     <title>Excel中ROUND、ROUNDUP、ROUNDDOWN函数详解</title>
