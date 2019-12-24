@@ -1,6 +1,126 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>信息处理技术员数据统计知识（众数、中位数、方差）</title>
+    <url>/2019/12/24/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E6%95%B0%E6%8D%AE%E7%BB%9F%E8%AE%A1%E7%9F%A5%E8%AF%86%EF%BC%88%E4%BC%97%E6%95%B0%E3%80%81%E4%B8%AD%E4%BD%8D%E6%95%B0%E3%80%81%E6%96%B9%E5%B7%AE%EF%BC%89/</url>
+    <content><![CDATA[<p>﻿在信息处理技术员考试中，经常会考到数据统计知识，除了像图表、抽样调查等知识，还会考查到众数、中位数等内容。另外，还有方差、标准差的概念考查。因此，这一次我们来看下这些概念和常见的题型。</p>
+<a id="more"></a>
+
+<h1 id="众数"><a href="#众数" class="headerlink" title="众数"></a>众数</h1><h2 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h2><p><strong>众数</strong>：一组数据出现次数最多的数据。<br>如：{1，1，3，7，10，10，10}这组数中，1出现了2次，3和7均只出现1次，10出现了3次，出现次数最多的是10，故众数是10。<br>在Excel中，用Mode函数来求解在某一数组或数据区域中出现频率最多的数值。如：输入“=mode(1,1,3,7,10,10,10)”返回的结果是10。<br>在求解众数时，要注意以下几点：</p>
+<ol>
+<li>一组数的众数一定在这组数中；</li>
+<li>众数可能不唯一，有可能有多个数值出现的次数是一样的，如：{1，1，1，3，7，10，10，10}这个时候得到的众数是1,10。</li>
+</ol>
+<p><em>ps：excel中，mode函数的结果只有一个值。如果是多个值，可以用MODE.MULT函数求解一组数据或数据区域中出现频率最高或重复出现的数值的垂直数组。如果是水平数组，再配合transpose函数一起使用。</em></p>
+<h2 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h2><p><strong>2013年下半年试题47</strong><br>在Excel 2003中，A1到E6单元格的值如下图所示，若在A7单元格中输入计 算众数的函数“=MODE(A1: E6)”，按回车键后，则A7单元格显示的值为（  ）。<img src="https://img-blog.csdnimg.cn/2019122315011711.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>A．92</p>
+<p>B．77 </p>
+<p>C．72</p>
+<p>D．60</p>
+<details style="color:blue;">
+<summary>点击查看答案和解析</summary>
+    分析：<br>mode是求众数，即出现次数最多的数值，可以直接从选项中来进行判断，其中A选项92总共出现了3次；B选项77总共出现了7次；A选项72总共出现了1次；A选项60总共出现了1次。故选择B选项。<br>答案：B</details>
+
+<h1 id="中位数"><a href="#中位数" class="headerlink" title="中位数"></a>中位数</h1><h2 id="概念-1"><a href="#概念-1" class="headerlink" title="概念"></a>概念</h2><p><strong>中位数</strong>：一组数据从小到大的顺序依次排序，处于中间位置的一个数或最中间两个数的平均数。</p>
+<p>如：{1，1，3，7，10，10，10}这组数中，中位数是7。<br>在Excel中，用Median函数来求解在某一数组或数据区域中的中位数。如：输入“=median(1,1,3,7,10,10,10)”返回的结果是7。<br>但是在求解中位数时，要注意以下几点：</p>
+<ol>
+<li>一定要先按照大小顺序排序，可以从小到大，可以从大到小。如：{1，1，3，7，10，10，10}这组数如果写成：{1，10，10，10，1，3，7}，也要记得先排序，而不是直接取处于中间位置的数值。</li>
+<li>中位数有可能是排序后最中间位置的数，也可能是排序后中间位置两个数的平均数。<ul>
+<li>当这组数的个数是奇数个时，中位数是排序后最中间位置的数，如：{1，1，3，7，10，10，10}的中位数是7，此时这个中位数在这组数当中；</li>
+<li>当这组数的个数是偶数个时，中位数是排序后最中间位置两个数的平均数，如：{1，1，3，7，9，10，10，10的中位数是（7+9）/2=8，此时这个中位数不在这组数当中。</li>
+</ul>
+</li>
+<li>一组数的中位数有可能是在这组数字中，也有可能不在这组数当中，返回结果是一个值。</li>
+</ol>
+<h2 id="例题-1"><a href="#例题-1" class="headerlink" title="例题"></a>例题</h2><p><strong>2011年上半年试题27</strong> </p>
+<p>下面记录的是某班36人期末考试的数学成绩：</p>
+<table style="text-align:center">
+    <tr><td >97</td><td>100</td><td>95</td><td>96</td><td>100</td><td>87</td></tr>
+    <tr><td >96</td><td>100</td><td>89</td><td>100</td><td>93</td><td>69</td></tr>
+    <tr><td >99</td><td>89</td><td>100</td><td>81</td><td>88</td><td>91</td></tr>
+    <tr><td >100</td><td>87</td><td>98</td><td>75</td><td>85</td><td>89</td></tr>
+    <tr><td >84</td><td>92</td><td>86</td><td>100</td><td>100</td><td>61</td></tr>
+    <tr><td >87</td><td>51</td><td>81</td><td>92</td><td>95</td><td>97</td></tr>
+</table>
+
+<p>这些成绩的中位数为（  ）。</p>
+<p>A. 90</p>
+<p>B. 91</p>
+<p>C. 92</p>
+<p>D. 93</p>
+<details style="color:blue;"><summary>点击展看答案和解析</summary>分析：<br>求中位数，则要找从小到大排序后处于最中间位置的那个数或中间位置两个数的平均数。在这里，总共的个数是36个，最中间位置的数是排序后第18个、第19个数的平均数。一种方式就是先排序，然后去找到，再去求平均值。<br>然后也可以用下面这种办法，因为题目给出的数目比较多，要找的是18、19号，所以前面一些小的值可以不用排序，靠近的才排。可以按照从大到小来看，100的个数是8，接下来，90多分的个数有12个，这两个加起来就是20个了，说明中位数在90多分里面，我们将90～99段的数从大到小为：99，98，97，97，96，96，95，95，93，92，92，91。因此，整批36个数按从大到小顺序排列后，前面100是8个，要找第18、19个就是90~99分段的从大到小排在第10、11个。故，位于中间那两个数是92和92, 从而其中位数就是92。<br>
+答案：C</details>
+
+<h1 id="方差和标准差"><a href="#方差和标准差" class="headerlink" title="方差和标准差"></a>方差和标准差</h1><h2 id="概念-2"><a href="#概念-2" class="headerlink" title="概念"></a>概念</h2><p><strong>方差和标准差：</strong> 测算离散趋势最重要、最常用的指标。</p>
+<ul>
+<li>当数据分布比较分散时，各个数据与平均数的差的平方和较大，方差就较大；</li>
+<li>当数据分布比较集中时，各个数据与平均数的差的平方和较小。<br>因此方差越大，数据的波动越大；方差越小，数据的波动就越小。</li>
+</ul>
+<p>方差是各个数据与平均数之差的平方的和的平均数。其计算公式： <img src="file:///C:%5CUsers%5Cwzh%5CAppData%5CLocal%5CTemp%5Cmsohtmlclip1%5C01%5Cclip_image001.png" alt="说明: 在这里插入图片描述"></p>
+<p>其中，x表示样本的平均数，n表示样本的数量，xi表示个体，而s2表示方差。</p>
+<p>此外，标准差是方差算术平方根，因此在上述表达式中，s是标准差。 很多同学对方差表示离散趋势和波动情况不是很理解，我们看两组数： </p>
+<ul>
+<li><p>第一组：{0,50,100} </p>
+</li>
+<li><p>第二组：{49,50,51}</p>
+</li>
+</ul>
+<p>大家首先判断一下，那一组数据更接近呢？应该不难判断判断，第二组的值比较接近，波动情况小，离散程度小一些。</p>
+<p>然后可以计算下方差，可以不用计算，也可以看出来两者的平均值是一样的，然后将每个数减去平均值后的平方和，前者大很多，故而方差和标准差第一组&gt;第二组的值。</p>
+<p> <em>在信息处理技术员考试中，不需要掌握标准差和方差的计算，只需要了解其表达的含义即可。</em></p>
+<h2 id="例题-2"><a href="#例题-2" class="headerlink" title="例题"></a>例题</h2><p><strong>2011年上半年试题26</strong><br>在统计学中，用来衡量一个样本中各个数据波动大小的量是（  ）。<br>A. 样本方差<br>B. 样本中位数<br>C. 样本平均数<br>D. 样本众数</p>
+<details style="color:blue;"><summary>点击展看答案和解析</summary>分析：<br>
+在统计学中，用来衡量一个样本中各个数据波动大小的量是样本方差。通俗地说，样本方差体现了样本中各个个体的离散程度。样本的方差等于样本中各个个体与样本平均值之间的距离平方的平均值。样本方差为0时，样本中各个个体的值相同。样本方差越大，样本中的各个个体与样本平均值之间的离散程度越大。<br>
+答案：A</details>
+
+
+
+<h1 id="极值"><a href="#极值" class="headerlink" title="极值"></a>极值</h1><h2 id="概念-3"><a href="#概念-3" class="headerlink" title="概念"></a>概念</h2><p>另外，在信息处理技术员中还会出现极值的概念，主要有极大值、极小值和极差。<br><strong>极大值/最大值</strong>：是一组数的最大值，在Excel中用函数Max来求。如：max(1,2,3,4,5,10)=10；<br><strong>极小值/最小值</strong>：是一组数的最大值，在Excel中用函数Min来求。如：min(1,2,3,4,5,10)=1；<br><strong>极值</strong>：是最大值和最小值之间的差值，如{1,2,3,4,5,10}的极值就是10-1=9。</p>
+<h2 id="例题-3"><a href="#例题-3" class="headerlink" title="例题"></a>例题</h2><p><strong>2017年上半年试题43</strong><br>在Excel中，若要计算出B3：E6区域内的数据的最小值并保存在B7单元格中，应在B7单元格输入（  ）。<br>A. =MIN(B3:E6)<br>B. =MAX(B3:E6)<br>C. =COUNT(B3:E6)<br>D. =SUM(B3:E6)</p>
+<details style="color:blue;"><summary>点击展看答案和解析</summary>分析：<br>
+求最小值为函数Min函数。<br>
+答案：A</details>
+
+<h1 id="综合练习"><a href="#综合练习" class="headerlink" title="综合练习"></a>综合练习</h1><h2 id="试题-1"><a href="#试题-1" class="headerlink" title="试题 1"></a>试题 1</h2><p><strong>2016年下半年试题11</strong><br>一批数据可以有多个指标。以下指标中，（  ）不宜作为这批数据的代表值。<br>A. 中位数<br>B. 众数<br>C. 平均数<br>D. 方差</p>
+<details style="color:blue;"><summary>点击展看答案和解析</summary>分析：<br>
+本题考察初等数学基础知识。中位数、众数和平均数都可以作为数据的代表值，而方差代表这组数据的离散程度。 <br>
+答案：D</details>
+
+<blockquote>
+</blockquote>
+<h2 id="试题-2"><a href="#试题-2" class="headerlink" title="试题 2"></a>试题 2</h2><p><strong>2011年下半年试题14</strong><br>最能反映小型企业内大多数职工工资状况的统计指标是全体职工工资的（  ）。<br>A. 平均值<br>B. 中位数<br>C. 极差<br>D. 方差</p>
+<details style="color:blue;"><summary>点击展看答案和解析</summary>分析:<br>
+样本数据的统计指标有多种。方差反映了全体数据之间的离散程度，极差是最大数与最小数之差，这两种指标都只反映差异，而不能反映整体状况或多数状况。<br>
+小企业内职工工资的平均值虽然大体上反映了企业工资水平，但如果负责人工资特别高，普通员工工资普遍很低时，平均值不能正确反映大多数职工的工资状况。而中位数更能反映大多数职工的工资状况，因为工资比中位数高的人数与比中位数低的人数相等。频数则大体反映了全体数据的分布状况。<br>
+答案：B</details>
+## 试题 3
+**2012年下半年试题4**
+小王求出了一批数据的均值和方差，则（  ）。
+A．均值可作为这批数据的代表，方差体现了这批数据的离散程度 
+B．均值位于这批数据的正中，方差反映了这批数据的误差 
+C．均值左右两边的数据一样多，方差是两两数据之差的平方和 
+D．均值必是这批数据中的某一数，方差是离均值最远的数
+
+<details style="color:blue;">
+    <summary>点击展看答案和解析</summary>分析：<br>
+均值（通常指算术平均值）可作为这批数据的代表。方差体现了这批数据的离散程 度（相对于均值的分散程度），用“各数与均值之差的平方和”来表示。<br>
+均值不一定位于正中（例如1、2、3和100）。方差在某种程度上反映了这批数据相 对于均值的误差，如果所有数据都大大偏离了目标值，那么即使方差很小，其误差也很大。均值左右两边的数据个数通常是不等的，均值通常不是这批数据中的某一数（如上例）。<br>
+答案：A</details>
+
+
+
+
+
+
+]]></content>
+      <categories>
+        <category>信息处理技术员</category>
+      </categories>
+      <tags>
+        <tag>信息处理技术员</tag>
+        <tag>数据统计知识</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>信息处理技术员图表题（实施和计划进度判断）</title>
     <url>/2019/12/20/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E5%9B%BE%E8%A1%A8%E9%A2%98%EF%BC%88%E5%AE%9E%E6%96%BD%E5%92%8C%E8%AE%A1%E5%88%92%E8%BF%9B%E5%BA%A6%E5%88%A4%E6%96%AD%EF%BC%89/</url>
     <content><![CDATA[<p>在信息处理技术员考试中，图表题中经常考查的是实施进度和计划进度的快慢判断情况，因此，给大家搜集了一下历年考题，帮助大家熟悉这块知识点，能够更好地通过考试。后面还加了几道题，可以再做下题，看是否已经掌握。</p>
@@ -13,7 +133,7 @@
 <h2 id="答案"><a href="#答案" class="headerlink" title="答案"></a>答案</h2><p>在0至实际进度与计划进度交叉前，实际进度在计划进度之上，说明实际进度快于计划进度，在计划进度到达100%时，实际进度没有达到100%，说明至今任务尚未完成。所以从该图来看，实际进度是先快后慢，最后没有完成任务。<br>故此答案选择D。</p>
 <h1 id="练习题"><a href="#练习题" class="headerlink" title="练习题"></a>练习题</h1><p>接下来，大家再做一下练习，巩固所学知识。</p>
 <h2 id="练习题-1"><a href="#练习题-1" class="headerlink" title="练习题 1"></a>练习题 1</h2><p>在实施项目过程中，信息处理员小王在“时间T-项目剩余工作量R”平面坐标系上动态地记录了项目实施进度，并与计划进度做了对比。在项目实施中途，从图上可以看出该项目（       ）。<br> <img src="https://img-blog.csdnimg.cn/20191220104902203.png" alt="在这里插入图片描述"><br>A.前期进度很快,后期重点应放在提高质量上,放慢些速度<br>B.前期进度较快,后期只要按原计划进度就能提前完成项目<br>C.前期进度太慢了,为了按时完成任务,后期需要加倍提速<br>D.前期进度有点慢,为了按时完成任务,后期需要适当提速</p>
-<details>
+<details style="color:blue;">
 <summary>展开查看解析和答案</summary>
 <br>
 分析：<br>
@@ -22,7 +142,7 @@
 </details>
 
 <h2 id="练习题-2"><a href="#练习题-2" class="headerlink" title="练习题 2"></a>练习题 2</h2><p>小李在完成了某个信息处理项目后，在总结汇报工作时将该项目的计划进度与实际 进度画出了如下两条曲线：<img src="https://img-blog.csdnimg.cn/20191220114922843.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>从该图可以看出，与计划进度相比，实际进度（  ）。<br>A．比较快，提前完成了任务<br>B．先慢后快，延迟完成了任务<br>C．先慢后快，按时完成了任务<br>D．先快后慢，按时完成了任务</p>
-<details>
+<details style="color:blue;">
 <summary>展开查看解析和答案</summary>
 <br>
 分析：<br>
@@ -31,7 +151,7 @@
 </details>
 
 <h2 id="练习题-3"><a href="#练习题-3" class="headerlink" title="练习题 3"></a>练习题 3</h2><p>信息处理技术员小周在完成某项目后，制作了下图，用以说明该项目的计划进度和实际进度情况。从该图可以看出，该项目实际执行的情况是（  ）。<br><img src="https://img-blog.csdnimg.cn/20191220115012808.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>A． 初期进展较慢，后来还有停工，最后延期完成<br>B． 初期进展较快，后来有所返工，最后提前完成<br>C． 初期进展较快，后来有所返工，最后延期完成<br>D． 初期进展较慢，后来还有停工，最后提前完成</p>
-<details>
+<details style="color:blue;">
 <summary>展开查看解析和答案</summary>
 <br>
 分析：<br>
@@ -40,7 +160,7 @@
 </details>
 
 <h2 id="练习题-4"><a href="#练习题-4" class="headerlink" title="练习题 4"></a>练习题 4</h2><p>某信息处理项目的计划进度曲线如下图（ 以时间为横轴，己完成任务的比例为纵轴）。设A 点是项目中期检查实际到达之处（位于计划进度曲线的左侧），则检查的结论是（  ）。  <img src="https://img-blog.csdnimg.cn/20191220115028928.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>A．实际进度比计划进度有所提前<br>B．实际进度比计划进度有所推迟<br>C．尚未完成计划应达到的工作量<br>D．实际刚好完成了计划的工作量</p>
-<details>
+<details style="color:blue;">
 <summary>展开查看解析和答案</summary>
 <br>
 分析：<br>
@@ -49,7 +169,7 @@
 </details>
 
 <h2 id="练习题-5"><a href="#练习题-5" class="headerlink" title="练习题 5"></a>练习题 5</h2><p>下图是某工程A-E 五个作业的进度计划。按照该计划，到5月31日检查时，已完成作业数、己经开始但尚未完成的作业数以及尚未开始的作业数应分别为（  ）。<br><img src="https://img-blog.csdnimg.cn/20191220115104500.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br> A．1,2,2<br> B．1,3,1<br> C．2,2,1<br> D．3,2,0</p>
-<details>
+<details style="color:blue;">
 <summary>展开查看解析和答案</summary>
 <br>
 分析：<br>
@@ -61,7 +181,7 @@
 <p>如下图所示：</p>
 <p><img src="https://img-blog.csdnimg.cn/20191220152012220.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
 <h2 id="练习题-6"><a href="#练习题-6" class="headerlink" title="练习题 6"></a>练习题 6</h2><p>小张承担了某信息处理项目，在完成之日向领导做了汇报，将计划进度与实际进度画出了如下两条曲线：<br><img src="https://img-blog.csdnimg.cn/20191220115236926.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>从该图可以看出，与计划进度相比，实际进度（  ）。<br>A．先快后慢，提前完成了任务<br>B．先慢后快，提前完成了任务<br>C．先快后慢，延迟完成了任务<br>D．先慢后快，延迟完成了任务</p>
-<details>
+<details style="color:blue;">
 <summary>展开查看解析和答案</summary>
 <br>
 分析：<br>
@@ -70,13 +190,15 @@
 </details>
 
 <h2 id="练习题-7"><a href="#练习题-7" class="headerlink" title="练习题 7"></a>练习题 7</h2><p>小张在完成了某个信息处理项目后，在总结汇报工作时将该项目的计划进度与实际 进度画出了如下两条曲线： <img src="https://img-blog.csdnimg.cn/20191220115214814.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>从该图可以看出，与计划进度相比，实际进度（  ）。<br>A．比较快，提前完成了任务<br>B．先慢后快，提前完成了任务<br>C．先慢后快，延迟完成了任务<br>D．先快后慢，延迟完成了任务</p>
-<details>
+<details style="color:blue;">
 <summary>展开查看解析和答案</summary>
 <br>
 分析：<br>
 从上图可以看出，计划进度曲线从（0，0）点开始沿恒定的斜率上升直到完成比例100%。实际进度曲线也从（0，0）点开始沿曲线上升直到完成比例100%。不过，实际进度曲线到达完成的时间比计划进度完成的时间大，因此，实际延迟完成了任务。实际进度曲线在初期的斜率比较小（比计划进度曲线更平缓地上升，花费更多的时间），因此，初期的实际进度比计划进度慢。实际进度曲线的后期则斜率比较大（比计划进度曲线更陡地上升），因此，后期的实际进度比计划快。<br>
 答案：C
 </details>
+
+
 
 <p>好，这个内容介绍到这里，感谢！</p>
 ]]></content>
