@@ -225,11 +225,11 @@
 <p>OK，今天的分享就到这里了，如果大家还有其他的方法，欢迎留言，然后我再更新下哦，希望能够帮助到大家~</p>
 ]]></content>
       <categories>
-        <category>windows学习</category>
+        <category>WINDOWS操作</category>
       </categories>
       <tags>
-        <tag>Office使用</tag>
         <tag>图标异常</tag>
+        <tag>WINDOWS操作</tag>
       </tags>
   </entry>
   <entry>
@@ -372,9 +372,8 @@
         <category>信息处理技术员</category>
       </categories>
       <tags>
-        <tag>Excel使用</tag>
+        <tag>EXCEL</tag>
         <tag>信息处理技术员</tag>
-        <tag>Round函数</tag>
       </tags>
   </entry>
   <entry>
@@ -405,7 +404,7 @@
 <h2 id="第四步-最终效果"><a href="#第四步-最终效果" class="headerlink" title="第四步 最终效果"></a>第四步 最终效果</h2><p>然后点击播放，效果差不多了。<br><img src="https://img-blog.csdnimg.cn/20191213192620646.gif" alt="在这里插入图片描述"><br>好啦，就分享到这里了，大家也要记得多多尝试有没有更好的方法哦！</p>
 ]]></content>
       <categories>
-        <category>office学习</category>
+        <category>办公软件</category>
       </categories>
       <tags>
         <tag>PPT使用</tag>
@@ -518,12 +517,11 @@ cond(yes)->out
 cond(no)->op
 out->e</textarea><textarea id="flowchart-0-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-0-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-0", options);</script>]]></content>
       <categories>
-        <category>hexo</category>
+        <category>HEXO</category>
       </categories>
       <tags>
-        <tag>hexo</tag>
+        <tag>HEXO</tag>
         <tag>流程图</tag>
-        <tag>markdown</tag>
       </tags>
   </entry>
   <entry>
@@ -587,7 +585,6 @@ warning: incompatible implicit declaration of built-in function &apos;printf&apo
       </categories>
       <tags>
         <tag>C语言</tag>
-        <tag>hello world</tag>
       </tags>
   </entry>
   <entry>
@@ -595,6 +592,7 @@ warning: incompatible implicit declaration of built-in function &apos;printf&apo
     <url>/2019/11/27/%E5%A4%9A%E7%A7%8D%E6%88%AA%E5%9B%BE%E6%96%B9%E5%BC%8F%E4%BB%A5%E5%8F%8A%E5%A6%82%E4%BD%95%E6%88%AA%E5%8F%96%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%EF%BC%9F/</url>
     <content><![CDATA[<p>相信大家经常会遇到需要截图的时候，而且有的时候需要截取右键菜单。接下来，我给大家分享几个小技巧，希望可以帮到大家。</p>
 <a id="more"></a>
+
 <h1 id="1、使用键盘的PrtSc-PrintScreen进行截全屏"><a href="#1、使用键盘的PrtSc-PrintScreen进行截全屏" class="headerlink" title="1、使用键盘的PrtSc/ PrintScreen进行截全屏"></a>1、使用键盘的PrtSc/ PrintScreen进行截全屏</h1><p>优点：快速，能够迅速截取到右键菜单，可以后期再进行裁剪和修改。<br>缺点：这种截图只能是全屏幕，不能够直接进行添加标记和修改等，需要在其他应用程序（如：画图、word等）中进行粘贴。<br>如图所示是PrtSc/ printscreen的位置。<br><img src="https://img-blog.csdnimg.cn/20191127184454280.png" alt="在这里插入图片描述"></p>
 <h1 id="2、使用浏览器的截图工具进行截图"><a href="#2、使用浏览器的截图工具进行截图" class="headerlink" title="2、使用浏览器的截图工具进行截图"></a>2、使用浏览器的截图工具进行截图</h1><p>优点：可以进行编辑。<br>缺点：这种截图方式需要打开浏览器，可以不联网。<br>如：下图是360浏览器自带的截图工具，同时也可以使用快捷键。<br><img src="https://img-blog.csdnimg.cn/20191127184511475.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>如：下图是火狐浏览器自带的截图工具：<br><img src="https://img-blog.csdnimg.cn/20191127184549928.png" alt="在这里插入图片描述"></p>
 <h1 id="3、使用聊天工具进行截图"><a href="#3、使用聊天工具进行截图" class="headerlink" title="3、使用聊天工具进行截图"></a>3、使用聊天工具进行截图</h1><p>然后是大家所熟悉的截图工具，通常在聊天的时候进行使用，如：QQ、微信等。<br>缺点：需要先登陆后，进入聊天界面才可以使用。<br>如：QQ截图，默认快捷方式是：Ctrl + Alt + A<br><img src="https://img-blog.csdnimg.cn/20191127184610775.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>如：微信截图，默认快捷方式是： Alt + A，可以选择截图时隐藏当前窗口。<br><img src="https://img-blog.csdnimg.cn/20191127184622478.png" alt="在这里插入图片描述"></p>
@@ -605,12 +603,22 @@ warning: incompatible implicit declaration of built-in function &apos;printf&apo
 <h1 id="结束语"><a href="#结束语" class="headerlink" title="结束语"></a>结束语</h1><p>其实还有其他很多的方式进行截图，大家可以根据自己的需求和习惯进行使用，只要达到最终截图的目的就好啦！</p>
 ]]></content>
       <categories>
-        <category>windows学习</category>
+        <category>WINDOWS操作</category>
       </categories>
       <tags>
-        <tag>windows使用</tag>
+        <tag>WINDOWS操作</tag>
         <tag>截图</tag>
-        <tag>右键菜单</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我的第一篇博客</title>
+    <url>/2019/11/27/hello-world/</url>
+    <content><![CDATA[<p>Hello world！<br>这是我的第一篇博客，之后将在这里分享我的学习心得，希望能对你们有用，由于知识有限，有错误的地方还请指正，定感激不尽！</p>]]></content>
+      <categories>
+        <category>随笔</category>
+      </categories>
+      <tags>
+        <tag>随笔</tag>
       </tags>
   </entry>
   <entry>
@@ -631,16 +639,11 @@ warning: incompatible implicit declaration of built-in function &apos;printf&apo
 <p>好了，关于在word中画横线的4种方法的介绍就结束了，希望对大家有所帮助！</p>
 ]]></content>
       <categories>
-        <category>office学习</category>
+        <category>办公软件</category>
       </categories>
       <tags>
-        <tag>word技巧</tag>
+        <tag>WORD技巧</tag>
         <tag>画横线</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>我的第一篇博客</title>
-    <url>/2019/11/20/hello-world/</url>
-    <content><![CDATA[<p>Hello world！<br>这是我的第一篇博客，之后将在这里分享我的学习心得，希望能对你们有用，由于知识有限，有错误的地方还请指正，定感激不尽！</p>]]></content>
   </entry>
 </search>
