@@ -48,7 +48,7 @@
 </script>
 
   <meta name="description" content="在Excel中，很多时候都会用到Round函数，今天就来看下 Microsoft Excel 中 ROUND 函数、ROUNDUP函数和ROUNDDOWN函数的公式语法和用法。">
-<meta name="keywords" content="Excel使用,Round函数">
+<meta name="keywords" content="Excel使用,信息处理技术员,Round函数">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Excel中ROUND、ROUNDUP、ROUNDDOWN函数详解">
 <meta property="og:url" content="https:&#x2F;&#x2F;nolimited-study.github.io&#x2F;2019&#x2F;12&#x2F;16&#x2F;Excel%E4%B8%ADROUND%E3%80%81ROUNDUP%E3%80%81ROUNDDOWN%E5%87%BD%E6%95%B0%E8%AF%A6%E8%A7%A3&#x2F;index.html">
@@ -56,7 +56,7 @@
 <meta property="og:description" content="在Excel中，很多时候都会用到Round函数，今天就来看下 Microsoft Excel 中 ROUND 函数、ROUNDUP函数和ROUNDDOWN函数的公式语法和用法。">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20191216115739298.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
-<meta property="og:updated_time" content="2019-12-16T07:26:37.754Z">
+<meta property="og:updated_time" content="2019-12-25T06:12:52.622Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20191216115739298.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
 
@@ -236,18 +236,24 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2019-12-16 15:21:07 / 修改时间：15:26:37" itemprop="dateCreated datePublished" datetime="2019-12-16T15:21:07+08:00">2019-12-16</time>
+              <time title="创建时间：2019-12-16 15:21:07" itemprop="dateCreated datePublished" datetime="2019-12-16T15:21:07+08:00">2019-12-16</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2019-12-25 14:12:52" itemprop="dateModified" datetime="2019-12-25T14:12:52+08:00">2019-12-25</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
               </span>
               <span class="post-meta-item-text">分类于</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/office%E5%AD%A6%E4%B9%A0/" itemprop="url" rel="index">
-                    <span itemprop="name">office学习</span>
+                  <a href="/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/" itemprop="url" rel="index">
+                    <span itemprop="name">信息处理技术员</span>
                   </a>
                 </span>
             </span>
@@ -279,19 +285,19 @@
 <li><p>number表示需要进行四舍五入的数值或单元格内容。</p>
 </li>
 <li><p>num_digits表示需要取多少位的参数。其中：</p>
-<p>  1） num_digits&gt;0时，表示取小数点后对应小数位数的四舍五入数值。<br>  2）num_digits=0时，表示则将数字四舍五入到最接近的整数。</p>
-<pre><code>3） num_digits&lt; 0时，表示对小数点左侧前几位进行四舍五入。</code></pre><p><em>注释：四舍五入指的是：如果对应的数值≤4（即0、1、2、3、4），则直接舍去，如果对应的数值≥5（即5、6、7、8、9），则向前进1。</em></p>
+<p>  1） num_digits&gt;0时，表示取小数点后对应小数位数的四舍五入数值。</p>
+<p>  2）num_digits=0时，表示则将数字四舍五入到最接近的整数。</p>
+<p>  3）num_digits&lt; 0时，表示对小数点左侧前几位进行四舍五入。</p>
 </li>
 </ul>
+<p><em>注：四舍五入指的是：如果对应的数值≤4（即0、1、2、3、4），则直接舍去，如果对应的数值≥5（即5、6、7、8、9），则向前进1。</em></p>
 <h2 id="示例"><a href="#示例" class="headerlink" title="示例"></a><font color="gray">示例</font></h2><p> 接下来，我们举几个实例给大家看下，num_digits取不同值的效果。</p>
 <h3 id="第一种情况：num-digits-gt-0"><a href="#第一种情况：num-digits-gt-0" class="headerlink" title="第一种情况：num_digits&gt;0"></a>第一种情况：num_digits&gt;0</h3><hr>
 <p> 例题：</p>
 <ul>
-<li>=ROUND(123.456，2) = 123.46（ 位数大于0，表示保留位数指定的小数，此处保留小数点后两位，看小数点第三位上的值为6，故向前进1，小数点第二位上面的值变成6）<ul>
+<li>=ROUND(123.456，2) = 123.46（ 位数大于0，表示保留位数指定的小数，此处保留小数点后两位，看小数点第三位上的值为6，故向前进1，小数点第二位上面的值变成6）</li>
 <li>=ROUND(123.456，1) =123.5（ 位数大于0，表示保留位数指定的小数，此处保留小数点后一位，看小数点第二位上的值为5，故向前进1，小数点第一位上面的值变成5）</li>
 <li>=ROUND(123.123，1) =123.1（ 位数大于0，表示保留位数指定的小数，此处保留小数点后一位，看小数点第二位上的值为2，舍去）</li>
-</ul>
-</li>
 <li>=ROUND(123.123，2) =123.12（ 位数大于0，表示保留位数指定的小数，此处保留小数点后两位，看小数点第三位上的值为3，舍去）</li>
 </ul>
 <p>总结：num_digits&gt;0时，保留小数到小数点后num_digits位，看小数点后num_digits+1位上的值是≤4则直接舍去（包括其右侧的所有数值），如果是≥5，则在原小数点后num_digits位上的值的基础上+1后再舍去其右侧的所有数值。</p>
@@ -331,14 +337,12 @@
 <ul>
 <li>=ROUNDUP(1763.426，2) = 1763.43（保留2位小数，后面有值，需要在第2位小数上+1）</li>
 <li>=ROUNDUP(-1763.426，2) = -1763.43（保留2位小数，后面有值，需要在第2位小数上+1）</li>
-<li>=ROUNDUP(1763.426，1) = 1763.5（保留1位小数，后面有值，需要在第1位小数上+1）<ul>
+<li>=ROUNDUP(1763.426，1) = 1763.5（保留1位小数，后面有值，需要在第1位小数上+1）</li>
 <li>=ROUNDUP(-1763.426，1) = -1763.5（保留1位小数，后面有值，需要在第1位小数上+1）</li>
 <li>=ROUNDUP(1763.426，0) = 1764（保留整数，后面有值，需要在整数上+1）</li>
 <li>=ROUNDUP(-1763.426，0) = -1764（保留整数，后面有值，需要在整数上+1）</li>
 <li>=ROUNDUP(1763.426，-1) = 1770（小数点左侧舍去一位，后面有值，需要在十位数上+1）</li>
 <li>=ROUNDUP(-1763.426，-1) = -1770（小数点左侧舍去一位，后面有值，需要在十位数上+1）</li>
-</ul>
-</li>
 </ul>
 <h2 id="总结-1"><a href="#总结-1" class="headerlink" title="总结"></a><font color="gray">总结</font></h2><p>先看需要保留的位数，然后看其后面有没有值，如果有，则保留的末尾位上的值要+1，并且不管是正数还是负数，其结果也只有符号位的不同。（注意，是绝对值方向向上）</p>
 <h2 id="练习"><a href="#练习" class="headerlink" title="练习"></a><font color="gray">练习</font></h2><p>再看下如下例题：</p>
@@ -348,15 +352,17 @@
 <li>=ROUNDUP(1763.00001，0) 大家判断下结果是<strong><strong>____</strong></strong></li>
 <li>=ROUNDUP(1763，0) 大家判断下结果是<strong><strong>____</strong></strong></li>
 </ol>
-<p>答案是：</p>
+<details style="color:blue;"><summary>点击展看答案</summary>
+答案：<br>
 <ol> 
 <li>-1764
 <li>-1763
 <li>1764
 <li>1763
 </ol>
-不知道大家回答正确没有呢？
+</details>
 
+<p>不知道大家回答正确没有呢？</p>
 <h1 id="ROUNDOWN函数"><a href="#ROUNDOWN函数" class="headerlink" title="ROUNDOWN函数"></a><font color="blue">ROUNDOWN函数</font></h1><p>最后，我们来看下ROUNDDOWN这个函数，如果要始终进行向下舍入（接近 0），或者说按照绝对值方向向下，那么可以使用 ROUNDDOWN 函数。</p>
 <h2 id="语法-2"><a href="#语法-2" class="headerlink" title="语法"></a><font color="gray">语法</font></h2><p>ROUNDDOWN 函数语法具有下列参数：</p>
 <ul>
@@ -382,12 +388,25 @@
 </ul>
 <h2 id="总结-2"><a href="#总结-2" class="headerlink" title="总结"></a><font color="gray">总结</font></h2><p>先看需要保留的位数，然后直接舍去保留位数后面的值，并且不管是正数还是负数，其结果也只有符号位的不同。（注意，是绝对值方向向下）</p>
 <h2 id="练习-1"><a href="#练习-1" class="headerlink" title="练习"></a><font color="gray">练习</font></h2><p>再看下如下例题：</p>
-<ol>
+<ul>
 <li>=ROUNDDOWN(-1763.9999，0) 大家判断下结果是<strong><strong>____</strong></strong></li>
 <li>=ROUNDDOWN(-1763，0) 大家判断下结果是<strong><strong>____</strong></strong></li>
 <li>=ROUNDDOWN(1763.9999，0) 大家判断下结果是<strong><strong>____</strong></strong></li>
-<li>=ROUNDDOWN(1763，0) 大家判断下结果是<strong><strong>____</strong></strong><br>答案是：<br>1.-1763<br>2.-1763<br>3.1763<br>4.1763<br>不知道大家回答正确没有呢？</li>
-</ol>
+<li>=ROUNDDOWN(1763，0) 大家判断下结果是____<u>      </u></li>
+</ul>
+<details style="color:blue;"><summary>点击展看答案</summary>
+答案：<br>
+<ol>
+    <li>-1763</li>
+     <li>-1763</li>
+     <li>-1763</li>
+     <li>1763</li>  
+    </ol>
+</details>
+
+
+
+<p>不知道大家回答正确没有呢？</p>
 <p>如果还不熟悉，可以随机取一些数然后先算一下，再到Excel中试验一下看计算结果是否正确。</p>
 
     </div>
@@ -419,6 +438,7 @@
       <footer class="post-footer">
           <div class="post-tags">
               <a href="/tags/Excel%E4%BD%BF%E7%94%A8/" rel="tag"># Excel使用</a>
+              <a href="/tags/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/" rel="tag"># 信息处理技术员</a>
               <a href="/tags/Round%E5%87%BD%E6%95%B0/" rel="tag"># Round函数</a>
           </div>
 
@@ -501,7 +521,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">10</span>
+          <span class="site-state-item-count">9</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -514,7 +534,7 @@
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">19</span>
+        <span class="site-state-item-count">18</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
