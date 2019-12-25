@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.0.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <link rel="alternate" href="/atom.xml" title="Nolimited-Study" type="application/atom+xml">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+
+
+<script id="hexo-configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '7.5.0',
+    exturl: false,
+    sidebar: {"position":"left","Pisces | Gemini":320,"display":"post","offset":12,"onmobile":false},
+    copycode: {"enable":false,"show_result":false,"style":null},
+    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
+    bookmark: {"enable":false,"color":"#222","save":"auto"},
+    fancybox: false,
+    mediumzoom: false,
+    lazyload: false,
+    pangu: false,
+    algolia: {
+      appID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    },
+    localsearch: {"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
+    path: 'search.xml',
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    sidebarPadding: 40
+  };
+</script>
+
+  <meta name="description" content="在信息处理技术员考试中，图表题中经常考查的是实施进度和计划进度的快慢判断情况，因此，给大家搜集了一下历年考题，帮助大家熟悉这块知识点，能够更好地通过考试。后面还加了几道题，可以再做下题，看是否已经掌握。">
+<meta name="keywords" content="信息处理技术员,图表题">
+<meta property="og:type" content="article">
+<meta property="og:title" content="信息处理技术员图表题（实施和计划进度判断）">
+<meta property="og:url" content="https:&#x2F;&#x2F;nolimited-study.github.io&#x2F;2019&#x2F;12&#x2F;20&#x2F;%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E5%9B%BE%E8%A1%A8%E9%A2%98%EF%BC%88%E5%AE%9E%E6%96%BD%E5%92%8C%E8%AE%A1%E5%88%92%E8%BF%9B%E5%BA%A6%E5%88%A4%E6%96%AD%EF%BC%89&#x2F;index.html">
+<meta property="og:site_name" content="Nolimited-Study">
+<meta property="og:description" content="在信息处理技术员考试中，图表题中经常考查的是实施进度和计划进度的快慢判断情况，因此，给大家搜集了一下历年考题，帮助大家熟悉这块知识点，能够更好地通过考试。后面还加了几道题，可以再做下题，看是否已经掌握。">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20191220105409494.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;2019122011144329.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;2019122011183523.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20191220114247126.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20191220114312687.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20191220104902203.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20191220114922843.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20191220115012808.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20191220115028928.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20191220115104500.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20191220152012220.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20191220115236926.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20191220115214814.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:updated_time" content="2019-12-25T06:48:57.161Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20191220105409494.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+
+<link rel="canonical" href="https://nolimited-study.github.io/2019/12/20/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E5%9B%BE%E8%A1%A8%E9%A2%98%EF%BC%88%E5%AE%9E%E6%96%BD%E5%92%8C%E8%AE%A1%E5%88%92%E8%BF%9B%E5%BA%A6%E5%88%A4%E6%96%AD%EF%BC%89/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome: false,
+    isPost: true,
+    isPage: false,
+    isArchive: false
+  };
+</script>
+
+  <title>信息处理技术员图表题（实施和计划进度判断） | Nolimited-Study</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-meta">
+
+    <div>
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Nolimited-Study</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+        <p class="site-subtitle">学习无极限</p>
+  </div>
+
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-fw fa-th"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>归档</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-fw fa-user"></i>关于</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+
+</nav>
+  <div class="site-search">
+    <div class="popup search-popup">
+    <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocorrect="off" autocapitalize="none"
+           placeholder="搜索..." spellcheck="false"
+           type="text" id="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result"></div>
+
+</div>
+<div class="search-pop-overlay"></div>
+
+  </div>
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content">
+            
+
+  <div class="posts-expand">
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://Nolimited-Study.github.io/2019/12/20/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E5%9B%BE%E8%A1%A8%E9%A2%98%EF%BC%88%E5%AE%9E%E6%96%BD%E5%92%8C%E8%AE%A1%E5%88%92%E8%BF%9B%E5%BA%A6%E5%88%A4%E6%96%AD%EF%BC%89/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="Nolimited-Study">
+      <meta itemprop="description" content="Never too old to learn">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Nolimited-Study">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          信息处理技术员图表题（实施和计划进度判断）
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2019-12-20 16:40:33" itemprop="dateCreated datePublished" datetime="2019-12-20T16:40:33+08:00">2019-12-20</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2019-12-25 14:48:57" itemprop="dateModified" datetime="2019-12-25T14:48:57+08:00">2019-12-25</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/" itemprop="url" rel="index">
+                    <span itemprop="name">信息处理技术员</span>
+                  </a>
+                </span>
+            </span>
+
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>在信息处理技术员考试中，图表题中经常考查的是实施进度和计划进度的快慢判断情况，因此，给大家搜集了一下历年考题，帮助大家熟悉这块知识点，能够更好地通过考试。后面还加了几道题，可以再做下题，看是否已经掌握。</p>
+<a id="more"></a>
+
+<h1 id="例题讲解"><a href="#例题讲解" class="headerlink" title="例题讲解"></a>例题讲解</h1><h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><p>小王承担了某信息处理项目，按计划进度在应完成日向领导做了汇报，将计划进度与实际进度画出了如下两条曲线： <img src="https://img-blog.csdnimg.cn/20191220105409494.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>从该图可以看出，与计划进度相比，实际进度（  ）。<br>A．比较快，提前完成了任务<br>B．先慢后快，延迟完成了任务<br>C．先慢后快，按时完成了任务<br>D．先快后慢，至今尚未完成任务</p>
+<h2 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h2><h3 id="概念理解"><a href="#概念理解" class="headerlink" title="概念理解"></a>概念理解</h3><p>对于这一类型的题，首先要知道坐标轴的相关知识，如下所示：<br><img src="https://img-blog.csdnimg.cn/2019122011144329.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>x轴，又叫做横轴或水平轴，其值从0开始，越往右值越大；<br>y轴，又叫做纵轴或垂直轴，其值从0开始，越往上值越大；<br>然后对应里面的点，我们来判断一下，其点之间的关系。<br><img src="https://img-blog.csdnimg.cn/2019122011183523.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>可以看到，A的x值&lt;B的x值；A的y值&gt;B的y值。（对于里面的点，判断其x、y值，直接做垂直线于x轴和y轴，得到的交点就是其值的大小）</p>
+<h3 id="分析方式1"><a href="#分析方式1" class="headerlink" title="分析方式1"></a>分析方式1</h3><p>在这类图表题中，通常都保持一个值不变，比较另一个值的大小情况。<br>我们回到题目：<br>首先，我们先看x轴，即时间保持不变的情况下，看实际进度和计划进度之间的关系，如下图：<br><img src="https://img-blog.csdnimg.cn/20191220114247126.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>可以看到，在时间1（时间开始没多久，可以说是前期）这里，实际进度值1&gt;计划进度值1，说明进展比较快，比计划进度要快一些。<br>在时间2（项目接近尾声，可以说是后期）这里，实际进度值2&lt;计划进度值2，说明进展比较慢，比计划进度要慢一些，有延后。<br>最后再看最后时间，即原图虚线部分，按理应该是完成了100%，而实际完成得少一些，说明至今没有完成任务。</p>
+<h3 id="分析方式2"><a href="#分析方式2" class="headerlink" title="分析方式2"></a>分析方式2</h3><p>还有一种方式，保持进度值不变，看完成的时间。有的时候需要将两种分析方式相结合来看。如下图：<br><img src="https://img-blog.csdnimg.cn/20191220114312687.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>在进度值1时，完成比较少时，实际时间1&lt;计划时间1，故提前完成前期的任务，完成速度比较快；<br>在进度值2时，完成比较多时，实际时间2&gt;计划时间2，故延迟完成前期的任务，完成速度相对慢了一些；<br>再看最后完成100%时，计划时间是刚好完成，而现在实际并没有交叉，说明目前还没有完成任务。</p>
+<h2 id="答案"><a href="#答案" class="headerlink" title="答案"></a>答案</h2><p>在0至实际进度与计划进度交叉前，实际进度在计划进度之上，说明实际进度快于计划进度，在计划进度到达100%时，实际进度没有达到100%，说明至今任务尚未完成。所以从该图来看，实际进度是先快后慢，最后没有完成任务。<br>故此答案选择D。</p>
+<h1 id="练习题"><a href="#练习题" class="headerlink" title="练习题"></a>练习题</h1><p>接下来，大家再做一下练习，巩固所学知识。</p>
+<h2 id="练习题-1"><a href="#练习题-1" class="headerlink" title="练习题 1"></a>练习题 1</h2><p>在实施项目过程中，信息处理员小王在“时间T-项目剩余工作量R”平面坐标系上动态地记录了项目实施进度，并与计划进度做了对比。在项目实施中途，从图上可以看出该项目（       ）。<br> <img src="https://img-blog.csdnimg.cn/20191220104902203.png" alt="在这里插入图片描述"><br>A.前期进度很快,后期重点应放在提高质量上,放慢些速度<br>B.前期进度较快,后期只要按原计划进度就能提前完成项目<br>C.前期进度太慢了,为了按时完成任务,后期需要加倍提速<br>D.前期进度有点慢,为了按时完成任务,后期需要适当提速</p>
+<details style="color:blue;">
+<summary>展开查看解析和答案</summary>
+<br>
+分析：<br>
+根据图示，前期，实施进度相较于计划进度的项目剩余工作量稍多，所以前期进度稍慢，没有按计划完成任务，到了后期为了能够按时完成任务，需要适当提速。<br>
+答案：D
+</details>
+
+<h2 id="练习题-2"><a href="#练习题-2" class="headerlink" title="练习题 2"></a>练习题 2</h2><p>小李在完成了某个信息处理项目后，在总结汇报工作时将该项目的计划进度与实际 进度画出了如下两条曲线：<img src="https://img-blog.csdnimg.cn/20191220114922843.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>从该图可以看出，与计划进度相比，实际进度（  ）。<br>A．比较快，提前完成了任务<br>B．先慢后快，延迟完成了任务<br>C．先慢后快，按时完成了任务<br>D．先快后慢，按时完成了任务</p>
+<details style="color:blue;">
+<summary>展开查看解析和答案</summary>
+<br>
+分析：<br>
+从图中看出，计划进度是直线，从左下角原点开始，随着时间的推进，其进度比例均衡地逐步增加。实际进度曲线则不同，从原点开始，用较少的时间完成了较多比例的任务。因此开始阶段实际进度比计划快。在后一阶段，实际进度曲线就比较平缓，花费较多时间获得较少的进展。因此，后一阶段的实际进度比计划慢。计划进度与实际进度两条曲线在右上角交汇，在同样的时刻都完成了100%的任务，属于按时完成的任务。<br>
+答案 D
+</details>
+
+<h2 id="练习题-3"><a href="#练习题-3" class="headerlink" title="练习题 3"></a>练习题 3</h2><p>信息处理技术员小周在完成某项目后，制作了下图，用以说明该项目的计划进度和实际进度情况。从该图可以看出，该项目实际执行的情况是（  ）。<br><img src="https://img-blog.csdnimg.cn/20191220115012808.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>A． 初期进展较慢，后来还有停工，最后延期完成<br>B． 初期进展较快，后来有所返工，最后提前完成<br>C． 初期进展较快，后来有所返工，最后延期完成<br>D． 初期进展较慢，后来还有停工，最后提前完成</p>
+<details style="color:blue;">
+<summary>展开查看解析和答案</summary>
+<br>
+分析：<br>
+从图中可以看出，前期实际进度进展很快，远远超过计划进度，而中间完成比例有下降，说明返工的过程，最后完成时间比计划进度要晚，因此最后是延期完成。 <br>
+答案：C
+</details>
+
+<h2 id="练习题-4"><a href="#练习题-4" class="headerlink" title="练习题 4"></a>练习题 4</h2><p>某信息处理项目的计划进度曲线如下图（ 以时间为横轴，己完成任务的比例为纵轴）。设A 点是项目中期检查实际到达之处（位于计划进度曲线的左侧），则检查的结论是（  ）。  <img src="https://img-blog.csdnimg.cn/20191220115028928.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>A．实际进度比计划进度有所提前<br>B．实际进度比计划进度有所推迟<br>C．尚未完成计划应达到的工作量<br>D．实际刚好完成了计划的工作量</p>
+<details style="color:blue;">
+<summary>展开查看解析和答案</summary>
+<br>
+分析：<br>
+从图上可以看出，中期检查时，达到了 A 点，此时刻的计划进度低于 A 点的进度（从 A 点作垂线垂直于时间轴，将经过计划进度曲线）。因此，中期检查时，实际已完成的工 作量比计划进度多。我们还可以从A 点作垂线垂直与Y轴，该垂线向右延长后交于计划 进度曲线。也就是说，中期检查时实际完成的工作量，如果按计划进度，应花费更多的时间。因此，此时的实际进度快于计划进度。<br>
+答案：A
+</details>
+
+<h2 id="练习题-5"><a href="#练习题-5" class="headerlink" title="练习题 5"></a>练习题 5</h2><p>下图是某工程A-E 五个作业的进度计划。按照该计划，到5月31日检查时，已完成作业数、己经开始但尚未完成的作业数以及尚未开始的作业数应分别为（  ）。<br><img src="https://img-blog.csdnimg.cn/20191220115104500.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br> A．1,2,2<br> B．1,3,1<br> C．2,2,1<br> D．3,2,0</p>
+<details style="color:blue;">
+<summary>展开查看解析和答案</summary>
+<br>
+分析：<br>
+题中的进度计划图属于横道图或甘特图（Gantt chart）。图上用水平线描述了作业的时间跨度，非常直观地表明了各作业的进度计划。该图特别有用之处在于：在任一时刻可以将实际进度与计划进度进行对比 。例如，按此计划，在5月31日（图中横轴5月与6月之间的分界线上），作业 A应该完成了大半；作业B应该已经完成 ；作业C应该完成了前一阶段工作，但尚未开始第二阶段工作；作业D应该在进行中；作业E应该还没有开始。<br>
+因此，按计划，到5月31日，应该有1个作业（B） 已经完成；有3个作业（ A、C、D）已经开始但尚未完成；有 1个作业 （E） 还未开始。 <br>
+答案：B
+</details>
+
+<p>如下图所示：</p>
+<p><img src="https://img-blog.csdnimg.cn/20191220152012220.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h2 id="练习题-6"><a href="#练习题-6" class="headerlink" title="练习题 6"></a>练习题 6</h2><p>小张承担了某信息处理项目，在完成之日向领导做了汇报，将计划进度与实际进度画出了如下两条曲线：<br><img src="https://img-blog.csdnimg.cn/20191220115236926.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>从该图可以看出，与计划进度相比，实际进度（  ）。<br>A．先快后慢，提前完成了任务<br>B．先慢后快，提前完成了任务<br>C．先快后慢，延迟完成了任务<br>D．先慢后快，延迟完成了任务</p>
+<details style="color:blue;">
+<summary>展开查看解析和答案</summary>
+<br>
+分析：<br>
+图中，从0开始实际进度曲线低于计划进度，说明实际进度比计划进度慢，但实际进度在到达100%的实际比计划进度达到100%的时间少，说明实际进度提前完成了任务。<br>
+答案：B<br>
+</details>
+
+<h2 id="练习题-7"><a href="#练习题-7" class="headerlink" title="练习题 7"></a>练习题 7</h2><p>小张在完成了某个信息处理项目后，在总结汇报工作时将该项目的计划进度与实际 进度画出了如下两条曲线： <img src="https://img-blog.csdnimg.cn/20191220115214814.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>从该图可以看出，与计划进度相比，实际进度（  ）。<br>A．比较快，提前完成了任务<br>B．先慢后快，提前完成了任务<br>C．先慢后快，延迟完成了任务<br>D．先快后慢，延迟完成了任务</p>
+<details style="color:blue;">
+<summary>展开查看解析和答案</summary>
+<br>
+分析：<br>
+从上图可以看出，计划进度曲线从（0，0）点开始沿恒定的斜率上升直到完成比例100%。实际进度曲线也从（0，0）点开始沿曲线上升直到完成比例100%。不过，实际进度曲线到达完成的时间比计划进度完成的时间大，因此，实际延迟完成了任务。实际进度曲线在初期的斜率比较小（比计划进度曲线更平缓地上升，花费更多的时间），因此，初期的实际进度比计划进度慢。实际进度曲线的后期则斜率比较大（比计划进度曲线更陡地上升），因此，后期的实际进度比计划快。<br>
+答案：C
+</details>
+
+
+
+<p>好，这个内容介绍到这里，感谢！</p>
+
+    </div>
+
+    
+    
+    
+        <div class="reward-container">
+  <div>坚持原创技术分享，您的支持将鼓励我继续创作！</div>
+  <button disable="enable" onclick="var qr = document.getElementById(&quot;qr&quot;); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
+    打赏
+  </button>
+  <div id="qr" style="display: none;">
+      
+      <div style="display: inline-block;">
+        <img src="/images/wechatpay.png" alt="Nolimited-Study 微信支付">
+        <p>微信支付</p>
+      </div>
+      
+      <div style="display: inline-block;">
+        <img src="/images/alipay.png" alt="Nolimited-Study 支付宝">
+        <p>支付宝</p>
+      </div>
+
+  </div>
+</div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/" rel="tag"># 信息处理技术员</a>
+              <a href="/tags/%E5%9B%BE%E8%A1%A8%E9%A2%98/" rel="tag"># 图表题</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-next post-nav-item">
+                <a href="/2019/12/18/OFFICE%20%E5%9B%BE%E6%A0%87%E5%BC%82%E5%B8%B8%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/" rel="next" title="office 图标异常解决办法">
+                  <i class="fa fa-chevron-left"></i> office 图标异常解决办法
+                </a>
+            </div>
+
+            <span class="post-nav-divider"></span>
+
+            <div class="post-nav-prev post-nav-item">
+                <a href="/2019/12/24/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E6%95%B0%E6%8D%AE%E7%BB%9F%E8%AE%A1%E7%9F%A5%E8%AF%86%EF%BC%88%E4%BC%97%E6%95%B0%E3%80%81%E4%B8%AD%E4%BD%8D%E6%95%B0%E3%80%81%E6%96%B9%E5%B7%AE%EF%BC%89/" rel="prev" title="信息处理技术员数据统计知识（众数、中位数、方差）">
+                  信息处理技术员数据统计知识（众数、中位数、方差） <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+      </footer>
+    
+  </article>
+  <div>
+    
+    <div>
+    
+        <div style="text-align:center;color: #66cdaa;font-size:18px;">------ 本文已结束，感谢您的阅读 ------</div>
+    
+</div>
+
+    
+ </div>
+  
+  
+  
+
+  </div>
+
+
+          </div>
+          
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#例题讲解"><span class="nav-number">1.</span> <span class="nav-text">例题讲解</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#题目"><span class="nav-number">1.1.</span> <span class="nav-text">题目</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#分析"><span class="nav-number">1.2.</span> <span class="nav-text">分析</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#概念理解"><span class="nav-number">1.2.1.</span> <span class="nav-text">概念理解</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#分析方式1"><span class="nav-number">1.2.2.</span> <span class="nav-text">分析方式1</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#分析方式2"><span class="nav-number">1.2.3.</span> <span class="nav-text">分析方式2</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#答案"><span class="nav-number">1.3.</span> <span class="nav-text">答案</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#练习题"><span class="nav-number">2.</span> <span class="nav-text">练习题</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#练习题-1"><span class="nav-number">2.1.</span> <span class="nav-text">练习题 1</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#练习题-2"><span class="nav-number">2.2.</span> <span class="nav-text">练习题 2</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#练习题-3"><span class="nav-number">2.3.</span> <span class="nav-text">练习题 3</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#练习题-4"><span class="nav-number">2.4.</span> <span class="nav-text">练习题 4</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#练习题-5"><span class="nav-number">2.5.</span> <span class="nav-text">练习题 5</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#练习题-6"><span class="nav-number">2.6.</span> <span class="nav-text">练习题 6</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#练习题-7"><span class="nav-number">2.7.</span> <span class="nav-text">练习题 7</span></a></li></ol></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Nolimited-Study"
+      src="/images/avatar.jpg">
+  <p class="site-author-name" itemprop="name">Nolimited-Study</p>
+  <div class="site-description" itemprop="description">Never too old to learn</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">10</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">19</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="feed-link motion-element">
+    <a href="/atom.xml" rel="alternate">
+      <i class="fa fa-rss"></i>RSS
+    </a>
+  </div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/Nolimited-Study" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;Nolimited-Study" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/1259799181@qq.com" title="E-Mail → 1259799181@qq.com"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://blog.csdn.net/wzh0709zml" title="CSDN → https:&#x2F;&#x2F;blog.csdn.net&#x2F;wzh0709zml" rel="noopener" target="_blank"><i class="fa fa-fw fa-crosshairs"></i>CSDN</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Nolimited-Study</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v4.0.0
+  </div>
+  <span class="post-meta-divider">|</span>
+  <div class="theme-info">主题 – <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.5.0
+  </div>
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="post-meta-item-icon">
+      <i class="fa fa-user"></i>
++   网站总访客数
+    </span>
+    <span class="site-uv" title="总访客量">
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span> 
+    </span>
+  
+
+  
+
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+<script src="/js/utils.js"></script><script src="/js/motion.js"></script>
+<script src="/js/schemes/pisces.js"></script>
+<script src="/js/next-boot.js"></script>
+
+
+
+  
+
+
+
+
+  <script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+<script>
+if (document.querySelectorAll('pre.mermaid').length) {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js', () => {
+    mermaid.initialize({
+      theme: 'forest',
+      logLevel: 3,
+      flowchart: { curve: 'linear' },
+      gantt: { axisFormat: '%m/%d/%Y' },
+      sequence: { actorMargin: 50 }
+    });
+  }, window.mermaid);
+}
+</script>
+
+
+
+  
+
+  
+
+
+  
+	<script type="text/javascript"
+		color="0,255,255" opacity='0.6' zIndex="-1" count ="240" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
+
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/assets/koharu.model.json"},"display":{"position":"right","width":150,"height":300},"react":{"opacity":0.7},"mobile":{"show":true},"log":false});</script></body>
+</html>
