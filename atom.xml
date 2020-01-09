@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://nolimited-study.github.io/"/>
-  <updated>2020-01-06T06:40:51.905Z</updated>
+  <updated>2020-01-09T08:46:39.771Z</updated>
   <id>https://nolimited-study.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>信息处理技术员——信息安全知识</title>
+    <link href="https://nolimited-study.github.io/2020/01/09/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E2%80%94%E2%80%94%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E7%9F%A5%E8%AF%86/"/>
+    <id>https://nolimited-study.github.io/2020/01/09/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E2%80%94%E2%80%94%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E7%9F%A5%E8%AF%86/</id>
+    <published>2020-01-09T03:40:12.000Z</published>
+    <updated>2020-01-09T08:46:39.771Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;在信息处理技术员考试中，会考到信息安全的一些基础知识，主要包括信息安全的常见措施、保护信息的哪些方面，病毒的知识等。因此，给大家搜集了一下历年考题，帮助大家熟悉这块知识点，能够更好地通过考试。后面还加了几道题，可以再做下题，看是否已经掌握。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="信息处理技术员" scheme="https://Nolimited-Study.github.io/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/"/>
+    
+    
+      <category term="信息处理技术员" scheme="https://Nolimited-Study.github.io/tags/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/"/>
+    
+      <category term="信息安全" scheme="https://Nolimited-Study.github.io/tags/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>信息处理技术员——信息和数据知识</title>

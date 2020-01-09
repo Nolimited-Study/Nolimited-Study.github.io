@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.0.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <link rel="alternate" href="/atom.xml" title="Nolimited-Study" type="application/atom+xml">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+
+
+<script id="hexo-configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '7.5.0',
+    exturl: false,
+    sidebar: {"position":"left","Pisces | Gemini":320,"display":"post","offset":12,"onmobile":false},
+    copycode: {"enable":false,"show_result":false,"style":null},
+    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
+    bookmark: {"enable":false,"color":"#222","save":"auto"},
+    fancybox: false,
+    mediumzoom: false,
+    lazyload: false,
+    pangu: false,
+    algolia: {
+      appID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    },
+    localsearch: {"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
+    path: 'search.xml',
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    sidebarPadding: 40
+  };
+</script>
+
+  <meta name="description" content="在信息处理技术员考试中，会考到信息安全的一些基础知识，主要包括信息安全的常见措施、保护信息的哪些方面，病毒的知识等。因此，给大家搜集了一下历年考题，帮助大家熟悉这块知识点，能够更好地通过考试。后面还加了几道题，可以再做下题，看是否已经掌握。">
+<meta name="keywords" content="信息处理技术员,信息安全">
+<meta property="og:type" content="article">
+<meta property="og:title" content="信息处理技术员——信息安全知识">
+<meta property="og:url" content="https:&#x2F;&#x2F;nolimited-study.github.io&#x2F;2020&#x2F;01&#x2F;09&#x2F;%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E2%80%94%E2%80%94%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E7%9F%A5%E8%AF%86&#x2F;index.html">
+<meta property="og:site_name" content="Nolimited-Study">
+<meta property="og:description" content="在信息处理技术员考试中，会考到信息安全的一些基础知识，主要包括信息安全的常见措施、保护信息的哪些方面，病毒的知识等。因此，给大家搜集了一下历年考题，帮助大家熟悉这块知识点，能够更好地通过考试。后面还加了几道题，可以再做下题，看是否已经掌握。">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2020-01-09T08:46:39.771Z">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="https://nolimited-study.github.io/2020/01/09/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E2%80%94%E2%80%94%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E7%9F%A5%E8%AF%86/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome: false,
+    isPost: true,
+    isPage: false,
+    isArchive: false
+  };
+</script>
+
+  <title>信息处理技术员——信息安全知识 | Nolimited-Study</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-meta">
+
+    <div>
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Nolimited-Study</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+        <p class="site-subtitle">学习无极限</p>
+  </div>
+
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-fw fa-th"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>归档</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-fw fa-user"></i>关于</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+
+</nav>
+  <div class="site-search">
+    <div class="popup search-popup">
+    <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocorrect="off" autocapitalize="none"
+           placeholder="搜索..." spellcheck="false"
+           type="text" id="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result"></div>
+
+</div>
+<div class="search-pop-overlay"></div>
+
+  </div>
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content">
+            
+
+  <div class="posts-expand">
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://Nolimited-Study.github.io/2020/01/09/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E2%80%94%E2%80%94%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E7%9F%A5%E8%AF%86/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="Nolimited-Study">
+      <meta itemprop="description" content="Never too old to learn">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Nolimited-Study">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          信息处理技术员——信息安全知识
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2020-01-09 11:40:12 / 修改时间：16:46:39" itemprop="dateCreated datePublished" datetime="2020-01-09T11:40:12+08:00">2020-01-09</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/" itemprop="url" rel="index">
+                    <span itemprop="name">信息处理技术员</span>
+                  </a>
+                </span>
+            </span>
+
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>在信息处理技术员考试中，会考到信息安全的一些基础知识，主要包括信息安全的常见措施、保护信息的哪些方面，病毒的知识等。因此，给大家搜集了一下历年考题，帮助大家熟悉这块知识点，能够更好地通过考试。后面还加了几道题，可以再做下题，看是否已经掌握。</p>
+<a id="more"></a>
+
+<h1 id="信息安全基本概念"><a href="#信息安全基本概念" class="headerlink" title="信息安全基本概念"></a>信息安全基本概念</h1><h2 id="知识点"><a href="#知识点" class="headerlink" title="知识点"></a>知识点</h2><ol>
+<li>信息安全的基本特征：真实性、机密性、完整性、可用性、不可抵赖性、可控性、可审查性<ul>
+<li>真实性：对信息来源进行判断，能对伪造信息予以鉴别</li>
+<li>机密性：确保信息不暴露给未授权的实体或进程</li>
+<li>完整性：保证数据的一致性，防止数据被非法用户篡改</li>
+<li>可用性：保证合法用户对信息的使用不会被拒绝</li>
+<li>不可抵赖性：建立有效的责任机制，防止用户否认其行为</li>
+<li>可控性：可以控制授权范围的信息内容、流向和行为方式</li>
+<li>可审查性：为出现的网络安全问题提供调查的依据和手段</li>
+</ul>
+</li>
+<li>《中华人民共和国保守国家秘密法》将涉密等级分为：“绝密”、“机密”、“秘密”三级：<ul>
+<li>“绝密”：最重要的国家秘密，泄露会使国家的安全和利益遭受特别严重的损害；</li>
+<li>“机密”：重要的国家秘密，泄露会使国家的安全和利益遭受严重的损害；</li>
+<li>“秘密”：一般的国家秘密，泄露会使国家的安全和利益遭受损害。</li>
+</ul>
+</li>
+</ol>
+<h2 id="例题-1"><a href="#例题-1" class="headerlink" title="例题 1"></a>例题 1</h2><p><strong>2016年上半年试题62</strong></p>
+<p>涉密信息系统划分为绝密级、机密级、秘密级三个等级保护的作用不包括（     ）。</p>
+<p>A． 保护重点更加突出                        </p>
+<p>B． 确保不再会发生泄密事件</p>
+<p>C． 保护方法更加科学                        </p>
+<p>D． 保护的投入产出更加合理</p>
+<details style="color:blue;">
+<summary>展开查看解析和答案</summary>
+<br>
+分析：<br>
+划分密级有利于安全管理，其本身不能杜绝泄密事件。这种说法过于绝对。<br>
+答案：B
+</details>
+
+<h2 id="例题-2"><a href="#例题-2" class="headerlink" title="例题 2"></a>例题 2</h2><p>2018年上半年试题7）</p>
+<p>在信息收集过程中，需要根据项目的目标把握数据（ ）要求，既不要纳入过多无关的数据，也不要短缺主要的数据：既不要过于简化，也不要过于繁琐。</p>
+<p>A．适用性              </p>
+<p>B．准确性              </p>
+<p>C．安全性              </p>
+<p>D．及时性</p>
+<details style="color:blue;">
+<summary>展开查看解析和答案</summary>
+<br>
+分析：<br>
+统计数据是经济社会发展的晴雨表，统计数据质量是统计工作的生命。统计数据质量从使用的要求上看，取决于准确性、及时性和完整性。准确性是统计数据质量在统计信息客观真实性方面的体现，是统计数据使用者的首要要求。及时性是统计数据质量在统计信息的时间价值上的体现，是对统计数据形成和提供的高速度、快节奏、强效率的要求。完整性或适用性是统计数据在统计信息的内容含量上的体现，就是要求统计部门提供的统计数据在内容上应该包括使用者所需的所有项目，不能残缺不全，主要是根据数据的用途，检查数据解释说明问题的程度。具体包括数据与调查主题、与目标总体的界定、与调查项目的解释等是否匹配。<br>
+答案：A
+</details> 
+
+
+
+<h2 id="例题-3"><a href="#例题-3" class="headerlink" title="例题 3"></a>例题 3</h2><p><strong>2012年上半年试题31</strong></p>
+<p>信息安全是指信息的保密性、（  ）的保持。</p>
+<p>A．完整性和可用性   </p>
+<p>B．准确性和可靠性   </p>
+<p>C．可理解性和可传输性   </p>
+<p>D．可存储性和可加工性</p>
+<details style="color:blue;">
+<summary>展开查看解析和答案</summary>
+<br>
+分析：<br>
+信息安全是指信息的保密性、完整性和可用性的保持。信息的保密性保障信息仅仅为那些授权使用的人获取。信息的完整性保护信息及其处理方法的准确和完整，信息不丢失，也不被篡改。信息的可用性保障授权者在需要时可以立即获得信息以及相关的资源。<br>
+答案：A
+</details>
+
+<h1 id="病毒知识"><a href="#病毒知识" class="headerlink" title="病毒知识"></a>病毒知识</h1><h2 id="知识点-1"><a href="#知识点-1" class="headerlink" title="知识点"></a>知识点</h2><ol>
+<li><p>病毒：编制或者在计算机程序中插入的破坏计算机功能或者破坏数据，影响计算机使用并且能够自我复制的一组计算机指令或者程序代码。</p>
+</li>
+<li><p>病毒的特征：传染性、隐蔽性、潜伏性、破坏性、针对性、寄生性、未知性</p>
+</li>
+<li><p>感染病毒的常见症状：</p>
+<ul>
+<li>屏幕上出现不应有的特殊字符或图像、字符无规则变或脱落、静止、滚动、雪花、跳动、小球亮点、莫名其妙的信息提等；</li>
+<li>发出尖叫、蜂鸣音或非正常奏乐等；</li>
+<li>经常无故死机，随机地发生重新启动或无法正常启动、运行速度明显下降、内存空间变小、磁盘驱动器以及其他设备无缘无故地变成无效设备等现象。</li>
+<li>磁盘标号被自动改写、出现异常文件、出现固定的坏扇区、可用磁盘空间变小、文件无故变大、失踪或被改乱、可执行文件（exe）变得无法运行等；</li>
+<li>打印异常、打印速度明显降低、不能打印、不能打印汉字与图形等或打印时出现乱码；</li>
+<li>收到来历不明的电子邮件、自动链接到陌生的网站、自动发送电子邮件等。 </li>
+</ul>
+</li>
+<li><p>计算机病毒的分类：</p>
+<ul>
+<li>按其攻击对象分类：源码型病毒、嵌入型病毒、外壳型病毒、操作系统型病毒；</li>
+<li>按其传染方式分类：引导区病毒、文件型病毒、混合型病毒、宏病毒；按其破坏性分类：良性病毒、恶性病毒。</li>
+</ul>
+</li>
+</ol>
+<h2 id="例题-1-1"><a href="#例题-1-1" class="headerlink" title="例题 1"></a>例题 1</h2><p><strong>2017年下半年试题33</strong></p>
+<p>如果U盘感染了病毒，且U盘中的内容可以废弃，为防止该病毒传染到计算机系统，正确的措施是（ ）。</p>
+<p>A．将U盘重新格式化                        </p>
+<p>B．给该U盘加上写保护</p>
+<p>C．将U盘放一段时间后再使用                </p>
+<p>D．删除该U盘上所有内容</p>
+<details style="color:blue;">
+<summary>展开查看解析和答案</summary>
+<br>
+分析：<br>
+格式化（format）是指对磁盘或磁盘中的分区（partition）进行初始化的一种操作，这种操作通常会导致现有的磁盘或分区中所有的文件被清除。<br>
+答案：A
+</details>
+
+<h2 id="例题-2-1"><a href="#例题-2-1" class="headerlink" title="例题 2"></a>例题 2</h2><p><strong>2017年下半年试题37</strong></p>
+<p>下列关于计算机病毒的说法中错误的是（ ）。</p>
+<p>A．目前传播计算机病毒的主要途径是Internet</p>
+<p>B．所有计算机病毒都是程序代码</p>
+<p>C．计算机病毒既可以感染可执行程序，也可以感染word文档或图片文件</p>
+<p>D．完备的数据备份机制是防止感染计算机病毒的根本手段</p>
+<details style="color:blue;">
+<summary>展开查看解析和答案</summary>
+<br>
+分析：<br>
+计算机病毒（Computer Virus）是编制者在计算机程序中插入的破坏计算机功能或者数据的代码，能影响计算机使用，能自我复制的一组计算机指令或者程序代码。数据备份只能保证数据不丢失，但是不能防止计算机感染病毒。<br>
+    防止计算机感染病毒的方法有：不轻易打开来历不明的电子邮件；使用新的计算机系统或软件时，先杀毒后使用；备份系统和参数，建立系统的应急计划等。安装杀毒软件。分类管理数据。<br>
+答案：D
+</details>
+
+<h2 id="例题-3-1"><a href="#例题-3-1" class="headerlink" title="例题 3"></a>例题 3</h2><p><strong>2018年上半年试题61</strong></p>
+<p>计算机感染病毒后常见的症状中，一般不包括（ ）。</p>
+<p>A．计算机系统运行异常（如死机、运行速度降低、文件大小异常等）</p>
+<p>B．外部设备使用异常（如系统无法找到外部设备，外部设备无法使用）</p>
+<p>C．网络异常（如网速突然变慢，网络连接错误，许多网站无法访问）</p>
+<p>D．应用程序计算结果异常（如输出数据过多或过少，过大或过小）</p>
+<details style="color:blue;">
+<summary>展开查看解析和答案</summary>
+<br>
+分析：<br>
+网络异常通常是因为程序冲突、IP地址冲突、断网、网络阻塞、服务器异常等问题出现的。<br>可以检查以下各方面是否正常：<br>1.检查网线是否插好，网卡驱动是否正常工作；<br>2.检查网卡相关设置是否正确，IP地址是否正确；<br>3.检查DHCP是否正常工作；<br>4.HOSTS出现问题；<br>5.DNS服务出现问题；<br>6.浏览器代理，Flash插件等配置问题。<br>
+答案：C
+</details>
+
+<h1 id="防火墙技术"><a href="#防火墙技术" class="headerlink" title="防火墙技术"></a>防火墙技术</h1><h2 id="知识点-2"><a href="#知识点-2" class="headerlink" title="知识点"></a>知识点</h2><ol>
+<li>防火墙认为内部网是可信赖的，而外部网是不安全和不信任的。防火墙是用于阻断网络中的非法访问和过滤有害信息的设备。防火墙对内部网络的保护作用是通过内部网络进行隔离来实现的，即监视和控制可信任网络和不可信任网络之间的访问通道。它会根据预先定制的安全策略控制通过防火墙的访问行为，从而达到对企业内部网络访问的有效控制。</li>
+<li>防火墙技术的特点：被动防卫，在本地网络与不安全的外接网络之间设置一道防御系统；简单、实用、透明度高；不能防范不经由防火墙的攻击；不能防范人为攻击，不能防止受病毒感染软件或文件的传输。</li>
+</ol>
+<h2 id="例题-1-2"><a href="#例题-1-2" class="headerlink" title="例题 1"></a>例题 1</h2><p><strong>2010年下半年试题73</strong></p>
+<p>（  ）is the first line of protect between your computer and the public Internet.</p>
+<p>A．The Internet protocol </p>
+<p>B．The firewall </p>
+<p>C．The anti-virus software  </p>
+<p>D．The intrusion-detection systems</p>
+<details style="color:blue;">
+<summary>展开查看解析和答案</summary>
+<br>
+分析：<br>
+防火墙是计算机与公共互联网之间的第一道保护。<br>
+答案：B
+</details>
+
+<h2 id="例题-2-2"><a href="#例题-2-2" class="headerlink" title="例题 2"></a>例题 2</h2><p><strong>2011年上半年试题23</strong></p>
+<p>下列关于信息安全的叙述中，不正确的是（  ）。</p>
+<p>A．黑客是指热衷于利用网络手段潜入并窃取他人非公开信息的人</p>
+<p>B．利用操作系统的漏洞是黑客进行攻击的手段之一</p>
+<p>C．入侵检测系统有基于主机的入侵检测系统和基于网络的入侵检测系统</p>
+<p>D．防火墙能防止所有的非法侵入</p>
+<details style="color:blue;">
+<summary>展开查看解析和答案</summary>
+<br>
+分析：<br>
+试题中A、B、C选项均是正确的叙述，D选项防火墙不能防止网络内部的入侵，并且D选项过于绝对。<br>
+答案：D
+</details>
+
+
+
+<h2 id="例题-3-2"><a href="#例题-3-2" class="headerlink" title="例题 3"></a>例题 3</h2><p><strong>2018年下半年试题23</strong></p>
+<p>计算机网络中，防火墙的功能不包括（ ）。 </p>
+<p>A． 防止某个设备的火灾蔓延到其他设备      </p>
+<p>B．对网络存取以及访问进行监控和审计</p>
+<p>C．根据安全策略实施访问限制，防止信息外泄</p>
+<p>D．控制网络中不同信任程度区城间传送的数据流</p>
+<details style="color:blue;">
+<summary>展开查看解析和答案</summary>
+<br>
+分析：<br>
+防火墙（Firewall），也称防护墙，是位于内部网和外部网之间的屏障，它按照系统管理员预先定义好的规则来控制数据包的进出。防火墙是系统的第一道防线，其作用是防止非法用户的进入。 <br>
+答案：A
+</details>
+
+<h1 id="其他安全措施"><a href="#其他安全措施" class="headerlink" title="其他安全措施"></a>其他安全措施</h1><h2 id="知识点-3"><a href="#知识点-3" class="headerlink" title="知识点"></a>知识点</h2><p>信息摘要：利用单向散列函数获取信息的一个散列值，验证信息是否伪造。</p>
+<p>数字签名：利用非对称加密算法生成一段数字串，验证信息发送者身份的有效性。</p>
+<p>数据加密与用户授权访问控制技术：主要用于对静态信息保护，需要系统级别的支持，一般在操作系统中实现，比较灵活，更加适用于开放网络。</p>
+<h2 id="例题-1-3"><a href="#例题-1-3" class="headerlink" title="例题 1"></a>例题 1</h2><p><strong>2015年下半年试题33</strong></p>
+<p>（  ）不是数字签名的功能。</p>
+<p>A．防止发送方的抵赖行为 </p>
+<p>B．接收方身份确认  </p>
+<p>C．发送方身份确认  </p>
+<p>D．保证数据的完整性</p>
+<details style="color:blue;">
+<summary>展开查看解析和答案</summary>
+<br>
+分析：<br>
+数字签名的主要功能是保证信息传输的完整性、发送者的身份认证、防止交易中的 抵赖发生。数字签名技术是将摘要信息用发送者的私钥加密，与原文一起传送给接收者。 接收者只有用发送的公钥才能解密被加密的摘要信息，然后用 HASH 函数对收到的原文 产生一个摘要信息，与解密的摘要信息对比。  <br>
+答案：B
+</details>
+
+<h2 id="例题-2-3"><a href="#例题-2-3" class="headerlink" title="例题 2"></a>例题 2</h2><p><strong>2018年下半年试题61</strong></p>
+<p>（ ）不属于信息安全技术。 </p>
+<p>A．加密/解密</p>
+<p>B．入侵检测/查杀病毒</p>
+<p>C．压缩/解压</p>
+<p>D．指纹识别/存取控制</p>
+<details style="color:blue;">
+<summary>展开查看解析和答案</summary>
+<br>
+分析：<br>
+压缩/解压不是属于信心安全技术。  <br>
+答案：C
+</details>
+
+<h1 id="综合练习题"><a href="#综合练习题" class="headerlink" title="综合练习题"></a>综合练习题</h1><h2 id="练习题-1"><a href="#练习题-1" class="headerlink" title="练习题 1"></a>练习题 1</h2><p><strong>2012年下半年试题10</strong></p>
+<p>为确保信息处理的质量，在收集数据完成后，随即应对数据进行全面的审核。但此阶段对数据审核的内容并不包括（  ）审核。</p>
+<p>A．完整性            </p>
+<p>B．准确性            </p>
+<p>C．时效性            </p>
+<p>D．格式</p>
+<details style="color:blue;">
+<summary>展开查看解析和答案</summary>
+<br>
+分析：<br>
+为确保信息处理的质量，在收集数据完成后，随即应对数据进行全面的审核，包括完整性、准确性和时效性审核，确保收集的数据没有重要缺失，没有大的失真，并符合统计时段的要求。至于格式问题，可以在通过审核后，进行专门进行格式检查，容易进行格式转换。<br>
+答案：D
+</details>
+
+<h2 id="练习题-2"><a href="#练习题-2" class="headerlink" title="练习题 2"></a>练习题 2</h2><p>试题12（2017年上半年试题62）</p>
+<p>计算机受病毒感染主要是（  ）。</p>
+<p>A． 接收外来信息时被感染                  </p>
+<p>B． 因硬件损坏而被感染</p>
+<p>C． 增添硬件设备时被感染                  </p>
+<p>D． 因操作不当而被感染</p>
+<details style="color:blue;">
+<summary>展开查看解析和答案</summary>
+<br>
+分析：<br>
+电脑病毒的主要来源：<br>1、引进的电脑系统和软件中带有病毒。<br>2、各类出国人员带回的机器和软件染有病毒。<br>3、一些染有病毒的游戏软件。<br>4、非法拷贝中毒。<br>5、电脑生产、经营单位销售的机器和软件染有病毒。<br>6、维修部门交叉感染。<br>7、有人研制、改造病毒。<br>主要来源是接收外来信息时被感染。<br>
+答案：A
+</details>
+
+<h2 id="练习题-3"><a href="#练习题-3" class="headerlink" title="练习题 3"></a>练习题 3</h2><p><strong>2016年下半年试题60</strong></p>
+<p>以下设备中最可能成为传播计算机病毒的载体是（ ）。</p>
+<p>A．显示器</p>
+<p>B．键盘</p>
+<p>C．U盘</p>
+<p>D．扫描仪</p>
+<details style="color:blue;">
+<summary>展开查看解析和答案</summary>
+<br>
+分析：<br>
+大多数的病毒都是通过U盘等外存传播。<br>
+答案：C
+</details> 
+
+<h2 id="练习题-4"><a href="#练习题-4" class="headerlink" title="练习题 4"></a>练习题 4</h2><p><strong>2010年下半年试题12</strong></p>
+<p>下列关于计算机病毒的叙述，不正确的是（  ）。</p>
+<p>A．计算机病毒的出现使计算机的安全性遇到了严重挑战</p>
+<p>B．计算机病毒会使系统资源受到损失</p>
+<p>C．计算机病毒不会破坏计算机的操作系统</p>
+<p>D．计算机病毒可记录用户的摄像头操作，从远程窥探隐私</p>
+<details style="color:blue;">
+<summary>展开查看解析和答案</summary>
+<br>
+分析：<br>
+计算机病毒不但会破坏计算机操作系统，更会破坏计算机中的文件，严重的还会破坏计算机的硬件。<br>
+答案：C
+</details> 
+
+<h2 id="练习题-5"><a href="#练习题-5" class="headerlink" title="练习题 5"></a>练习题 5</h2><p><strong>2010年下半年试题13</strong></p>
+<p>下列关于防火墙的叙述，不正确的是（  ）。</p>
+<p>A．防火墙能强化安全策略               </p>
+<p>B．防火墙能有效防范计算机中已存在的病毒</p>
+<p>C．防火墙能有效记录网上的活动         </p>
+<p>D．防火墙不能防范IP地址的欺骗</p>
+<details style="color:blue;">
+<summary>展开查看解析和答案</summary>
+<br>
+分析：<br>
+防火墙主要由访问规则、验证工具、包过滤和应用网关4个部分组成，是一种将内部网和公众网分开的方法，实际上是一种隔离技术，允许你“同意”的用户和数据进入你的网络，同时将“不同意”的用户和数据拒之网外，最大限度地阻止网络中的黑客访问自己的网络。防火墙对于内部网络的病毒无法进行防范。<br>
+答案：B
+</details> 
+
+<h2 id="练习题-6"><a href="#练习题-6" class="headerlink" title="练习题 6"></a>练习题 6</h2><p><strong>2011年上半年试题38</strong></p>
+<p>下列关于信息存储的叙述，不正确的是（  ）。</p>
+<p>A．企业中的任何人都可以随时向资料库中存入信息资料</p>
+<p>B．利用计算机存储资料时，要保证存储的资料安全可靠</p>
+<p>C．当存储量大时，应釆用信息编码技术，以节约存储空间</p>
+<p>D．信息的存储必须满足存取便捷的要求</p>
+<details style="color:blue;">
+<summary>展开查看解析和答案</summary>
+<br>
+分析：<br>
+企业中的资料库是企业信息资源的一部分。为保证资料库的安全可靠，资料有效有用，需要专人来管理。不是任何人随便可以存取的。存入错误数据或带病毒的资料是有害的。存入垃圾信息也会误导用户，也浪费空间。<br>
+答案：A
+</details> 
+
+<h2 id="练习题-7"><a href="#练习题-7" class="headerlink" title="练习题 7"></a>练习题 7</h2><p><strong>2016年上半年试题62</strong></p>
+<p>涉密信息系统划分为绝密级、机密级、秘密级三个等级保护的作用不包括（ ）。</p>
+<p>A． 保护重点更加突出                        B． 确保不再会发生泄密事件</p>
+<p>C． 保护方法更加科学                        D． 保护的投入产出更加合理</p>
+<details style="color:blue;">
+<summary>展开查看解析和答案</summary>
+<br>
+分析：<br>
+划分密级有利于安全管理，其本身不能杜绝泄密事件。<br>
+答案：B
+</details>  
+
+<h2 id="练习题-8"><a href="#练习题-8" class="headerlink" title="练习题 8"></a>练习题 8</h2><p><strong>2015年下半年试题33</strong></p>
+<p>（  ）不是数字签名的功能。</p>
+<p>A．防止发送方的抵赖行为 </p>
+<p>B．接收方身份确认 </p>
+<p>C．发送方身份确认</p>
+<p>D．保证数据的完整性</p>
+<details style="color:blue;">
+<summary>展开查看解析和答案</summary>
+<br>
+分析：<br>
+数字签名的主要功能是保证信息传输的完整性、发送者的身份认证、防止交易中的 抵赖发生。数字签名技术是将摘要信息用发送者的私钥加密，与原文一起传送给接收者。 接收者只有用发送的公钥才能解密被加密的摘要信息，然后用 HASH 函数对收到的原文 产生一个摘要信息，与解密的摘要信息对比。 <br>
+答案：B
+</details> 
+
+<h1 id="练习题-9"><a href="#练习题-9" class="headerlink" title="练习题 9"></a>练习题 9</h1><p><strong>2016年上半年试题60</strong></p>
+<p>以下关于企业信息安全措施的叙述中，不正确的是（ ）。</p>
+<p>A． 遵循三分管理七分技术的原则加强信息安全的技术措施</p>
+<p>B． 在电子合同中可以用电子签名来表明不可抵赖性</p>
+<p>C． 入侵检测软件用来发现系统中是否有被攻击的迹象</p>
+<p>D． 加强员工的信息安全意识教育非常重要</p>
+<details style="color:blue;">
+<summary>展开查看解析和答案</summary>
+<br>
+分析：<br>
+
+</details> 人们常说，信息安全的措施是三分技术七分管理。人的因素是最重要的。任何技术 措施，对于违法的人来说，都会有空子可钻，都会有漏洞。  <br>
+答案：A
+
+
+
+<p>好了，这个知识点的内容讲到这里，在做题的时候注意抓关键点，然后特别要注意里面带有绝对性的用词的地方，这种一般都是错误的哦！大家，加油！</p>
+
+    </div>
+
+    
+    
+    
+        <div class="reward-container">
+  <div>坚持原创技术分享，您的支持将鼓励我继续创作！</div>
+  <button disable="enable" onclick="var qr = document.getElementById(&quot;qr&quot;); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
+    打赏
+  </button>
+  <div id="qr" style="display: none;">
+      
+      <div style="display: inline-block;">
+        <img src="/images/wechatpay.png" alt="Nolimited-Study 微信支付">
+        <p>微信支付</p>
+      </div>
+      
+      <div style="display: inline-block;">
+        <img src="/images/alipay.png" alt="Nolimited-Study 支付宝">
+        <p>支付宝</p>
+      </div>
+
+  </div>
+</div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/" rel="tag"># 信息处理技术员</a>
+              <a href="/tags/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8/" rel="tag"># 信息安全</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-next post-nav-item">
+                <a href="/2020/01/06/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E2%80%94%E2%80%94%E4%BF%A1%E6%81%AF%E5%92%8C%E6%95%B0%E6%8D%AE/" rel="next" title="信息处理技术员——信息和数据知识">
+                  <i class="fa fa-chevron-left"></i> 信息处理技术员——信息和数据知识
+                </a>
+            </div>
+
+            <span class="post-nav-divider"></span>
+
+            <div class="post-nav-prev post-nav-item">
+            </div>
+          </div>
+      </footer>
+    
+  </article>
+  <div>
+    
+    <div>
+    
+        <div style="text-align:center;color: #66cdaa;font-size:18px;">------ 本文已结束，感谢您的阅读 ------</div>
+    
+</div>
+
+    
+ </div>
+  
+  
+  
+
+  </div>
+
+
+          </div>
+          
+    
+  <div class="comments" id="comments">
+    <div id="lv-container" data-id="city" data-uid="MTAyMC80ODIwMC8yNDY5Ng=="></div>
+  </div>
+  
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#信息安全基本概念"><span class="nav-number">1.</span> <span class="nav-text">信息安全基本概念</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#知识点"><span class="nav-number">1.1.</span> <span class="nav-text">知识点</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#例题-1"><span class="nav-number">1.2.</span> <span class="nav-text">例题 1</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#例题-2"><span class="nav-number">1.3.</span> <span class="nav-text">例题 2</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#例题-3"><span class="nav-number">1.4.</span> <span class="nav-text">例题 3</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#病毒知识"><span class="nav-number">2.</span> <span class="nav-text">病毒知识</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#知识点-1"><span class="nav-number">2.1.</span> <span class="nav-text">知识点</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#例题-1-1"><span class="nav-number">2.2.</span> <span class="nav-text">例题 1</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#例题-2-1"><span class="nav-number">2.3.</span> <span class="nav-text">例题 2</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#例题-3-1"><span class="nav-number">2.4.</span> <span class="nav-text">例题 3</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#防火墙技术"><span class="nav-number">3.</span> <span class="nav-text">防火墙技术</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#知识点-2"><span class="nav-number">3.1.</span> <span class="nav-text">知识点</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#例题-1-2"><span class="nav-number">3.2.</span> <span class="nav-text">例题 1</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#例题-2-2"><span class="nav-number">3.3.</span> <span class="nav-text">例题 2</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#例题-3-2"><span class="nav-number">3.4.</span> <span class="nav-text">例题 3</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#其他安全措施"><span class="nav-number">4.</span> <span class="nav-text">其他安全措施</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#知识点-3"><span class="nav-number">4.1.</span> <span class="nav-text">知识点</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#例题-1-3"><span class="nav-number">4.2.</span> <span class="nav-text">例题 1</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#例题-2-3"><span class="nav-number">4.3.</span> <span class="nav-text">例题 2</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#综合练习题"><span class="nav-number">5.</span> <span class="nav-text">综合练习题</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#练习题-1"><span class="nav-number">5.1.</span> <span class="nav-text">练习题 1</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#练习题-2"><span class="nav-number">5.2.</span> <span class="nav-text">练习题 2</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#练习题-3"><span class="nav-number">5.3.</span> <span class="nav-text">练习题 3</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#练习题-4"><span class="nav-number">5.4.</span> <span class="nav-text">练习题 4</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#练习题-5"><span class="nav-number">5.5.</span> <span class="nav-text">练习题 5</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#练习题-6"><span class="nav-number">5.6.</span> <span class="nav-text">练习题 6</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#练习题-7"><span class="nav-number">5.7.</span> <span class="nav-text">练习题 7</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#练习题-8"><span class="nav-number">5.8.</span> <span class="nav-text">练习题 8</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#练习题-9"><span class="nav-number">6.</span> <span class="nav-text">练习题 9</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Nolimited-Study"
+      src="/images/avatar.jpg">
+  <p class="site-author-name" itemprop="name">Nolimited-Study</p>
+  <div class="site-description" itemprop="description">Never too old to learn</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">14</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">17</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="feed-link motion-element">
+    <a href="/atom.xml" rel="alternate">
+      <i class="fa fa-rss"></i>RSS
+    </a>
+  </div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/Nolimited-Study" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;Nolimited-Study" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/1259799181@qq.com" title="E-Mail → 1259799181@qq.com"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://blog.csdn.net/wzh0709zml" title="CSDN → https:&#x2F;&#x2F;blog.csdn.net&#x2F;wzh0709zml" rel="noopener" target="_blank"><i class="fa fa-fw fa-crosshairs"></i>CSDN</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Nolimited-Study</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v4.0.0
+  </div>
+  <span class="post-meta-divider">|</span>
+  <div class="theme-info">主题 – <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.5.0
+  </div>
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="post-meta-item-icon">
+      <i class="fa fa-user"></i>
++   网站总访客数
+    </span>
+    <span class="site-uv" title="总访客量">
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span> 
+    </span>
+  
+
+  
+
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+<script src="/js/utils.js"></script><script src="/js/motion.js"></script>
+<script src="/js/schemes/pisces.js"></script>
+<script src="/js/next-boot.js"></script>
+
+
+
+  
+
+
+
+
+  <script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+<script>
+if (document.querySelectorAll('pre.mermaid').length) {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js', () => {
+    mermaid.initialize({
+      theme: 'forest',
+      logLevel: 3,
+      flowchart: { curve: 'linear' },
+      gantt: { axisFormat: '%m/%d/%Y' },
+      sequence: { actorMargin: 50 }
+    });
+  }, window.mermaid);
+}
+</script>
+
+
+
+  
+
+  
+
+<script>
+  window.livereOptions = {
+    refer: location.pathname.replace(CONFIG.root, '').replace('index.html', '')
+  };
+  (function(d, s) {
+    var j, e = d.getElementsByTagName(s)[0];
+    if (typeof LivereTower === 'function') { return; }
+    j = d.createElement(s);
+    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+    j.async = true;
+    e.parentNode.insertBefore(j, e);
+  })(document, 'script');
+</script>
+
+
+  
+	<script type="text/javascript"
+		color="0,255,255" opacity='0.6' zIndex="-1" count ="240" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
+
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/assets/koharu.model.json"},"display":{"position":"right","width":150,"height":300},"react":{"opacity":0.7},"mobile":{"show":true},"log":false});</script></body>
+</html>
