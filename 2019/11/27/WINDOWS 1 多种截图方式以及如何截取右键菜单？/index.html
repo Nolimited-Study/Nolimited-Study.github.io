@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.0.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/Nolimited-Study.github.io/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/Nolimited-Study.github.io/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/Nolimited-Study.github.io/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/Nolimited-Study.github.io/images/logo.svg" color="#222">
+  <link rel="alternate" href="/Nolimited-Study.github.io/atom.xml" title="Nolimited-Study" type="application/atom+xml">
+
+<link rel="stylesheet" href="/Nolimited-Study.github.io/css/main.css">
+
+
+<link rel="stylesheet" href="/Nolimited-Study.github.io/lib/font-awesome/css/font-awesome.min.css">
+
+
+<script id="hexo-configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/Nolimited-Study.github.io/',
+    scheme: 'Gemini',
+    version: '7.5.0',
+    exturl: false,
+    sidebar: {"position":"left","Pisces | Gemini":320,"display":"post","offset":12,"onmobile":false},
+    copycode: {"enable":false,"show_result":false,"style":null},
+    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
+    bookmark: {"enable":false,"color":"#222","save":"auto"},
+    fancybox: false,
+    mediumzoom: false,
+    lazyload: false,
+    pangu: false,
+    algolia: {
+      appID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    },
+    localsearch: {"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
+    path: 'search.xml',
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    sidebarPadding: 40
+  };
+</script>
+
+  <meta name="description" content="相信大家经常会遇到需要截图的时候，而且有的时候需要截取右键菜单。接下来，我给大家分享几个小技巧，希望可以帮到大家。">
+<meta name="keywords" content="WINDOWS操作,截图">
+<meta property="og:type" content="article">
+<meta property="og:title" content="多种截图方式以及如何截取右键菜单？">
+<meta property="og:url" content="https:&#x2F;&#x2F;nolimited-study.github.io&#x2F;2019&#x2F;11&#x2F;27&#x2F;WINDOWS%201%20%E5%A4%9A%E7%A7%8D%E6%88%AA%E5%9B%BE%E6%96%B9%E5%BC%8F%E4%BB%A5%E5%8F%8A%E5%A6%82%E4%BD%95%E6%88%AA%E5%8F%96%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%EF%BC%9F&#x2F;index.html">
+<meta property="og:site_name" content="Nolimited-Study">
+<meta property="og:description" content="相信大家经常会遇到需要截图的时候，而且有的时候需要截取右键菜单。接下来，我给大家分享几个小技巧，希望可以帮到大家。">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20191127184454280.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20191127184511475.jpg?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20191127184549928.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20191127184610775.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20191127184622478.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20191127184658709.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20191127184709166.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20191127184724807.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;201911271847362.png">
+<meta property="og:updated_time" content="2019-12-25T07:46:35.843Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20191127184454280.png">
+
+<link rel="canonical" href="https://nolimited-study.github.io/2019/11/27/WINDOWS%201%20%E5%A4%9A%E7%A7%8D%E6%88%AA%E5%9B%BE%E6%96%B9%E5%BC%8F%E4%BB%A5%E5%8F%8A%E5%A6%82%E4%BD%95%E6%88%AA%E5%8F%96%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%EF%BC%9F/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome: false,
+    isPost: true,
+    isPage: false,
+    isArchive: false
+  };
+</script>
+
+  <title>多种截图方式以及如何截取右键菜单？ | Nolimited-Study</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-meta">
+
+    <div>
+      <a href="/Nolimited-Study.github.io/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Nolimited-Study</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+        <p class="site-subtitle">学习无极限</p>
+  </div>
+
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/Nolimited-Study.github.io/" rel="section"><i class="fa fa-fw fa-home"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/Nolimited-Study.github.io/categories/" rel="section"><i class="fa fa-fw fa-th"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/Nolimited-Study.github.io/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/Nolimited-Study.github.io/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>归档</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/Nolimited-Study.github.io/about/" rel="section"><i class="fa fa-fw fa-user"></i>关于</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+
+</nav>
+  <div class="site-search">
+    <div class="popup search-popup">
+    <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocorrect="off" autocapitalize="none"
+           placeholder="搜索..." spellcheck="false"
+           type="text" id="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result"></div>
+
+</div>
+<div class="search-pop-overlay"></div>
+
+  </div>
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content">
+            
+
+  <div class="posts-expand">
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://Nolimited-Study.github.io/Nolimited-Study.github.io/2019/11/27/WINDOWS%201%20%E5%A4%9A%E7%A7%8D%E6%88%AA%E5%9B%BE%E6%96%B9%E5%BC%8F%E4%BB%A5%E5%8F%8A%E5%A6%82%E4%BD%95%E6%88%AA%E5%8F%96%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%EF%BC%9F/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/Nolimited-Study.github.io/images/avatar.jpg">
+      <meta itemprop="name" content="Nolimited-Study">
+      <meta itemprop="description" content="Never too old to learn">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Nolimited-Study">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          多种截图方式以及如何截取右键菜单？
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2019-11-27 19:06:07" itemprop="dateCreated datePublished" datetime="2019-11-27T19:06:07+08:00">2019-11-27</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2019-12-25 15:46:35" itemprop="dateModified" datetime="2019-12-25T15:46:35+08:00">2019-12-25</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/Nolimited-Study.github.io/categories/WINDOWS%E6%93%8D%E4%BD%9C/" itemprop="url" rel="index">
+                    <span itemprop="name">WINDOWS操作</span>
+                  </a>
+                </span>
+            </span>
+
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>相信大家经常会遇到需要截图的时候，而且有的时候需要截取右键菜单。接下来，我给大家分享几个小技巧，希望可以帮到大家。</p>
+<a id="more"></a>
+
+<h1 id="1、使用键盘的PrtSc-PrintScreen进行截全屏"><a href="#1、使用键盘的PrtSc-PrintScreen进行截全屏" class="headerlink" title="1、使用键盘的PrtSc/ PrintScreen进行截全屏"></a>1、使用键盘的PrtSc/ PrintScreen进行截全屏</h1><p>优点：快速，能够迅速截取到右键菜单，可以后期再进行裁剪和修改。<br>缺点：这种截图只能是全屏幕，不能够直接进行添加标记和修改等，需要在其他应用程序（如：画图、word等）中进行粘贴。<br>如图所示是PrtSc/ printscreen的位置。<br><img src="https://img-blog.csdnimg.cn/20191127184454280.png" alt="在这里插入图片描述"></p>
+<h1 id="2、使用浏览器的截图工具进行截图"><a href="#2、使用浏览器的截图工具进行截图" class="headerlink" title="2、使用浏览器的截图工具进行截图"></a>2、使用浏览器的截图工具进行截图</h1><p>优点：可以进行编辑。<br>缺点：这种截图方式需要打开浏览器，可以不联网。<br>如：下图是360浏览器自带的截图工具，同时也可以使用快捷键。<br><img src="https://img-blog.csdnimg.cn/20191127184511475.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>如：下图是火狐浏览器自带的截图工具：<br><img src="https://img-blog.csdnimg.cn/20191127184549928.png" alt="在这里插入图片描述"></p>
+<h1 id="3、使用聊天工具进行截图"><a href="#3、使用聊天工具进行截图" class="headerlink" title="3、使用聊天工具进行截图"></a>3、使用聊天工具进行截图</h1><p>然后是大家所熟悉的截图工具，通常在聊天的时候进行使用，如：QQ、微信等。<br>缺点：需要先登陆后，进入聊天界面才可以使用。<br>如：QQ截图，默认快捷方式是：Ctrl + Alt + A<br><img src="https://img-blog.csdnimg.cn/20191127184610775.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>如：微信截图，默认快捷方式是： Alt + A，可以选择截图时隐藏当前窗口。<br><img src="https://img-blog.csdnimg.cn/20191127184622478.png" alt="在这里插入图片描述"></p>
+<h1 id="4、使用输入法的快捷键进行截图"><a href="#4、使用输入法的快捷键进行截图" class="headerlink" title="4、使用输入法的快捷键进行截图"></a>4、使用输入法的快捷键进行截图</h1><p>4、使用输入法的快捷键进行截图。这个需要到各种输入法中进行设置。<br>优点：不需要联网，打开输入法即可，比较方便。<br>缺点：要提前设置好，有的输入法可能不支持。<br>如：百度输入法里面的工具可以选择截图工具，然后就可以进行截图啦。<br><img src="https://img-blog.csdnimg.cn/20191127184658709.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h1 id="5、如何截取右键菜单"><a href="#5、如何截取右键菜单" class="headerlink" title="5、如何截取右键菜单"></a>5、如何截取右键菜单</h1><p>有如下几种方式：<br>1、使用之前提到的按键盘上的PrtSc键截取全屏幕。<br>2、右键呼出菜单，然后鼠标移动到某选项上，按住鼠标左键不动，然后再按截图的快捷键（如：QQ截图快捷方式，微信截图快捷方式），这样就可以截图到右键菜单了。<br>如图所示：<br><img src="https://img-blog.csdnimg.cn/20191127184709166.png" alt="在这里插入图片描述"><br>3、设置其中一些快捷方式不含Alt即可，可以自行尝试。如360浏览器的快捷方式在截图有右键菜单的内容时就完全OK的。</p>
+<h1 id="6、office办公软件也可以截图"><a href="#6、office办公软件也可以截图" class="headerlink" title="6、office办公软件也可以截图"></a>6、office办公软件也可以截图</h1><p>在office办公软件中，也有截图工具可以使用，再插入选项卡——屏幕截图，可以选择屏幕剪辑自行选择需要的内容。<br>缺点：要打开office软件才可以使用。截图后不能直接进行快速进行编辑。<br><img src="https://img-blog.csdnimg.cn/20191127184724807.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h1 id="7、专门的截图工具"><a href="#7、专门的截图工具" class="headerlink" title="7、专门的截图工具"></a>7、专门的截图工具</h1><p>还有一些专门的截图工具：如faststone、Snipaste、Picpick，这些软件的话需要安装，还有一些其他的功能，要看自己的需求，再确定是否安装。<br>如：faststone的界面：<br><img src="https://img-blog.csdnimg.cn/201911271847362.png" alt="在这里插入图片描述"></p>
+<h1 id="结束语"><a href="#结束语" class="headerlink" title="结束语"></a>结束语</h1><p>其实还有其他很多的方式进行截图，大家可以根据自己的需求和习惯进行使用，只要达到最终截图的目的就好啦！</p>
+
+    </div>
+
+    
+    
+    
+        <div class="reward-container">
+  <div>坚持原创技术分享，您的支持将鼓励我继续创作！</div>
+  <button disable="enable" onclick="var qr = document.getElementById(&quot;qr&quot;); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
+    打赏
+  </button>
+  <div id="qr" style="display: none;">
+      
+      <div style="display: inline-block;">
+        <img src="/Nolimited-Study.github.io/images/wechatpay.png" alt="Nolimited-Study 微信支付">
+        <p>微信支付</p>
+      </div>
+      
+      <div style="display: inline-block;">
+        <img src="/Nolimited-Study.github.io/images/alipay.png" alt="Nolimited-Study 支付宝">
+        <p>支付宝</p>
+      </div>
+
+  </div>
+</div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/Nolimited-Study.github.io/tags/WINDOWS%E6%93%8D%E4%BD%9C/" rel="tag"># WINDOWS操作</a>
+              <a href="/Nolimited-Study.github.io/tags/%E6%88%AA%E5%9B%BE/" rel="tag"># 截图</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-next post-nav-item">
+                <a href="/Nolimited-Study.github.io/2019/11/27/%E9%9A%8F%E7%AC%94%201%20hello-world/" rel="next" title="我的第一篇博客">
+                  <i class="fa fa-chevron-left"></i> 我的第一篇博客
+                </a>
+            </div>
+
+            <span class="post-nav-divider"></span>
+
+            <div class="post-nav-prev post-nav-item">
+                <a href="/Nolimited-Study.github.io/2019/11/28/%E5%8A%9E%E5%85%AC%E8%BD%AF%E4%BB%B6%EF%BC%881%EF%BC%891%20Word-%E6%B7%BB%E5%8A%A0%E6%A8%AA%E7%BA%BF%E6%8A%80%E5%B7%A7/" rel="prev" title="Word 添加横线技巧">
+                  Word 添加横线技巧 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+      </footer>
+    
+  </article>
+  <div>
+    
+    <div>
+    
+        <div style="text-align:center;color: #66cdaa;font-size:18px;">------ 本文已结束，感谢您的阅读 ------</div>
+    
+</div>
+
+    
+ </div>
+  
+  
+  
+
+  </div>
+
+
+          </div>
+          
+    
+  <div class="comments" id="comments">
+    <div id="lv-container" data-id="city" data-uid="MTAyMC80ODIwMC8yNDY5Ng=="></div>
+  </div>
+  
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#1、使用键盘的PrtSc-PrintScreen进行截全屏"><span class="nav-number">1.</span> <span class="nav-text">1、使用键盘的PrtSc/ PrintScreen进行截全屏</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2、使用浏览器的截图工具进行截图"><span class="nav-number">2.</span> <span class="nav-text">2、使用浏览器的截图工具进行截图</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#3、使用聊天工具进行截图"><span class="nav-number">3.</span> <span class="nav-text">3、使用聊天工具进行截图</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#4、使用输入法的快捷键进行截图"><span class="nav-number">4.</span> <span class="nav-text">4、使用输入法的快捷键进行截图</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#5、如何截取右键菜单"><span class="nav-number">5.</span> <span class="nav-text">5、如何截取右键菜单</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#6、office办公软件也可以截图"><span class="nav-number">6.</span> <span class="nav-text">6、office办公软件也可以截图</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#7、专门的截图工具"><span class="nav-number">7.</span> <span class="nav-text">7、专门的截图工具</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#结束语"><span class="nav-number">8.</span> <span class="nav-text">结束语</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Nolimited-Study"
+      src="/Nolimited-Study.github.io/images/avatar.jpg">
+  <p class="site-author-name" itemprop="name">Nolimited-Study</p>
+  <div class="site-description" itemprop="description">Never too old to learn</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/Nolimited-Study.github.io/archives/">
+        
+          <span class="site-state-item-count">14</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/Nolimited-Study.github.io/categories/">
+          
+        <span class="site-state-item-count">18</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/Nolimited-Study.github.io/tags/">
+          
+        <span class="site-state-item-count">15</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="feed-link motion-element">
+    <a href="/Nolimited-Study.github.io/atom.xml" rel="alternate">
+      <i class="fa fa-rss"></i>RSS
+    </a>
+  </div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/Nolimited-Study" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;Nolimited-Study" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/Nolimited-Study.github.io/1259799181@qq.com" title="E-Mail → 1259799181@qq.com"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://blog.csdn.net/wzh0709zml" title="CSDN → https:&#x2F;&#x2F;blog.csdn.net&#x2F;wzh0709zml" rel="noopener" target="_blank"><i class="fa fa-fw fa-crosshairs"></i>CSDN</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Nolimited-Study</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v4.0.0
+  </div>
+  <span class="post-meta-divider">|</span>
+  <div class="theme-info">主题 – <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.5.0
+  </div>
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="post-meta-item-icon">
+      <i class="fa fa-user"></i>
++   网站总访客数
+    </span>
+    <span class="site-uv" title="总访客量">
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span> 
+    </span>
+  
+
+  
+
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/Nolimited-Study.github.io/lib/anime.min.js"></script>
+  <script src="/Nolimited-Study.github.io/lib/velocity/velocity.min.js"></script>
+  <script src="/Nolimited-Study.github.io/lib/velocity/velocity.ui.min.js"></script>
+<script src="/Nolimited-Study.github.io/js/utils.js"></script><script src="/Nolimited-Study.github.io/js/motion.js"></script>
+<script src="/Nolimited-Study.github.io/js/schemes/pisces.js"></script>
+<script src="/Nolimited-Study.github.io/js/next-boot.js"></script>
+
+
+
+  
+
+
+
+
+  <script src="/Nolimited-Study.github.io/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+<script>
+if (document.querySelectorAll('pre.mermaid').length) {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js', () => {
+    mermaid.initialize({
+      theme: 'neutral',
+      logLevel: 3,
+      flowchart: { curve: 'linear' },
+      gantt: { axisFormat: '%m/%d/%Y' },
+      sequence: { actorMargin: 50 }
+    });
+  }, window.mermaid);
+}
+</script>
+
+
+
+  
+
+  
+
+<script>
+  window.livereOptions = {
+    refer: location.pathname.replace(CONFIG.root, '').replace('index.html', '')
+  };
+  (function(d, s) {
+    var j, e = d.getElementsByTagName(s)[0];
+    if (typeof LivereTower === 'function') { return; }
+    j = d.createElement(s);
+    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+    j.async = true;
+    e.parentNode.insertBefore(j, e);
+  })(document, 'script');
+</script>
+
+
+  
+	<script type="text/javascript"
+		color="0,255,255" opacity='0.6' zIndex="-1" count ="240" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
+
+<script src="/Nolimited-Study.github.io/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/Nolimited-Study.github.io/live2dw/assets/assets/koharu.model.json"},"display":{"position":"right","width":150,"height":300},"react":{"opacity":0.7},"mobile":{"show":true},"log":false});</script></body>
+</html>

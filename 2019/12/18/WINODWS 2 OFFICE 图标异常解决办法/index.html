@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.0.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/Nolimited-Study.github.io/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/Nolimited-Study.github.io/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/Nolimited-Study.github.io/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/Nolimited-Study.github.io/images/logo.svg" color="#222">
+  <link rel="alternate" href="/Nolimited-Study.github.io/atom.xml" title="Nolimited-Study" type="application/atom+xml">
+
+<link rel="stylesheet" href="/Nolimited-Study.github.io/css/main.css">
+
+
+<link rel="stylesheet" href="/Nolimited-Study.github.io/lib/font-awesome/css/font-awesome.min.css">
+
+
+<script id="hexo-configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/Nolimited-Study.github.io/',
+    scheme: 'Gemini',
+    version: '7.5.0',
+    exturl: false,
+    sidebar: {"position":"left","Pisces | Gemini":320,"display":"post","offset":12,"onmobile":false},
+    copycode: {"enable":false,"show_result":false,"style":null},
+    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
+    bookmark: {"enable":false,"color":"#222","save":"auto"},
+    fancybox: false,
+    mediumzoom: false,
+    lazyload: false,
+    pangu: false,
+    algolia: {
+      appID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    },
+    localsearch: {"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
+    path: 'search.xml',
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    sidebarPadding: 40
+  };
+</script>
+
+  <meta name="description" content="有的时候我们安装好Office办公软件之后，或者安装了WPS之后，可能会导致Office图标出现异常，那么应该怎么办呢？以下提供几种方式供大家参考，希望能解决你的问题~">
+<meta name="keywords" content="WINDOWS操作,图标异常">
+<meta property="og:type" content="article">
+<meta property="og:title" content="office 图标异常解决办法">
+<meta property="og:url" content="https:&#x2F;&#x2F;nolimited-study.github.io&#x2F;2019&#x2F;12&#x2F;18&#x2F;WINODWS%202%20OFFICE%20%E5%9B%BE%E6%A0%87%E5%BC%82%E5%B8%B8%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95&#x2F;index.html">
+<meta property="og:site_name" content="Nolimited-Study">
+<meta property="og:description" content="有的时候我们安装好Office办公软件之后，或者安装了WPS之后，可能会导致Office图标出现异常，那么应该怎么办呢？以下提供几种方式供大家参考，希望能解决你的问题~">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20191218100121932.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20191218100501333.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20191218100819477.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20191218101041349.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20191218101130767.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20191218101240895.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20191218101315210.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20191218101433956.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20191218101634304.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20191218102329780.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20191218102400883.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20191218102609914.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20191218102657659.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20191218103518220.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20191218103645604.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:updated_time" content="2019-12-25T07:43:24.499Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20191218100121932.png">
+
+<link rel="canonical" href="https://nolimited-study.github.io/2019/12/18/WINODWS%202%20OFFICE%20%E5%9B%BE%E6%A0%87%E5%BC%82%E5%B8%B8%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome: false,
+    isPost: true,
+    isPage: false,
+    isArchive: false
+  };
+</script>
+
+  <title>office 图标异常解决办法 | Nolimited-Study</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-meta">
+
+    <div>
+      <a href="/Nolimited-Study.github.io/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Nolimited-Study</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+        <p class="site-subtitle">学习无极限</p>
+  </div>
+
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/Nolimited-Study.github.io/" rel="section"><i class="fa fa-fw fa-home"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/Nolimited-Study.github.io/categories/" rel="section"><i class="fa fa-fw fa-th"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/Nolimited-Study.github.io/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/Nolimited-Study.github.io/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>归档</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/Nolimited-Study.github.io/about/" rel="section"><i class="fa fa-fw fa-user"></i>关于</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+
+</nav>
+  <div class="site-search">
+    <div class="popup search-popup">
+    <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocorrect="off" autocapitalize="none"
+           placeholder="搜索..." spellcheck="false"
+           type="text" id="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result"></div>
+
+</div>
+<div class="search-pop-overlay"></div>
+
+  </div>
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content">
+            
+
+  <div class="posts-expand">
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://Nolimited-Study.github.io/Nolimited-Study.github.io/2019/12/18/WINODWS%202%20OFFICE%20%E5%9B%BE%E6%A0%87%E5%BC%82%E5%B8%B8%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/Nolimited-Study.github.io/images/avatar.jpg">
+      <meta itemprop="name" content="Nolimited-Study">
+      <meta itemprop="description" content="Never too old to learn">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Nolimited-Study">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          office 图标异常解决办法
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2019-12-18 10:47:07" itemprop="dateCreated datePublished" datetime="2019-12-18T10:47:07+08:00">2019-12-18</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2019-12-25 15:43:24" itemprop="dateModified" datetime="2019-12-25T15:43:24+08:00">2019-12-25</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/Nolimited-Study.github.io/categories/WINDOWS%E6%93%8D%E4%BD%9C/" itemprop="url" rel="index">
+                    <span itemprop="name">WINDOWS操作</span>
+                  </a>
+                </span>
+            </span>
+
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>﻿有的时候我们安装好Office办公软件之后，或者安装了WPS之后，可能会导致Office图标出现异常，那么应该怎么办呢？以下提供几种方式供大家参考，希望能解决你的问题~</p>
+<a id="more"></a>
+<p><img src="https://img-blog.csdnimg.cn/20191218100121932.png" alt="在这里插入图片描述"><br>ps：我的系统是windows 7，然后使用的办公软件是Microsoft Office 2010，如果版本不同，也可以有一定的借鉴意义。</p>
+<h1 id="第一种办法：设置打开方式"><a href="#第一种办法：设置打开方式" class="headerlink" title="第一种办法：设置打开方式"></a>第一种办法：设置打开方式</h1><p>首先，看下默认打开方式是否有问题，在图标上单击鼠标右键，然后选择打开方式，选择默认打开程序。<img src="https://img-blog.csdnimg.cn/20191218100501333.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>在打开的对话框中，选择合适的软件。<br><img src="https://img-blog.csdnimg.cn/20191218100819477.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>点击确定后，看图标是否正常。</p>
+<h1 id="第二种办法：设置显示缩略图"><a href="#第二种办法：设置显示缩略图" class="headerlink" title="第二种办法：设置显示缩略图"></a>第二种办法：设置显示缩略图</h1><p>如果还有问题，可以按下面的方法再进行设置。<br>第一步：点击开始菜单，找到控制面板；<br><img src="https://img-blog.csdnimg.cn/20191218101041349.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>第二步：打开系统和安全；<br><img src="https://img-blog.csdnimg.cn/20191218101130767.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>第三步：点击系统；<br><img src="https://img-blog.csdnimg.cn/20191218101240895.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>第四步：点击高级系统设置；<br><img src="https://img-blog.csdnimg.cn/20191218101315210.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>第五步：在弹出的对话框中，选择高级选项卡中的第一个设置，然后在取消勾选“显示缩略图，而不是显示图标”，再点击确定，关闭所有打开的窗口。<br><img src="https://img-blog.csdnimg.cn/20191218101433956.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>现在，应该就可以看到图标是正常的了。<br>如图：<br><img src="https://img-blog.csdnimg.cn/20191218101634304.png" alt="在这里插入图片描述"></p>
+<h1 id="第三种办法：设置程序修复"><a href="#第三种办法：设置程序修复" class="headerlink" title="第三种办法：设置程序修复"></a>第三种办法：设置程序修复</h1><p>如果上述方法都不行，可以尝试下一个办法。首先仍然是按照第二种办法打开控制面板，然后选择下面的程序。<br><img src="https://img-blog.csdnimg.cn/20191218102329780.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>接下来，点击程序和功能。<br><img src="https://img-blog.csdnimg.cn/20191218102400883.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>然后找到Office办公软件，右击，选择更改。<br><img src="https://img-blog.csdnimg.cn/20191218102609914.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>点选修复，再点击继续。<br><img src="https://img-blog.csdnimg.cn/20191218102657659.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>等待程序完成修复，再重启电脑看图标是否恢复。</p>
+<h1 id="第四种办法：使用其他软件的修复工具"><a href="#第四种办法：使用其他软件的修复工具" class="headerlink" title="第四种办法：使用其他软件的修复工具"></a>第四种办法：使用其他软件的修复工具</h1><p>我以360软件的修复工具为例。首先先打开360安全管家。在功能大全中找到人工服务，如果没有可以在搜索工具中进行搜索。<br><img src="https://img-blog.csdnimg.cn/20191218103518220.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>打开人工服务，输入Office图标异常，第一个就是这个问题，选择立即修复。最后再重启看下图标是否正常。<br><img src="https://img-blog.csdnimg.cn/20191218103645604.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h1 id="第五种办法：修改注册表"><a href="#第五种办法：修改注册表" class="headerlink" title="第五种办法：修改注册表"></a>第五种办法：修改注册表</h1><p>可以参考下：<a href="https://blog.csdn.net/loveyuexibo/article/details/82049867" target="_blank" rel="noopener">https://blog.csdn.net/loveyuexibo/article/details/82049867</a><br>但是修改注册表有风险，修改错误会导致系统不稳定或崩溃，请提前备份注册表和电脑中的重要数据(包括Office账户信息),在专业人士指导下慎重操作。</p>
+<p>主要的方法有这么一些，然后还在网上找到了对于Office 2016图标异常的解决办法，主要方式是下载一个CCleaner软件，然后点击registry，Scan for Issues，选中问题后，会让你保存注册表位置（为了防止删掉一些不该删除的注册表信息，建议保存一下，没问题后再删除），再清理所有注册表问题，最后在控制面板→程序→默认程序→设计默认程序。<br>给大家附上链接：<a href="https://blog.csdn.net/xiaoliyi185/article/details/85775416" target="_blank" rel="noopener">https://blog.csdn.net/xiaoliyi185/article/details/85775416</a></p>
+<p>OK，今天的分享就到这里了，如果大家还有其他的方法，欢迎留言，然后我再更新下哦，希望能够帮助到大家~</p>
+
+    </div>
+
+    
+    
+    
+        <div class="reward-container">
+  <div>坚持原创技术分享，您的支持将鼓励我继续创作！</div>
+  <button disable="enable" onclick="var qr = document.getElementById(&quot;qr&quot;); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
+    打赏
+  </button>
+  <div id="qr" style="display: none;">
+      
+      <div style="display: inline-block;">
+        <img src="/Nolimited-Study.github.io/images/wechatpay.png" alt="Nolimited-Study 微信支付">
+        <p>微信支付</p>
+      </div>
+      
+      <div style="display: inline-block;">
+        <img src="/Nolimited-Study.github.io/images/alipay.png" alt="Nolimited-Study 支付宝">
+        <p>支付宝</p>
+      </div>
+
+  </div>
+</div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/Nolimited-Study.github.io/tags/WINDOWS%E6%93%8D%E4%BD%9C/" rel="tag"># WINDOWS操作</a>
+              <a href="/Nolimited-Study.github.io/tags/%E5%9B%BE%E6%A0%87%E5%BC%82%E5%B8%B8/" rel="tag"># 图标异常</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-next post-nav-item">
+                <a href="/Nolimited-Study.github.io/2019/12/16/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%885%EF%BC%891%20%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E2%80%94%E2%80%94Excel%E4%B8%ADROUND%E5%87%BD%E6%95%B0%E8%AF%A6%E8%A7%A3/" rel="next" title="信息处理技术员——Excel中ROUND函数详解">
+                  <i class="fa fa-chevron-left"></i> 信息处理技术员——Excel中ROUND函数详解
+                </a>
+            </div>
+
+            <span class="post-nav-divider"></span>
+
+            <div class="post-nav-prev post-nav-item">
+                <a href="/Nolimited-Study.github.io/2019/12/20/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%881%EF%BC%894%20%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E5%88%9D%E7%AD%89%E6%95%B0%E5%AD%A6%E2%80%94%E2%80%94%E5%AE%9E%E6%96%BD%E5%92%8C%E8%AE%A1%E5%88%92%E8%BF%9B%E5%BA%A6%E5%88%A4%E6%96%AD/" rel="prev" title="信息处理技术员初等数学——实施和计划进度判断">
+                  信息处理技术员初等数学——实施和计划进度判断 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+      </footer>
+    
+  </article>
+  <div>
+    
+    <div>
+    
+        <div style="text-align:center;color: #66cdaa;font-size:18px;">------ 本文已结束，感谢您的阅读 ------</div>
+    
+</div>
+
+    
+ </div>
+  
+  
+  
+
+  </div>
+
+
+          </div>
+          
+    
+  <div class="comments" id="comments">
+    <div id="lv-container" data-id="city" data-uid="MTAyMC80ODIwMC8yNDY5Ng=="></div>
+  </div>
+  
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#第一种办法：设置打开方式"><span class="nav-number">1.</span> <span class="nav-text">第一种办法：设置打开方式</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#第二种办法：设置显示缩略图"><span class="nav-number">2.</span> <span class="nav-text">第二种办法：设置显示缩略图</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#第三种办法：设置程序修复"><span class="nav-number">3.</span> <span class="nav-text">第三种办法：设置程序修复</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#第四种办法：使用其他软件的修复工具"><span class="nav-number">4.</span> <span class="nav-text">第四种办法：使用其他软件的修复工具</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#第五种办法：修改注册表"><span class="nav-number">5.</span> <span class="nav-text">第五种办法：修改注册表</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Nolimited-Study"
+      src="/Nolimited-Study.github.io/images/avatar.jpg">
+  <p class="site-author-name" itemprop="name">Nolimited-Study</p>
+  <div class="site-description" itemprop="description">Never too old to learn</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/Nolimited-Study.github.io/archives/">
+        
+          <span class="site-state-item-count">14</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/Nolimited-Study.github.io/categories/">
+          
+        <span class="site-state-item-count">18</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/Nolimited-Study.github.io/tags/">
+          
+        <span class="site-state-item-count">15</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="feed-link motion-element">
+    <a href="/Nolimited-Study.github.io/atom.xml" rel="alternate">
+      <i class="fa fa-rss"></i>RSS
+    </a>
+  </div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/Nolimited-Study" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;Nolimited-Study" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/Nolimited-Study.github.io/1259799181@qq.com" title="E-Mail → 1259799181@qq.com"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://blog.csdn.net/wzh0709zml" title="CSDN → https:&#x2F;&#x2F;blog.csdn.net&#x2F;wzh0709zml" rel="noopener" target="_blank"><i class="fa fa-fw fa-crosshairs"></i>CSDN</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Nolimited-Study</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v4.0.0
+  </div>
+  <span class="post-meta-divider">|</span>
+  <div class="theme-info">主题 – <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.5.0
+  </div>
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="post-meta-item-icon">
+      <i class="fa fa-user"></i>
++   网站总访客数
+    </span>
+    <span class="site-uv" title="总访客量">
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span> 
+    </span>
+  
+
+  
+
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/Nolimited-Study.github.io/lib/anime.min.js"></script>
+  <script src="/Nolimited-Study.github.io/lib/velocity/velocity.min.js"></script>
+  <script src="/Nolimited-Study.github.io/lib/velocity/velocity.ui.min.js"></script>
+<script src="/Nolimited-Study.github.io/js/utils.js"></script><script src="/Nolimited-Study.github.io/js/motion.js"></script>
+<script src="/Nolimited-Study.github.io/js/schemes/pisces.js"></script>
+<script src="/Nolimited-Study.github.io/js/next-boot.js"></script>
+
+
+
+  
+
+
+
+
+  <script src="/Nolimited-Study.github.io/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+<script>
+if (document.querySelectorAll('pre.mermaid').length) {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js', () => {
+    mermaid.initialize({
+      theme: 'neutral',
+      logLevel: 3,
+      flowchart: { curve: 'linear' },
+      gantt: { axisFormat: '%m/%d/%Y' },
+      sequence: { actorMargin: 50 }
+    });
+  }, window.mermaid);
+}
+</script>
+
+
+
+  
+
+  
+
+<script>
+  window.livereOptions = {
+    refer: location.pathname.replace(CONFIG.root, '').replace('index.html', '')
+  };
+  (function(d, s) {
+    var j, e = d.getElementsByTagName(s)[0];
+    if (typeof LivereTower === 'function') { return; }
+    j = d.createElement(s);
+    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+    j.async = true;
+    e.parentNode.insertBefore(j, e);
+  })(document, 'script');
+</script>
+
+
+  
+	<script type="text/javascript"
+		color="0,255,255" opacity='0.6' zIndex="-1" count ="240" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
+
+<script src="/Nolimited-Study.github.io/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/Nolimited-Study.github.io/live2dw/assets/assets/koharu.model.json"},"display":{"position":"right","width":150,"height":300},"react":{"opacity":0.7},"mobile":{"show":true},"log":false});</script></body>
+</html>

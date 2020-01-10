@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.0.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/Nolimited-Study.github.io/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/Nolimited-Study.github.io/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/Nolimited-Study.github.io/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/Nolimited-Study.github.io/images/logo.svg" color="#222">
+  <link rel="alternate" href="/Nolimited-Study.github.io/atom.xml" title="Nolimited-Study" type="application/atom+xml">
+
+<link rel="stylesheet" href="/Nolimited-Study.github.io/css/main.css">
+
+
+<link rel="stylesheet" href="/Nolimited-Study.github.io/lib/font-awesome/css/font-awesome.min.css">
+
+
+<script id="hexo-configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/Nolimited-Study.github.io/',
+    scheme: 'Gemini',
+    version: '7.5.0',
+    exturl: false,
+    sidebar: {"position":"left","Pisces | Gemini":320,"display":"post","offset":12,"onmobile":false},
+    copycode: {"enable":false,"show_result":false,"style":null},
+    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
+    bookmark: {"enable":false,"color":"#222","save":"auto"},
+    fancybox: false,
+    mediumzoom: false,
+    lazyload: false,
+    pangu: false,
+    algolia: {
+      appID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    },
+    localsearch: {"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
+    path: 'search.xml',
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    sidebarPadding: 40
+  };
+</script>
+
+  <meta name="description" content="前言因工作需要，特书写一套简单易入门的C语言基础教程，供大家使用。但是，注意下：该教程最适合程序小白食用，如果已经有良好C语言基础的童鞋可以移步其他教程啦~">
+<meta name="keywords" content="C语言">
+<meta property="og:type" content="article">
+<meta property="og:title" content="C语言基础课程（1）——hello world程序理解">
+<meta property="og:url" content="https:&#x2F;&#x2F;nolimited-study.github.io&#x2F;2019&#x2F;11&#x2F;28&#x2F;C%E8%AF%AD%E8%A8%80%EF%BC%881%EF%BC%891&#x2F;index.html">
+<meta property="og:site_name" content="Nolimited-Study">
+<meta property="og:description" content="前言因工作需要，特书写一套简单易入门的C语言基础教程，供大家使用。但是，注意下：该教程最适合程序小白食用，如果已经有良好C语言基础的童鞋可以移步其他教程啦~">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20191128170257655.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20191128230046159.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20191128230138224.png">
+<meta property="og:updated_time" content="2020-01-10T02:42:38.606Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20191128170257655.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+
+<link rel="canonical" href="https://nolimited-study.github.io/2019/11/28/C%E8%AF%AD%E8%A8%80%EF%BC%881%EF%BC%891/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome: false,
+    isPost: true,
+    isPage: false,
+    isArchive: false
+  };
+</script>
+
+  <title>C语言基础课程（1）——hello world程序理解 | Nolimited-Study</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-meta">
+
+    <div>
+      <a href="/Nolimited-Study.github.io/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Nolimited-Study</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+        <p class="site-subtitle">学习无极限</p>
+  </div>
+
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/Nolimited-Study.github.io/" rel="section"><i class="fa fa-fw fa-home"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/Nolimited-Study.github.io/categories/" rel="section"><i class="fa fa-fw fa-th"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/Nolimited-Study.github.io/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/Nolimited-Study.github.io/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>归档</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/Nolimited-Study.github.io/about/" rel="section"><i class="fa fa-fw fa-user"></i>关于</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+
+</nav>
+  <div class="site-search">
+    <div class="popup search-popup">
+    <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocorrect="off" autocapitalize="none"
+           placeholder="搜索..." spellcheck="false"
+           type="text" id="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result"></div>
+
+</div>
+<div class="search-pop-overlay"></div>
+
+  </div>
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content">
+            
+
+  <div class="posts-expand">
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://Nolimited-Study.github.io/Nolimited-Study.github.io/2019/11/28/C%E8%AF%AD%E8%A8%80%EF%BC%881%EF%BC%891/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/Nolimited-Study.github.io/images/avatar.jpg">
+      <meta itemprop="name" content="Nolimited-Study">
+      <meta itemprop="description" content="Never too old to learn">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Nolimited-Study">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          C语言基础课程（1）——hello world程序理解
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2019-11-28 22:06:07" itemprop="dateCreated datePublished" datetime="2019-11-28T22:06:07+08:00">2019-11-28</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-01-10 10:42:38" itemprop="dateModified" datetime="2020-01-10T10:42:38+08:00">2020-01-10</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/Nolimited-Study.github.io/categories/C%E8%AF%AD%E8%A8%80/" itemprop="url" rel="index">
+                    <span itemprop="name">C语言</span>
+                  </a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/Nolimited-Study.github.io/categories/C%E8%AF%AD%E8%A8%80/%E7%AC%AC%E4%B8%80%E7%AB%A0/" itemprop="url" rel="index">
+                    <span itemprop="name">第一章</span>
+                  </a>
+                </span>
+            </span>
+
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>因工作需要，特书写一套简单易入门的C语言基础教程，供大家使用。但是，注意下：该教程<b><font color="#000ccc">最适合程序小白</font></b>食用，如果已经有良好C语言基础的童鞋可以移步其他教程啦~</p>
+<a id="more"></a>
+<p>另外，该教程主要讲解C语言的语法结构，不涉及具体编译器的安装和其他理论知识，大家遇到不懂的或者有错误等可以进行留言，万分感谢。<br>如果想要进行编译运行，可以下载编辑器进行本地进行编辑→编译→运行即可。编译器有：<a href="https://docs.microsoft.com/zh-cn/visualstudio/?view=vs-2019" target="_blank" rel="noopener">Visual Studio 2015/2017</a>、<a href="https://bloodshed-dev-c.en.softonic.com/" target="_blank" rel="noopener">Dev C++</a>、<a href="http://www.codeblocks.org/home" target="_blank" rel="noopener">Code ::Blocks</a>、Turbo C 2.0等。如果嫌麻烦，可以直接搜索C语言在线编译工具（如： <a href="https://tech.io/snippet" target="_blank" rel="noopener">tech.io/snippet</a>、<a href="https://rextester.com/" target="_blank" rel="noopener">rextester.com</a>、<a href="https://www.ideone.com" target="_blank" rel="noopener">www.ideone.com</a>、<a href="https://c.runoob.com/compile/11" target="_blank" rel="noopener">菜鸟工具</a>）进行编辑后运行。</p>
+<p>接下来，咱们进入到正式的课程学习中。<br>首先来看一个最基本的C语言程序。</p>
+<hr>
+<h1 id="第一个程序：hello-World"><a href="#第一个程序：hello-World" class="headerlink" title="第一个程序：hello World"></a>第一个程序：hello World</h1><p><img src="https://img-blog.csdnimg.cn/20191128170257655.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>大家先自行录入一下上面的代码，能不能运行出来呢？？<br>如果可以，那么恭喜，如果不可以，请检查下自己输入的符号、单词有没有错误，切记：C语言中的符号绝大多数都是英文格式的，如果输成中文格式的符号，将不识别，会报错。<br>检查好符号、单词拼写后，再看下能不能执行呢？<br>相信大家的程序都可以执行了，但是是不是不太明白，那我们来逐句解读一下并理解下。遇到不太懂的词，可以先跳过，不用太过纠结，随着后续学习的深入，会慢慢加深自己的理解和扩充知识体系的。</p>
+<h2 id="1、include-lt-stdio-h-gt"><a href="#1、include-lt-stdio-h-gt" class="headerlink" title="1、include &lt;stdio.h&gt;"></a>1、include &lt;stdio.h&gt;</h2><p>第1句，这是预处理器指令，预处理器指令指导编译器在实际编译开始之前对信息进行预处理。所有的预处理器指令都是以 # 开始。预处理器指令不是语句，所以它们不以分号（;）结束。<br>这句话的作用为让编译器在此程序中包含指定的头文件。目前这条语句用到的是<code><stdio.h></code>文件，其余还有<code><math.h></code>（定义数学函数）、 <code><string.h></code>（字符串处理）、<code><time.h></code> （定义关于时间的函数）等等，目前大家只要知道要使用<code><stdio.h></code>这个就可以了，后续如果有用到其他的头文件我们再理解，学习就是一个循序渐进的过程(●´∀｀●)<br>我们先了解一下<code>stdio.h</code>文件，是标准输入/输出库（Standard Input and Output）。在这个库中，已经包含了一些函数供我们使用，不用再自己进行编写。像下面使用到的printf函数就是包含在这个<code>stdio.h</code>这个库中，大家可以试试，如果不写第一句，则会在编译的时候可能会出现如下的语句：</p>
+<pre><code>warning: implicit declaration of function &apos;printf&apos; [-Wimplicit-function-declaration]
+warning: incompatible implicit declaration of built-in function &apos;printf&apos;</code></pre><p>如果后续大家发现有类似的报错，可以从是否书写了头文件、函数名是否拼写有误、对应的函数是否包含在头文件中来进行排查。<br> <code> #include <stdio.h></code>这个语句的位置可以放在程序的任何一个位置，但是通常都写在程序的第一句开头的位置。故之后大家写程序也要习惯性先写“<code> #include <stdio.h></code>”，然后再写下面的编码部分。</p>
+<hr>
+<h2 id="2、main函数"><a href="#2、main函数" class="headerlink" title="2、main函数"></a>2、main函数</h2><p>下面的第2、3、6、7句的形式基本是固定的，所有的执行代码写在3、6之间，即：</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="comment">/*</span></span><br><span class="line"><span class="comment">	其他代码</span></span><br><span class="line"><span class="comment">	*/</span></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>在现阶段的学习中，大家可以先直接引用这种固定句式即可。也就是在录入时直接录入这么一段，然后再在中间进行填写其他代码即可。<br>稍微解释一下：这是一个<code>main</code>函数，所有的程序都必须要有的一个函数，表示程序执行的入口。所以，这个函数千万不能写错哦！<br><code>int main()</code>叫做函数声明语句，<code>main</code>函数的“{ }”不可以省略，在大括号中间部分表示函数体，在{}中间的执行语句都带有分号结尾。<br>int 是函数返回值的类型。就相当于在数学中，<code>f()</code>就是一个函数，其会对应一个结果，这个结果就是函数的返回值，其返回的数据类型有的是整数，有的是小数等。而在C语言中，函数也会有返回值，这里用到的<code>int</code>就是整型数据，和下面第6句的“<code>return 0;</code>”语句是对应的，<code>return</code>就表示返回的是什么值，目前这里写的是0，即返回值是0。<br>那么，就有人会想，如果这个函数没有返回值呢？应该怎么表示？？<br>在C语言中，就有这样一个<code>void</code>来表示空数据，即不返回任何内容。那上面的代码该怎么写呢？<br>如下：</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="comment">/*</span></span><br><span class="line"><span class="comment">	其他代码</span></span><br><span class="line"><span class="comment">	*/</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>如果函数返回值是void的话，则“<code>return 0;</code>”这个语句也可以不写啦~<br>讲到这里，如果大家知道字符数据类型写法是“<code>char</code>”，那么在上述代码哪些位置需要修改呢？应该改成什么？</p>
+<details>
+<summary><b><font color="#000ccc">点击展开查看结果</font></b></summary>
+<pre><code>char main()
+{
+    /*
+    其他代码
+    */
+    return 字符数据;
+}
+</code></pre>
+</details>
+
+
+<p>还有一点值得说一下，<code>main()</code>的括号里面也可以填内容，如：<code>main(void)</code>、<code>main(int argc, char *argv[])</code>这两种都比较常见，对于小白，目前知道这也是<code>main</code>函数即可。</p>
+<hr>
+<h2 id="3、注释语句"><a href="#3、注释语句" class="headerlink" title="3、注释语句"></a>3、注释语句</h2><p>什么是注释呢？添加注释对程序不起实质性作用，起到提示的作用，删除注释对文档也没有任何的影响。但是，为什么会添加注释呢？这是因为人的想法是变化的，今天写下的程序也许明天就不知道为什么要这些写，甚至连里面变量的含义都有可能忘记了。而且大多数时候，我们的代码还不仅限于自己看，还有其他人看，因此要想代码具有可读性，大家都可以看懂，还是要添加必要的注释哦！<br>接下来，就来了解下C语言的注释语句。<br>第4句<code> /* 我的第一个 C 程序<em>/ </code>这是一个注释语句。同时<code> /</em>  XXXX */ </code>这种类型还支持将注释多行书写。如下：</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="comment">/*</span></span><br><span class="line"><span class="comment">	注释语句1</span></span><br><span class="line"><span class="comment">	注释语句2</span></span><br><span class="line"><span class="comment">	…… ……</span></span><br><span class="line"><span class="comment">	*/</span></span><br><span class="line">	其他代码******</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>那么，如果只是将语句后面添加一些小的注释怎么写呢？这就用到了单行注释<code> //</code>。使用方式如下：</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt; </span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span></span><br><span class="line"><span class="function"></span>&#123; </span><br><span class="line">     <span class="comment">/* </span></span><br><span class="line"><span class="comment">     大家好呀！</span></span><br><span class="line"><span class="comment">     这是多行注释效果！</span></span><br><span class="line"><span class="comment">      */</span> </span><br><span class="line">     <span class="built_in">printf</span>(<span class="string">"Hello, World! "</span>);  <span class="comment">//打印“Hello，world！”</span></span><br><span class="line">     <span class="keyword">return</span> <span class="number">0</span>；</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<hr>
+<h2 id="4、printf语句"><a href="#4、printf语句" class="headerlink" title="4、printf语句"></a>4、printf语句</h2><p><code>printf</code>是打印语句或者叫输出语句。<code>printf("Hello, World!");</code>是打印出“hello，world”这个语句，那如果要输出其他语句呢？只需要将“ ”这个双引号里面的文本更换就可以了。例如：<code>printf("大家好！");</code>、<code>printf("Nolimited Study");</code>、<code>printf("一起学C语言");</code>等。<br>那大家思考下下面代码执行后的结果是什么呢？</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">   <span class="built_in">printf</span>(<span class="string">"大家好！"</span>);</span><br><span class="line">   <span class="built_in">printf</span>(<span class="string">"欢迎您进入Nolimited-Study博客！"</span>);</span><br><span class="line">   <span class="built_in">printf</span>(<span class="string">"咱们一起学C语言吧！"</span>);</span><br><span class="line">   <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>大家是不是觉得应该是每行输出对应的语句呢？？<br>然后实际结果却是如下所示：<br><img src="https://img-blog.csdnimg.cn/20191128230046159.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>这是为什么？因为我们没有告诉计算机需要分行输出，所以所有的输出都在一行了。<br>那么，怎样能够控制分行输出呢？其实很简单，每个输出里面加上<code>\n</code>就可以了。我们再来试验一下：<br><img src="https://img-blog.csdnimg.cn/20191128230138224.png" alt="在这里插入图片描述"><br>现在就完全没有问题啦！<br>所以，我们就可以用<code>\n</code>进行分行输出。而<code>\n</code>是转义符，表示换行，将当前位置移到下一行开头。</p>
+<hr>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>然后看下本次的小结：</p>
+<ul>
+<li>include &lt;stdio.h&gt;是预处理命令，stdio.h是标准输入输出头文件</li>
+<li>main-主函数名， int-函数类型，是程序的入口，必不可少的函数</li>
+<li>{ }是函数开始和结束的标志,不可省</li>
+<li>每个C语句以分号结束</li>
+<li>使用标准库函数时应在程序开头一行写： #include &lt;stdio.h&gt; 函数调用语句</li>
+<li>//是单行注释，/* ……*/是多行注释</li>
+<li>printf函数的功能是将输出的内容送到显示器去，即输出函数</li>
+<li>printf函数是一个由系统定义的标准函数，可在程序中直接调用，如果要进行分行输出，增加转义符</li>
+</ul>
+<p><font color="#000ccc"> <b>CSDN链接：</b></font><a href="https://blog.csdn.net/wzh0709zml/article/details/103294407" target="_blank" rel="noopener" title="C语言基础课程1">https://blog.csdn.net/wzh0709zml/article/details/103294407</a></p>
+
+    </div>
+
+    
+    
+    
+        <div class="reward-container">
+  <div>坚持原创技术分享，您的支持将鼓励我继续创作！</div>
+  <button disable="enable" onclick="var qr = document.getElementById(&quot;qr&quot;); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
+    打赏
+  </button>
+  <div id="qr" style="display: none;">
+      
+      <div style="display: inline-block;">
+        <img src="/Nolimited-Study.github.io/images/wechatpay.png" alt="Nolimited-Study 微信支付">
+        <p>微信支付</p>
+      </div>
+      
+      <div style="display: inline-block;">
+        <img src="/Nolimited-Study.github.io/images/alipay.png" alt="Nolimited-Study 支付宝">
+        <p>支付宝</p>
+      </div>
+
+  </div>
+</div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/Nolimited-Study.github.io/tags/C%E8%AF%AD%E8%A8%80/" rel="tag"># C语言</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-next post-nav-item">
+                <a href="/Nolimited-Study.github.io/2019/11/28/%E5%8A%9E%E5%85%AC%E8%BD%AF%E4%BB%B6%EF%BC%881%EF%BC%891%20Word-%E6%B7%BB%E5%8A%A0%E6%A8%AA%E7%BA%BF%E6%8A%80%E5%B7%A7/" rel="next" title="Word 添加横线技巧">
+                  <i class="fa fa-chevron-left"></i> Word 添加横线技巧
+                </a>
+            </div>
+
+            <span class="post-nav-divider"></span>
+
+            <div class="post-nav-prev post-nav-item">
+                <a href="/Nolimited-Study.github.io/2019/11/29/%E9%9A%8F%E7%AC%94%202%20hexo%E4%BC%98%E5%8C%96%EF%BC%9AMarkdown%E8%AF%AD%E6%B3%95%E5%BC%95%E5%85%A5Flowchart%E5%92%8CMermaid%E6%B5%81%E7%A8%8B%E5%9B%BE/" rel="prev" title="hexo优化：Markdown语法引入Flowchart和Mermaid流程图">
+                  hexo优化：Markdown语法引入Flowchart和Mermaid流程图 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+      </footer>
+    
+  </article>
+  <div>
+    
+    <div>
+    
+        <div style="text-align:center;color: #66cdaa;font-size:18px;">------ 本文已结束，感谢您的阅读 ------</div>
+    
+</div>
+
+    
+ </div>
+  
+  
+  
+
+  </div>
+
+
+          </div>
+          
+    
+  <div class="comments" id="comments">
+    <div id="lv-container" data-id="city" data-uid="MTAyMC80ODIwMC8yNDY5Ng=="></div>
+  </div>
+  
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#第一个程序：hello-World"><span class="nav-number">2.</span> <span class="nav-text">第一个程序：hello World</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1、include-lt-stdio-h-gt"><span class="nav-number">2.1.</span> <span class="nav-text">1、include &lt;stdio.h&gt;</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2、main函数"><span class="nav-number">2.2.</span> <span class="nav-text">2、main函数</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3、注释语句"><span class="nav-number">2.3.</span> <span class="nav-text">3、注释语句</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4、printf语句"><span class="nav-number">2.4.</span> <span class="nav-text">4、printf语句</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#总结"><span class="nav-number">3.</span> <span class="nav-text">总结</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Nolimited-Study"
+      src="/Nolimited-Study.github.io/images/avatar.jpg">
+  <p class="site-author-name" itemprop="name">Nolimited-Study</p>
+  <div class="site-description" itemprop="description">Never too old to learn</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/Nolimited-Study.github.io/archives/">
+        
+          <span class="site-state-item-count">14</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/Nolimited-Study.github.io/categories/">
+          
+        <span class="site-state-item-count">18</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/Nolimited-Study.github.io/tags/">
+          
+        <span class="site-state-item-count">15</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="feed-link motion-element">
+    <a href="/Nolimited-Study.github.io/atom.xml" rel="alternate">
+      <i class="fa fa-rss"></i>RSS
+    </a>
+  </div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/Nolimited-Study" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;Nolimited-Study" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/Nolimited-Study.github.io/1259799181@qq.com" title="E-Mail → 1259799181@qq.com"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://blog.csdn.net/wzh0709zml" title="CSDN → https:&#x2F;&#x2F;blog.csdn.net&#x2F;wzh0709zml" rel="noopener" target="_blank"><i class="fa fa-fw fa-crosshairs"></i>CSDN</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Nolimited-Study</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v4.0.0
+  </div>
+  <span class="post-meta-divider">|</span>
+  <div class="theme-info">主题 – <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.5.0
+  </div>
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="post-meta-item-icon">
+      <i class="fa fa-user"></i>
++   网站总访客数
+    </span>
+    <span class="site-uv" title="总访客量">
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span> 
+    </span>
+  
+
+  
+
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/Nolimited-Study.github.io/lib/anime.min.js"></script>
+  <script src="/Nolimited-Study.github.io/lib/velocity/velocity.min.js"></script>
+  <script src="/Nolimited-Study.github.io/lib/velocity/velocity.ui.min.js"></script>
+<script src="/Nolimited-Study.github.io/js/utils.js"></script><script src="/Nolimited-Study.github.io/js/motion.js"></script>
+<script src="/Nolimited-Study.github.io/js/schemes/pisces.js"></script>
+<script src="/Nolimited-Study.github.io/js/next-boot.js"></script>
+
+
+
+  
+
+
+
+
+  <script src="/Nolimited-Study.github.io/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+<script>
+if (document.querySelectorAll('pre.mermaid').length) {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js', () => {
+    mermaid.initialize({
+      theme: 'neutral',
+      logLevel: 3,
+      flowchart: { curve: 'linear' },
+      gantt: { axisFormat: '%m/%d/%Y' },
+      sequence: { actorMargin: 50 }
+    });
+  }, window.mermaid);
+}
+</script>
+
+
+
+  
+
+  
+
+<script>
+  window.livereOptions = {
+    refer: location.pathname.replace(CONFIG.root, '').replace('index.html', '')
+  };
+  (function(d, s) {
+    var j, e = d.getElementsByTagName(s)[0];
+    if (typeof LivereTower === 'function') { return; }
+    j = d.createElement(s);
+    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+    j.async = true;
+    e.parentNode.insertBefore(j, e);
+  })(document, 'script');
+</script>
+
+
+  
+	<script type="text/javascript"
+		color="0,255,255" opacity='0.6' zIndex="-1" count ="240" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
+
+<script src="/Nolimited-Study.github.io/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/Nolimited-Study.github.io/live2dw/assets/assets/koharu.model.json"},"display":{"position":"right","width":150,"height":300},"react":{"opacity":0.7},"mobile":{"show":true},"log":false});</script></body>
+</html>
