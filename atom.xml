@@ -3,10 +3,10 @@
   <title>Nolimited-Study</title>
   <icon>https://nolimited-study.github.io/icon.png</icon>
   <subtitle>学习无极限</subtitle>
-  <link href="/atom.xml" rel="self"/>
+  <link href="/Nolimited-Study.github.io/atom.xml" rel="self"/>
   
   <link href="https://nolimited-study.github.io/"/>
-  <updated>2020-01-09T08:46:39.771Z</updated>
+  <updated>2020-01-16T08:19:53.147Z</updated>
   <id>https://nolimited-study.github.io/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>信息处理技术员初等数学——设未知数法</title>
+    <link href="https://nolimited-study.github.io/2020/01/16/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%881%EF%BC%895%20%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E5%88%9D%E7%AD%89%E6%95%B0%E5%AD%A6%E2%80%94%E2%80%94%E8%AE%BE%E6%9C%AA%E7%9F%A5%E6%95%B0%E6%B3%95/"/>
+    <id>https://nolimited-study.github.io/2020/01/16/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%881%EF%BC%895%20%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E5%88%9D%E7%AD%89%E6%95%B0%E5%AD%A6%E2%80%94%E2%80%94%E8%AE%BE%E6%9C%AA%E7%9F%A5%E6%95%B0%E6%B3%95/</id>
+    <published>2020-01-16T08:13:33.000Z</published>
+    <updated>2020-01-16T08:19:53.147Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;设未知数是列方程解应用题的重要一环，根据实际应用题的特征、灵活设出未知数，可使解题过程简单快捷。在很多题中，都会运用到设未知数法，因此给大家看一下，并做下练习。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="信息处理技术员" scheme="https://Nolimited-Study.github.io/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/"/>
+    
+      <category term="第01章 信息处理技术基础知识" scheme="https://Nolimited-Study.github.io/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/%E7%AC%AC01%E7%AB%A0-%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
+    
+      <category term="第05节 设未知数法" scheme="https://Nolimited-Study.github.io/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/%E7%AC%AC01%E7%AB%A0-%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E7%AC%AC05%E8%8A%82-%E8%AE%BE%E6%9C%AA%E7%9F%A5%E6%95%B0%E6%B3%95/"/>
+    
+    
+      <category term="信息处理技术员" scheme="https://Nolimited-Study.github.io/tags/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/"/>
+    
+      <category term="初等数学" scheme="https://Nolimited-Study.github.io/tags/%E5%88%9D%E7%AD%89%E6%95%B0%E5%AD%A6/"/>
+    
+  </entry>
+  
+  <entry>
     <title>信息处理技术员——信息安全知识</title>
-    <link href="https://nolimited-study.github.io/2020/01/09/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E2%80%94%E2%80%94%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E7%9F%A5%E8%AF%86/"/>
-    <id>https://nolimited-study.github.io/2020/01/09/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E2%80%94%E2%80%94%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E7%9F%A5%E8%AF%86/</id>
+    <link href="https://nolimited-study.github.io/2020/01/09/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%8811%EF%BC%891%20%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E2%80%94%E2%80%94%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E7%9F%A5%E8%AF%86/"/>
+    <id>https://nolimited-study.github.io/2020/01/09/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%8811%EF%BC%891%20%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E2%80%94%E2%80%94%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E7%9F%A5%E8%AF%86/</id>
     <published>2020-01-09T03:40:12.000Z</published>
-    <updated>2020-01-09T08:46:39.771Z</updated>
+    <updated>2020-01-16T08:20:08.785Z</updated>
     
     <summary type="html">
     
@@ -32,19 +59,23 @@
     
       <category term="信息处理技术员" scheme="https://Nolimited-Study.github.io/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/"/>
     
+      <category term="第11章 信息安全与法律法规" scheme="https://Nolimited-Study.github.io/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/%E7%AC%AC11%E7%AB%A0-%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E4%B8%8E%E6%B3%95%E5%BE%8B%E6%B3%95%E8%A7%84/"/>
     
-      <category term="信息处理技术员" scheme="https://Nolimited-Study.github.io/tags/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/"/>
+      <category term="第01节 信息安全" scheme="https://Nolimited-Study.github.io/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/%E7%AC%AC11%E7%AB%A0-%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E4%B8%8E%E6%B3%95%E5%BE%8B%E6%B3%95%E8%A7%84/%E7%AC%AC01%E8%8A%82-%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8/"/>
+    
     
       <category term="信息安全" scheme="https://Nolimited-Study.github.io/tags/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8/"/>
+    
+      <category term="信息处理技术员" scheme="https://Nolimited-Study.github.io/tags/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/"/>
     
   </entry>
   
   <entry>
     <title>信息处理技术员——信息和数据知识</title>
-    <link href="https://nolimited-study.github.io/2020/01/06/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E2%80%94%E2%80%94%E4%BF%A1%E6%81%AF%E5%92%8C%E6%95%B0%E6%8D%AE/"/>
-    <id>https://nolimited-study.github.io/2020/01/06/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E2%80%94%E2%80%94%E4%BF%A1%E6%81%AF%E5%92%8C%E6%95%B0%E6%8D%AE/</id>
+    <link href="https://nolimited-study.github.io/2020/01/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%881%EF%BC%891%20%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E2%80%94%E2%80%94%E4%BF%A1%E6%81%AF%E5%92%8C%E6%95%B0%E6%8D%AE%E7%9F%A5%E8%AF%86/"/>
+    <id>https://nolimited-study.github.io/2020/01/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%881%EF%BC%891%20%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E2%80%94%E2%80%94%E4%BF%A1%E6%81%AF%E5%92%8C%E6%95%B0%E6%8D%AE%E7%9F%A5%E8%AF%86/</id>
     <published>2020-01-06T06:10:10.000Z</published>
-    <updated>2020-01-06T06:40:51.905Z</updated>
+    <updated>2020-01-16T08:19:18.775Z</updated>
     
     <summary type="html">
     
@@ -55,19 +86,21 @@
     
       <category term="信息处理技术员" scheme="https://Nolimited-Study.github.io/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/"/>
     
+      <category term="第01章 信息处理技术基础知识" scheme="https://Nolimited-Study.github.io/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/%E7%AC%AC01%E7%AB%A0-%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
+    
+      <category term="第01节 信息与信息技术" scheme="https://Nolimited-Study.github.io/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/%E7%AC%AC01%E7%AB%A0-%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E7%AC%AC01%E8%8A%82-%E4%BF%A1%E6%81%AF%E4%B8%8E%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF/"/>
+    
     
       <category term="信息处理技术员" scheme="https://Nolimited-Study.github.io/tags/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/"/>
-    
-      <category term="概念题" scheme="https://Nolimited-Study.github.io/tags/%E6%A6%82%E5%BF%B5%E9%A2%98/"/>
     
   </entry>
   
   <entry>
     <title>信息处理技术员——知识产权和标准化</title>
-    <link href="https://nolimited-study.github.io/2020/01/05/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E2%80%94%E2%80%94%E7%9F%A5%E8%AF%86%E4%BA%A7%E6%9D%83%E5%92%8C%E6%A0%87%E5%87%86%E5%8C%96/"/>
-    <id>https://nolimited-study.github.io/2020/01/05/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E2%80%94%E2%80%94%E7%9F%A5%E8%AF%86%E4%BA%A7%E6%9D%83%E5%92%8C%E6%A0%87%E5%87%86%E5%8C%96/</id>
+    <link href="https://nolimited-study.github.io/2020/01/05/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%8811%EF%BC%892%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E2%80%94%E2%80%94%E7%9F%A5%E8%AF%86%E4%BA%A7%E6%9D%83%E5%92%8C%E6%A0%87%E5%87%86%E5%8C%96/"/>
+    <id>https://nolimited-study.github.io/2020/01/05/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%8811%EF%BC%892%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E2%80%94%E2%80%94%E7%9F%A5%E8%AF%86%E4%BA%A7%E6%9D%83%E5%92%8C%E6%A0%87%E5%87%86%E5%8C%96/</id>
     <published>2020-01-05T13:10:33.000Z</published>
-    <updated>2020-01-06T06:24:27.246Z</updated>
+    <updated>2020-01-16T08:20:15.484Z</updated>
     
     <summary type="html">
     
@@ -78,17 +111,21 @@
     
       <category term="信息处理技术员" scheme="https://Nolimited-Study.github.io/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/"/>
     
+      <category term="第11章 信息安全与法律法规" scheme="https://Nolimited-Study.github.io/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/%E7%AC%AC11%E7%AB%A0-%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E4%B8%8E%E6%B3%95%E5%BE%8B%E6%B3%95%E8%A7%84/"/>
+    
+      <category term="第02节 知识产权与法律法规" scheme="https://Nolimited-Study.github.io/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/%E7%AC%AC11%E7%AB%A0-%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E4%B8%8E%E6%B3%95%E5%BE%8B%E6%B3%95%E8%A7%84/%E7%AC%AC02%E8%8A%82-%E7%9F%A5%E8%AF%86%E4%BA%A7%E6%9D%83%E4%B8%8E%E6%B3%95%E5%BE%8B%E6%B3%95%E8%A7%84/"/>
+    
     
       <category term="信息处理技术员" scheme="https://Nolimited-Study.github.io/tags/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/"/>
     
   </entry>
   
   <entry>
-    <title>信息处理技术员数据统计知识（算数平均数和加权平均数）</title>
-    <link href="https://nolimited-study.github.io/2019/12/26/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E6%95%B0%E6%8D%AE%E7%BB%9F%E8%AE%A1%E7%9F%A5%E8%AF%86%EF%BC%88%E7%AE%97%E6%95%B0%E5%B9%B3%E5%9D%87%E6%95%B0%E5%92%8C%E5%8A%A0%E6%9D%83%E5%B9%B3%E5%9D%87%E6%95%B0%EF%BC%89/"/>
-    <id>https://nolimited-study.github.io/2019/12/26/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E6%95%B0%E6%8D%AE%E7%BB%9F%E8%AE%A1%E7%9F%A5%E8%AF%86%EF%BC%88%E7%AE%97%E6%95%B0%E5%B9%B3%E5%9D%87%E6%95%B0%E5%92%8C%E5%8A%A0%E6%9D%83%E5%B9%B3%E5%9D%87%E6%95%B0%EF%BC%89/</id>
+    <title>信息处理技术员初等数学——算数平均数和加权平均数</title>
+    <link href="https://nolimited-study.github.io/2019/12/26/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%881%EF%BC%893%20%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E5%88%9D%E7%AD%89%E6%95%B0%E5%AD%A6%E2%80%94%E2%80%94%E7%AE%97%E6%95%B0%E5%B9%B3%E5%9D%87%E6%95%B0%E5%92%8C%E5%8A%A0%E6%9D%83%E5%B9%B3%E5%9D%87%E6%95%B0/"/>
+    <id>https://nolimited-study.github.io/2019/12/26/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%881%EF%BC%893%20%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E5%88%9D%E7%AD%89%E6%95%B0%E5%AD%A6%E2%80%94%E2%80%94%E7%AE%97%E6%95%B0%E5%B9%B3%E5%9D%87%E6%95%B0%E5%92%8C%E5%8A%A0%E6%9D%83%E5%B9%B3%E5%9D%87%E6%95%B0/</id>
     <published>2019-12-26T06:44:35.000Z</published>
-    <updated>2020-01-06T02:24:03.934Z</updated>
+    <updated>2020-01-16T08:19:35.872Z</updated>
     
     <summary type="html">
     
@@ -99,19 +136,23 @@
     
       <category term="信息处理技术员" scheme="https://Nolimited-Study.github.io/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/"/>
     
+      <category term="第01章 信息处理技术基础知识" scheme="https://Nolimited-Study.github.io/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/%E7%AC%AC01%E7%AB%A0-%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
+    
+      <category term="第03节 平均数知识" scheme="https://Nolimited-Study.github.io/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/%E7%AC%AC01%E7%AB%A0-%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E7%AC%AC03%E8%8A%82-%E5%B9%B3%E5%9D%87%E6%95%B0%E7%9F%A5%E8%AF%86/"/>
+    
     
       <category term="信息处理技术员" scheme="https://Nolimited-Study.github.io/tags/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/"/>
     
-      <category term="数据统计知识" scheme="https://Nolimited-Study.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%9F%E8%AE%A1%E7%9F%A5%E8%AF%86/"/>
+      <category term="初等数学" scheme="https://Nolimited-Study.github.io/tags/%E5%88%9D%E7%AD%89%E6%95%B0%E5%AD%A6/"/>
     
   </entry>
   
   <entry>
-    <title>信息处理技术员数据统计知识（众数、中位数、方差）</title>
-    <link href="https://nolimited-study.github.io/2019/12/24/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E6%95%B0%E6%8D%AE%E7%BB%9F%E8%AE%A1%E7%9F%A5%E8%AF%86%EF%BC%88%E4%BC%97%E6%95%B0%E3%80%81%E4%B8%AD%E4%BD%8D%E6%95%B0%E3%80%81%E6%96%B9%E5%B7%AE%EF%BC%89/"/>
-    <id>https://nolimited-study.github.io/2019/12/24/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E6%95%B0%E6%8D%AE%E7%BB%9F%E8%AE%A1%E7%9F%A5%E8%AF%86%EF%BC%88%E4%BC%97%E6%95%B0%E3%80%81%E4%B8%AD%E4%BD%8D%E6%95%B0%E3%80%81%E6%96%B9%E5%B7%AE%EF%BC%89/</id>
+    <title>信息处理技术员初等数学-众数、中位数、方差等</title>
+    <link href="https://nolimited-study.github.io/2019/12/24/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%881%EF%BC%892%20%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E5%88%9D%E7%AD%89%E6%95%B0%E5%AD%A6%E2%80%94%E2%80%94%E4%BC%97%E6%95%B0%E3%80%81%E4%B8%AD%E4%BD%8D%E6%95%B0%E3%80%81%E6%96%B9%E5%B7%AE%E7%AD%89/"/>
+    <id>https://nolimited-study.github.io/2019/12/24/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%881%EF%BC%892%20%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E5%88%9D%E7%AD%89%E6%95%B0%E5%AD%A6%E2%80%94%E2%80%94%E4%BC%97%E6%95%B0%E3%80%81%E4%B8%AD%E4%BD%8D%E6%95%B0%E3%80%81%E6%96%B9%E5%B7%AE%E7%AD%89/</id>
     <published>2019-12-24T07:40:40.000Z</published>
-    <updated>2019-12-26T06:49:31.154Z</updated>
+    <updated>2020-01-16T08:19:27.626Z</updated>
     
     <summary type="html">
     
@@ -122,19 +163,23 @@
     
       <category term="信息处理技术员" scheme="https://Nolimited-Study.github.io/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/"/>
     
+      <category term="第01章 信息处理技术基础知识" scheme="https://Nolimited-Study.github.io/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/%E7%AC%AC01%E7%AB%A0-%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
+    
+      <category term="第02节 数据统计知识" scheme="https://Nolimited-Study.github.io/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/%E7%AC%AC01%E7%AB%A0-%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E7%AC%AC02%E8%8A%82-%E6%95%B0%E6%8D%AE%E7%BB%9F%E8%AE%A1%E7%9F%A5%E8%AF%86/"/>
+    
     
       <category term="信息处理技术员" scheme="https://Nolimited-Study.github.io/tags/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/"/>
     
-      <category term="数据统计知识" scheme="https://Nolimited-Study.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%9F%E8%AE%A1%E7%9F%A5%E8%AF%86/"/>
+      <category term="初等数学" scheme="https://Nolimited-Study.github.io/tags/%E5%88%9D%E7%AD%89%E6%95%B0%E5%AD%A6/"/>
     
   </entry>
   
   <entry>
-    <title>信息处理技术员图表题（实施和计划进度判断）</title>
-    <link href="https://nolimited-study.github.io/2019/12/20/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E5%9B%BE%E8%A1%A8%E9%A2%98%EF%BC%88%E5%AE%9E%E6%96%BD%E5%92%8C%E8%AE%A1%E5%88%92%E8%BF%9B%E5%BA%A6%E5%88%A4%E6%96%AD%EF%BC%89/"/>
-    <id>https://nolimited-study.github.io/2019/12/20/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E5%9B%BE%E8%A1%A8%E9%A2%98%EF%BC%88%E5%AE%9E%E6%96%BD%E5%92%8C%E8%AE%A1%E5%88%92%E8%BF%9B%E5%BA%A6%E5%88%A4%E6%96%AD%EF%BC%89/</id>
+    <title>信息处理技术员初等数学——实施和计划进度判断</title>
+    <link href="https://nolimited-study.github.io/2019/12/20/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%881%EF%BC%894%20%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E5%88%9D%E7%AD%89%E6%95%B0%E5%AD%A6%E2%80%94%E2%80%94%E5%AE%9E%E6%96%BD%E5%92%8C%E8%AE%A1%E5%88%92%E8%BF%9B%E5%BA%A6%E5%88%A4%E6%96%AD/"/>
+    <id>https://nolimited-study.github.io/2019/12/20/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%881%EF%BC%894%20%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E5%88%9D%E7%AD%89%E6%95%B0%E5%AD%A6%E2%80%94%E2%80%94%E5%AE%9E%E6%96%BD%E5%92%8C%E8%AE%A1%E5%88%92%E8%BF%9B%E5%BA%A6%E5%88%A4%E6%96%AD/</id>
     <published>2019-12-20T08:40:33.000Z</published>
-    <updated>2019-12-25T06:48:57.161Z</updated>
+    <updated>2020-01-16T08:19:43.675Z</updated>
     
     <summary type="html">
     
@@ -145,17 +190,21 @@
     
       <category term="信息处理技术员" scheme="https://Nolimited-Study.github.io/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/"/>
     
+      <category term="第01章 信息处理技术基础知识" scheme="https://Nolimited-Study.github.io/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/%E7%AC%AC01%E7%AB%A0-%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
+    
+      <category term="第04节 实施和计划进度判断题" scheme="https://Nolimited-Study.github.io/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/%E7%AC%AC01%E7%AB%A0-%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E7%AC%AC04%E8%8A%82-%E5%AE%9E%E6%96%BD%E5%92%8C%E8%AE%A1%E5%88%92%E8%BF%9B%E5%BA%A6%E5%88%A4%E6%96%AD%E9%A2%98/"/>
+    
     
       <category term="信息处理技术员" scheme="https://Nolimited-Study.github.io/tags/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/"/>
     
-      <category term="图表题" scheme="https://Nolimited-Study.github.io/tags/%E5%9B%BE%E8%A1%A8%E9%A2%98/"/>
+      <category term="初等数学" scheme="https://Nolimited-Study.github.io/tags/%E5%88%9D%E7%AD%89%E6%95%B0%E5%AD%A6/"/>
     
   </entry>
   
   <entry>
     <title>office 图标异常解决办法</title>
-    <link href="https://nolimited-study.github.io/2019/12/18/OFFICE%20%E5%9B%BE%E6%A0%87%E5%BC%82%E5%B8%B8%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/"/>
-    <id>https://nolimited-study.github.io/2019/12/18/OFFICE%20%E5%9B%BE%E6%A0%87%E5%BC%82%E5%B8%B8%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</id>
+    <link href="https://nolimited-study.github.io/2019/12/18/WINODWS%202%20OFFICE%20%E5%9B%BE%E6%A0%87%E5%BC%82%E5%B8%B8%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/"/>
+    <id>https://nolimited-study.github.io/2019/12/18/WINODWS%202%20OFFICE%20%E5%9B%BE%E6%A0%87%E5%BC%82%E5%B8%B8%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</id>
     <published>2019-12-18T02:47:07.000Z</published>
     <updated>2019-12-25T07:43:24.499Z</updated>
     
@@ -176,11 +225,11 @@
   </entry>
   
   <entry>
-    <title>Excel中ROUND、ROUNDUP、ROUNDDOWN函数详解</title>
-    <link href="https://nolimited-study.github.io/2019/12/16/Excel%E4%B8%ADROUND%E3%80%81ROUNDUP%E3%80%81ROUNDDOWN%E5%87%BD%E6%95%B0%E8%AF%A6%E8%A7%A3/"/>
-    <id>https://nolimited-study.github.io/2019/12/16/Excel%E4%B8%ADROUND%E3%80%81ROUNDUP%E3%80%81ROUNDDOWN%E5%87%BD%E6%95%B0%E8%AF%A6%E8%A7%A3/</id>
+    <title>信息处理技术员——Excel中ROUND函数详解</title>
+    <link href="https://nolimited-study.github.io/2019/12/16/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%885%EF%BC%891%20%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E2%80%94%E2%80%94Excel%E4%B8%ADROUND%E5%87%BD%E6%95%B0%E8%AF%A6%E8%A7%A3/"/>
+    <id>https://nolimited-study.github.io/2019/12/16/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%885%EF%BC%891%20%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E2%80%94%E2%80%94Excel%E4%B8%ADROUND%E5%87%BD%E6%95%B0%E8%AF%A6%E8%A7%A3/</id>
     <published>2019-12-16T07:21:07.000Z</published>
-    <updated>2019-12-25T07:43:42.034Z</updated>
+    <updated>2020-01-16T08:20:01.259Z</updated>
     
     <summary type="html">
     
@@ -191,19 +240,23 @@
     
       <category term="信息处理技术员" scheme="https://Nolimited-Study.github.io/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/"/>
     
+      <category term="第05章 电子表格处理" scheme="https://Nolimited-Study.github.io/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/%E7%AC%AC05%E7%AB%A0-%E7%94%B5%E5%AD%90%E8%A1%A8%E6%A0%BC%E5%A4%84%E7%90%86/"/>
     
-      <category term="EXCEL" scheme="https://Nolimited-Study.github.io/tags/EXCEL/"/>
+      <category term="第01节 函数部分" scheme="https://Nolimited-Study.github.io/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/%E7%AC%AC05%E7%AB%A0-%E7%94%B5%E5%AD%90%E8%A1%A8%E6%A0%BC%E5%A4%84%E7%90%86/%E7%AC%AC01%E8%8A%82-%E5%87%BD%E6%95%B0%E9%83%A8%E5%88%86/"/>
+    
     
       <category term="信息处理技术员" scheme="https://Nolimited-Study.github.io/tags/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/"/>
+    
+      <category term="EXCEL" scheme="https://Nolimited-Study.github.io/tags/EXCEL/"/>
     
   </entry>
   
   <entry>
     <title>相册型PPT制作指导</title>
-    <link href="https://nolimited-study.github.io/2019/12/16/%E7%9B%B8%E5%86%8C%E5%9E%8BPPT%E5%88%B6%E4%BD%9C%E6%8C%87%E5%AF%BC/"/>
-    <id>https://nolimited-study.github.io/2019/12/16/%E7%9B%B8%E5%86%8C%E5%9E%8BPPT%E5%88%B6%E4%BD%9C%E6%8C%87%E5%AF%BC/</id>
+    <link href="https://nolimited-study.github.io/2019/12/16/%E5%8A%9E%E5%85%AC%E8%BD%AF%E4%BB%B6%EF%BC%883%EF%BC%891%20%E7%9B%B8%E5%86%8C%E5%9E%8BPPT%E5%88%B6%E4%BD%9C%E6%8C%87%E5%AF%BC/"/>
+    <id>https://nolimited-study.github.io/2019/12/16/%E5%8A%9E%E5%85%AC%E8%BD%AF%E4%BB%B6%EF%BC%883%EF%BC%891%20%E7%9B%B8%E5%86%8C%E5%9E%8BPPT%E5%88%B6%E4%BD%9C%E6%8C%87%E5%AF%BC/</id>
     <published>2019-12-16T01:47:07.000Z</published>
-    <updated>2019-12-25T07:44:45.664Z</updated>
+    <updated>2020-01-10T06:53:32.616Z</updated>
     
     <summary type="html">
     
@@ -214,6 +267,8 @@
     
       <category term="办公软件" scheme="https://Nolimited-Study.github.io/categories/%E5%8A%9E%E5%85%AC%E8%BD%AF%E4%BB%B6/"/>
     
+      <category term="第三章 PPT部分" scheme="https://Nolimited-Study.github.io/categories/%E5%8A%9E%E5%85%AC%E8%BD%AF%E4%BB%B6/%E7%AC%AC%E4%B8%89%E7%AB%A0-PPT%E9%83%A8%E5%88%86/"/>
+    
     
       <category term="PPT使用" scheme="https://Nolimited-Study.github.io/tags/PPT%E4%BD%BF%E7%94%A8/"/>
     
@@ -223,10 +278,10 @@
   
   <entry>
     <title>hexo优化：Markdown语法引入Flowchart和Mermaid流程图</title>
-    <link href="https://nolimited-study.github.io/2019/11/29/hexo%E4%BC%98%E5%8C%96%EF%BC%9AMarkdown%E8%AF%AD%E6%B3%95%E5%BC%95%E5%85%A5Flowchart%E5%92%8CMermaid%E6%B5%81%E7%A8%8B%E5%9B%BE/"/>
-    <id>https://nolimited-study.github.io/2019/11/29/hexo%E4%BC%98%E5%8C%96%EF%BC%9AMarkdown%E8%AF%AD%E6%B3%95%E5%BC%95%E5%85%A5Flowchart%E5%92%8CMermaid%E6%B5%81%E7%A8%8B%E5%9B%BE/</id>
+    <link href="https://nolimited-study.github.io/2019/11/29/%E9%9A%8F%E7%AC%94%202%20hexo%E4%BC%98%E5%8C%96%EF%BC%9AMarkdown%E8%AF%AD%E6%B3%95%E5%BC%95%E5%85%A5Flowchart%E5%92%8CMermaid%E6%B5%81%E7%A8%8B%E5%9B%BE/"/>
+    <id>https://nolimited-study.github.io/2019/11/29/%E9%9A%8F%E7%AC%94%202%20hexo%E4%BC%98%E5%8C%96%EF%BC%9AMarkdown%E8%AF%AD%E6%B3%95%E5%BC%95%E5%85%A5Flowchart%E5%92%8CMermaid%E6%B5%81%E7%A8%8B%E5%9B%BE/</id>
     <published>2019-11-29T09:16:07.000Z</published>
-    <updated>2019-12-25T07:51:40.548Z</updated>
+    <updated>2020-01-16T07:48:26.134Z</updated>
     
     <summary type="html">
     
@@ -235,21 +290,19 @@
     </summary>
     
     
-      <category term="HEXO博客" scheme="https://Nolimited-Study.github.io/categories/HEXO%E5%8D%9A%E5%AE%A2/"/>
+      <category term="随笔" scheme="https://Nolimited-Study.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
       <category term="HEXO博客" scheme="https://Nolimited-Study.github.io/tags/HEXO%E5%8D%9A%E5%AE%A2/"/>
-    
-      <category term="流程图" scheme="https://Nolimited-Study.github.io/tags/%E6%B5%81%E7%A8%8B%E5%9B%BE/"/>
     
   </entry>
   
   <entry>
     <title>C语言基础课程（1）——hello world程序理解</title>
-    <link href="https://nolimited-study.github.io/2019/11/28/C%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E8%AF%BE%E7%A8%8B%EF%BC%881%EF%BC%89%E2%80%94%E2%80%94hello%20world%E7%A8%8B%E5%BA%8F%E7%90%86%E8%A7%A3/"/>
-    <id>https://nolimited-study.github.io/2019/11/28/C%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E8%AF%BE%E7%A8%8B%EF%BC%881%EF%BC%89%E2%80%94%E2%80%94hello%20world%E7%A8%8B%E5%BA%8F%E7%90%86%E8%A7%A3/</id>
+    <link href="https://nolimited-study.github.io/2019/11/28/C%E8%AF%AD%E8%A8%80%EF%BC%881%EF%BC%891/"/>
+    <id>https://nolimited-study.github.io/2019/11/28/C%E8%AF%AD%E8%A8%80%EF%BC%881%EF%BC%891/</id>
     <published>2019-11-28T14:06:07.000Z</published>
-    <updated>2019-12-25T07:37:54.057Z</updated>
+    <updated>2020-01-16T08:20:52.453Z</updated>
     
     <summary type="html">
     
@@ -260,6 +313,8 @@
     
       <category term="C语言" scheme="https://Nolimited-Study.github.io/categories/C%E8%AF%AD%E8%A8%80/"/>
     
+      <category term="第01章" scheme="https://Nolimited-Study.github.io/categories/C%E8%AF%AD%E8%A8%80/%E7%AC%AC01%E7%AB%A0/"/>
+    
     
       <category term="C语言" scheme="https://Nolimited-Study.github.io/tags/C%E8%AF%AD%E8%A8%80/"/>
     
@@ -267,10 +322,10 @@
   
   <entry>
     <title>Word 添加横线技巧</title>
-    <link href="https://nolimited-study.github.io/2019/11/28/Word-%E6%B7%BB%E5%8A%A0%E6%A8%AA%E7%BA%BF%E6%8A%80%E5%B7%A7/"/>
-    <id>https://nolimited-study.github.io/2019/11/28/Word-%E6%B7%BB%E5%8A%A0%E6%A8%AA%E7%BA%BF%E6%8A%80%E5%B7%A7/</id>
+    <link href="https://nolimited-study.github.io/2019/11/28/%E5%8A%9E%E5%85%AC%E8%BD%AF%E4%BB%B6%EF%BC%881%EF%BC%891%20Word-%E6%B7%BB%E5%8A%A0%E6%A8%AA%E7%BA%BF%E6%8A%80%E5%B7%A7/"/>
+    <id>https://nolimited-study.github.io/2019/11/28/%E5%8A%9E%E5%85%AC%E8%BD%AF%E4%BB%B6%EF%BC%881%EF%BC%891%20Word-%E6%B7%BB%E5%8A%A0%E6%A8%AA%E7%BA%BF%E6%8A%80%E5%B7%A7/</id>
     <published>2019-11-28T09:06:07.000Z</published>
-    <updated>2020-01-03T01:46:38.983Z</updated>
+    <updated>2020-01-10T06:53:43.662Z</updated>
     
     <summary type="html">
     
@@ -281,6 +336,8 @@
     
       <category term="办公软件" scheme="https://Nolimited-Study.github.io/categories/%E5%8A%9E%E5%85%AC%E8%BD%AF%E4%BB%B6/"/>
     
+      <category term="第一章 WORD部分" scheme="https://Nolimited-Study.github.io/categories/%E5%8A%9E%E5%85%AC%E8%BD%AF%E4%BB%B6/%E7%AC%AC%E4%B8%80%E7%AB%A0-WORD%E9%83%A8%E5%88%86/"/>
+    
     
       <category term="WORD技巧" scheme="https://Nolimited-Study.github.io/tags/WORD%E6%8A%80%E5%B7%A7/"/>
     
@@ -290,8 +347,8 @@
   
   <entry>
     <title>多种截图方式以及如何截取右键菜单？</title>
-    <link href="https://nolimited-study.github.io/2019/11/27/%E5%A4%9A%E7%A7%8D%E6%88%AA%E5%9B%BE%E6%96%B9%E5%BC%8F%E4%BB%A5%E5%8F%8A%E5%A6%82%E4%BD%95%E6%88%AA%E5%8F%96%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%EF%BC%9F/"/>
-    <id>https://nolimited-study.github.io/2019/11/27/%E5%A4%9A%E7%A7%8D%E6%88%AA%E5%9B%BE%E6%96%B9%E5%BC%8F%E4%BB%A5%E5%8F%8A%E5%A6%82%E4%BD%95%E6%88%AA%E5%8F%96%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%EF%BC%9F/</id>
+    <link href="https://nolimited-study.github.io/2019/11/27/WINDOWS%201%20%E5%A4%9A%E7%A7%8D%E6%88%AA%E5%9B%BE%E6%96%B9%E5%BC%8F%E4%BB%A5%E5%8F%8A%E5%A6%82%E4%BD%95%E6%88%AA%E5%8F%96%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%EF%BC%9F/"/>
+    <id>https://nolimited-study.github.io/2019/11/27/WINDOWS%201%20%E5%A4%9A%E7%A7%8D%E6%88%AA%E5%9B%BE%E6%96%B9%E5%BC%8F%E4%BB%A5%E5%8F%8A%E5%A6%82%E4%BD%95%E6%88%AA%E5%8F%96%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%EF%BC%9F/</id>
     <published>2019-11-27T11:06:07.000Z</published>
     <updated>2019-12-25T07:46:35.843Z</updated>
     
@@ -313,8 +370,8 @@
   
   <entry>
     <title>我的第一篇博客</title>
-    <link href="https://nolimited-study.github.io/2019/11/27/hello-world/"/>
-    <id>https://nolimited-study.github.io/2019/11/27/hello-world/</id>
+    <link href="https://nolimited-study.github.io/2019/11/27/%E9%9A%8F%E7%AC%94%201%20hello-world/"/>
+    <id>https://nolimited-study.github.io/2019/11/27/%E9%9A%8F%E7%AC%94%201%20hello-world/</id>
     <published>2019-11-27T04:22:07.000Z</published>
     <updated>2019-12-25T07:40:01.279Z</updated>
     

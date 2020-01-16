@@ -1,8 +1,210 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>信息处理技术员初等数学——设未知数法</title>
+    <url>/Nolimited-Study.github.io/2020/01/16/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%881%EF%BC%895%20%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E5%88%9D%E7%AD%89%E6%95%B0%E5%AD%A6%E2%80%94%E2%80%94%E8%AE%BE%E6%9C%AA%E7%9F%A5%E6%95%B0%E6%B3%95/</url>
+    <content><![CDATA[<p>设未知数是列方程解应用题的重要一环，根据实际应用题的特征、灵活设出未知数，可使解题过程简单快捷。在很多题中，都会运用到设未知数法，因此给大家看一下，并做下练习。</p>
+<a id="more"></a>
+
+<p>对于未知数的求解，举两个例子：</p>
+<h2 id="一元一次方程求解过程"><a href="#一元一次方程求解过程" class="headerlink" title="一元一次方程求解过程"></a>一元一次方程求解过程</h2><p>先看一元一次方程的：<br>$$<br>3x-5×(x-3)=-\frac{11}{8} x<br>$$<br>求解过程：<br>$$<br>\begin{align*}</p>
+<p>3x-5×(x-3)&amp; =-\frac{11}{8} x\<br>解：\quad\quad\quad\quad<br> 8×[3x-5×(x-3)]&amp;=-11x\quad\quad（等式两边同乘以8）\<br> 24x-40×(x-3)&amp;=-11x\quad\quad（8分别乘以方括号内的值）\<br> -16x+120&amp;=-11x\quad\quad（内并同类项）\<br>120&amp;=\quad5x\quad\quad\quad（等式两边同时加上16x）\<br> x&amp;= \quad 24<br>\end{align*}<br>$$</p>
+<h2 id="二元一次方程组求解过程"><a href="#二元一次方程组求解过程" class="headerlink" title="二元一次方程组求解过程"></a>二元一次方程组求解过程</h2><p>然后看一个二元一次方程组的求解：<br>$$<br>\begin{cases}<br>2x+3y=10\<br>3x+4y=14\<br>\end{cases}<br>$$<br>求解过程：<br>$$<br>\begin{align<em>}<br>\begin{cases}<br>2x+3y=10\quad……\quad①\<br>3x+4y=14\quad……\quad②\<br>\end{cases}<br>\end{align</em>}<br>$$</p>
+<p>①式×3，②式×2，（这个过程是为了消除一个变量，故让x或y前面的系数变成相同即可）得：<br>$$<br>\begin{align<em>}<br> \begin{cases}<br> 6x+9y=30\quad……\quad①\<br> 6x+8y=28\quad……\quad②\<br> \end{cases}<br> \end{align</em>}<br>$$<br>再两者相减，得：<br>$$<br>y=2<br>$$<br>代入①式或者②式，可以得：<br>$$<br>x=2<br>$$<br>因此：<br>$$<br>\begin{cases}x=2\y=2\\end{cases}<br>$$</p>
+<h2 id="例题-1"><a href="#例题-1" class="headerlink" title="例题 1"></a>例题 1</h2><p><strong>2010年上半年试题6</strong></p>
+<p>某种考试共有75个试题，每对一题得2分，每错一题扣1分。某考生最后的分数是54分，则该考生共做对（  ）题。</p>
+<p>A．50 </p>
+<p>B．32</p>
+<p>C．43</p>
+<p>D．22</p>
+<h3 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h3><p>设该考生共做对x题，根据题意有：<br>$$<br>2 × x - ( 75 - x ) × 1 = 54<br>$$<br>则</p>
+<p>解得：<br>$$<br>x=43<br>$$<br>故该考生共做对43题。</p>
+<h3 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h3><p>设该考生共做错x题，根据题意有：<br>$$<br>2 × ( 75 - x ) -  x× 1 = 54<br>$$<br>则</p>
+<p>$$<br>150-3x=54<br>$$</p>
+<p>解得：<br>$$<br>x=32<br>$$<br>故该考生共做错32题，则做对75-32=43题。</p>
+<p>故 此题答案为C。</p>
+<p>对于这种题，通常都有很多种办法，大家在做题的时候关键就是找等式，然后如果一个未知数不好求解的时候，就用多个。</p>
+<h2 id="例题-2"><a href="#例题-2" class="headerlink" title="例题 2"></a>例题 2</h2><p><strong>2018年上半年试题5</strong></p>
+<p>某工厂共40人参加技能考核，平均成绩80分，其中男工平均成绩83分，女工平均成绩78分。该工厂参加技能考核的女工有（    ）人。</p>
+<p>A．16</p>
+<p>B．18</p>
+<p>C．20</p>
+<p>D．24</p>
+<h3 id="方法一-1"><a href="#方法一-1" class="headerlink" title="方法一"></a>方法一</h3><p>设男工x人，女工人数就是40-x人。</p>
+<p>那么有：<br>$$<br>40×80=83×x+78×(40-x)<br>$$<br>得：<br>$$<br>x=16<br>$$<br>那么女工人数是40-16=24人。 </p>
+<h3 id="方法二-1"><a href="#方法二-1" class="headerlink" title="方法二"></a>方法二</h3><p>设男工x人，女工人数y人。</p>
+<p>则有：<br>$$<br>\begin{align<em>}<br> \begin{cases}<br>x+y=40\<br>83×x+78×y=40×80<br> \end{cases}<br> \end{align</em>}<br>$$<br>得到：<br>$$<br>\begin{align<em>}<br> \begin{cases}<br>x=16\<br>y=24<br> \end{cases}<br> \end{align</em>}<br>$$<br>故 此题答案为D。</p>
+<h2 id="综合练习"><a href="#综合练习" class="headerlink" title="综合练习"></a>综合练习</h2><h3 id="练习题-1"><a href="#练习题-1" class="headerlink" title="练习题 1"></a>练习题 1</h3><p><strong>2016年上半年试题5</strong></p>
+<p>某种商品若按标价出售，相比进价成本每件可获利50%，若按标价的8折出售，则每件可获利（ ）。</p>
+<p>A． 20%</p>
+<p>B． 25%</p>
+<p>C． 30%</p>
+<p>D． 40%</p>
+<details style="color:blue;">
+<summary>展开查看解析和答案</summary>
+<br>
+分析：<br>
+第一种办法：设该种商品进价为a元，则标价为a（1+50%）=1.5a元。标价的8折为0.8*1.5a=1.2a元，相比进价获利（1.2a-1a）/a=20%。<br>
+第二种办法：假设该种商品进价为100元，相比进价每件可获利50%，则标价为150元。标价的8折为0.8*150=120元，相比进价获利（120-100）/100=20%。<br>   
+答案：A
+</details>
+
+<h3 id="练习题-2"><a href="#练习题-2" class="headerlink" title="练习题 2"></a>练习题 2</h3><p><strong>2017年下半年试题6</strong></p>
+<p>某人以9折后又以 2%折扣买了台电脑，实际花了 4410 元，则其原价为（ ）元。</p>
+<p>A．4950 </p>
+<p>B．4990</p>
+<p>C．5000</p>
+<p>D．5010</p>
+<details style="color:blue;">
+<summary>展开查看解析和答案</summary>
+<br>
+分析：<br>
+设电脑价格为x元，则 0.9x*（1-2%）=4410，则x=5000<br>   
+答案：C
+</details>
+
+<h3 id="练习题-3"><a href="#练习题-3" class="headerlink" title="练习题 3"></a>练习题 3</h3><p><strong>2018年下半年试题6</strong></p>
+<p>某商场购进了一批洗衣机，加价25%销售了60%后，在此基础上再打8折销完，则这批洗衣机的总销售收入相对于进价总额的利润率为（ ）。 </p>
+<p>A．15%</p>
+<p>B．17. 5%  </p>
+<p>C．20%</p>
+<p>D．22. 5%</p>
+<details style="color:blue;">
+<summary>展开查看解析和答案</summary>
+<br>
+分析：<br>
+假设进价x元，产品总数量是y件，那么总销售额就是：125%*x*60%*y+125%*x*80%*40%*y =1.15xy，那么利润就是：0.15xy，利润率是：0.15，即15%。 <br>   
+答案：A
+</details>
+
+
+
+<h3 id="练习题-4"><a href="#练习题-4" class="headerlink" title="练习题 4"></a>练习题 4</h3><p><strong>2014年上半年试题6</strong></p>
+<p>甲买了3条围巾、7条布带和1条毛巾，共花了32元。乙买了同样的4条围巾、10条布带和1条毛巾，共花了43元。丙欲买同样的围巾、布带和毛巾各一条，需要（  ）元。</p>
+<p>A．10</p>
+<p>B．11</p>
+<p>C．17</p>
+<p>D．21</p>
+<details style="color:blue;">
+<summary>展开查看解析和答案</summary>
+<br>
+分析：<br>
+设围巾、布带和毛巾的单价分别为 a、b 和c，根据题意，3a+7b+c=32 ①，4a+10b+c=43 ②<br>
+    ②-①得 a+3b=11，所以3a+9b=33 ③<br>
+②-③得 a+b+c=10 。<br>   
+答案：A 
+</details>
+
+<h3 id="练习题-5"><a href="#练习题-5" class="headerlink" title="练习题 5"></a>练习题 5</h3><p><strong>2010年上半年试题4</strong></p>
+<p>某班级有学生60名，语文平均成绩为85分，按成绩将学生划分为优秀和非优秀，优秀学生的平均成绩为90分，非优秀学生的平均成绩为75分，则优秀学生的人数是（  ）。</p>
+<p>A．15                 </p>
+<p>B．20                  </p>
+<p>C．30                  </p>
+<p>D．40</p>
+<details style="color:blue;">
+<summary>展开查看解析和答案</summary>
+<br>
+分析：<br>
+设优秀学生的人数为X人，则非优秀学生的人数为(60-X)人，根据题意有：[90×X+(60-X)×75]/60=85解得：X=40。故优秀学生的人数即为40人。<br>   
+答案：D
+</details>
+
+
+
+<h3 id="练习题-6"><a href="#练习题-6" class="headerlink" title="练习题 6"></a>练习题 6</h3><p><strong>2012年下半年试题6</strong></p>
+<p>某私企老板说，由于企业还债，二月份每个员工的待遇将比一月份减少20%，但三 月份、四月份将分别比上月增加10%。因此，与一月份相比，四月份的待遇（  ）。</p>
+<p>A．得到了恢复        </p>
+<p>B．增加了1.6%         </p>
+<p>C．减少了1.6%         </p>
+<p>D．减少了3.2%</p>
+<details style="color:blue;">
+<summary>展开查看解析和答案</summary>
+<br>
+分析：<br>
+设一月份某员工的待遇D，则二月份的待遇为(1-20%)D=0.8D。三月份的待遇 为(1+10%)*0.8D=0.88D。四月份的待遇为(1+10%)*0.88D=0.968D=(1-3.2%)D，比 一月份的待遇减少了3.2%。<br>   
+答案：D
+</details>
+
+<h3 id="练习题-7"><a href="#练习题-7" class="headerlink" title="练习题 7"></a>练习题 7</h3><p><strong>2012年上半年试题5</strong></p>
+<p>某企业2月份的销售额比1月份增加了10%， 3月份的销售额比2月份减少了 10%， 因此，3月份的销售额比1月份（  ）。</p>
+<p>A．减少了 1%        </p>
+<p>B．没有变化        </p>
+<p>C．增加了 1%        </p>
+<p>D．改变了 0.5%</p>
+<details style="color:blue;">
+<summary>展开查看解析和答案</summary>
+<br>
+分析：<br>设1月份的销售额为a，则2月份的销售额增加了10%，为(1+10%)a=1.1a。3月份的销售额比2月份减少了 10%，为(1-10%)*1.1a=0.9*1.1a=0.99=(1-1%)a。因此，3 月份的销售额比1月份减少了1%。<br>   
+答案：A
+</details>
+
+<h3 id="练习题-8"><a href="#练习题-8" class="headerlink" title="练习题 8"></a>练习题 8</h3><p><strong>2011年上半年试题31</strong></p>
+<p>某商店内的一件衣服，第一天按原价出售，没有人买；第二天打八折，还是没有人买；第三天在折扣的基础上再降价24元，终于售出。已知实际售出价是原价的56%，则原价是（  ）。</p>
+<p>A．33 元                 </p>
+<p>B．67 元                 </p>
+<p>C．80 元                 </p>
+<p>D．100 元</p>
+<details style="color:blue;">
+<summary>展开查看解析和答案</summary>
+<br>
+分析：<br>
+设该衣服的原价是X元，则0.8X-24=0.56X，所以X=100元。<br>   
+答案：D
+</details>
+
+
+
+<h3 id="练习题-9"><a href="#练习题-9" class="headerlink" title="练习题 9"></a>练习题 9</h3><p><strong>2010年下半年试题17</strong></p>
+<p>某玩具厂5个月内生产熊猫玩具的产量统计如下。一、二月的产量相同，则一、二月的产量为（  ）。 </p>
+<table>
+<thead>
+<tr>
+<th>月份</th>
+<th>一月</th>
+<th>二月</th>
+<th>三月</th>
+<th>四月</th>
+<th>五月</th>
+<th>每月平均产量</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>产量（只）</td>
+<td></td>
+<td></td>
+<td>1025</td>
+<td>1230</td>
+<td>1643</td>
+<td>1210</td>
+</tr>
+</tbody></table>
+<p>A．1076                </p>
+<p>B．1025                </p>
+<p>C．1230                </p>
+<p>D．1643</p>
+<details style="color:blue;">
+<summary>展开查看解析和答案</summary>
+<br>
+分析：<br>
+假设一月的产量为X，根据题意有：(X+X+1025+1230+1643)/5=1210，可解得X=1076。<br>   
+答案：A 
+</details>
+
+<p>OK，基本上每年都出了这种类型的题，大家多做练习，加紧掌握。好的，今天的讲解就到这里啦，祝大家考试顺利~</p>
+]]></content>
+      <categories>
+        <category>信息处理技术员</category>
+        <category>第01章 信息处理技术基础知识</category>
+        <category>第05节 设未知数法</category>
+      </categories>
+      <tags>
+        <tag>信息处理技术员</tag>
+        <tag>初等数学</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>信息处理技术员——信息安全知识</title>
-    <url>/2020/01/09/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E2%80%94%E2%80%94%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E7%9F%A5%E8%AF%86/</url>
+    <url>/Nolimited-Study.github.io/2020/01/09/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%8811%EF%BC%891%20%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E2%80%94%E2%80%94%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E7%9F%A5%E8%AF%86/</url>
     <content><![CDATA[<p>在信息处理技术员考试中，会考到信息安全的一些基础知识，主要包括信息安全的常见措施、保护信息的哪些方面，病毒的知识等。因此，给大家搜集了一下历年考题，帮助大家熟悉这块知识点，能够更好地通过考试。后面还加了几道题，可以再做下题，看是否已经掌握。</p>
 <a id="more"></a>
 
@@ -342,15 +544,17 @@
 ]]></content>
       <categories>
         <category>信息处理技术员</category>
+        <category>第11章 信息安全与法律法规</category>
+        <category>第01节 信息安全</category>
       </categories>
       <tags>
-        <tag>信息处理技术员</tag>
         <tag>信息安全</tag>
+        <tag>信息处理技术员</tag>
       </tags>
   </entry>
   <entry>
     <title>信息处理技术员——信息和数据知识</title>
-    <url>/2020/01/06/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E2%80%94%E2%80%94%E4%BF%A1%E6%81%AF%E5%92%8C%E6%95%B0%E6%8D%AE/</url>
+    <url>/Nolimited-Study.github.io/2020/01/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%881%EF%BC%891%20%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E2%80%94%E2%80%94%E4%BF%A1%E6%81%AF%E5%92%8C%E6%95%B0%E6%8D%AE%E7%9F%A5%E8%AF%86/</url>
     <content><![CDATA[<p>在信息处理技术员考试中，信息和数据是我们考试当中的重点内容，因此，给大家总结了一些考试重点，帮助大家熟悉这块知识点，能够更好地通过考试。后面还加了几道练习题，看是否已经掌握。</p>
 <a id="more"></a>
 
@@ -769,15 +973,16 @@
 ]]></content>
       <categories>
         <category>信息处理技术员</category>
+        <category>第01章 信息处理技术基础知识</category>
+        <category>第01节 信息与信息技术</category>
       </categories>
       <tags>
         <tag>信息处理技术员</tag>
-        <tag>概念题</tag>
       </tags>
   </entry>
   <entry>
     <title>信息处理技术员——知识产权和标准化</title>
-    <url>/2020/01/05/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E2%80%94%E2%80%94%E7%9F%A5%E8%AF%86%E4%BA%A7%E6%9D%83%E5%92%8C%E6%A0%87%E5%87%86%E5%8C%96/</url>
+    <url>/Nolimited-Study.github.io/2020/01/05/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%8811%EF%BC%892%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E2%80%94%E2%80%94%E7%9F%A5%E8%AF%86%E4%BA%A7%E6%9D%83%E5%92%8C%E6%A0%87%E5%87%86%E5%8C%96/</url>
     <content><![CDATA[<p>在信息处理技术员考试中，一般会有2题左右的知识产权和标准化知识，因此我们稍微来看下相关的一些知识点，并做下这一块的练习。</p>
 <a id="more"></a>
 
@@ -1038,17 +1243,20 @@ ISO是国际标准化组织。<br>
 答案：A
 </details
 这一个知识点的内容相对比较集中，就总结到这里啦！大家加油！
+
 ]]></content>
       <categories>
         <category>信息处理技术员</category>
+        <category>第11章 信息安全与法律法规</category>
+        <category>第02节 知识产权与法律法规</category>
       </categories>
       <tags>
         <tag>信息处理技术员</tag>
       </tags>
   </entry>
   <entry>
-    <title>信息处理技术员数据统计知识（算数平均数和加权平均数）</title>
-    <url>/2019/12/26/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E6%95%B0%E6%8D%AE%E7%BB%9F%E8%AE%A1%E7%9F%A5%E8%AF%86%EF%BC%88%E7%AE%97%E6%95%B0%E5%B9%B3%E5%9D%87%E6%95%B0%E5%92%8C%E5%8A%A0%E6%9D%83%E5%B9%B3%E5%9D%87%E6%95%B0%EF%BC%89/</url>
+    <title>信息处理技术员初等数学——算数平均数和加权平均数</title>
+    <url>/Nolimited-Study.github.io/2019/12/26/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%881%EF%BC%893%20%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E5%88%9D%E7%AD%89%E6%95%B0%E5%AD%A6%E2%80%94%E2%80%94%E7%AE%97%E6%95%B0%E5%B9%B3%E5%9D%87%E6%95%B0%E5%92%8C%E5%8A%A0%E6%9D%83%E5%B9%B3%E5%9D%87%E6%95%B0/</url>
     <content><![CDATA[<p>﻿﻿在信息处理技术员考试中，经常会考到数据统计知识，像算数平均数和加权平均数是常见的一种考试内容。因此，这一次我们来看下这些概念和常见的题型。</p>
 <a id="more"></a>
 
@@ -1234,15 +1442,17 @@ ISO是国际标准化组织。<br>
 ]]></content>
       <categories>
         <category>信息处理技术员</category>
+        <category>第01章 信息处理技术基础知识</category>
+        <category>第03节 平均数知识</category>
       </categories>
       <tags>
         <tag>信息处理技术员</tag>
-        <tag>数据统计知识</tag>
+        <tag>初等数学</tag>
       </tags>
   </entry>
   <entry>
-    <title>信息处理技术员数据统计知识（众数、中位数、方差）</title>
-    <url>/2019/12/24/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E6%95%B0%E6%8D%AE%E7%BB%9F%E8%AE%A1%E7%9F%A5%E8%AF%86%EF%BC%88%E4%BC%97%E6%95%B0%E3%80%81%E4%B8%AD%E4%BD%8D%E6%95%B0%E3%80%81%E6%96%B9%E5%B7%AE%EF%BC%89/</url>
+    <title>信息处理技术员初等数学-众数、中位数、方差等</title>
+    <url>/Nolimited-Study.github.io/2019/12/24/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%881%EF%BC%892%20%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E5%88%9D%E7%AD%89%E6%95%B0%E5%AD%A6%E2%80%94%E2%80%94%E4%BC%97%E6%95%B0%E3%80%81%E4%B8%AD%E4%BD%8D%E6%95%B0%E3%80%81%E6%96%B9%E5%B7%AE%E7%AD%89/</url>
     <content><![CDATA[<p>﻿在信息处理技术员考试中，经常会考到数据统计知识，除了像图表、抽样调查等知识，还会考查到众数、中位数等内容。另外，还有方差、标准差的概念考查。因此，这一次我们来看下这些概念和常见的题型。</p>
 <a id="more"></a>
 
@@ -1354,15 +1564,17 @@ ISO是国际标准化组织。<br>
 ]]></content>
       <categories>
         <category>信息处理技术员</category>
+        <category>第01章 信息处理技术基础知识</category>
+        <category>第02节 数据统计知识</category>
       </categories>
       <tags>
         <tag>信息处理技术员</tag>
-        <tag>数据统计知识</tag>
+        <tag>初等数学</tag>
       </tags>
   </entry>
   <entry>
-    <title>信息处理技术员图表题（实施和计划进度判断）</title>
-    <url>/2019/12/20/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E5%9B%BE%E8%A1%A8%E9%A2%98%EF%BC%88%E5%AE%9E%E6%96%BD%E5%92%8C%E8%AE%A1%E5%88%92%E8%BF%9B%E5%BA%A6%E5%88%A4%E6%96%AD%EF%BC%89/</url>
+    <title>信息处理技术员初等数学——实施和计划进度判断</title>
+    <url>/Nolimited-Study.github.io/2019/12/20/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%881%EF%BC%894%20%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E5%88%9D%E7%AD%89%E6%95%B0%E5%AD%A6%E2%80%94%E2%80%94%E5%AE%9E%E6%96%BD%E5%92%8C%E8%AE%A1%E5%88%92%E8%BF%9B%E5%BA%A6%E5%88%A4%E6%96%AD/</url>
     <content><![CDATA[<p>在信息处理技术员考试中，图表题中经常考查的是实施进度和计划进度的快慢判断情况，因此，给大家搜集了一下历年考题，帮助大家熟悉这块知识点，能够更好地通过考试。后面还加了几道题，可以再做下题，看是否已经掌握。</p>
 <a id="more"></a>
 
@@ -1444,15 +1656,17 @@ ISO是国际标准化组织。<br>
 ]]></content>
       <categories>
         <category>信息处理技术员</category>
+        <category>第01章 信息处理技术基础知识</category>
+        <category>第04节 实施和计划进度判断题</category>
       </categories>
       <tags>
         <tag>信息处理技术员</tag>
-        <tag>图表题</tag>
+        <tag>初等数学</tag>
       </tags>
   </entry>
   <entry>
     <title>office 图标异常解决办法</title>
-    <url>/2019/12/18/OFFICE%20%E5%9B%BE%E6%A0%87%E5%BC%82%E5%B8%B8%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</url>
+    <url>/Nolimited-Study.github.io/2019/12/18/WINODWS%202%20OFFICE%20%E5%9B%BE%E6%A0%87%E5%BC%82%E5%B8%B8%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</url>
     <content><![CDATA[<p>﻿有的时候我们安装好Office办公软件之后，或者安装了WPS之后，可能会导致Office图标出现异常，那么应该怎么办呢？以下提供几种方式供大家参考，希望能解决你的问题~</p>
 <a id="more"></a>
 <p><img src="https://img-blog.csdnimg.cn/20191218100121932.png" alt="在这里插入图片描述"><br>ps：我的系统是windows 7，然后使用的办公软件是Microsoft Office 2010，如果版本不同，也可以有一定的借鉴意义。</p>
@@ -1473,8 +1687,8 @@ ISO是国际标准化组织。<br>
       </tags>
   </entry>
   <entry>
-    <title>Excel中ROUND、ROUNDUP、ROUNDDOWN函数详解</title>
-    <url>/2019/12/16/Excel%E4%B8%ADROUND%E3%80%81ROUNDUP%E3%80%81ROUNDDOWN%E5%87%BD%E6%95%B0%E8%AF%A6%E8%A7%A3/</url>
+    <title>信息处理技术员——Excel中ROUND函数详解</title>
+    <url>/Nolimited-Study.github.io/2019/12/16/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%885%EF%BC%891%20%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E2%80%94%E2%80%94Excel%E4%B8%ADROUND%E5%87%BD%E6%95%B0%E8%AF%A6%E8%A7%A3/</url>
     <content><![CDATA[<p>﻿在Excel中，很多时候都会用到Round函数，今天就来看下 Microsoft Excel 中 ROUND 函数、ROUNDUP函数和ROUNDDOWN函数的公式语法和用法。</p>
 <a id="more"></a>
 
@@ -1610,15 +1824,17 @@ ISO是国际标准化组织。<br>
 ]]></content>
       <categories>
         <category>信息处理技术员</category>
+        <category>第05章 电子表格处理</category>
+        <category>第01节 函数部分</category>
       </categories>
       <tags>
-        <tag>EXCEL</tag>
         <tag>信息处理技术员</tag>
+        <tag>EXCEL</tag>
       </tags>
   </entry>
   <entry>
     <title>相册型PPT制作指导</title>
-    <url>/2019/12/16/%E7%9B%B8%E5%86%8C%E5%9E%8BPPT%E5%88%B6%E4%BD%9C%E6%8C%87%E5%AF%BC/</url>
+    <url>/Nolimited-Study.github.io/2019/12/16/%E5%8A%9E%E5%85%AC%E8%BD%AF%E4%BB%B6%EF%BC%883%EF%BC%891%20%E7%9B%B8%E5%86%8C%E5%9E%8BPPT%E5%88%B6%E4%BD%9C%E6%8C%87%E5%AF%BC/</url>
     <content><![CDATA[<p>在工作和生活中，我们经常会需要制作一些相册集，如公司年会的总结展示，成员介绍、活动回顾、亲子相册等都可能会用到。如果会用视频编辑软件或者动画制作软件的话，那肯定是最好的，但是如果不会，我们也不用担心，用PowerPoint也能够很快的制作相册。以下，提供在PPT中制作相册的几种方式，以及如何进行美化。</p>
 <a id="more"></a>
 
@@ -1645,6 +1861,7 @@ ISO是国际标准化组织。<br>
 ]]></content>
       <categories>
         <category>办公软件</category>
+        <category>第三章 PPT部分</category>
       </categories>
       <tags>
         <tag>PPT使用</tag>
@@ -1653,7 +1870,7 @@ ISO是国际标准化组织。<br>
   </entry>
   <entry>
     <title>hexo优化：Markdown语法引入Flowchart和Mermaid流程图</title>
-    <url>/2019/11/29/hexo%E4%BC%98%E5%8C%96%EF%BC%9AMarkdown%E8%AF%AD%E6%B3%95%E5%BC%95%E5%85%A5Flowchart%E5%92%8CMermaid%E6%B5%81%E7%A8%8B%E5%9B%BE/</url>
+    <url>/Nolimited-Study.github.io/2019/11/29/%E9%9A%8F%E7%AC%94%202%20hexo%E4%BC%98%E5%8C%96%EF%BC%9AMarkdown%E8%AF%AD%E6%B3%95%E5%BC%95%E5%85%A5Flowchart%E5%92%8CMermaid%E6%B5%81%E7%A8%8B%E5%9B%BE/</url>
     <content><![CDATA[<p>我们在写Hexo博客文章时候，常常需要用图形来描述。但是有的时候画图不易修改，原图需要在本地保存，另外上传图片比较麻烦，加载图片又相对耗时。所以如何直接使用Markdown编写的流程图能够在hexo博客上直接生成就成了一个问题，另外，怎样通过Markdown来画流程图呢？</p>
 <a id="more"></a>
 <p>接下来，相信这篇博客能对你起到一定的帮助哦~</p>
@@ -1757,16 +1974,15 @@ cond(yes)->out
 cond(no)->op
 out->e</textarea><textarea id="flowchart-0-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-0-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-0", options);</script>]]></content>
       <categories>
-        <category>HEXO博客</category>
+        <category>随笔</category>
       </categories>
       <tags>
         <tag>HEXO博客</tag>
-        <tag>流程图</tag>
       </tags>
   </entry>
   <entry>
     <title>C语言基础课程（1）——hello world程序理解</title>
-    <url>/2019/11/28/C%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E8%AF%BE%E7%A8%8B%EF%BC%881%EF%BC%89%E2%80%94%E2%80%94hello%20world%E7%A8%8B%E5%BA%8F%E7%90%86%E8%A7%A3/</url>
+    <url>/Nolimited-Study.github.io/2019/11/28/C%E8%AF%AD%E8%A8%80%EF%BC%881%EF%BC%891/</url>
     <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>因工作需要，特书写一套简单易入门的C语言基础教程，供大家使用。但是，注意下：该教程<b><font color="#000ccc">最适合程序小白</font></b>食用，如果已经有良好C语言基础的童鞋可以移步其他教程啦~</p>
 <a id="more"></a>
 <p>另外，该教程主要讲解C语言的语法结构，不涉及具体编译器的安装和其他理论知识，大家遇到不懂的或者有错误等可以进行留言，万分感谢。<br>如果想要进行编译运行，可以下载编辑器进行本地进行编辑→编译→运行即可。编译器有：<a href="https://docs.microsoft.com/zh-cn/visualstudio/?view=vs-2019" target="_blank" rel="noopener">Visual Studio 2015/2017</a>、<a href="https://bloodshed-dev-c.en.softonic.com/" target="_blank" rel="noopener">Dev C++</a>、<a href="http://www.codeblocks.org/home" target="_blank" rel="noopener">Code ::Blocks</a>、Turbo C 2.0等。如果嫌麻烦，可以直接搜索C语言在线编译工具（如： <a href="https://tech.io/snippet" target="_blank" rel="noopener">tech.io/snippet</a>、<a href="https://rextester.com/" target="_blank" rel="noopener">rextester.com</a>、<a href="https://www.ideone.com" target="_blank" rel="noopener">www.ideone.com</a>、<a href="https://c.runoob.com/compile/11" target="_blank" rel="noopener">菜鸟工具</a>）进行编辑后运行。</p>
@@ -1822,6 +2038,7 @@ warning: incompatible implicit declaration of built-in function &apos;printf&apo
 ]]></content>
       <categories>
         <category>C语言</category>
+        <category>第01章</category>
       </categories>
       <tags>
         <tag>C语言</tag>
@@ -1829,7 +2046,7 @@ warning: incompatible implicit declaration of built-in function &apos;printf&apo
   </entry>
   <entry>
     <title>Word 添加横线技巧</title>
-    <url>/2019/11/28/Word-%E6%B7%BB%E5%8A%A0%E6%A8%AA%E7%BA%BF%E6%8A%80%E5%B7%A7/</url>
+    <url>/Nolimited-Study.github.io/2019/11/28/%E5%8A%9E%E5%85%AC%E8%BD%AF%E4%BB%B6%EF%BC%881%EF%BC%891%20Word-%E6%B7%BB%E5%8A%A0%E6%A8%AA%E7%BA%BF%E6%8A%80%E5%B7%A7/</url>
     <content><![CDATA[<p>word大家都经常会用到，在各行各业都会使用，对它的一些简单功能我们应该要了解。那我们经常会遇到一个问题：“怎样在word中画横线？”，其实在word中画横线很简单，有很多方法。以下就给大家介绍几种好用且快捷的方法。</p>
 <a id="more"></a>
 <h1 id="方法一：通过插入形状来添加横线"><a href="#方法一：通过插入形状来添加横线" class="headerlink" title="方法一：通过插入形状来添加横线"></a>方法一：通过插入形状来添加横线</h1><p>可以在插入选项卡，形状里选择插入直线来进行添加，并可以对形状线型、粗细、颜色等进行详细设置。选中后按Delete即可删除。<br><img src="https://img-blog.csdnimg.cn/20191121135439891.gif" alt="在这里插入图片描述"></p>
@@ -1846,6 +2063,7 @@ warning: incompatible implicit declaration of built-in function &apos;printf&apo
 ]]></content>
       <categories>
         <category>办公软件</category>
+        <category>第一章 WORD部分</category>
       </categories>
       <tags>
         <tag>WORD技巧</tag>
@@ -1854,7 +2072,7 @@ warning: incompatible implicit declaration of built-in function &apos;printf&apo
   </entry>
   <entry>
     <title>多种截图方式以及如何截取右键菜单？</title>
-    <url>/2019/11/27/%E5%A4%9A%E7%A7%8D%E6%88%AA%E5%9B%BE%E6%96%B9%E5%BC%8F%E4%BB%A5%E5%8F%8A%E5%A6%82%E4%BD%95%E6%88%AA%E5%8F%96%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%EF%BC%9F/</url>
+    <url>/Nolimited-Study.github.io/2019/11/27/WINDOWS%201%20%E5%A4%9A%E7%A7%8D%E6%88%AA%E5%9B%BE%E6%96%B9%E5%BC%8F%E4%BB%A5%E5%8F%8A%E5%A6%82%E4%BD%95%E6%88%AA%E5%8F%96%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%EF%BC%9F/</url>
     <content><![CDATA[<p>相信大家经常会遇到需要截图的时候，而且有的时候需要截取右键菜单。接下来，我给大家分享几个小技巧，希望可以帮到大家。</p>
 <a id="more"></a>
 
@@ -1877,7 +2095,7 @@ warning: incompatible implicit declaration of built-in function &apos;printf&apo
   </entry>
   <entry>
     <title>我的第一篇博客</title>
-    <url>/2019/11/27/hello-world/</url>
+    <url>/Nolimited-Study.github.io/2019/11/27/%E9%9A%8F%E7%AC%94%201%20hello-world/</url>
     <content><![CDATA[<p>Hello world！<br>这是我的第一篇博客，之后将在这里分享我的学习心得，希望能对你们有用，由于知识有限，有错误的地方还请指正，定感激不尽！</p>]]></content>
       <categories>
         <category>随笔</category>

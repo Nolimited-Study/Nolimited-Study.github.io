@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.0.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/Nolimited-Study.github.io/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/Nolimited-Study.github.io/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/Nolimited-Study.github.io/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/Nolimited-Study.github.io/images/logo.svg" color="#222">
+  <link rel="alternate" href="/Nolimited-Study.github.io/atom.xml" title="Nolimited-Study" type="application/atom+xml">
+
+<link rel="stylesheet" href="/Nolimited-Study.github.io/css/main.css">
+
+
+<link rel="stylesheet" href="/Nolimited-Study.github.io/lib/font-awesome/css/font-awesome.min.css">
+
+
+<script id="hexo-configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/Nolimited-Study.github.io/',
+    scheme: 'Gemini',
+    version: '7.5.0',
+    exturl: false,
+    sidebar: {"position":"left","Pisces | Gemini":320,"display":"post","offset":12,"onmobile":false},
+    copycode: {"enable":false,"show_result":false,"style":null},
+    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
+    bookmark: {"enable":false,"color":"#222","save":"auto"},
+    fancybox: false,
+    mediumzoom: false,
+    lazyload: false,
+    pangu: false,
+    algolia: {
+      appID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    },
+    localsearch: {"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
+    path: 'search.xml',
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    sidebarPadding: 40
+  };
+</script>
+
+  <meta name="description" content="在信息处理技术员考试中，经常会考到数据统计知识，除了像图表、抽样调查等知识，还会考查到众数、中位数等内容。另外，还有方差、标准差的概念考查。因此，这一次我们来看下这些概念和常见的题型。">
+<meta name="keywords" content="信息处理技术员,初等数学">
+<meta property="og:type" content="article">
+<meta property="og:title" content="信息处理技术员初等数学-众数、中位数、方差等">
+<meta property="og:url" content="https:&#x2F;&#x2F;nolimited-study.github.io&#x2F;2019&#x2F;12&#x2F;24&#x2F;%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%881%EF%BC%892%20%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E5%88%9D%E7%AD%89%E6%95%B0%E5%AD%A6%E2%80%94%E2%80%94%E4%BC%97%E6%95%B0%E3%80%81%E4%B8%AD%E4%BD%8D%E6%95%B0%E3%80%81%E6%96%B9%E5%B7%AE%E7%AD%89&#x2F;index.html">
+<meta property="og:site_name" content="Nolimited-Study">
+<meta property="og:description" content="在信息处理技术员考试中，经常会考到数据统计知识，除了像图表、抽样调查等知识，还会考查到众数、中位数等内容。另外，还有方差、标准差的概念考查。因此，这一次我们来看下这些概念和常见的题型。">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;2019122315011711.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20191223155721657.png">
+<meta property="og:updated_time" content="2020-01-16T08:19:27.626Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;2019122315011711.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+
+<link rel="canonical" href="https://nolimited-study.github.io/2019/12/24/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%881%EF%BC%892%20%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E5%88%9D%E7%AD%89%E6%95%B0%E5%AD%A6%E2%80%94%E2%80%94%E4%BC%97%E6%95%B0%E3%80%81%E4%B8%AD%E4%BD%8D%E6%95%B0%E3%80%81%E6%96%B9%E5%B7%AE%E7%AD%89/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome: false,
+    isPost: true,
+    isPage: false,
+    isArchive: false
+  };
+</script>
+
+  <title>信息处理技术员初等数学-众数、中位数、方差等 | Nolimited-Study</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-meta">
+
+    <div>
+      <a href="/Nolimited-Study.github.io/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Nolimited-Study</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+        <p class="site-subtitle">学习无极限</p>
+  </div>
+
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/Nolimited-Study.github.io/" rel="section"><i class="fa fa-fw fa-home"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/Nolimited-Study.github.io/categories/" rel="section"><i class="fa fa-fw fa-th"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/Nolimited-Study.github.io/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/Nolimited-Study.github.io/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>归档</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/Nolimited-Study.github.io/about/" rel="section"><i class="fa fa-fw fa-user"></i>关于</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+
+</nav>
+  <div class="site-search">
+    <div class="popup search-popup">
+    <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocorrect="off" autocapitalize="none"
+           placeholder="搜索..." spellcheck="false"
+           type="text" id="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result"></div>
+
+</div>
+<div class="search-pop-overlay"></div>
+
+  </div>
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content">
+            
+
+  <div class="posts-expand">
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://Nolimited-Study.github.io/Nolimited-Study.github.io/2019/12/24/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%881%EF%BC%892%20%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E5%88%9D%E7%AD%89%E6%95%B0%E5%AD%A6%E2%80%94%E2%80%94%E4%BC%97%E6%95%B0%E3%80%81%E4%B8%AD%E4%BD%8D%E6%95%B0%E3%80%81%E6%96%B9%E5%B7%AE%E7%AD%89/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/Nolimited-Study.github.io/images/avatar.jpg">
+      <meta itemprop="name" content="Nolimited-Study">
+      <meta itemprop="description" content="Never too old to learn">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Nolimited-Study">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          信息处理技术员初等数学-众数、中位数、方差等
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2019-12-24 15:40:40" itemprop="dateCreated datePublished" datetime="2019-12-24T15:40:40+08:00">2019-12-24</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-01-16 16:19:27" itemprop="dateModified" datetime="2020-01-16T16:19:27+08:00">2020-01-16</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/Nolimited-Study.github.io/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/" itemprop="url" rel="index">
+                    <span itemprop="name">信息处理技术员</span>
+                  </a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/Nolimited-Study.github.io/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/%E7%AC%AC01%E7%AB%A0-%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/" itemprop="url" rel="index">
+                    <span itemprop="name">第01章 信息处理技术基础知识</span>
+                  </a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/Nolimited-Study.github.io/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/%E7%AC%AC01%E7%AB%A0-%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E7%AC%AC02%E8%8A%82-%E6%95%B0%E6%8D%AE%E7%BB%9F%E8%AE%A1%E7%9F%A5%E8%AF%86/" itemprop="url" rel="index">
+                    <span itemprop="name">第02节 数据统计知识</span>
+                  </a>
+                </span>
+            </span>
+
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>﻿在信息处理技术员考试中，经常会考到数据统计知识，除了像图表、抽样调查等知识，还会考查到众数、中位数等内容。另外，还有方差、标准差的概念考查。因此，这一次我们来看下这些概念和常见的题型。</p>
+<a id="more"></a>
+
+<h1 id="众数"><a href="#众数" class="headerlink" title="众数"></a>众数</h1><h2 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h2><p><strong>众数</strong>：一组数据出现次数最多的数据。<br>如：{1，1，3，7，10，10，10}这组数中，1出现了2次，3和7均只出现1次，10出现了3次，出现次数最多的是10，故众数是10。<br>在Excel中，用Mode函数来求解在某一数组或数据区域中出现频率最多的数值。如：输入“=mode(1,1,3,7,10,10,10)”返回的结果是10。<br>在求解众数时，要注意以下几点：</p>
+<ol>
+<li>一组数的众数一定在这组数中；</li>
+<li>众数可能不唯一，有可能有多个数值出现的次数是一样的，如：{1，1，1，3，7，10，10，10}这个时候得到的众数是1,10。</li>
+</ol>
+<p><em>ps：excel中，mode函数的结果只有一个值。如果是多个值，可以用MODE.MULT函数求解一组数据或数据区域中出现频率最高或重复出现的数值的垂直数组。如果是水平数组，再配合transpose函数一起使用。</em></p>
+<h2 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h2><p><strong>2013年下半年试题47</strong><br>在Excel 2003中，A1到E6单元格的值如下图所示，若在A7单元格中输入计 算众数的函数“=MODE(A1: E6)”，按回车键后，则A7单元格显示的值为（  ）。<img src="https://img-blog.csdnimg.cn/2019122315011711.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>A．92</p>
+<p>B．77 </p>
+<p>C．72</p>
+<p>D．60</p>
+<details style="color:blue;">
+<summary>点击查看答案和解析</summary>
+    分析：<br>mode是求众数，即出现次数最多的数值，可以直接从选项中来进行判断，其中A选项92总共出现了3次；B选项77总共出现了7次；A选项72总共出现了1次；A选项60总共出现了1次。故选择B选项。<br>答案：B</details>
+
+<h1 id="中位数"><a href="#中位数" class="headerlink" title="中位数"></a>中位数</h1><h2 id="概念-1"><a href="#概念-1" class="headerlink" title="概念"></a>概念</h2><p><strong>中位数</strong>：一组数据从小到大的顺序依次排序，处于中间位置的一个数或最中间两个数的平均数。</p>
+<p>如：{1，1，3，7，10，10，10}这组数中，中位数是7。<br>在Excel中，用Median函数来求解在某一数组或数据区域中的中位数。如：输入“=median(1,1,3,7,10,10,10)”返回的结果是7。<br>但是在求解中位数时，要注意以下几点：</p>
+<ol>
+<li>一定要先按照大小顺序排序，可以从小到大，可以从大到小。如：{1，1，3，7，10，10，10}这组数如果写成：{1，10，10，10，1，3，7}，也要记得先排序，而不是直接取处于中间位置的数值。</li>
+<li>中位数有可能是排序后最中间位置的数，也可能是排序后中间位置两个数的平均数。<ul>
+<li>当这组数的个数是奇数个时，中位数是排序后最中间位置的数，如：{1，1，3，7，10，10，10}的中位数是7，此时这个中位数在这组数当中；</li>
+<li>当这组数的个数是偶数个时，中位数是排序后最中间位置两个数的平均数，如：{1，1，3，7，9，10，10，10的中位数是（7+9）/2=8，此时这个中位数不在这组数当中。</li>
+</ul>
+</li>
+<li>一组数的中位数有可能是在这组数字中，也有可能不在这组数当中，返回结果是一个值。</li>
+</ol>
+<h2 id="例题-1"><a href="#例题-1" class="headerlink" title="例题"></a>例题</h2><p><strong>2011年上半年试题27</strong> </p>
+<p>下面记录的是某班36人期末考试的数学成绩：</p>
+<table style="text-align:center">
+    <tr><td >97</td><td>100</td><td>95</td><td>96</td><td>100</td><td>87</td></tr>
+    <tr><td >96</td><td>100</td><td>89</td><td>100</td><td>93</td><td>69</td></tr>
+    <tr><td >99</td><td>89</td><td>100</td><td>81</td><td>88</td><td>91</td></tr>
+    <tr><td >100</td><td>87</td><td>98</td><td>75</td><td>85</td><td>89</td></tr>
+    <tr><td >84</td><td>92</td><td>86</td><td>100</td><td>100</td><td>61</td></tr>
+    <tr><td >87</td><td>51</td><td>81</td><td>92</td><td>95</td><td>97</td></tr>
+</table>
+
+<p>这些成绩的中位数为（  ）。</p>
+<p>A. 90</p>
+<p>B. 91</p>
+<p>C. 92</p>
+<p>D. 93</p>
+<details style="color:blue;"><summary>点击展看答案和解析</summary>分析：<br>求中位数，则要找从小到大排序后处于最中间位置的那个数或中间位置两个数的平均数。在这里，总共的个数是36个，最中间位置的数是排序后第18个、第19个数的平均数。一种方式就是先排序，然后去找到，再去求平均值。<br>然后也可以用下面这种办法，因为题目给出的数目比较多，要找的是18、19号，所以前面一些小的值可以不用排序，靠近的才排。可以按照从大到小来看，100的个数是8，接下来，90多分的个数有12个，这两个加起来就是20个了，说明中位数在90多分里面，我们将90～99段的数从大到小为：99，98，97，97，96，96，95，95，93，92，92，91。因此，整批36个数按从大到小顺序排列后，前面100是8个，要找第18、19个就是90~99分段的从大到小排在第10、11个。故，位于中间那两个数是92和92, 从而其中位数就是92。<br>
+答案：C</details>
+
+<h1 id="方差和标准差"><a href="#方差和标准差" class="headerlink" title="方差和标准差"></a>方差和标准差</h1><h2 id="概念-2"><a href="#概念-2" class="headerlink" title="概念"></a>概念</h2><p><strong>方差和标准差：</strong> 测算离散趋势最重要、最常用的指标。</p>
+<ul>
+<li>当数据分布比较分散时，各个数据与平均数的差的平方和较大，方差就较大；</li>
+<li>当数据分布比较集中时，各个数据与平均数的差的平方和较小。<br>因此方差越大，数据的波动越大；方差越小，数据的波动就越小。</li>
+</ul>
+<p>方差是各个数据与平均数之差的平方的和的平均数。其计算公式：</p>
+<p><img src="https://img-blog.csdnimg.cn/20191223155721657.png" alt="在这里插入图片描述"></p>
+<p>其中，x表示样本的平均数，n表示样本的数量，xi表示个体，而s2表示方差。</p>
+<p>此外，标准差是方差算术平方根，因此在上述表达式中，s是标准差。 很多同学对方差表示离散趋势和波动情况不是很理解，我们看两组数： </p>
+<ul>
+<li><p>第一组：{0,50,100} </p>
+</li>
+<li><p>第二组：{49,50,51}</p>
+</li>
+</ul>
+<p>大家首先判断一下，那一组数据更接近呢？应该不难判断判断，第二组的值比较接近，波动情况小，离散程度小一些。</p>
+<p>然后可以计算下方差，可以不用计算，也可以看出来两者的平均值是一样的，然后将每个数减去平均值后的平方和，前者大很多，故而方差和标准差第一组&gt;第二组的值。</p>
+<p> <em>在信息处理技术员考试中，不需要掌握标准差和方差的计算，只需要了解其表达的含义即可。</em></p>
+<h2 id="例题-2"><a href="#例题-2" class="headerlink" title="例题"></a>例题</h2><p><strong>2011年上半年试题26</strong><br>在统计学中，用来衡量一个样本中各个数据波动大小的量是（  ）。<br>A. 样本方差<br>B. 样本中位数<br>C. 样本平均数<br>D. 样本众数</p>
+<details style="color:blue;"><summary>点击展看答案和解析</summary>分析：<br>
+在统计学中，用来衡量一个样本中各个数据波动大小的量是样本方差。通俗地说，样本方差体现了样本中各个个体的离散程度。样本的方差等于样本中各个个体与样本平均值之间的距离平方的平均值。样本方差为0时，样本中各个个体的值相同。样本方差越大，样本中的各个个体与样本平均值之间的离散程度越大。<br>
+答案：A</details>
+
+
+
+<h1 id="极值"><a href="#极值" class="headerlink" title="极值"></a>极值</h1><h2 id="概念-3"><a href="#概念-3" class="headerlink" title="概念"></a>概念</h2><p>另外，在信息处理技术员中还会出现极值的概念，主要有极大值、极小值和极差。<br><strong>极大值/最大值</strong>：是一组数的最大值，在Excel中用函数Max来求。如：max(1,2,3,4,5,10)=10；<br><strong>极小值/最小值</strong>：是一组数的最大值，在Excel中用函数Min来求。如：min(1,2,3,4,5,10)=1；<br><strong>极值</strong>：是最大值和最小值之间的差值，如{1,2,3,4,5,10}的极值就是10-1=9。</p>
+<h2 id="例题-3"><a href="#例题-3" class="headerlink" title="例题"></a>例题</h2><p><strong>2017年上半年试题43</strong><br>在Excel中，若要计算出B3：E6区域内的数据的最小值并保存在B7单元格中，应在B7单元格输入（  ）。<br>A. =MIN(B3:E6)<br>B. =MAX(B3:E6)<br>C. =COUNT(B3:E6)<br>D. =SUM(B3:E6)</p>
+<details style="color:blue;"><summary>点击展看答案和解析</summary>分析：<br>
+求最小值为函数Min函数。<br>
+答案：A</details>
+
+
+
+<h1 id="综合练习"><a href="#综合练习" class="headerlink" title="综合练习"></a>综合练习</h1><h2 id="试题-1"><a href="#试题-1" class="headerlink" title="试题 1"></a>试题 1</h2><p><strong>2016年下半年试题11</strong><br>一批数据可以有多个指标。以下指标中，（  ）不宜作为这批数据的代表值。<br>A. 中位数<br>B. 众数<br>C. 平均数<br>D. 方差</p>
+<details style="color:blue;"><summary>点击展看答案和解析</summary>分析：<br>
+本题考察初等数学基础知识。中位数、众数和平均数都可以作为数据的代表值，而方差代表这组数据的离散程度。 <br>
+答案：D</details>
+
+
+
+<h2 id="试题-2"><a href="#试题-2" class="headerlink" title="试题 2"></a>试题 2</h2><p><strong>2011年下半年试题14</strong><br>最能反映小型企业内大多数职工工资状况的统计指标是全体职工工资的（  ）。<br>A. 平均值<br>B. 中位数<br>C. 极差<br>D. 方差</p>
+<details style="color:blue;"><summary>点击展看答案和解析</summary>分析:<br>
+样本数据的统计指标有多种。方差反映了全体数据之间的离散程度，极差是最大数与最小数之差，这两种指标都只反映差异，而不能反映整体状况或多数状况。<br>
+小企业内职工工资的平均值虽然大体上反映了企业工资水平，但如果负责人工资特别高，普通员工工资普遍很低时，平均值不能正确反映大多数职工的工资状况。而中位数更能反映大多数职工的工资状况，因为工资比中位数高的人数与比中位数低的人数相等。频数则大体反映了全体数据的分布状况。<br>
+答案：B
+</details>
+
+
+
+
+<h2 id="试题-3"><a href="#试题-3" class="headerlink" title="试题 3"></a>试题 3</h2><p><strong>2012年下半年试题4</strong></p>
+<p>小王求出了一批数据的均值和方差，则（  ）。<br>A．均值可作为这批数据的代表，方差体现了这批数据的离散程度<br>B．均值位于这批数据的正中，方差反映了这批数据的误差<br>C．均值左右两边的数据一样多，方差是两两数据之差的平方和<br>D．均值必是这批数据中的某一数，方差是离均值最远的数</p>
+<details style="color:blue;">
+    <summary>点击展看答案和解析</summary>分析：<br>
+均值（通常指算术平均值）可作为这批数据的代表。方差体现了这批数据的离散程 度（相对于均值的分散程度），用“各数与均值之差的平方和”来表示。<br>
+均值不一定位于正中（例如1、2、3和100）。方差在某种程度上反映了这批数据相 对于均值的误差，如果所有数据都大大偏离了目标值，那么即使方差很小，其误差也很大。均值左右两边的数据个数通常是不等的，均值通常不是这批数据中的某一数（如上例）。<br>
+答案：A</details>
+
+
+
+<p>这个知识点讲到这里啦，谢谢大家！</p>
+
+    </div>
+
+    
+    
+    
+        <div class="reward-container">
+  <div>坚持原创技术分享，您的支持将鼓励我继续创作！</div>
+  <button disable="enable" onclick="var qr = document.getElementById(&quot;qr&quot;); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
+    打赏
+  </button>
+  <div id="qr" style="display: none;">
+      
+      <div style="display: inline-block;">
+        <img src="/Nolimited-Study.github.io/images/wechatpay.png" alt="Nolimited-Study 微信支付">
+        <p>微信支付</p>
+      </div>
+      
+      <div style="display: inline-block;">
+        <img src="/Nolimited-Study.github.io/images/alipay.png" alt="Nolimited-Study 支付宝">
+        <p>支付宝</p>
+      </div>
+
+  </div>
+</div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/Nolimited-Study.github.io/tags/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/" rel="tag"># 信息处理技术员</a>
+              <a href="/Nolimited-Study.github.io/tags/%E5%88%9D%E7%AD%89%E6%95%B0%E5%AD%A6/" rel="tag"># 初等数学</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-next post-nav-item">
+                <a href="/Nolimited-Study.github.io/2019/12/20/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%881%EF%BC%894%20%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E5%88%9D%E7%AD%89%E6%95%B0%E5%AD%A6%E2%80%94%E2%80%94%E5%AE%9E%E6%96%BD%E5%92%8C%E8%AE%A1%E5%88%92%E8%BF%9B%E5%BA%A6%E5%88%A4%E6%96%AD/" rel="next" title="信息处理技术员初等数学——实施和计划进度判断">
+                  <i class="fa fa-chevron-left"></i> 信息处理技术员初等数学——实施和计划进度判断
+                </a>
+            </div>
+
+            <span class="post-nav-divider"></span>
+
+            <div class="post-nav-prev post-nav-item">
+                <a href="/Nolimited-Study.github.io/2019/12/26/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%881%EF%BC%893%20%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E5%88%9D%E7%AD%89%E6%95%B0%E5%AD%A6%E2%80%94%E2%80%94%E7%AE%97%E6%95%B0%E5%B9%B3%E5%9D%87%E6%95%B0%E5%92%8C%E5%8A%A0%E6%9D%83%E5%B9%B3%E5%9D%87%E6%95%B0/" rel="prev" title="信息处理技术员初等数学——算数平均数和加权平均数">
+                  信息处理技术员初等数学——算数平均数和加权平均数 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+      </footer>
+    
+  </article>
+  <div>
+    
+    <div>
+    
+        <div style="text-align:center;color: #66cdaa;font-size:18px;">------ 本文已结束，感谢您的阅读 ------</div>
+    
+</div>
+
+    
+ </div>
+  
+  
+  
+
+  </div>
+
+
+          </div>
+          
+    
+  <div class="comments" id="comments">
+    <div id="lv-container" data-id="city" data-uid="MTAyMC80ODIwMC8yNDY5Ng=="></div>
+  </div>
+  
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#众数"><span class="nav-number">1.</span> <span class="nav-text">众数</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#概念"><span class="nav-number">1.1.</span> <span class="nav-text">概念</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#例题"><span class="nav-number">1.2.</span> <span class="nav-text">例题</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#中位数"><span class="nav-number">2.</span> <span class="nav-text">中位数</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#概念-1"><span class="nav-number">2.1.</span> <span class="nav-text">概念</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#例题-1"><span class="nav-number">2.2.</span> <span class="nav-text">例题</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#方差和标准差"><span class="nav-number">3.</span> <span class="nav-text">方差和标准差</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#概念-2"><span class="nav-number">3.1.</span> <span class="nav-text">概念</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#例题-2"><span class="nav-number">3.2.</span> <span class="nav-text">例题</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#极值"><span class="nav-number">4.</span> <span class="nav-text">极值</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#概念-3"><span class="nav-number">4.1.</span> <span class="nav-text">概念</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#例题-3"><span class="nav-number">4.2.</span> <span class="nav-text">例题</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#综合练习"><span class="nav-number">5.</span> <span class="nav-text">综合练习</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#试题-1"><span class="nav-number">5.1.</span> <span class="nav-text">试题 1</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#试题-2"><span class="nav-number">5.2.</span> <span class="nav-text">试题 2</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#试题-3"><span class="nav-number">5.3.</span> <span class="nav-text">试题 3</span></a></li></ol></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Nolimited-Study"
+      src="/Nolimited-Study.github.io/images/avatar.jpg">
+  <p class="site-author-name" itemprop="name">Nolimited-Study</p>
+  <div class="site-description" itemprop="description">Never too old to learn</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/Nolimited-Study.github.io/archives/">
+        
+          <span class="site-state-item-count">15</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/Nolimited-Study.github.io/categories/">
+          
+        <span class="site-state-item-count">19</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/Nolimited-Study.github.io/tags/">
+          
+        <span class="site-state-item-count">14</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="feed-link motion-element">
+    <a href="/Nolimited-Study.github.io/atom.xml" rel="alternate">
+      <i class="fa fa-rss"></i>RSS
+    </a>
+  </div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/Nolimited-Study" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;Nolimited-Study" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/Nolimited-Study.github.io/1259799181@qq.com" title="E-Mail → 1259799181@qq.com"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://blog.csdn.net/wzh0709zml" title="CSDN → https:&#x2F;&#x2F;blog.csdn.net&#x2F;wzh0709zml" rel="noopener" target="_blank"><i class="fa fa-fw fa-crosshairs"></i>CSDN</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Nolimited-Study</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v4.0.0
+  </div>
+  <span class="post-meta-divider">|</span>
+  <div class="theme-info">主题 – <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.5.0
+  </div>
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="post-meta-item-icon">
+      <i class="fa fa-user"></i>
++   网站总访客数
+    </span>
+    <span class="site-uv" title="总访客量">
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span> 
+    </span>
+  
+
+  
+
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/Nolimited-Study.github.io/lib/anime.min.js"></script>
+  <script src="/Nolimited-Study.github.io/lib/velocity/velocity.min.js"></script>
+  <script src="/Nolimited-Study.github.io/lib/velocity/velocity.ui.min.js"></script>
+<script src="/Nolimited-Study.github.io/js/utils.js"></script><script src="/Nolimited-Study.github.io/js/motion.js"></script>
+<script src="/Nolimited-Study.github.io/js/schemes/pisces.js"></script>
+<script src="/Nolimited-Study.github.io/js/next-boot.js"></script>
+
+
+
+  
+
+
+
+
+  <script src="/Nolimited-Study.github.io/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+<script>
+if (document.querySelectorAll('pre.mermaid').length) {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js', () => {
+    mermaid.initialize({
+      theme: 'neutral',
+      logLevel: 3,
+      flowchart: { curve: 'linear' },
+      gantt: { axisFormat: '%m/%d/%Y' },
+      sequence: { actorMargin: 50 }
+    });
+  }, window.mermaid);
+}
+</script>
+
+
+
+  
+
+  
+
+<script>
+  window.livereOptions = {
+    refer: location.pathname.replace(CONFIG.root, '').replace('index.html', '')
+  };
+  (function(d, s) {
+    var j, e = d.getElementsByTagName(s)[0];
+    if (typeof LivereTower === 'function') { return; }
+    j = d.createElement(s);
+    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+    j.async = true;
+    e.parentNode.insertBefore(j, e);
+  })(document, 'script');
+</script>
+
+
+  
+	<script type="text/javascript"
+		color="0,255,255" opacity='0.6' zIndex="-1" count ="240" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
+
+<script src="/Nolimited-Study.github.io/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/Nolimited-Study.github.io/live2dw/assets/assets/koharu.model.json"},"display":{"position":"right","width":150,"height":300},"react":{"opacity":0.7},"mobile":{"show":true},"log":false});</script></body>
+</html>
