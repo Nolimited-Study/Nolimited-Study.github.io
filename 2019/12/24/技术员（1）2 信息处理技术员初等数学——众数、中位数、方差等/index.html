@@ -289,16 +289,12 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>﻿在信息处理技术员考试中，经常会考到数据统计知识，除了像图表、抽样调查等知识，还会考查到众数、中位数等内容。另外，还有方差、标准差的概念考查。因此，这一次我们来看下这些概念和常见的题型。</p>
-<a id="more"></a>
-
+        <p>﻿在信息处理技术员考试中，经常会考到数据统计知识，除了像图表、抽样调查等知识，还会考查到众数、中位数等内容。另外，还有方差、标准差的概念考查。因此，这一次我们来看下这些概念和常见的题型。<br><a id="more"></a></p>
 <h1 id="众数"><a href="#众数" class="headerlink" title="众数"></a>众数</h1><h2 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h2><p><strong>众数</strong>：一组数据出现次数最多的数据。<br>如：{1，1，3，7，10，10，10}这组数中，1出现了2次，3和7均只出现1次，10出现了3次，出现次数最多的是10，故众数是10。<br>在Excel中，用Mode函数来求解在某一数组或数据区域中出现频率最多的数值。如：输入“=mode(1,1,3,7,10,10,10)”返回的结果是10。<br>在求解众数时，要注意以下几点：</p>
 <ol>
 <li>一组数的众数一定在这组数中；</li>
-<li>众数可能不唯一，有可能有多个数值出现的次数是一样的，如：{1，1，1，3，7，10，10，10}这个时候得到的众数是1,10。</li>
+<li>众数可能不唯一，有可能有多个数值出现的次数是一样的，如：{1，1，1，3，7，10，10，10}这个时候得到的众数是1,10。<br><em>ps：excel中，mode函数的结果只有一个值。如果是多个值，可以用MODE.MULT函数求解一组数据或数据区域中出现频率最高或重复出现的数值的垂直数组。如果是水平数组，再配合transpose函数一起使用。</em><h2 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h2><strong>2013年下半年试题47</strong><br>在Excel 2003中，A1到E6单元格的值如下图所示，若在A7单元格中输入计 算众数的函数“=MODE(A1: E6)”，按回车键后，则A7单元格显示的值为（  ）。<img src="https://img-blog.csdnimg.cn/2019122315011711.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>A．92</li>
 </ol>
-<p><em>ps：excel中，mode函数的结果只有一个值。如果是多个值，可以用MODE.MULT函数求解一组数据或数据区域中出现频率最高或重复出现的数值的垂直数组。如果是水平数组，再配合transpose函数一起使用。</em></p>
-<h2 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h2><p><strong>2013年下半年试题47</strong><br>在Excel 2003中，A1到E6单元格的值如下图所示，若在A7单元格中输入计 算众数的函数“=MODE(A1: E6)”，按回车键后，则A7单元格显示的值为（  ）。<img src="https://img-blog.csdnimg.cn/2019122315011711.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>A．92</p>
 <p>B．77 </p>
 <p>C．72</p>
 <p>D．60</p>

@@ -5,23 +5,54 @@
     <url>/Nolimited-Study.github.io/2020/01/16/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%881%EF%BC%895%20%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E5%88%9D%E7%AD%89%E6%95%B0%E5%AD%A6%E2%80%94%E2%80%94%E8%AE%BE%E6%9C%AA%E7%9F%A5%E6%95%B0%E6%B3%95/</url>
     <content><![CDATA[<p>设未知数是列方程解应用题的重要一环，根据实际应用题的特征、灵活设出未知数，可使解题过程简单快捷。在很多题中，都会运用到设未知数法，因此给大家看一下，并做下练习。</p>
 <a id="more"></a>
-
 <p>对于未知数的求解，举两个例子：</p>
-<h2 id="一元一次方程求解过程"><a href="#一元一次方程求解过程" class="headerlink" title="一元一次方程求解过程"></a>一元一次方程求解过程</h2><p>先看一元一次方程的：<br>$$<br>3x-5×(x-3)=-\frac{11}{8} x<br>$$<br>求解过程：<br>$$<br>\begin{align*}</p>
-<p>3x-5×(x-3)&amp; =-\frac{11}{8} x\<br>解：\quad\quad\quad\quad<br> 8×[3x-5×(x-3)]&amp;=-11x\quad\quad（等式两边同乘以8）\<br> 24x-40×(x-3)&amp;=-11x\quad\quad（8分别乘以方括号内的值）\<br> -16x+120&amp;=-11x\quad\quad（内并同类项）\<br>120&amp;=\quad5x\quad\quad\quad（等式两边同时加上16x）\<br> x&amp;= \quad 24<br>\end{align*}<br>$$</p>
-<h2 id="二元一次方程组求解过程"><a href="#二元一次方程组求解过程" class="headerlink" title="二元一次方程组求解过程"></a>二元一次方程组求解过程</h2><p>然后看一个二元一次方程组的求解：<br>$$<br>\begin{cases}<br>2x+3y=10\<br>3x+4y=14\<br>\end{cases}<br>$$<br>求解过程：<br>$$<br>\begin{align<em>}<br>\begin{cases}<br>2x+3y=10\quad……\quad①\<br>3x+4y=14\quad……\quad②\<br>\end{cases}<br>\end{align</em>}<br>$$</p>
-<p>①式×3，②式×2，（这个过程是为了消除一个变量，故让x或y前面的系数变成相同即可）得：<br>$$<br>\begin{align<em>}<br> \begin{cases}<br> 6x+9y=30\quad……\quad①\<br> 6x+8y=28\quad……\quad②\<br> \end{cases}<br> \end{align</em>}<br>$$<br>再两者相减，得：<br>$$<br>y=2<br>$$<br>代入①式或者②式，可以得：<br>$$<br>x=2<br>$$<br>因此：<br>$$<br>\begin{cases}x=2\y=2\\end{cases}<br>$$</p>
-<h2 id="例题-1"><a href="#例题-1" class="headerlink" title="例题 1"></a>例题 1</h2><p><strong>2010年上半年试题6</strong></p>
+<h2 id="一元一次方程求解过程"><a href="#一元一次方程求解过程" class="headerlink" title="一元一次方程求解过程"></a>一元一次方程求解过程</h2><p>先看一元一次方程的：</p>
+<p>3X-5×（X-3）=-11/8X</p>
+<p>求解过程：</p>
+<p>3X-5×（X-3）=-11/8X</p>
+<p>等式两边同乘以8：8×[3X-5×(X-3)]=-11X</p>
+<p>8分别乘以括号内的值：24X-40×(X-3)=-11X</p>
+<p>40分别乘以括号内的值：24X-40X+120=-11X</p>
+<p>合并含X的项：-16X+120=-11X<br>等式两边同时加上16X得：120=5X<br>得到：X= 24</p>
+<h2 id="二元一次方程组求解过程"><a href="#二元一次方程组求解过程" class="headerlink" title="二元一次方程组求解过程"></a>二元一次方程组求解过程</h2><p>然后看一个二元一次方程组的求解：</p>
+<script type="math/tex; mode=display">
+\begin{cases}
+2x+3y=10\\
+3x+4y=14\\
+\end{cases}</script><p>求解过程：</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+\begin{cases}
+2x+3y=10\quad……\quad①\\
+3x+4y=14\quad……\quad②\\
+\end{cases}
+\end{align*}</script><p>①式×3，②式×2，（这个过程是为了消除一个变量，故让x或y前面的系数变成相同即可）得：</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+ \begin{cases}
+ 6x+9y=30\quad……\quad①\\
+ 6x+8y=28\quad……\quad②\\
+ \end{cases}
+ \end{align*}</script><p>再两者相减，得：</p>
+<script type="math/tex; mode=display">
+y=2</script><p>代入①式或者②式，可以得：</p>
+<script type="math/tex; mode=display">
+x=2</script><p>因此：</p>
+<script type="math/tex; mode=display">
+\begin{cases}x=2\\y=2\\\end{cases}</script><h2 id="例题-1"><a href="#例题-1" class="headerlink" title="例题 1"></a>例题 1</h2><p><strong>2010年上半年试题6</strong></p>
 <p>某种考试共有75个试题，每对一题得2分，每错一题扣1分。某考生最后的分数是54分，则该考生共做对（  ）题。</p>
 <p>A．50 </p>
 <p>B．32</p>
 <p>C．43</p>
 <p>D．22</p>
-<h3 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h3><p>设该考生共做对x题，根据题意有：<br>$$<br>2 × x - ( 75 - x ) × 1 = 54<br>$$<br>则</p>
-<p>解得：<br>$$<br>x=43<br>$$<br>故该考生共做对43题。</p>
-<h3 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h3><p>设该考生共做错x题，根据题意有：<br>$$<br>2 × ( 75 - x ) -  x× 1 = 54<br>$$<br>则</p>
-<p>$$<br>150-3x=54<br>$$</p>
-<p>解得：<br>$$<br>x=32<br>$$<br>故该考生共做错32题，则做对75-32=43题。</p>
+<h3 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h3><p>设该考生共做对x题，根据题意有：2×X-1×（75-X）=54</p>
+<p>则</p>
+<p>解得：X=32</p>
+<p>故该考生共做对43题。</p>
+<h3 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h3><p>设该考生共做错x题，根据题意有：2×（75-X）-X=54</p>
+<p>则150-3X=54</p>
+<p>解得：X=32</p>
+<p>故该考生共做错32题，则做对75-32=43题。</p>
 <p>故 此题答案为C。</p>
 <p>对于这种题，通常都有很多种办法，大家在做题的时候关键就是找等式，然后如果一个未知数不好求解的时候，就用多个。</p>
 <h2 id="例题-2"><a href="#例题-2" class="headerlink" title="例题 2"></a>例题 2</h2><p><strong>2018年上半年试题5</strong></p>
@@ -30,10 +61,18 @@
 <p>B．18</p>
 <p>C．20</p>
 <p>D．24</p>
-<h3 id="方法一-1"><a href="#方法一-1" class="headerlink" title="方法一"></a>方法一</h3><p>设男工x人，女工人数就是40-x人。</p>
-<p>那么有：<br>$$<br>40×80=83×x+78×(40-x)<br>$$<br>得：<br>$$<br>x=16<br>$$<br>那么女工人数是40-16=24人。 </p>
-<h3 id="方法二-1"><a href="#方法二-1" class="headerlink" title="方法二"></a>方法二</h3><p>设男工x人，女工人数y人。</p>
-<p>则有：<br>$$<br>\begin{align<em>}<br> \begin{cases}<br>x+y=40\<br>83×x+78×y=40×80<br> \end{cases}<br> \end{align</em>}<br>$$<br>得到：<br>$$<br>\begin{align<em>}<br> \begin{cases}<br>x=16\<br>y=24<br> \end{cases}<br> \end{align</em>}<br>$$<br>故 此题答案为D。</p>
+<h3 id="方法一-1"><a href="#方法一-1" class="headerlink" title="方法一"></a>方法一</h3><p>设男工X人，女工人数就是40-X人。</p>
+<p>那么有：40×80=83X+78x（40-x）</p>
+<p>得：x=16</p>
+<p>那么女工人数是40-16=24人。 </p>
+<h3 id="方法二-1"><a href="#方法二-1" class="headerlink" title="方法二"></a>方法二</h3><p>设男工X人，女工人数Y人。</p>
+<p>则有：</p>
+<p>X+Y=40</p>
+<p>40×80=83X+78xY</p>
+<p>得到：</p>
+<p>X=16</p>
+<p>Y=24</p>
+<p>故 此题答案为D。</p>
 <h2 id="综合练习"><a href="#综合练习" class="headerlink" title="综合练习"></a>综合练习</h2><h3 id="练习题-1"><a href="#练习题-1" class="headerlink" title="练习题 1"></a>练习题 1</h3><p><strong>2016年上半年试题5</strong></p>
 <p>某种商品若按标价出售，相比进价成本每件可获利50%，若按标价的8折出售，则每件可获利（ ）。</p>
 <p>A． 20%</p>
@@ -156,6 +195,7 @@
 
 <h3 id="练习题-9"><a href="#练习题-9" class="headerlink" title="练习题 9"></a>练习题 9</h3><p><strong>2010年下半年试题17</strong></p>
 <p>某玩具厂5个月内生产熊猫玩具的产量统计如下。一、二月的产量相同，则一、二月的产量为（  ）。 </p>
+<div class="table-container">
 <table>
 <thead>
 <tr>
@@ -168,7 +208,8 @@
 <th>每月平均产量</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td>产量（只）</td>
 <td></td>
 <td></td>
@@ -177,7 +218,9 @@
 <td>1643</td>
 <td>1210</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
+</div>
 <p>A．1076                </p>
 <p>B．1025                </p>
 <p>C．1230                </p>
@@ -207,7 +250,6 @@
     <url>/Nolimited-Study.github.io/2020/01/16/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%881%EF%BC%896%20%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E5%88%9D%E7%AD%89%E6%95%B0%E5%AD%A6%E2%80%94%E2%80%94%E5%9B%BE%E8%A1%A8%E7%B1%BB%E5%9E%8B%E5%88%A4%E6%96%AD/</url>
     <content><![CDATA[<p>在信息处理技术员中，上午题和下午题都会考察图表内容。在上午题考试中，通常都会考查到不同场景用什么图片比较合适的问题，所以我们一起来看一下。</p>
 <a id="more"></a>
-
 <h1 id="知识点"><a href="#知识点" class="headerlink" title="知识点"></a>知识点</h1><p>雷达图（Radar Chart），又可称为戴布拉图、螂蛛网图（Spider Chart），是财务分析报表的一种。</p>
 <p> 折线图：排列在工作表的列或行中的数据可以绘制到折线图中。折线图可以显示随时间（根据常用比例设置）而变化的连续数据，因此非常适用于显示在相等时间间隔下数据的趋势。在折线图中，类别数据沿水平轴均匀分布，所有值数据沿垂直轴均匀分布。 </p>
 <p>直方图又称质量分布图，柱状图，它是表示资料变化情况的一种主要工具。用直方图可以解析出资料的规则性，比较直观地看出产品质量特性的分布状态，对于资料分布状况一目了然，便于判断其总体质量分布情况。</p>
@@ -395,9 +437,7 @@
   <entry>
     <title>信息处理技术员——信息安全知识</title>
     <url>/Nolimited-Study.github.io/2020/01/09/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%8811%EF%BC%891%20%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E2%80%94%E2%80%94%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E7%9F%A5%E8%AF%86/</url>
-    <content><![CDATA[<p>在信息处理技术员考试中，会考到信息安全的一些基础知识，主要包括信息安全的常见措施、保护信息的哪些方面，病毒的知识等。因此，给大家搜集了一下历年考题，帮助大家熟悉这块知识点，能够更好地通过考试。后面还加了几道题，可以再做下题，看是否已经掌握。</p>
-<a id="more"></a>
-
+    <content><![CDATA[<p>在信息处理技术员考试中，会考到信息安全的一些基础知识，主要包括信息安全的常见措施、保护信息的哪些方面，病毒的知识等。因此，给大家搜集了一下历年考题，帮助大家熟悉这块知识点，能够更好地通过考试。后面还加了几道题，可以再做下题，看是否已经掌握。<br><a id="more"></a></p>
 <h1 id="信息安全基本概念"><a href="#信息安全基本概念" class="headerlink" title="信息安全基本概念"></a>信息安全基本概念</h1><h2 id="知识点"><a href="#知识点" class="headerlink" title="知识点"></a>知识点</h2><ol>
 <li>信息安全的基本特征：真实性、机密性、完整性、可用性、不可抵赖性、可控性、可审查性<ul>
 <li>真实性：对信息来源进行判断，能对伪造信息予以鉴别</li>
@@ -465,8 +505,7 @@
 </li>
 <li><p>病毒的特征：传染性、隐蔽性、潜伏性、破坏性、针对性、寄生性、未知性</p>
 </li>
-<li><p>感染病毒的常见症状：</p>
-<ul>
+<li>感染病毒的常见症状：<ul>
 <li>屏幕上出现不应有的特殊字符或图像、字符无规则变或脱落、静止、滚动、雪花、跳动、小球亮点、莫名其妙的信息提等；</li>
 <li>发出尖叫、蜂鸣音或非正常奏乐等；</li>
 <li>经常无故死机，随机地发生重新启动或无法正常启动、运行速度明显下降、内存空间变小、磁盘驱动器以及其他设备无缘无故地变成无效设备等现象。</li>
@@ -475,8 +514,7 @@
 <li>收到来历不明的电子邮件、自动链接到陌生的网站、自动发送电子邮件等。 </li>
 </ul>
 </li>
-<li><p>计算机病毒的分类：</p>
-<ul>
+<li>计算机病毒的分类：<ul>
 <li>按其攻击对象分类：源码型病毒、嵌入型病毒、外壳型病毒、操作系统型病毒；</li>
 <li>按其传染方式分类：引导区病毒、文件型病毒、混合型病毒、宏病毒；按其破坏性分类：良性病毒、恶性病毒。</li>
 </ul>
@@ -720,16 +758,9 @@
 <p>B． 在电子合同中可以用电子签名来表明不可抵赖性</p>
 <p>C． 入侵检测软件用来发现系统中是否有被攻击的迹象</p>
 <p>D． 加强员工的信息安全意识教育非常重要</p>
-<details style="color:blue;">
-<summary>展开查看解析和答案</summary>
-<br>
-分析：<br>
-
-</details> 人们常说，信息安全的措施是三分技术七分管理。人的因素是最重要的。任何技术 措施，对于违法的人来说，都会有空子可钻，都会有漏洞。  <br>
-答案：A
-
-
-
+<p><details style="color:blue;"></p>
+<p><summary>展开查看解析和答案</summary><br><br><br>分析：<br></p>
+<p>&lt;/details&gt; 人们常说，信息安全的措施是三分技术七分管理。人的因素是最重要的。任何技术 措施，对于违法的人来说，都会有空子可钻，都会有漏洞。  <br><br>答案：A</p>
 <p>好了，这个知识点的内容讲到这里，在做题的时候注意抓关键点，然后特别要注意里面带有绝对性的用词的地方，这种一般都是错误的哦！大家，加油！</p>
 ]]></content>
       <categories>
@@ -738,16 +769,14 @@
         <category>第01节 信息安全</category>
       </categories>
       <tags>
-        <tag>信息安全</tag>
         <tag>信息处理技术员</tag>
+        <tag>信息安全</tag>
       </tags>
   </entry>
   <entry>
     <title>信息处理技术员——信息和数据知识</title>
     <url>/Nolimited-Study.github.io/2020/01/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%881%EF%BC%891%20%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E2%80%94%E2%80%94%E4%BF%A1%E6%81%AF%E5%92%8C%E6%95%B0%E6%8D%AE%E7%9F%A5%E8%AF%86/</url>
-    <content><![CDATA[<p>在信息处理技术员考试中，信息和数据是我们考试当中的重点内容，因此，给大家总结了一些考试重点，帮助大家熟悉这块知识点，能够更好地通过考试。后面还加了几道练习题，看是否已经掌握。</p>
-<a id="more"></a>
-
+    <content><![CDATA[<p>在信息处理技术员考试中，信息和数据是我们考试当中的重点内容，因此，给大家总结了一些考试重点，帮助大家熟悉这块知识点，能够更好地通过考试。后面还加了几道练习题，看是否已经掌握。<br><a id="more"></a></p>
 <h1 id="信息和数据的概念"><a href="#信息和数据的概念" class="headerlink" title="信息和数据的概念"></a>信息和数据的概念</h1><h2 id="知识点"><a href="#知识点" class="headerlink" title="知识点"></a>知识点</h2><p><strong>信息</strong>：客观事物在其运动、演化以及相互作用等过程中所呈现的现象、属性、关系与规律等。信息不是事物本身，是表示事物之间联系的消息、情报、指令、数据或信号。</p>
 <p>信息同物质、能量并列为世界三大资源。同时，智能是第四大资源。</p>
 <p><strong>数据</strong>：信息载体上所反映的信息内容、接收者可以识别的符号。不仅指数字，而且包括字符、文字和图形等。</p>
@@ -1173,9 +1202,7 @@
   <entry>
     <title>信息处理技术员——知识产权和标准化</title>
     <url>/Nolimited-Study.github.io/2020/01/05/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%8811%EF%BC%892%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E2%80%94%E2%80%94%E7%9F%A5%E8%AF%86%E4%BA%A7%E6%9D%83%E5%92%8C%E6%A0%87%E5%87%86%E5%8C%96/</url>
-    <content><![CDATA[<p>在信息处理技术员考试中，一般会有2题左右的知识产权和标准化知识，因此我们稍微来看下相关的一些知识点，并做下这一块的练习。</p>
-<a id="more"></a>
-
+    <content><![CDATA[<p>在信息处理技术员考试中，一般会有2题左右的知识产权和标准化知识，因此我们稍微来看下相关的一些知识点，并做下这一块的练习。<br><a id="more"></a></p>
 <h1 id="知识产权的归属问题"><a href="#知识产权的归属问题" class="headerlink" title="知识产权的归属问题"></a>知识产权的归属问题</h1><h2 id="知识点"><a href="#知识点" class="headerlink" title="知识点"></a>知识点</h2><ul>
 <li>著作权不需要申请，<strong>作品完成</strong>即开始保护。绘画或摄影作品原件出售（赠予）著作权还归原作者，原件拥有者有：所有权、展览权</li>
 <li>专利权：需要申请，专利权有效期是从申请日开始计算</li>
@@ -1425,15 +1452,8 @@ ISO是国际标准化组织。<br>
 <p>B．公民利用本单位物质条件撰写的论文，其著作权属于作者个人</p>
 <p>C．受委托创作的作品，如果合同中没有约定，其著作权属于委托人</p>
 <p>D．摘要汇编作品的著作权由原作品的作者享有</p>
-<details style="color:blue;">
-<summary>展开查看解析和答案</summary>
-<br>
-分析：<br>
-根据我国计算机软件保护条例的规定，公民利用本单位物质条件撰写的论文，其著作权属于单位：受委托创作的作品，如果合同中没有约定，其著作权属于受托人；摘要汇编作品的著作权由汇编人所有。<br>
-答案：A
-</details
-这一个知识点的内容相对比较集中，就总结到这里啦！大家加油！
-
+<p><details style="color:blue;"></p>
+<p><summary>展开查看解析和答案</summary><br><br><br>分析：<br><br>根据我国计算机软件保护条例的规定，公民利用本单位物质条件撰写的论文，其著作权属于单位：受委托创作的作品，如果合同中没有约定，其著作权属于受托人；摘要汇编作品的著作权由汇编人所有。<br><br>答案：A<br>&lt;/details<br>这一个知识点的内容相对比较集中，就总结到这里啦！大家加油！</p>
 ]]></content>
       <categories>
         <category>信息处理技术员</category>
@@ -1449,7 +1469,6 @@ ISO是国际标准化组织。<br>
     <url>/Nolimited-Study.github.io/2019/12/26/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%881%EF%BC%893%20%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E5%88%9D%E7%AD%89%E6%95%B0%E5%AD%A6%E2%80%94%E2%80%94%E7%AE%97%E6%95%B0%E5%B9%B3%E5%9D%87%E6%95%B0%E5%92%8C%E5%8A%A0%E6%9D%83%E5%B9%B3%E5%9D%87%E6%95%B0/</url>
     <content><![CDATA[<p>﻿﻿在信息处理技术员考试中，经常会考到数据统计知识，像算数平均数和加权平均数是常见的一种考试内容。因此，这一次我们来看下这些概念和常见的题型。</p>
 <a id="more"></a>
-
 <h1 id="算数平均数"><a href="#算数平均数" class="headerlink" title="算数平均数"></a>算数平均数</h1><h2 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h2><p><strong>算数平均数</strong>是表示一组数据集中趋势的数，是指在一组数据中所有数据之和再除以这组数据的个数，它反映的是数据集中趋势的一项指标。<br><strong>计算公式</strong>：n个数的总和除以n。如：{1，1，3，7，10，10，10}这组数中，平均数是(1+1+3+7+10+10+10)/7=6。<br>在Excel中，用Average函数来求解在某一数组或数据区域中的中位数。如：输入“=Average(1,1,3,7,10,10,10)”返回的结果是6。</p>
 <p>注意事项：</p>
 <ol>
@@ -1464,28 +1483,32 @@ ISO是国际标准化组织。<br>
     答案：B</details>
 
 <h2 id="例题-2"><a href="#例题-2" class="headerlink" title="例题 2"></a>例题 2</h2><p><strong>2010年下半年试题17</strong><br>某玩具厂5个月内生产熊猫玩具的产量统计如下。一、二月的产量相同，则一、二月的产量为（  ）。 </p>
+<div class="table-container">
 <table>
 <thead>
 <tr>
-<th align="center">月份</th>
-<th align="center">一月</th>
-<th align="center">二月</th>
-<th align="center">三月</th>
-<th align="center">四月</th>
-<th align="center">五月</th>
-<th align="center">每月平均产量</th>
+<th style="text-align:center">月份</th>
+<th style="text-align:center">一月</th>
+<th style="text-align:center">二月</th>
+<th style="text-align:center">三月</th>
+<th style="text-align:center">四月</th>
+<th style="text-align:center">五月</th>
+<th style="text-align:center">每月平均产量</th>
 </tr>
 </thead>
-<tbody><tr>
-<td align="center">产量（只）</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center">1025</td>
-<td align="center">1230</td>
-<td align="center">1643</td>
-<td align="center">1210</td>
+<tbody>
+<tr>
+<td style="text-align:center">产量（只）</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center">1025</td>
+<td style="text-align:center">1230</td>
+<td style="text-align:center">1643</td>
+<td style="text-align:center">1210</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
+</div>
 <p>A．1076<br>B．1025<br>C．1230<br>D．1643</p>
 <details style="color:blue;">
 <summary>点击查看答案和解析</summary>分析：<br>
@@ -1528,32 +1551,36 @@ ISO是国际标准化组织。<br>
 
 
 <h2 id="练习题-2"><a href="#练习题-2" class="headerlink" title="练习题 2"></a>练习题 2</h2><p><strong>2018年下半年试题5</strong><br>某班级有 40名学生，本次数学考试大多在80分上下。老师为了快速统计平均分，对每个学生的分数按80分为基准，记录其相对分（多出的分值用正数表示，减少的分值用负数表示，恰巧等于80分时用0表示）,再统计出各种相对分的人数，如下表：</p>
+<div class="table-container">
 <table>
 <thead>
 <tr>
-<th align="center">相对分</th>
-<th align="center">-10</th>
-<th align="center">-6</th>
-<th align="center">-2</th>
-<th align="center">0</th>
-<th align="center">+2</th>
-<th align="center">+5</th>
-<th align="center">+6</th>
-<th align="center">+10</th>
+<th style="text-align:center">相对分</th>
+<th style="text-align:center">-10</th>
+<th style="text-align:center">-6</th>
+<th style="text-align:center">-2</th>
+<th style="text-align:center">0</th>
+<th style="text-align:center">+2</th>
+<th style="text-align:center">+5</th>
+<th style="text-align:center">+6</th>
+<th style="text-align:center">+10</th>
 </tr>
 </thead>
-<tbody><tr>
-<td align="center">人数</td>
-<td align="center">1</td>
-<td align="center">5</td>
-<td align="center">8</td>
-<td align="center">10</td>
-<td align="center">8</td>
-<td align="center">4</td>
-<td align="center">3</td>
-<td align="center">1</td>
+<tbody>
+<tr>
+<td style="text-align:center">人数</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">5</td>
+<td style="text-align:center">8</td>
+<td style="text-align:center">10</td>
+<td style="text-align:center">8</td>
+<td style="text-align:center">4</td>
+<td style="text-align:center">3</td>
+<td style="text-align:center">1</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
+</div>
 <p>根据上表可推算出，这次考试全班的平均分为（  ）。<br>A. 79.8<br>B. 80.0<br>C. 80.2<br>D. 80.4</p>
 <details style="color:blue;">
 <summary>点击查看答案和解析</summary>
@@ -1593,28 +1620,32 @@ ISO是国际标准化组织。<br>
 
 <h2 id="练习题-6"><a href="#练习题-6" class="headerlink" title="练习题 6"></a>练习题 6</h2><p><strong>2010年上半年试题15</strong></p>
 <p>某公司销售部有营销人员15人，下表是某月这15人的销售量统计表：</p>
+<div class="table-container">
 <table>
 <thead>
 <tr>
-<th align="center">每人销售数（件）</th>
-<th align="center">1800</th>
-<th align="center">510</th>
-<th align="center">250</th>
-<th align="center">210</th>
-<th align="center">150</th>
-<th align="center">120</th>
+<th style="text-align:center">每人销售数（件）</th>
+<th style="text-align:center">1800</th>
+<th style="text-align:center">510</th>
+<th style="text-align:center">250</th>
+<th style="text-align:center">210</th>
+<th style="text-align:center">150</th>
+<th style="text-align:center">120</th>
 </tr>
 </thead>
-<tbody><tr>
-<td align="center">人数</td>
-<td align="center">1</td>
-<td align="center">1</td>
-<td align="center">3</td>
-<td align="center">5</td>
-<td align="center">3</td>
-<td align="center">2</td>
+<tbody>
+<tr>
+<td style="text-align:center">人数</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">3</td>
+<td style="text-align:center">5</td>
+<td style="text-align:center">3</td>
+<td style="text-align:center">2</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
+</div>
 <p>销售部负责人把每位销售员的月销售额定为（  ）件比较合适。</p>
 <p>A. 320<br>B. 210<br>C. 150<br>D. 120</p>
 <details style="color:blue;">
@@ -1643,16 +1674,12 @@ ISO是国际标准化组织。<br>
   <entry>
     <title>信息处理技术员初等数学-众数、中位数、方差等</title>
     <url>/Nolimited-Study.github.io/2019/12/24/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%881%EF%BC%892%20%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E5%88%9D%E7%AD%89%E6%95%B0%E5%AD%A6%E2%80%94%E2%80%94%E4%BC%97%E6%95%B0%E3%80%81%E4%B8%AD%E4%BD%8D%E6%95%B0%E3%80%81%E6%96%B9%E5%B7%AE%E7%AD%89/</url>
-    <content><![CDATA[<p>﻿在信息处理技术员考试中，经常会考到数据统计知识，除了像图表、抽样调查等知识，还会考查到众数、中位数等内容。另外，还有方差、标准差的概念考查。因此，这一次我们来看下这些概念和常见的题型。</p>
-<a id="more"></a>
-
+    <content><![CDATA[<p>﻿在信息处理技术员考试中，经常会考到数据统计知识，除了像图表、抽样调查等知识，还会考查到众数、中位数等内容。另外，还有方差、标准差的概念考查。因此，这一次我们来看下这些概念和常见的题型。<br><a id="more"></a></p>
 <h1 id="众数"><a href="#众数" class="headerlink" title="众数"></a>众数</h1><h2 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h2><p><strong>众数</strong>：一组数据出现次数最多的数据。<br>如：{1，1，3，7，10，10，10}这组数中，1出现了2次，3和7均只出现1次，10出现了3次，出现次数最多的是10，故众数是10。<br>在Excel中，用Mode函数来求解在某一数组或数据区域中出现频率最多的数值。如：输入“=mode(1,1,3,7,10,10,10)”返回的结果是10。<br>在求解众数时，要注意以下几点：</p>
 <ol>
 <li>一组数的众数一定在这组数中；</li>
-<li>众数可能不唯一，有可能有多个数值出现的次数是一样的，如：{1，1，1，3，7，10，10，10}这个时候得到的众数是1,10。</li>
+<li>众数可能不唯一，有可能有多个数值出现的次数是一样的，如：{1，1，1，3，7，10，10，10}这个时候得到的众数是1,10。<br><em>ps：excel中，mode函数的结果只有一个值。如果是多个值，可以用MODE.MULT函数求解一组数据或数据区域中出现频率最高或重复出现的数值的垂直数组。如果是水平数组，再配合transpose函数一起使用。</em><h2 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h2><strong>2013年下半年试题47</strong><br>在Excel 2003中，A1到E6单元格的值如下图所示，若在A7单元格中输入计 算众数的函数“=MODE(A1: E6)”，按回车键后，则A7单元格显示的值为（  ）。<img src="https://img-blog.csdnimg.cn/2019122315011711.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>A．92</li>
 </ol>
-<p><em>ps：excel中，mode函数的结果只有一个值。如果是多个值，可以用MODE.MULT函数求解一组数据或数据区域中出现频率最高或重复出现的数值的垂直数组。如果是水平数组，再配合transpose函数一起使用。</em></p>
-<h2 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h2><p><strong>2013年下半年试题47</strong><br>在Excel 2003中，A1到E6单元格的值如下图所示，若在A7单元格中输入计 算众数的函数“=MODE(A1: E6)”，按回车键后，则A7单元格显示的值为（  ）。<img src="https://img-blog.csdnimg.cn/2019122315011711.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>A．92</p>
 <p>B．77 </p>
 <p>C．72</p>
 <p>D．60</p>
@@ -1765,11 +1792,9 @@ ISO是国际标准化组织。<br>
   <entry>
     <title>信息处理技术员初等数学——实施和计划进度判断</title>
     <url>/Nolimited-Study.github.io/2019/12/20/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%881%EF%BC%894%20%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E5%88%9D%E7%AD%89%E6%95%B0%E5%AD%A6%E2%80%94%E2%80%94%E5%AE%9E%E6%96%BD%E5%92%8C%E8%AE%A1%E5%88%92%E8%BF%9B%E5%BA%A6%E5%88%A4%E6%96%AD/</url>
-    <content><![CDATA[<p>在信息处理技术员考试中，图表题中经常考查的是实施进度和计划进度的快慢判断情况，因此，给大家搜集了一下历年考题，帮助大家熟悉这块知识点，能够更好地通过考试。后面还加了几道题，可以再做下题，看是否已经掌握。</p>
-<a id="more"></a>
-
+    <content><![CDATA[<p>在信息处理技术员考试中，图表题中经常考查的是实施进度和计划进度的快慢判断情况，因此，给大家搜集了一下历年考题，帮助大家熟悉这块知识点，能够更好地通过考试。后面还加了几道题，可以再做下题，看是否已经掌握。<br><a id="more"></a></p>
 <h1 id="例题讲解"><a href="#例题讲解" class="headerlink" title="例题讲解"></a>例题讲解</h1><h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><p>小王承担了某信息处理项目，按计划进度在应完成日向领导做了汇报，将计划进度与实际进度画出了如下两条曲线： <img src="https://img-blog.csdnimg.cn/20191220105409494.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>从该图可以看出，与计划进度相比，实际进度（  ）。<br>A．比较快，提前完成了任务<br>B．先慢后快，延迟完成了任务<br>C．先慢后快，按时完成了任务<br>D．先快后慢，至今尚未完成任务</p>
-<h2 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h2><h3 id="概念理解"><a href="#概念理解" class="headerlink" title="概念理解"></a>概念理解</h3><p>对于这一类型的题，首先要知道坐标轴的相关知识，如下所示：<br><img src="https://img-blog.csdnimg.cn/2019122011144329.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>x轴，又叫做横轴或水平轴，其值从0开始，越往右值越大；<br>y轴，又叫做纵轴或垂直轴，其值从0开始，越往上值越大；<br>然后对应里面的点，我们来判断一下，其点之间的关系。<br><img src="https://img-blog.csdnimg.cn/2019122011183523.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>可以看到，A的x值&lt;B的x值；A的y值&gt;B的y值。（对于里面的点，判断其x、y值，直接做垂直线于x轴和y轴，得到的交点就是其值的大小）</p>
+<h2 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h2><h3 id="概念理解"><a href="#概念理解" class="headerlink" title="概念理解"></a>概念理解</h3><p>对于这一类型的题，首先要知道坐标轴的相关知识，如下所示：<br><img src="https://img-blog.csdnimg.cn/2019122011144329.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>x轴，又叫做横轴或水平轴，其值从0开始，越往右值越大；<br>y轴，又叫做纵轴或垂直轴，其值从0开始，越往上值越大；<br>然后对应里面的点，我们来判断一下，其点之间的关系。<br><img src="https://img-blog.csdnimg.cn/2019122011183523.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>可以看到，A的x值<B的x值；A的y值>B的y值。（对于里面的点，判断其x、y值，直接做垂直线于x轴和y轴，得到的交点就是其值的大小）</p>
 <h3 id="分析方式1"><a href="#分析方式1" class="headerlink" title="分析方式1"></a>分析方式1</h3><p>在这类图表题中，通常都保持一个值不变，比较另一个值的大小情况。<br>我们回到题目：<br>首先，我们先看x轴，即时间保持不变的情况下，看实际进度和计划进度之间的关系，如下图：<br><img src="https://img-blog.csdnimg.cn/20191220114247126.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>可以看到，在时间1（时间开始没多久，可以说是前期）这里，实际进度值1&gt;计划进度值1，说明进展比较快，比计划进度要快一些。<br>在时间2（项目接近尾声，可以说是后期）这里，实际进度值2&lt;计划进度值2，说明进展比较慢，比计划进度要慢一些，有延后。<br>最后再看最后时间，即原图虚线部分，按理应该是完成了100%，而实际完成得少一些，说明至今没有完成任务。</p>
 <h3 id="分析方式2"><a href="#分析方式2" class="headerlink" title="分析方式2"></a>分析方式2</h3><p>还有一种方式，保持进度值不变，看完成的时间。有的时候需要将两种分析方式相结合来看。如下图：<br><img src="https://img-blog.csdnimg.cn/20191220114312687.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>在进度值1时，完成比较少时，实际时间1&lt;计划时间1，故提前完成前期的任务，完成速度比较快；<br>在进度值2时，完成比较多时，实际时间2&gt;计划时间2，故延迟完成前期的任务，完成速度相对慢了一些；<br>再看最后完成100%时，计划时间是刚好完成，而现在实际并没有交叉，说明目前还没有完成任务。</p>
 <h2 id="答案"><a href="#答案" class="headerlink" title="答案"></a>答案</h2><p>在0至实际进度与计划进度交叉前，实际进度在计划进度之上，说明实际进度快于计划进度，在计划进度到达100%时，实际进度没有达到100%，说明至今任务尚未完成。所以从该图来看，实际进度是先快后慢，最后没有完成任务。<br>故此答案选择D。</p>
@@ -1857,9 +1882,7 @@ ISO是国际标准化组织。<br>
   <entry>
     <title>office 图标异常解决办法</title>
     <url>/Nolimited-Study.github.io/2019/12/18/WINODWS%202%20OFFICE%20%E5%9B%BE%E6%A0%87%E5%BC%82%E5%B8%B8%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/</url>
-    <content><![CDATA[<p>﻿有的时候我们安装好Office办公软件之后，或者安装了WPS之后，可能会导致Office图标出现异常，那么应该怎么办呢？以下提供几种方式供大家参考，希望能解决你的问题~</p>
-<a id="more"></a>
-<p><img src="https://img-blog.csdnimg.cn/20191218100121932.png" alt="在这里插入图片描述"><br>ps：我的系统是windows 7，然后使用的办公软件是Microsoft Office 2010，如果版本不同，也可以有一定的借鉴意义。</p>
+    <content><![CDATA[<p>﻿有的时候我们安装好Office办公软件之后，或者安装了WPS之后，可能会导致Office图标出现异常，那么应该怎么办呢？以下提供几种方式供大家参考，希望能解决你的问题~<br><a id="more"></a><br><img src="https://img-blog.csdnimg.cn/20191218100121932.png" alt="在这里插入图片描述"><br>ps：我的系统是windows 7，然后使用的办公软件是Microsoft Office 2010，如果版本不同，也可以有一定的借鉴意义。</p>
 <h1 id="第一种办法：设置打开方式"><a href="#第一种办法：设置打开方式" class="headerlink" title="第一种办法：设置打开方式"></a>第一种办法：设置打开方式</h1><p>首先，看下默认打开方式是否有问题，在图标上单击鼠标右键，然后选择打开方式，选择默认打开程序。<img src="https://img-blog.csdnimg.cn/20191218100501333.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>在打开的对话框中，选择合适的软件。<br><img src="https://img-blog.csdnimg.cn/20191218100819477.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>点击确定后，看图标是否正常。</p>
 <h1 id="第二种办法：设置显示缩略图"><a href="#第二种办法：设置显示缩略图" class="headerlink" title="第二种办法：设置显示缩略图"></a>第二种办法：设置显示缩略图</h1><p>如果还有问题，可以按下面的方法再进行设置。<br>第一步：点击开始菜单，找到控制面板；<br><img src="https://img-blog.csdnimg.cn/20191218101041349.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>第二步：打开系统和安全；<br><img src="https://img-blog.csdnimg.cn/20191218101130767.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>第三步：点击系统；<br><img src="https://img-blog.csdnimg.cn/20191218101240895.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>第四步：点击高级系统设置；<br><img src="https://img-blog.csdnimg.cn/20191218101315210.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>第五步：在弹出的对话框中，选择高级选项卡中的第一个设置，然后在取消勾选“显示缩略图，而不是显示图标”，再点击确定，关闭所有打开的窗口。<br><img src="https://img-blog.csdnimg.cn/20191218101433956.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>现在，应该就可以看到图标是正常的了。<br>如图：<br><img src="https://img-blog.csdnimg.cn/20191218101634304.png" alt="在这里插入图片描述"></p>
 <h1 id="第三种办法：设置程序修复"><a href="#第三种办法：设置程序修复" class="headerlink" title="第三种办法：设置程序修复"></a>第三种办法：设置程序修复</h1><p>如果上述方法都不行，可以尝试下一个办法。首先仍然是按照第二种办法打开控制面板，然后选择下面的程序。<br><img src="https://img-blog.csdnimg.cn/20191218102329780.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>接下来，点击程序和功能。<br><img src="https://img-blog.csdnimg.cn/20191218102400883.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>然后找到Office办公软件，右击，选择更改。<br><img src="https://img-blog.csdnimg.cn/20191218102609914.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>点选修复，再点击继续。<br><img src="https://img-blog.csdnimg.cn/20191218102657659.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>等待程序完成修复，再重启电脑看图标是否恢复。</p>
@@ -1872,16 +1895,14 @@ ISO是国际标准化组织。<br>
         <category>WINDOWS操作</category>
       </categories>
       <tags>
-        <tag>图标异常</tag>
         <tag>WINDOWS操作</tag>
+        <tag>图标异常</tag>
       </tags>
   </entry>
   <entry>
     <title>信息处理技术员——Excel中ROUND函数详解</title>
     <url>/Nolimited-Study.github.io/2019/12/16/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%885%EF%BC%891%20%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E2%80%94%E2%80%94Excel%E4%B8%ADROUND%E5%87%BD%E6%95%B0%E8%AF%A6%E8%A7%A3/</url>
-    <content><![CDATA[<p>﻿在Excel中，很多时候都会用到Round函数，今天就来看下 Microsoft Excel 中 ROUND 函数、ROUNDUP函数和ROUNDDOWN函数的公式语法和用法。</p>
-<a id="more"></a>
-
+    <content><![CDATA[<p>﻿在Excel中，很多时候都会用到Round函数，今天就来看下 Microsoft Excel 中 ROUND 函数、ROUNDUP函数和ROUNDDOWN函数的公式语法和用法。<br><a id="more"></a></p>
 <h1 id="ROUND函数（对数值四舍五入）"><a href="#ROUND函数（对数值四舍五入）" class="headerlink" title="ROUND函数（对数值四舍五入）"></a><font color="Blue">ROUND函数（对数值四舍五入）</font></h1><p>round函数用来对数值进行四舍五入。</p>
 <h2 id="语法"><a href="#语法" class="headerlink" title="语法"></a><font color="gray">语法</font></h2><p>语法：ROUND(number, num_digits)<br>其中：</p>
 <ul>
@@ -1950,10 +1971,10 @@ ISO是国际标准化组织。<br>
 <h2 id="总结-1"><a href="#总结-1" class="headerlink" title="总结"></a><font color="gray">总结</font></h2><p>先看需要保留的位数，然后看其后面有没有值，如果有，则保留的末尾位上的值要+1，并且不管是正数还是负数，其结果也只有符号位的不同。（注意，是绝对值方向向上）</p>
 <h2 id="练习"><a href="#练习" class="headerlink" title="练习"></a><font color="gray">练习</font></h2><p>再看下如下例题：</p>
 <ol>
-<li>=ROUNDUP(-1763.00001，0) 大家判断下结果是<strong><strong>____</strong></strong></li>
-<li>=ROUNDUP(-1763，0) 大家判断下结果是<strong><strong>____</strong></strong></li>
-<li>=ROUNDUP(1763.00001，0) 大家判断下结果是<strong><strong>____</strong></strong></li>
-<li>=ROUNDUP(1763，0) 大家判断下结果是<strong><strong>____</strong></strong></li>
+<li>=ROUNDUP(-1763.00001，0) 大家判断下结果是<strong><strong><em>__</em></strong></strong></li>
+<li>=ROUNDUP(-1763，0) 大家判断下结果是<strong><strong><em>__</em></strong></strong></li>
+<li>=ROUNDUP(1763.00001，0) 大家判断下结果是<strong><strong><em>__</em></strong></strong></li>
+<li>=ROUNDUP(1763，0) 大家判断下结果是<strong><strong><em>__</em></strong></strong></li>
 </ol>
 <details style="color:blue;"><summary>点击展看答案</summary>
 答案：<br>
@@ -1992,10 +2013,10 @@ ISO是国际标准化组织。<br>
 <h2 id="总结-2"><a href="#总结-2" class="headerlink" title="总结"></a><font color="gray">总结</font></h2><p>先看需要保留的位数，然后直接舍去保留位数后面的值，并且不管是正数还是负数，其结果也只有符号位的不同。（注意，是绝对值方向向下）</p>
 <h2 id="练习-1"><a href="#练习-1" class="headerlink" title="练习"></a><font color="gray">练习</font></h2><p>再看下如下例题：</p>
 <ul>
-<li>=ROUNDDOWN(-1763.9999，0) 大家判断下结果是<strong><strong>____</strong></strong></li>
-<li>=ROUNDDOWN(-1763，0) 大家判断下结果是<strong><strong>____</strong></strong></li>
-<li>=ROUNDDOWN(1763.9999，0) 大家判断下结果是<strong><strong>____</strong></strong></li>
-<li>=ROUNDDOWN(1763，0) 大家判断下结果是____<u>      </u></li>
+<li>=ROUNDDOWN(-1763.9999，0) 大家判断下结果是<strong><strong><em>__</em></strong></strong></li>
+<li>=ROUNDDOWN(-1763，0) 大家判断下结果是<strong><strong><em>__</em></strong></strong></li>
+<li>=ROUNDDOWN(1763.9999，0) 大家判断下结果是<strong><strong><em>__</em></strong></strong></li>
+<li>=ROUNDDOWN(1763，0) 大家判断下结果是<em>__</em><u>      </u></li>
 </ul>
 <details style="color:blue;"><summary>点击展看答案</summary>
 答案：<br>
@@ -2027,15 +2048,14 @@ ISO是国际标准化组织。<br>
     <url>/Nolimited-Study.github.io/2019/12/16/%E5%8A%9E%E5%85%AC%E8%BD%AF%E4%BB%B6%EF%BC%883%EF%BC%891%20%E7%9B%B8%E5%86%8C%E5%9E%8BPPT%E5%88%B6%E4%BD%9C%E6%8C%87%E5%AF%BC/</url>
     <content><![CDATA[<p>在工作和生活中，我们经常会需要制作一些相册集，如公司年会的总结展示，成员介绍、活动回顾、亲子相册等都可能会用到。如果会用视频编辑软件或者动画制作软件的话，那肯定是最好的，但是如果不会，我们也不用担心，用PowerPoint也能够很快的制作相册。以下，提供在PPT中制作相册的几种方式，以及如何进行美化。</p>
 <a id="more"></a>
-
 <h1 id="快速制作相册（快狠准篇）"><a href="#快速制作相册（快狠准篇）" class="headerlink" title="快速制作相册（快狠准篇）"></a>快速制作相册（快狠准篇）</h1><hr>
-<h2 id="第一步-插入相册集"><a href="#第一步-插入相册集" class="headerlink" title="第一步 插入相册集"></a>第一步 插入相册集</h2><p> 如下图，新建一个PPT，依次点击“插入”选项卡–“相册”–“新建相册”。<br><img src="https://img-blog.csdnimg.cn/2019121316355725.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h2 id="第一步-插入相册集"><a href="#第一步-插入相册集" class="headerlink" title="第一步 插入相册集"></a>第一步 插入相册集</h2><p> 如下图，新建一个PPT，依次点击“插入”选项卡—“相册”—“新建相册”。<br><img src="https://img-blog.csdnimg.cn/2019121316355725.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
 <h2 id="第二步-选择图片"><a href="#第二步-选择图片" class="headerlink" title="第二步 选择图片"></a>第二步 选择图片</h2><p>在跳出的对话框中点击“文件/磁盘”，继续在跳出的对话框中选择你的图片文件夹，然后双击打开，出现所有的图片，这时可以按Ctrl+A全部选中，再点击下面的插入即可。如下图：<br><img src="https://img-blog.csdnimg.cn/20191213163806219.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
 <h2 id="第三步-美化调整图片"><a href="#第三步-美化调整图片" class="headerlink" title="第三步 美化调整图片"></a>第三步 美化调整图片</h2><p>接下来，系统就会跳出图片编辑栏。此时，全部照片已经进入编辑状态，在右上方的图片编辑框可以“旋转、改变亮度、调节黑百度等操作”，当然也可以按照默认的设置，之后再进行美化。<br><img src="https://img-blog.csdnimg.cn/20191213164123967.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
 <h2 id="第四步-设置图片版式和形状"><a href="#第四步-设置图片版式和形状" class="headerlink" title="第四步 设置图片版式和形状"></a>第四步 设置图片版式和形状</h2><p>然后在图片版式中选择每页的图片数量和是否需要加标题，在相框形状中选择希望的形状样式，在右侧窗口可以进行预览，另外也可以在主题中选择合适的主题，（本次案例每页放2张照片且不加标题，相框形状选择圆角矩形，主题没有选择）在点击“创建”。<br><img src="https://img-blog.csdnimg.cn/20191213164458341.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br><img src="https://img-blog.csdnimg.cn/20191213164307755.png" alt="在这里插入图片描述"></p>
 <h2 id="第五步-初步完成相册集"><a href="#第五步-初步完成相册集" class="headerlink" title="第五步 初步完成相册集"></a>第五步 初步完成相册集</h2><p>如下图，所有照片已经插入，且每页PPT2张PPT。如下图：<br><img src="https://img-blog.csdnimg.cn/20191213164555467.png" alt="在这里插入图片描述"></p>
-<h2 id="第六步-设置切换和自动换片"><a href="#第六步-设置切换和自动换片" class="headerlink" title="第六步 设置切换和自动换片"></a>第六步 设置切换和自动换片</h2><p>设置播放效果。给每页PPT添加切换效果。选中全部PPT，点击工具栏“切换”–“擦除”，也可以换成其他的切换效果；换片方式改为“设置自动换片时间为00:02.00”，最后点击全部应用。如下图：<br><img src="https://img-blog.csdnimg.cn/20191213165215249.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h2 id="第七步-添加背景音乐"><a href="#第七步-添加背景音乐" class="headerlink" title="第七步 添加背景音乐"></a>第七步 添加背景音乐</h2><p>给电子相册添加背景音乐。如下选中电子相册第一页，点击工具栏“插入”-“音频”–“PC上的音频”，在跳出的对话框中选择合适的音乐并插入。然后可以对声音文件进行设置。<br><img src="https://img-blog.csdnimg.cn/20191213165302470.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h2 id="第六步-设置切换和自动换片"><a href="#第六步-设置切换和自动换片" class="headerlink" title="第六步 设置切换和自动换片"></a>第六步 设置切换和自动换片</h2><p>设置播放效果。给每页PPT添加切换效果。选中全部PPT，点击工具栏“切换”—“擦除”，也可以换成其他的切换效果；换片方式改为“设置自动换片时间为00:02.00”，最后点击全部应用。如下图：<br><img src="https://img-blog.csdnimg.cn/20191213165215249.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h2 id="第七步-添加背景音乐"><a href="#第七步-添加背景音乐" class="headerlink" title="第七步 添加背景音乐"></a>第七步 添加背景音乐</h2><p>给电子相册添加背景音乐。如下选中电子相册第一页，点击工具栏“插入”-“音频”—“PC上的音频”，在跳出的对话框中选择合适的音乐并插入。然后可以对声音文件进行设置。<br><img src="https://img-blog.csdnimg.cn/20191213165302470.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
 <h2 id="第八步-导出为视频格式"><a href="#第八步-导出为视频格式" class="headerlink" title="第八步 导出为视频格式"></a>第八步 导出为视频格式</h2><p>基本上最简单的PPT制作就完成了，当然还可以进行进一步的美化。还可以将做好的导出为视频，如下图，另存为视频格式（wmv格式）即可。<img src="https://img-blog.csdnimg.cn/20191213165541655.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
 <h1 id="PPT相册优化（精心设计篇）"><a href="#PPT相册优化（精心设计篇）" class="headerlink" title="PPT相册优化（精心设计篇）"></a>PPT相册优化（精心设计篇）</h1><hr>
 <p>虽然上面提到的方式是非常快捷的，但是却不能制作出令人赏心悦目、叹为观止的相册，只能说基本达到需要而已。那接下来，我就来讲解如何完善我们的图片型、相册型的PPT。也稍微介绍几种方式。</p>
@@ -2061,24 +2081,13 @@ ISO是国际标准化组织。<br>
   <entry>
     <title>hexo优化：Markdown语法引入Flowchart和Mermaid流程图</title>
     <url>/Nolimited-Study.github.io/2019/11/29/%E9%9A%8F%E7%AC%94%202%20hexo%E4%BC%98%E5%8C%96%EF%BC%9AMarkdown%E8%AF%AD%E6%B3%95%E5%BC%95%E5%85%A5Flowchart%E5%92%8CMermaid%E6%B5%81%E7%A8%8B%E5%9B%BE/</url>
-    <content><![CDATA[<p>我们在写Hexo博客文章时候，常常需要用图形来描述。但是有的时候画图不易修改，原图需要在本地保存，另外上传图片比较麻烦，加载图片又相对耗时。所以如何直接使用Markdown编写的流程图能够在hexo博客上直接生成就成了一个问题，另外，怎样通过Markdown来画流程图呢？</p>
-<a id="more"></a>
-<p>接下来，相信这篇博客能对你起到一定的帮助哦~</p>
-<h1 id="引入flowchart流程图"><a href="#引入flowchart流程图" class="headerlink" title="引入flowchart流程图"></a>引入flowchart流程图</h1><h2 id="1、添加支持"><a href="#1、添加支持" class="headerlink" title="1、添加支持"></a>1、添加支持</h2><p>Hexo默认下markdown不支持flowchart流程图，需要添加支持，用git-bash在hexo目录下进行输入：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install --save hexo-filter-flowchart</span><br></pre></td></tr></table></figure>
-<p>接下来只需要输入对应的实例来测试就可以了。</p>
+    <content><![CDATA[<p>我们在写Hexo博客文章时候，常常需要用图形来描述。但是有的时候画图不易修改，原图需要在本地保存，另外上传图片比较麻烦，加载图片又相对耗时。所以如何直接使用Markdown编写的流程图能够在hexo博客上直接生成就成了一个问题，另外，怎样通过Markdown来画流程图呢？<br><a id="more"></a><br>接下来，相信这篇博客能对你起到一定的帮助哦~</p>
+<h1 id="引入flowchart流程图"><a href="#引入flowchart流程图" class="headerlink" title="引入flowchart流程图"></a>引入flowchart流程图</h1><h2 id="1、添加支持"><a href="#1、添加支持" class="headerlink" title="1、添加支持"></a>1、添加支持</h2><p>Hexo默认下markdown不支持flowchart流程图，需要添加支持，用git-bash在hexo目录下进行输入：<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install --save hexo-filter-flowchart</span><br></pre></td></tr></table></figure><br>接下来只需要输入对应的实例来测试就可以了。</p>
 <hr>
-<h2 id="2、测试"><a href="#2、测试" class="headerlink" title="2、测试"></a>2、测试</h2><p>接下来，先进行测试一下，使用markdown进行编写flowchart语句。如下所示：</p>
-<figure class="highlight go"><table><tr><td class="code"><pre><span class="line">···flow   #由于渲染问题，请自行将 · 替换为 <span class="string">`</span></span><br><span class="line"><span class="string">st=&gt;start: 开始语句</span></span><br><span class="line"><span class="string">in=&gt;inputoutput: 输入值</span></span><br><span class="line"><span class="string">e=&gt;end: 结束语句</span></span><br><span class="line"><span class="string">op=&gt;operation: 执行操作</span></span><br><span class="line"><span class="string">cond=&gt;condition: 是否成立？</span></span><br><span class="line"><span class="string">out=&gt;inputoutput: 输出值</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">st-&gt;in-&gt;op-&gt;cond</span></span><br><span class="line"><span class="string">cond(yes)-&gt;out</span></span><br><span class="line"><span class="string">cond(no)-&gt;op</span></span><br><span class="line"><span class="string">out-&gt;e</span></span><br><span class="line"><span class="string">···</span></span><br></pre></td></tr></table></figure>
-
+<h2 id="2、测试"><a href="#2、测试" class="headerlink" title="2、测试"></a>2、测试</h2><p>接下来，先进行测试一下，使用markdown进行编写flowchart语句。如下所示：<br><figure class="highlight go"><table><tr><td class="code"><pre><span class="line">···flow   #由于渲染问题，请自行将 · 替换为 <span class="string">`</span></span><br><span class="line"><span class="string">st=&gt;start: 开始语句</span></span><br><span class="line"><span class="string">in=&gt;inputoutput: 输入值</span></span><br><span class="line"><span class="string">e=&gt;end: 结束语句</span></span><br><span class="line"><span class="string">op=&gt;operation: 执行操作</span></span><br><span class="line"><span class="string">cond=&gt;condition: 是否成立？</span></span><br><span class="line"><span class="string">out=&gt;inputoutput: 输出值</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">st-&gt;in-&gt;op-&gt;cond</span></span><br><span class="line"><span class="string">cond(yes)-&gt;out</span></span><br><span class="line"><span class="string">cond(no)-&gt;op</span></span><br><span class="line"><span class="string">out-&gt;e</span></span><br><span class="line"><span class="string">···</span></span><br></pre></td></tr></table></figure></p>
 <p>写好后，可以在本地（<a href="http://localhost:4000/" target="_blank" rel="noopener">http://localhost:4000/</a>）查看结果如下图：</p>
-<div id="flowchart-0" class="flow-chart"></div>
----
-## 3、语法结构
-语法结构如下：<code>X=>Y: Z</code>
-其中，X是变量名， Y是指操作模块名，冒号后面的Z是具体显示的文字内容。需要注意的是，冒号后要加空格才能识别。 
- 其中，变量名X和文字内容Z可以比较随意设置，但是Y是有固定的内容，主要有以下几种：
-
+<h2 id=""><a href="#" class="headerlink" title=""></a><div id="flowchart-0" class="flow-chart"></div></h2><h2 id="3、语法结构"><a href="#3、语法结构" class="headerlink" title="3、语法结构"></a>3、语法结构</h2><p>语法结构如下：<code>X=&gt;Y: Z</code><br>其中，X是变量名， Y是指操作模块名，冒号后面的Z是具体显示的文字内容。需要注意的是，冒号后要加空格才能识别。<br> 其中，变量名X和文字内容Z可以比较随意设置，但是Y是有固定的内容，主要有以下几种：</p>
+<div class="table-container">
 <table>
 <thead>
 <tr>
@@ -2086,7 +2095,8 @@ ISO是国际标准化组织。<br>
 <th>表示含义说明</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td>start</td>
 <td>开始</td>
 </tr>
@@ -2110,22 +2120,21 @@ ISO是国际标准化组织。<br>
 <td>inputoutput</td>
 <td>输入输出块</td>
 </tr>
-</tbody></table>
-<h3 id="转向控制"><a href="#转向控制" class="headerlink" title="转向控制"></a>转向控制</h3><p>下面一段是流程图的转向控制，<code>-></code>是表示下一步要执行的操作。如：<code>st->in->op->cond</code>，表示的是先从st转到in，然后再到op，最后到cond。这里可以连续写，也可以段开写，如写成下面的也是完全OK的。<br><code>st->in<br>in->op<br>op->cond</code></p>
-<h3 id="判断分支"><a href="#判断分支" class="headerlink" title="判断分支"></a>判断分支</h3><p>其中，condition是判断，可以取yes和no两种结果，对于不同结果可以有不同走向。如：<br><code>cond(yes)->out </code>表示condition成立时转向out执行；<br><code>cond(no)->op</code>表示condition不成立时转向op执行；</p>
+</tbody>
+</table>
+</div>
+<h3 id="转向控制"><a href="#转向控制" class="headerlink" title="转向控制"></a>转向控制</h3><p>下面一段是流程图的转向控制，<code>-&gt;</code>是表示下一步要执行的操作。如：<code>st-&gt;in-&gt;op-&gt;cond</code>，表示的是先从st转到in，然后再到op，最后到cond。这里可以连续写，也可以段开写，如写成下面的也是完全OK的。<br><code>st-&gt;in<br>in-&gt;op<br>op-&gt;cond</code></p>
+<h3 id="判断分支"><a href="#判断分支" class="headerlink" title="判断分支"></a>判断分支</h3><p>其中，condition是判断，可以取yes和no两种结果，对于不同结果可以有不同走向。如：<br><code>cond(yes)-&gt;out </code>表示condition成立时转向out执行；<br><code>cond(no)-&gt;op</code>表示condition不成立时转向op执行；</p>
 <p>如果需要设置流程图的样式或者其他设置，可以参考网址：<a href="http://flowchart.js.org/" target="_blank" rel="noopener">http://flowchart.js.org/</a></p>
 <hr>
-<h1 id="引入Mermaid流程图"><a href="#引入Mermaid流程图" class="headerlink" title="引入Mermaid流程图"></a>引入Mermaid流程图</h1><h2 id="1、添加支持-1"><a href="#1、添加支持-1" class="headerlink" title="1、添加支持"></a>1、添加支持</h2><p>Hexo 默认是markdown不支持Mermaid流程图的，需要添加支持，和添加flowchart流程图差不多，即用git-bash在hexo目录下进行输入：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install --save hexo-filter-mermaid-diagrams</span><br></pre></td></tr></table></figure>
-<p>但是对于Mermaid流程图而言，还需要在主题配置文件中进行设置下，找到mermaid模块，将enable后面的false改为true即可。<br>例如，我用的是next主题，则到blog/themes/next/_config.yml内搜索mermaid，找到模块的enable，改为true即可。如下所示：</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> Mermaid tag</span></span><br><span class="line">mermaid:</span><br><span class="line">  enable: true</span><br><span class="line"><span class="meta">  #</span><span class="bash"> Available themes: default | dark | forest | neutral</span></span><br><span class="line">  theme: forest</span><br></pre></td></tr></table></figure>
-
+<h1 id="引入Mermaid流程图"><a href="#引入Mermaid流程图" class="headerlink" title="引入Mermaid流程图"></a>引入Mermaid流程图</h1><h2 id="1、添加支持-1"><a href="#1、添加支持-1" class="headerlink" title="1、添加支持"></a>1、添加支持</h2><p>Hexo 默认是markdown不支持Mermaid流程图的，需要添加支持，和添加flowchart流程图差不多，即用git-bash在hexo目录下进行输入：<br><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install --save hexo-filter-mermaid-diagrams</span><br></pre></td></tr></table></figure><br>但是对于Mermaid流程图而言，还需要在主题配置文件中进行设置下，找到mermaid模块，将enable后面的false改为true即可。<br>例如，我用的是next主题，则到blog/themes/next/_config.yml内搜索mermaid，找到模块的enable，改为true即可。如下所示：<br><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> Mermaid tag</span></span><br><span class="line">mermaid:</span><br><span class="line">  enable: true</span><br><span class="line"><span class="meta">  #</span><span class="bash"> Available themes: default | dark | forest | neutral</span></span><br><span class="line">  theme: forest</span><br></pre></td></tr></table></figure></p>
 <hr>
 <h2 id="2、测试-1"><a href="#2、测试-1" class="headerlink" title="2、测试"></a>2、测试</h2><p>接下来，先进行测试一下，使用markdown进行编写mermaid语句。如下所示：</p>
 <figure class="highlight go"><table><tr><td class="code"><pre><span class="line">···mermaid #由于渲染问题，请自行将 · 替换为 <span class="string">`</span></span><br><span class="line"><span class="string">graph TD</span></span><br><span class="line"><span class="string">    B((开始)) --&gt;C&#123;判断&#125;</span></span><br><span class="line"><span class="string">    C --  a=1 --&gt;D[执行语句1]</span></span><br><span class="line"><span class="string">    C --  a=2  --&gt;E[执行语句2]</span></span><br><span class="line"><span class="string">    C --  a=3 --&gt;F[执行语句3]</span></span><br><span class="line"><span class="string">    C -- a=4  --&gt;G[执行语句4]</span></span><br><span class="line"><span class="string">    D--&gt; AA((结束))</span></span><br><span class="line"><span class="string">    E--&gt; AA</span></span><br><span class="line"><span class="string">    F--&gt; AA</span></span><br><span class="line"><span class="string">   G--&gt; AA      </span></span><br><span class="line"><span class="string">···</span></span><br></pre></td></tr></table></figure>
 <p>写好后，可以在本地（<a href="http://localhost:4000/）查看效果如下图：" target="_blank" rel="noopener">http://localhost:4000/）查看效果如下图：</a><br><img src="https://img-blog.csdnimg.cn/20191129165410834.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>如果发现出现问题，请先核对自己录入是否出错。我的仅需要上面两个步骤就成功了。如果你的还是有问题的话，可以参考：<a href="https://blog.csdn.net/qq_36347375/article/details/90478335" target="_blank" rel="noopener">Hexo引入Mermaid流程图和MathJax数学公式</a>进行更多的配置。</p>
 <hr>
-<h2 id="3、语法结构"><a href="#3、语法结构" class="headerlink" title="3、语法结构"></a>3、语法结构</h2><p>语法结构如下：<code>A[名称]  --> B(名称)</code><br>其中，A、B均代表形状名称，<code> --></code>表示箭头指向，形状样式用后面的括号来表示，括号里面的内容是形状中要显示的文本内容。其中有以下几种形状：</p>
+<h2 id="3、语法结构-1"><a href="#3、语法结构-1" class="headerlink" title="3、语法结构"></a>3、语法结构</h2><p>语法结构如下：<code>A[名称]  —&gt; B(名称)</code><br>其中，A、B均代表形状名称，<code> —&gt;</code>表示箭头指向，形状样式用后面的括号来表示，括号里面的内容是形状中要显示的文本内容。其中有以下几种形状：</p>
+<div class="table-container">
 <table>
 <thead>
 <tr>
@@ -2133,7 +2142,8 @@ ISO是国际标准化组织。<br>
 <th>形状样式</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td>[ ]</td>
 <td>矩形框</td>
 </tr>
@@ -2149,10 +2159,12 @@ ISO是国际标准化组织。<br>
 <td>(( ))</td>
 <td>圆形</td>
 </tr>
-</tbody></table>
-<p>如果没有形状边框，可以写成：<code>C[语句] --> |语句| D[语句]</code>或者<code>C[语句] -- 语句 --> D[语句]</code>都可以。<br>相对而言，比Flowchart更加简洁清晰，Mermaid还支持制作时序图、甘特图等，更多详细内容还可以参考网站：<a href="https://mermaid-js.github.io/mermaid/#/" target="_blank" rel="noopener">https://mermaid-js.github.io/mermaid/#/</a></p>
+</tbody>
+</table>
+</div>
+<p>如果没有形状边框，可以写成：<code>C[语句] —&gt; |语句| D[语句]</code>或者<code>C[语句] — 语句 —&gt; D[语句]</code>都可以。<br>相对而言，比Flowchart更加简洁清晰，Mermaid还支持制作时序图、甘特图等，更多详细内容还可以参考网站：<a href="https://mermaid-js.github.io/mermaid/#/" target="_blank" rel="noopener">https://mermaid-js.github.io/mermaid/#/</a></p>
 <p>其他的还有序列图，UML图等，大家也可以进行配置后运用Markdown生成图形。在这里，我就不多介绍啦~</p>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js"></script><textarea id="flowchart-0-code" style="display: none">st=>start: 开始语句
+<p><script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.2.7/raphael.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.6.5/flowchart.min.js"></script><textarea id="flowchart-0-code" style="display: none">st=>start: 开始语句
 in=>inputoutput: 输入值
 e=>end: 结束语句
 op=>operation: 执行操作
@@ -2162,7 +2174,8 @@ out=>inputoutput: 输出值
 st->in->op->cond
 cond(yes)->out
 cond(no)->op
-out->e</textarea><textarea id="flowchart-0-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-0-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-0", options);</script>]]></content>
+out->e</textarea><textarea id="flowchart-0-options" style="display: none">{"scale":1,"line-width":2,"line-length":50,"text-margin":10,"font-size":12}</textarea><script>  var code = document.getElementById("flowchart-0-code").value;  var options = JSON.parse(decodeURIComponent(document.getElementById("flowchart-0-options").value));  var diagram = flowchart.parse(code);  diagram.drawSVG("flowchart-0", options);</script></p>
+]]></content>
       <categories>
         <category>随笔</category>
       </categories>
@@ -2173,22 +2186,17 @@ out->e</textarea><textarea id="flowchart-0-options" style="display: none">{"scal
   <entry>
     <title>C语言基础课程（1）——hello world程序理解</title>
     <url>/Nolimited-Study.github.io/2019/11/28/C%E8%AF%AD%E8%A8%80%EF%BC%881%EF%BC%891/</url>
-    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>因工作需要，特书写一套简单易入门的C语言基础教程，供大家使用。但是，注意下：该教程<b><font color="#000ccc">最适合程序小白</font></b>食用，如果已经有良好C语言基础的童鞋可以移步其他教程啦~</p>
-<a id="more"></a>
-<p>另外，该教程主要讲解C语言的语法结构，不涉及具体编译器的安装和其他理论知识，大家遇到不懂的或者有错误等可以进行留言，万分感谢。<br>如果想要进行编译运行，可以下载编辑器进行本地进行编辑→编译→运行即可。编译器有：<a href="https://docs.microsoft.com/zh-cn/visualstudio/?view=vs-2019" target="_blank" rel="noopener">Visual Studio 2015/2017</a>、<a href="https://bloodshed-dev-c.en.softonic.com/" target="_blank" rel="noopener">Dev C++</a>、<a href="http://www.codeblocks.org/home" target="_blank" rel="noopener">Code ::Blocks</a>、Turbo C 2.0等。如果嫌麻烦，可以直接搜索C语言在线编译工具（如： <a href="https://tech.io/snippet" target="_blank" rel="noopener">tech.io/snippet</a>、<a href="https://rextester.com/" target="_blank" rel="noopener">rextester.com</a>、<a href="https://www.ideone.com" target="_blank" rel="noopener">www.ideone.com</a>、<a href="https://c.runoob.com/compile/11" target="_blank" rel="noopener">菜鸟工具</a>）进行编辑后运行。</p>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>因工作需要，特书写一套简单易入门的C语言基础教程，供大家使用。但是，注意下：该教程<b><font color="#000ccc">最适合程序小白</font></b>食用，如果已经有良好C语言基础的童鞋可以移步其他教程啦~<br><a id="more"></a><br>另外，该教程主要讲解C语言的语法结构，不涉及具体编译器的安装和其他理论知识，大家遇到不懂的或者有错误等可以进行留言，万分感谢。<br>如果想要进行编译运行，可以下载编辑器进行本地进行编辑→编译→运行即可。编译器有：<a href="https://docs.microsoft.com/zh-cn/visualstudio/?view=vs-2019" target="_blank" rel="noopener">Visual Studio 2015/2017</a>、<a href="https://bloodshed-dev-c.en.softonic.com/" target="_blank" rel="noopener">Dev C++</a>、<a href="http://www.codeblocks.org/home" target="_blank" rel="noopener">Code ::Blocks</a>、Turbo C 2.0等。如果嫌麻烦，可以直接搜索C语言在线编译工具（如： <a href="https://tech.io/snippet" target="_blank" rel="noopener">tech.io/snippet</a>、<a href="https://rextester.com/" target="_blank" rel="noopener">rextester.com</a>、<a href="https://www.ideone.com" target="_blank" rel="noopener">www.ideone.com</a>、<a href="https://c.runoob.com/compile/11" target="_blank" rel="noopener">菜鸟工具</a>）进行编辑后运行。</p>
 <p>接下来，咱们进入到正式的课程学习中。<br>首先来看一个最基本的C语言程序。</p>
 <hr>
 <h1 id="第一个程序：hello-World"><a href="#第一个程序：hello-World" class="headerlink" title="第一个程序：hello World"></a>第一个程序：hello World</h1><p><img src="https://img-blog.csdnimg.cn/20191128170257655.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>大家先自行录入一下上面的代码，能不能运行出来呢？？<br>如果可以，那么恭喜，如果不可以，请检查下自己输入的符号、单词有没有错误，切记：C语言中的符号绝大多数都是英文格式的，如果输成中文格式的符号，将不识别，会报错。<br>检查好符号、单词拼写后，再看下能不能执行呢？<br>相信大家的程序都可以执行了，但是是不是不太明白，那我们来逐句解读一下并理解下。遇到不太懂的词，可以先跳过，不用太过纠结，随着后续学习的深入，会慢慢加深自己的理解和扩充知识体系的。</p>
-<h2 id="1、include-lt-stdio-h-gt"><a href="#1、include-lt-stdio-h-gt" class="headerlink" title="1、include &lt;stdio.h&gt;"></a>1、include &lt;stdio.h&gt;</h2><p>第1句，这是预处理器指令，预处理器指令指导编译器在实际编译开始之前对信息进行预处理。所有的预处理器指令都是以 # 开始。预处理器指令不是语句，所以它们不以分号（;）结束。<br>这句话的作用为让编译器在此程序中包含指定的头文件。目前这条语句用到的是<code><stdio.h></code>文件，其余还有<code><math.h></code>（定义数学函数）、 <code><string.h></code>（字符串处理）、<code><time.h></code> （定义关于时间的函数）等等，目前大家只要知道要使用<code><stdio.h></code>这个就可以了，后续如果有用到其他的头文件我们再理解，学习就是一个循序渐进的过程(●´∀｀●)<br>我们先了解一下<code>stdio.h</code>文件，是标准输入/输出库（Standard Input and Output）。在这个库中，已经包含了一些函数供我们使用，不用再自己进行编写。像下面使用到的printf函数就是包含在这个<code>stdio.h</code>这个库中，大家可以试试，如果不写第一句，则会在编译的时候可能会出现如下的语句：</p>
-<pre><code>warning: implicit declaration of function &apos;printf&apos; [-Wimplicit-function-declaration]
-warning: incompatible implicit declaration of built-in function &apos;printf&apos;</code></pre><p>如果后续大家发现有类似的报错，可以从是否书写了头文件、函数名是否拼写有误、对应的函数是否包含在头文件中来进行排查。<br> <code> #include <stdio.h></code>这个语句的位置可以放在程序的任何一个位置，但是通常都写在程序的第一句开头的位置。故之后大家写程序也要习惯性先写“<code> #include <stdio.h></code>”，然后再写下面的编码部分。</p>
+<h2 id="1、include"><a href="#1、include" class="headerlink" title="1、include "></a>1、include <stdio.h></h2><p>第1句，这是预处理器指令，预处理器指令指导编译器在实际编译开始之前对信息进行预处理。所有的预处理器指令都是以 # 开始。预处理器指令不是语句，所以它们不以分号（;）结束。<br>这句话的作用为让编译器在此程序中包含指定的头文件。目前这条语句用到的是<code><stdio.h></code>文件，其余还有<code><math.h></code>（定义数学函数）、 <code><string.h></code>（字符串处理）、<code><time.h></code> （定义关于时间的函数）等等，目前大家只要知道要使用<code><stdio.h></code>这个就可以了，后续如果有用到其他的头文件我们再理解，学习就是一个循序渐进的过程(●´∀｀●)<br>我们先了解一下<code>stdio.h</code>文件，是标准输入/输出库（Standard Input and Output）。在这个库中，已经包含了一些函数供我们使用，不用再自己进行编写。像下面使用到的printf函数就是包含在这个<code>stdio.h</code>这个库中，大家可以试试，如果不写第一句，则会在编译的时候可能会出现如下的语句：</p>
+<pre><code>    warning: implicit declaration of function &#39;printf&#39; [-Wimplicit-function-declaration]
+    warning: incompatible implicit declaration of built-in function &#39;printf&#39;
+</code></pre><p>如果后续大家发现有类似的报错，可以从是否书写了头文件、函数名是否拼写有误、对应的函数是否包含在头文件中来进行排查。<br> <code> #include <stdio.h></code>这个语句的位置可以放在程序的任何一个位置，但是通常都写在程序的第一句开头的位置。故之后大家写程序也要习惯性先写“<code> #include <stdio.h></code>”，然后再写下面的编码部分。</p>
 <hr>
-<h2 id="2、main函数"><a href="#2、main函数" class="headerlink" title="2、main函数"></a>2、main函数</h2><p>下面的第2、3、6、7句的形式基本是固定的，所有的执行代码写在3、6之间，即：</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="comment">/*</span></span><br><span class="line"><span class="comment">	其他代码</span></span><br><span class="line"><span class="comment">	*/</span></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>在现阶段的学习中，大家可以先直接引用这种固定句式即可。也就是在录入时直接录入这么一段，然后再在中间进行填写其他代码即可。<br>稍微解释一下：这是一个<code>main</code>函数，所有的程序都必须要有的一个函数，表示程序执行的入口。所以，这个函数千万不能写错哦！<br><code>int main()</code>叫做函数声明语句，<code>main</code>函数的“{ }”不可以省略，在大括号中间部分表示函数体，在{}中间的执行语句都带有分号结尾。<br>int 是函数返回值的类型。就相当于在数学中，<code>f()</code>就是一个函数，其会对应一个结果，这个结果就是函数的返回值，其返回的数据类型有的是整数，有的是小数等。而在C语言中，函数也会有返回值，这里用到的<code>int</code>就是整型数据，和下面第6句的“<code>return 0;</code>”语句是对应的，<code>return</code>就表示返回的是什么值，目前这里写的是0，即返回值是0。<br>那么，就有人会想，如果这个函数没有返回值呢？应该怎么表示？？<br>在C语言中，就有这样一个<code>void</code>来表示空数据，即不返回任何内容。那上面的代码该怎么写呢？<br>如下：</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="comment">/*</span></span><br><span class="line"><span class="comment">	其他代码</span></span><br><span class="line"><span class="comment">	*/</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>如果函数返回值是void的话，则“<code>return 0;</code>”这个语句也可以不写啦~<br>讲到这里，如果大家知道字符数据类型写法是“<code>char</code>”，那么在上述代码哪些位置需要修改呢？应该改成什么？</p>
+<h2 id="2、main函数"><a href="#2、main函数" class="headerlink" title="2、main函数"></a>2、main函数</h2><p>下面的第2、3、6、7句的形式基本是固定的，所有的执行代码写在3、6之间，即：<br><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="comment">/*</span></span><br><span class="line"><span class="comment">	其他代码</span></span><br><span class="line"><span class="comment">	*/</span></span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>在现阶段的学习中，大家可以先直接引用这种固定句式即可。也就是在录入时直接录入这么一段，然后再在中间进行填写其他代码即可。<br>稍微解释一下：这是一个<code>main</code>函数，所有的程序都必须要有的一个函数，表示程序执行的入口。所以，这个函数千万不能写错哦！<br><code>int main()</code>叫做函数声明语句，<code>main</code>函数的“{ }”不可以省略，在大括号中间部分表示函数体，在{}中间的执行语句都带有分号结尾。<br>int 是函数返回值的类型。就相当于在数学中，<code>f()</code>就是一个函数，其会对应一个结果，这个结果就是函数的返回值，其返回的数据类型有的是整数，有的是小数等。而在C语言中，函数也会有返回值，这里用到的<code>int</code>就是整型数据，和下面第6句的“<code>return 0;</code>”语句是对应的，<code>return</code>就表示返回的是什么值，目前这里写的是0，即返回值是0。<br>那么，就有人会想，如果这个函数没有返回值呢？应该怎么表示？？<br>在C语言中，就有这样一个<code>void</code>来表示空数据，即不返回任何内容。那上面的代码该怎么写呢？<br>如下：<br><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="comment">/*</span></span><br><span class="line"><span class="comment">	其他代码</span></span><br><span class="line"><span class="comment">	*/</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><br>如果函数返回值是void的话，则“<code>return 0;</code>”这个语句也可以不写啦~<br>讲到这里，如果大家知道字符数据类型写法是“<code>char</code>”，那么在上述代码哪些位置需要修改呢？应该改成什么？</p>
 <details>
 <summary><b><font color="#000ccc">点击展开查看结果</font></b></summary>
 <pre><code>char main()
@@ -2204,23 +2212,19 @@ warning: incompatible implicit declaration of built-in function &apos;printf&apo
 
 <p>还有一点值得说一下，<code>main()</code>的括号里面也可以填内容，如：<code>main(void)</code>、<code>main(int argc, char *argv[])</code>这两种都比较常见，对于小白，目前知道这也是<code>main</code>函数即可。</p>
 <hr>
-<h2 id="3、注释语句"><a href="#3、注释语句" class="headerlink" title="3、注释语句"></a>3、注释语句</h2><p>什么是注释呢？添加注释对程序不起实质性作用，起到提示的作用，删除注释对文档也没有任何的影响。但是，为什么会添加注释呢？这是因为人的想法是变化的，今天写下的程序也许明天就不知道为什么要这些写，甚至连里面变量的含义都有可能忘记了。而且大多数时候，我们的代码还不仅限于自己看，还有其他人看，因此要想代码具有可读性，大家都可以看懂，还是要添加必要的注释哦！<br>接下来，就来了解下C语言的注释语句。<br>第4句<code> /* 我的第一个 C 程序<em>/ </code>这是一个注释语句。同时<code> /</em>  XXXX */ </code>这种类型还支持将注释多行书写。如下：</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="comment">/*</span></span><br><span class="line"><span class="comment">	注释语句1</span></span><br><span class="line"><span class="comment">	注释语句2</span></span><br><span class="line"><span class="comment">	…… ……</span></span><br><span class="line"><span class="comment">	*/</span></span><br><span class="line">	其他代码******</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>那么，如果只是将语句后面添加一些小的注释怎么写呢？这就用到了单行注释<code> //</code>。使用方式如下：</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt; </span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span></span><br><span class="line"><span class="function"></span>&#123; </span><br><span class="line">     <span class="comment">/* </span></span><br><span class="line"><span class="comment">     大家好呀！</span></span><br><span class="line"><span class="comment">     这是多行注释效果！</span></span><br><span class="line"><span class="comment">      */</span> </span><br><span class="line">     <span class="built_in">printf</span>(<span class="string">"Hello, World! "</span>);  <span class="comment">//打印“Hello，world！”</span></span><br><span class="line">     <span class="keyword">return</span> <span class="number">0</span>；</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<hr>
-<h2 id="4、printf语句"><a href="#4、printf语句" class="headerlink" title="4、printf语句"></a>4、printf语句</h2><p><code>printf</code>是打印语句或者叫输出语句。<code>printf("Hello, World!");</code>是打印出“hello，world”这个语句，那如果要输出其他语句呢？只需要将“ ”这个双引号里面的文本更换就可以了。例如：<code>printf("大家好！");</code>、<code>printf("Nolimited Study");</code>、<code>printf("一起学C语言");</code>等。<br>那大家思考下下面代码执行后的结果是什么呢？</p>
+<h2 id="3、注释语句"><a href="#3、注释语句" class="headerlink" title="3、注释语句"></a>3、注释语句</h2><p>什么是注释呢？添加注释对程序不起实质性作用，起到提示的作用，删除注释对文档也没有任何的影响。但是，为什么会添加注释呢？这是因为人的想法是变化的，今天写下的程序也许明天就不知道为什么要这些写，甚至连里面变量的含义都有可能忘记了。而且大多数时候，我们的代码还不仅限于自己看，还有其他人看，因此要想代码具有可读性，大家都可以看懂，还是要添加必要的注释哦！<br>接下来，就来了解下C语言的注释语句。<br>第4句<code> /<em> 我的第一个 C 程序</em>/ </code>这是一个注释语句。同时<code> /<em>  XXXX </em>/ </code>这种类型还支持将注释多行书写。如下：<br><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="comment">/*</span></span><br><span class="line"><span class="comment">	注释语句1</span></span><br><span class="line"><span class="comment">	注释语句2</span></span><br><span class="line"><span class="comment">	…… ……</span></span><br><span class="line"><span class="comment">	*/</span></span><br><span class="line">	其他代码******</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><br>那么，如果只是将语句后面添加一些小的注释怎么写呢？这就用到了单行注释<code> //</code>。使用方式如下：</p>
+<h2 id=""><a href="#" class="headerlink" title=""></a><figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt; </span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span></span><br><span class="line"><span class="function"></span>&#123; </span><br><span class="line">     <span class="comment">/* </span></span><br><span class="line"><span class="comment">     大家好呀！</span></span><br><span class="line"><span class="comment">     这是多行注释效果！</span></span><br><span class="line"><span class="comment">      */</span> </span><br><span class="line">     <span class="built_in">printf</span>(<span class="string">"Hello, World! "</span>);  <span class="comment">//打印“Hello，world！”</span></span><br><span class="line">     <span class="keyword">return</span> <span class="number">0</span>；</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></h2><h2 id="4、printf语句"><a href="#4、printf语句" class="headerlink" title="4、printf语句"></a>4、printf语句</h2><p><code>printf</code>是打印语句或者叫输出语句。<code>printf(“Hello, World!”);</code>是打印出“hello，world”这个语句，那如果要输出其他语句呢？只需要将“ ”这个双引号里面的文本更换就可以了。例如：<code>printf(“大家好！”);</code>、<code>printf(“Nolimited Study”);</code>、<code>printf(“一起学C语言”);</code>等。<br>那大家思考下下面代码执行后的结果是什么呢？</p>
 <figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">   <span class="built_in">printf</span>(<span class="string">"大家好！"</span>);</span><br><span class="line">   <span class="built_in">printf</span>(<span class="string">"欢迎您进入Nolimited-Study博客！"</span>);</span><br><span class="line">   <span class="built_in">printf</span>(<span class="string">"咱们一起学C语言吧！"</span>);</span><br><span class="line">   <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>大家是不是觉得应该是每行输出对应的语句呢？？<br>然后实际结果却是如下所示：<br><img src="https://img-blog.csdnimg.cn/20191128230046159.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>这是为什么？因为我们没有告诉计算机需要分行输出，所以所有的输出都在一行了。<br>那么，怎样能够控制分行输出呢？其实很简单，每个输出里面加上<code>\n</code>就可以了。我们再来试验一下：<br><img src="https://img-blog.csdnimg.cn/20191128230138224.png" alt="在这里插入图片描述"><br>现在就完全没有问题啦！<br>所以，我们就可以用<code>\n</code>进行分行输出。而<code>\n</code>是转义符，表示换行，将当前位置移到下一行开头。</p>
 <hr>
 <h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>然后看下本次的小结：</p>
 <ul>
-<li>include &lt;stdio.h&gt;是预处理命令，stdio.h是标准输入输出头文件</li>
+<li>include <stdio.h>是预处理命令，stdio.h是标准输入输出头文件</li>
 <li>main-主函数名， int-函数类型，是程序的入口，必不可少的函数</li>
 <li>{ }是函数开始和结束的标志,不可省</li>
 <li>每个C语句以分号结束</li>
-<li>使用标准库函数时应在程序开头一行写： #include &lt;stdio.h&gt; 函数调用语句</li>
-<li>//是单行注释，/* ……*/是多行注释</li>
+<li>使用标准库函数时应在程序开头一行写： #include <stdio.h> 函数调用语句</li>
+<li>//是单行注释，/<em> ……</em>/是多行注释</li>
 <li>printf函数的功能是将输出的内容送到显示器去，即输出函数</li>
 <li>printf函数是一个由系统定义的标准函数，可在程序中直接调用，如果要进行分行输出，增加转义符</li>
 </ul>
@@ -2237,13 +2241,12 @@ warning: incompatible implicit declaration of built-in function &apos;printf&apo
   <entry>
     <title>Word 添加横线技巧</title>
     <url>/Nolimited-Study.github.io/2019/11/28/%E5%8A%9E%E5%85%AC%E8%BD%AF%E4%BB%B6%EF%BC%881%EF%BC%891%20Word-%E6%B7%BB%E5%8A%A0%E6%A8%AA%E7%BA%BF%E6%8A%80%E5%B7%A7/</url>
-    <content><![CDATA[<p>word大家都经常会用到，在各行各业都会使用，对它的一些简单功能我们应该要了解。那我们经常会遇到一个问题：“怎样在word中画横线？”，其实在word中画横线很简单，有很多方法。以下就给大家介绍几种好用且快捷的方法。</p>
-<a id="more"></a>
+    <content><![CDATA[<p>word大家都经常会用到，在各行各业都会使用，对它的一些简单功能我们应该要了解。那我们经常会遇到一个问题：“怎样在word中画横线？”，其实在word中画横线很简单，有很多方法。以下就给大家介绍几种好用且快捷的方法。<br><a id="more"></a></p>
 <h1 id="方法一：通过插入形状来添加横线"><a href="#方法一：通过插入形状来添加横线" class="headerlink" title="方法一：通过插入形状来添加横线"></a>方法一：通过插入形状来添加横线</h1><p>可以在插入选项卡，形状里选择插入直线来进行添加，并可以对形状线型、粗细、颜色等进行详细设置。选中后按Delete即可删除。<br><img src="https://img-blog.csdnimg.cn/20191121135439891.gif" alt="在这里插入图片描述"></p>
 <h1 id="方法二：通过输入特定的字符添加横线"><a href="#方法二：通过输入特定的字符添加横线" class="headerlink" title="方法二：通过输入特定的字符添加横线"></a>方法二：通过输入特定的字符添加横线</h1><h2 id="1-输入三个以上的减号（-），可以添加一条横线："><a href="#1-输入三个以上的减号（-），可以添加一条横线：" class="headerlink" title="1) 输入三个以上的减号（-），可以添加一条横线："></a>1) 输入三个以上的减号（-），可以添加一条横线：</h2><p>在一空行内，连续输入三个以上的减号（- - -），按回车键，就出现一条横线。<br><img src="https://img-blog.csdnimg.cn/20191121113057308.gif" alt="在这里插入图片描述"></p>
-<h2 id="2-输入三个以上的下划线（-），可以添加一条粗横线："><a href="#2-输入三个以上的下划线（-），可以添加一条粗横线：" class="headerlink" title="2) 输入三个以上的下划线（_），可以添加一条粗横线："></a>2) 输入三个以上的下划线（_），可以添加一条粗横线：</h2><p>在一空行内，连续输入三个以上的下划线（___）&lt;shift + 减号&gt;，按回车键，就出现一条粗横线。<br><img src="https://img-blog.csdnimg.cn/20191121113332784.gif" alt="在这里插入图片描述"></p>
-<h2 id="3-输入三个以上的波浪线（-）-lt-shift-顿号-gt-，可以添加一条波浪线："><a href="#3-输入三个以上的波浪线（-）-lt-shift-顿号-gt-，可以添加一条波浪线：" class="headerlink" title="3) 输入三个以上的波浪线（~）&lt;shift + 顿号&gt;，可以添加一条波浪线："></a>3) 输入三个以上的波浪线（~）&lt;shift + 顿号&gt;，可以添加一条波浪线：</h2><p>在一空行内，连续输入三个以上的波浪号（~ ~ ~），按回车键，就出现一条波浪线。<br><img src="https://img-blog.csdnimg.cn/20191121113836741.gif" alt="在这里插入图片描述"></p>
-<h2 id="4-输入三个以上的井号（-）-lt-shift-3-gt-，可以添加多条线："><a href="#4-输入三个以上的井号（-）-lt-shift-3-gt-，可以添加多条线：" class="headerlink" title="4) 输入三个以上的井号（#）&lt;shift + 3&gt;，可以添加多条线："></a>4) 输入三个以上的井号（#）&lt;shift + 3&gt;，可以添加多条线：</h2><p>在一空行内，连续输入三个以上的井号（###），按回车键，就出现由二条细线和一条粗线组成的线。<br><img src="https://img-blog.csdnimg.cn/20191121114100363.gif" alt="在这里插入图片描述"></p>
+<h2 id="2-输入三个以上的下划线（-），可以添加一条粗横线："><a href="#2-输入三个以上的下划线（-），可以添加一条粗横线：" class="headerlink" title="2) 输入三个以上的下划线（_），可以添加一条粗横线："></a>2) 输入三个以上的下划线（_），可以添加一条粗横线：</h2><p>在一空行内，连续输入三个以上的下划线（<em>_</em>）<shift + 减号>，按回车键，就出现一条粗横线。<br><img src="https://img-blog.csdnimg.cn/20191121113332784.gif" alt="在这里插入图片描述"></p>
+<h2 id="3-输入三个以上的波浪线（-），可以添加一条波浪线："><a href="#3-输入三个以上的波浪线（-），可以添加一条波浪线：" class="headerlink" title="3) 输入三个以上的波浪线（~），可以添加一条波浪线："></a>3) 输入三个以上的波浪线（~）<shift + 顿号>，可以添加一条波浪线：</h2><p>在一空行内，连续输入三个以上的波浪号（~ ~ ~），按回车键，就出现一条波浪线。<br><img src="https://img-blog.csdnimg.cn/20191121113836741.gif" alt="在这里插入图片描述"></p>
+<h2 id="4-输入三个以上的井号（-），可以添加多条线："><a href="#4-输入三个以上的井号（-），可以添加多条线：" class="headerlink" title="4) 输入三个以上的井号（#），可以添加多条线："></a>4) 输入三个以上的井号（#）<shift + 3>，可以添加多条线：</h2><p>在一空行内，连续输入三个以上的井号（###），按回车键，就出现由二条细线和一条粗线组成的线。<br><img src="https://img-blog.csdnimg.cn/20191121114100363.gif" alt="在这里插入图片描述"></p>
 <h2 id="5-输入三个以上的波浪线（-），可以添加双线："><a href="#5-输入三个以上的波浪线（-），可以添加双线：" class="headerlink" title="5) 输入三个以上的波浪线（=），可以添加双线："></a>5) 输入三个以上的波浪线（=），可以添加双线：</h2><p>在一空行内，连续输入三个以上的等号（===），按回车键，就出现由两条细线组成的线。<br><img src="https://img-blog.csdnimg.cn/20191121114300269.gif" alt="在这里插入图片描述"></p>
 <h2 id="6）删除边框："><a href="#6）删除边框：" class="headerlink" title="6）删除边框："></a>6）删除边框：</h2><p>不需要这些横线了，可以选择横线以上的文字内容，单击【开始】选项卡，在【段落】命令组中设置下划线样式为【无框线】。<br><img src="https://img-blog.csdnimg.cn/20191121114637776.gif" alt="在这里插入图片描述"></p>
 <h1 id="方法三：通过下划线设置"><a href="#方法三：通过下划线设置" class="headerlink" title="方法三：通过下划线设置"></a>方法三：通过下划线设置</h1><p>可以首先录入一段空格，然后通过开始选项卡——字体组里面的下划线来进行添加横线，然后可以通过下划线线型、下划线颜色来修改。选中按Delete即可取消。或者也可以取消下划线。<br><img src="https://img-blog.csdnimg.cn/20191121141620331.gif" alt="在这里插入图片描述"></p>
@@ -2263,9 +2266,7 @@ warning: incompatible implicit declaration of built-in function &apos;printf&apo
   <entry>
     <title>多种截图方式以及如何截取右键菜单？</title>
     <url>/Nolimited-Study.github.io/2019/11/27/WINDOWS%201%20%E5%A4%9A%E7%A7%8D%E6%88%AA%E5%9B%BE%E6%96%B9%E5%BC%8F%E4%BB%A5%E5%8F%8A%E5%A6%82%E4%BD%95%E6%88%AA%E5%8F%96%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%EF%BC%9F/</url>
-    <content><![CDATA[<p>相信大家经常会遇到需要截图的时候，而且有的时候需要截取右键菜单。接下来，我给大家分享几个小技巧，希望可以帮到大家。</p>
-<a id="more"></a>
-
+    <content><![CDATA[<p>相信大家经常会遇到需要截图的时候，而且有的时候需要截取右键菜单。接下来，我给大家分享几个小技巧，希望可以帮到大家。<br><a id="more"></a></p>
 <h1 id="1、使用键盘的PrtSc-PrintScreen进行截全屏"><a href="#1、使用键盘的PrtSc-PrintScreen进行截全屏" class="headerlink" title="1、使用键盘的PrtSc/ PrintScreen进行截全屏"></a>1、使用键盘的PrtSc/ PrintScreen进行截全屏</h1><p>优点：快速，能够迅速截取到右键菜单，可以后期再进行裁剪和修改。<br>缺点：这种截图只能是全屏幕，不能够直接进行添加标记和修改等，需要在其他应用程序（如：画图、word等）中进行粘贴。<br>如图所示是PrtSc/ printscreen的位置。<br><img src="https://img-blog.csdnimg.cn/20191127184454280.png" alt="在这里插入图片描述"></p>
 <h1 id="2、使用浏览器的截图工具进行截图"><a href="#2、使用浏览器的截图工具进行截图" class="headerlink" title="2、使用浏览器的截图工具进行截图"></a>2、使用浏览器的截图工具进行截图</h1><p>优点：可以进行编辑。<br>缺点：这种截图方式需要打开浏览器，可以不联网。<br>如：下图是360浏览器自带的截图工具，同时也可以使用快捷键。<br><img src="https://img-blog.csdnimg.cn/20191127184511475.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>如：下图是火狐浏览器自带的截图工具：<br><img src="https://img-blog.csdnimg.cn/20191127184549928.png" alt="在这里插入图片描述"></p>
 <h1 id="3、使用聊天工具进行截图"><a href="#3、使用聊天工具进行截图" class="headerlink" title="3、使用聊天工具进行截图"></a>3、使用聊天工具进行截图</h1><p>然后是大家所熟悉的截图工具，通常在聊天的时候进行使用，如：QQ、微信等。<br>缺点：需要先登陆后，进入聊天界面才可以使用。<br>如：QQ截图，默认快捷方式是：Ctrl + Alt + A<br><img src="https://img-blog.csdnimg.cn/20191127184610775.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>如：微信截图，默认快捷方式是： Alt + A，可以选择截图时隐藏当前窗口。<br><img src="https://img-blog.csdnimg.cn/20191127184622478.png" alt="在这里插入图片描述"></p>
