@@ -6,7 +6,7 @@
   <link href="/Nolimited-Study.github.io/atom.xml" rel="self"/>
   
   <link href="https://nolimited-study.github.io/"/>
-  <updated>2020-03-27T05:44:24.671Z</updated>
+  <updated>2020-03-16T03:37:59.993Z</updated>
   <id>https://nolimited-study.github.io/</id>
   
   <author>
@@ -15,33 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>信息处理技术员初等数学——图表类型判断</title>
-    <link href="https://nolimited-study.github.io/2020/01/16/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%881%EF%BC%896%20%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E5%88%9D%E7%AD%89%E6%95%B0%E5%AD%A6%E2%80%94%E2%80%94%E5%9B%BE%E8%A1%A8%E7%B1%BB%E5%9E%8B%E5%88%A4%E6%96%AD/"/>
-    <id>https://nolimited-study.github.io/2020/01/16/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%881%EF%BC%896%20%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E5%88%9D%E7%AD%89%E6%95%B0%E5%AD%A6%E2%80%94%E2%80%94%E5%9B%BE%E8%A1%A8%E7%B1%BB%E5%9E%8B%E5%88%A4%E6%96%AD/</id>
-    <published>2020-01-16T08:13:33.000Z</published>
-    <updated>2020-03-27T05:44:24.671Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;在信息处理技术员中，上午题和下午题都会考察图表内容。在上午题考试中，通常都会考查到不同场景用什么图片比较合适的问题，所以我们一起来看一下。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="信息处理技术员" scheme="https://Nolimited-Study.github.io/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/"/>
-    
-      <category term="第01章 信息处理技术基础知识" scheme="https://Nolimited-Study.github.io/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/%E7%AC%AC01%E7%AB%A0-%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
-    
-      <category term="第06节 图表类型判断" scheme="https://Nolimited-Study.github.io/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/%E7%AC%AC01%E7%AB%A0-%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E7%AC%AC06%E8%8A%82-%E5%9B%BE%E8%A1%A8%E7%B1%BB%E5%9E%8B%E5%88%A4%E6%96%AD/"/>
-    
-    
-      <category term="信息处理技术员" scheme="https://Nolimited-Study.github.io/tags/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/"/>
-    
-      <category term="初等数学" scheme="https://Nolimited-Study.github.io/tags/%E5%88%9D%E7%AD%89%E6%95%B0%E5%AD%A6/"/>
-    
-  </entry>
   
   <entry>
     <title>信息处理技术员初等数学——设未知数法</title>
@@ -71,6 +44,33 @@
   </entry>
   
   <entry>
+    <title>信息处理技术员初等数学——图表类型判断</title>
+    <link href="https://nolimited-study.github.io/2020/01/16/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%881%EF%BC%896%20%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E5%88%9D%E7%AD%89%E6%95%B0%E5%AD%A6%E2%80%94%E2%80%94%E5%9B%BE%E8%A1%A8%E7%B1%BB%E5%9E%8B%E5%88%A4%E6%96%AD/"/>
+    <id>https://nolimited-study.github.io/2020/01/16/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%881%EF%BC%896%20%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E5%88%9D%E7%AD%89%E6%95%B0%E5%AD%A6%E2%80%94%E2%80%94%E5%9B%BE%E8%A1%A8%E7%B1%BB%E5%9E%8B%E5%88%A4%E6%96%AD/</id>
+    <published>2020-01-16T08:13:33.000Z</published>
+    <updated>2020-03-27T05:44:24.671Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;在信息处理技术员中，上午题和下午题都会考察图表内容。在上午题考试中，通常都会考查到不同场景用什么图片比较合适的问题，所以我们一起来看一下。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="信息处理技术员" scheme="https://Nolimited-Study.github.io/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/"/>
+    
+      <category term="第01章 信息处理技术基础知识" scheme="https://Nolimited-Study.github.io/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/%E7%AC%AC01%E7%AB%A0-%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
+    
+      <category term="第06节 图表类型判断" scheme="https://Nolimited-Study.github.io/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/%E7%AC%AC01%E7%AB%A0-%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E7%AC%AC06%E8%8A%82-%E5%9B%BE%E8%A1%A8%E7%B1%BB%E5%9E%8B%E5%88%A4%E6%96%AD/"/>
+    
+    
+      <category term="信息处理技术员" scheme="https://Nolimited-Study.github.io/tags/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/"/>
+    
+      <category term="初等数学" scheme="https://Nolimited-Study.github.io/tags/%E5%88%9D%E7%AD%89%E6%95%B0%E5%AD%A6/"/>
+    
+  </entry>
+  
+  <entry>
     <title>信息处理技术员——信息安全知识</title>
     <link href="https://nolimited-study.github.io/2020/01/09/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%8811%EF%BC%891%20%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E2%80%94%E2%80%94%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E7%9F%A5%E8%AF%86/"/>
     <id>https://nolimited-study.github.io/2020/01/09/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%8811%EF%BC%891%20%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E2%80%94%E2%80%94%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E7%9F%A5%E8%AF%86/</id>
@@ -91,9 +91,9 @@
       <category term="第01节 信息安全" scheme="https://Nolimited-Study.github.io/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/%E7%AC%AC11%E7%AB%A0-%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E4%B8%8E%E6%B3%95%E5%BE%8B%E6%B3%95%E8%A7%84/%E7%AC%AC01%E8%8A%82-%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8/"/>
     
     
-      <category term="信息安全" scheme="https://Nolimited-Study.github.io/tags/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8/"/>
-    
       <category term="信息处理技术员" scheme="https://Nolimited-Study.github.io/tags/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/"/>
+    
+      <category term="信息安全" scheme="https://Nolimited-Study.github.io/tags/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8/"/>
     
   </entry>
   
