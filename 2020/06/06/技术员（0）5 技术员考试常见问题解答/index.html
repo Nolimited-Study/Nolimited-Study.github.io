@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.0.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/Nolimited-Study.github.io/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/Nolimited-Study.github.io/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/Nolimited-Study.github.io/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/Nolimited-Study.github.io/images/logo.svg" color="#222">
+  <link rel="alternate" href="/Nolimited-Study.github.io/atom.xml" title="Nolimited-Study" type="application/atom+xml">
+
+<link rel="stylesheet" href="/Nolimited-Study.github.io/css/main.css">
+
+
+<link rel="stylesheet" href="/Nolimited-Study.github.io/lib/font-awesome/css/font-awesome.min.css">
+
+
+<script id="hexo-configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/Nolimited-Study.github.io/',
+    scheme: 'Gemini',
+    version: '7.5.0',
+    exturl: false,
+    sidebar: {"position":"left","Pisces | Gemini":320,"display":"post","offset":12,"onmobile":false},
+    copycode: {"enable":false,"show_result":false,"style":null},
+    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
+    bookmark: {"enable":false,"color":"#222","save":"auto"},
+    fancybox: false,
+    mediumzoom: false,
+    lazyload: false,
+    pangu: false,
+    algolia: {
+      appID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    },
+    localsearch: {"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
+    path: 'search.xml',
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    sidebarPadding: 40
+  };
+</script>
+
+  <meta name="description" content="本文主要针对的是希赛直播班的学员定制，根据学员经常提的考试这块的问题进行归纳总结，帮助大家更好的掌握知识点，并顺利通过考试。">
+<meta name="keywords" content="信息处理技术员,常见问题">
+<meta property="og:type" content="article">
+<meta property="og:title" content="信息处理技术员考试考场常见问题解答">
+<meta property="og:url" content="https:&#x2F;&#x2F;nolimited-study.github.io&#x2F;2020&#x2F;06&#x2F;06&#x2F;%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%895%20%E6%8A%80%E6%9C%AF%E5%91%98%E8%80%83%E8%AF%95%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94&#x2F;index.html">
+<meta property="og:site_name" content="Nolimited-Study">
+<meta property="og:description" content="本文主要针对的是希赛直播班的学员定制，根据学员经常提的考试这块的问题进行归纳总结，帮助大家更好的掌握知识点，并顺利通过考试。">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20200608152447515.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20200608152447516.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20200608152447644.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20200608152637709.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20200608152828984.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20200608152828978.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20200608153306552.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20200608153306599.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20200608153742817.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20200608153941714.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20200608154803690.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20200608154803700.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20200608154803701.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20200608154803707.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20200608154804482.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20200608154803702.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20200608154804547.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20200608155714846.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20200608160034271.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20200608154804506.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20200627165741960.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;2020062716574210.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20200627165742104.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20200627165741954.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20200627165741976.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20200627165741961.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20200616191341462.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+<meta property="og:updated_time" content="2020-06-27T09:39:40.908Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20200608152447515.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70">
+
+<link rel="canonical" href="https://nolimited-study.github.io/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%895%20%E6%8A%80%E6%9C%AF%E5%91%98%E8%80%83%E8%AF%95%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome: false,
+    isPost: true,
+    isPage: false,
+    isArchive: false
+  };
+</script>
+
+  <title>信息处理技术员考试考场常见问题解答 | Nolimited-Study</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-meta">
+
+    <div>
+      <a href="/Nolimited-Study.github.io/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Nolimited-Study</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+        <p class="site-subtitle">学习无极限</p>
+  </div>
+
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/Nolimited-Study.github.io/" rel="section"><i class="fa fa-fw fa-home"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/Nolimited-Study.github.io/categories/" rel="section"><i class="fa fa-fw fa-th"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/Nolimited-Study.github.io/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/Nolimited-Study.github.io/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>归档</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/Nolimited-Study.github.io/about/" rel="section"><i class="fa fa-fw fa-user"></i>关于</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+
+</nav>
+  <div class="site-search">
+    <div class="popup search-popup">
+    <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocorrect="off" autocapitalize="none"
+           placeholder="搜索..." spellcheck="false"
+           type="text" id="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result"></div>
+
+</div>
+<div class="search-pop-overlay"></div>
+
+  </div>
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content">
+            
+
+  <div class="posts-expand">
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://Nolimited-Study.github.io/Nolimited-Study.github.io/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%895%20%E6%8A%80%E6%9C%AF%E5%91%98%E8%80%83%E8%AF%95%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/Nolimited-Study.github.io/images/avatar.gif">
+      <meta itemprop="name" content="Nolimited-Study">
+      <meta itemprop="description" content="每一刻都是学习时间">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Nolimited-Study">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          信息处理技术员考试考场常见问题解答
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-06-06 14:10:10" itemprop="dateCreated datePublished" datetime="2020-06-06T14:10:10+08:00">2020-06-06</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-06-27 17:39:40" itemprop="dateModified" datetime="2020-06-27T17:39:40+08:00">2020-06-27</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/Nolimited-Study.github.io/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/" itemprop="url" rel="index">
+                    <span itemprop="name">信息处理技术员</span>
+                  </a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/Nolimited-Study.github.io/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/%E7%AC%AC00%E7%AB%A0-%E5%89%8D%E8%A8%80/" itemprop="url" rel="index">
+                    <span itemprop="name">第00章 前言</span>
+                  </a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/Nolimited-Study.github.io/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/%E7%AC%AC00%E7%AB%A0-%E5%89%8D%E8%A8%80/%E7%AC%AC05%E8%8A%82-%E6%8A%80%E6%9C%AF%E5%91%98%E8%80%83%E8%AF%95%E8%80%83%E5%9C%BA%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/" itemprop="url" rel="index">
+                    <span itemprop="name">第05节 技术员考试考场常见问题解答</span>
+                  </a>
+                </span>
+            </span>
+
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>本文主要针对的是希赛直播班的学员定制，根据学员经常提的考试这块的问题进行归纳总结，帮助大家更好的掌握知识点，并顺利通过考试。<br><a id="more"></a></p>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>因文章篇幅较长，为节约大家的时间，建议大家直接搜索自己想问的问题。搜索方式如下：<br>按住Ctrl，然后按下F，在弹出的搜索框内输入想要查找的关键字，注意，请简要描述，例如想搜索考试座位安排，可以直接搜索座位，如想知道考试注意事项，可直接搜索注意事项即可。<br>输入完后按enter，然后可以跳转到下一个，查看相关内容。<br>不过，如果是初次学习，建议可以大致浏览下哦。</p>
+<h2 id="考试内容"><a href="#考试内容" class="headerlink" title="考试内容"></a>考试内容</h2><h3 id="一-考试大纲"><a href="#一-考试大纲" class="headerlink" title="(一)考试大纲"></a>(一)考试大纲</h3><ol>
+<li>了解信息技术的基本概念；</li>
+<li>熟悉信息处理基础知识；</li>
+<li>熟悉计算机的组成、各主要部件的功能和性能指标；</li>
+<li>了解计算机网络与多媒体基础知识；</li>
+<li>熟悉信息处理常用设备；</li>
+<li>熟悉计算机系统安装和维护的基本知识；</li>
+<li>熟练掌握操作系统和文件管理的基本概念和Windows基本操作；</li>
+<li>熟练掌握文字处理的基本知识和WPS Office版、Microsoft Office版文字处理的基本操作；</li>
+<li>熟练掌握电子表格的基本知识和WPS Office版、Microsoft Office版电子表格的基本操作；</li>
+<li>熟练掌握演示文稿的基本知识和WPS Office版、Microsoft Office版演示文稿的基本操作；</li>
+<li>熟练掌握新闻/海报的基本知识和Microsoft Publisher版的基本操作；</li>
+<li>熟练掌握图形设计的基本知识和Microsoft Visio版的基本操作；</li>
+<li>熟练掌握数据库应用的基本概念、基本理论和基本操作； </li>
+<li>熟练掌握Internet及其常用软件的基本操作；</li>
+<li>了解计算机与信息安全基本知识；</li>
+<li>了解有关的法律、法规要点；</li>
+<li>正确阅读和理解计算机使用中常见的简单英文及语句（常用专业英语词汇与例句）。</li>
+</ol>
+<h3 id="二-选择题部分"><a href="#二-选择题部分" class="headerlink" title="(二)选择题部分"></a>(二)选择题部分</h3><table>
+<tr><th>章节</th><th>重要考点列举  </th></tr>
+<tr><td>信息处理技术基础</td><td align="left">信息概念，信息技术，信息化和信息社会，信息系统，数列，排列组合，数据的简单统计和图表，信息处理的概念，数据处理方法过程和信息处理实务</td></tr>
+<tr><td>计算机系统基础知识</td><td align="left" >计算机系统概述，硬件基础知识，软件基础知识，多媒体基础知识</td></tr>
+<tr><td>操作系统</td><td align="left" >操作系统的概念和类型等，windows 7 各项基本操作，文件及文件管理</td></tr>
+<tr><td>文字信息处理</td><td align="left" >文档编辑，界面认识，文字编辑，文字格式设置，段落格式设置，页面设置，对象插入和编辑，表格设计，样式，目录，邮件合并等</td></tr>
+<tr><td>电子表格处理    </td><td align="left" >工作表操作，数据录入，单元格设置，公式及函数，图表制作，数据管理统计</td></tr>
+<tr><td>演示文稿处理</td><td align="left" >基本概念，常见软件操作，制作方法，对象，动画，播放等基本设置</td></tr>
+<tr><td>数据库操作</td><td align="left" >基本概念，关系运算，数据库和数据表的创建，设置主键，使用查询创建表</td></tr>
+<tr><td>计算机网络及应用</td><td align="left" >网络相关概念，网络协议，IP地址，电子邮件，信息浏览，互联网，新技术等</td></tr>
+<tr><td>信息安全和法律法规</td><td align="left" >计算机连接知识和计算机病毒防治，计算机保护条例和知识产权，标准化知识</td></tr>
+<tr><td>计算机英语知识</td><td align="left" >主板，内存，显示器，网络，程序，系统等基本英语知识</td></tr>
+<table>
+
+###  (三)操作题部分
+
+<table>
+<tr><th>考试操作软件</th><th >考查具体内容</th></tr>
+<tr><td>Microsoft Word 2010 或WPS 文字2016</td><td align="left" >文字录入，编排，分栏，设置页眉，页脚和页码，页面大小，纸张方向，首字下沉，段落边框和底纹，插入表格，编排艺术字，绘图工具的使用，文本框的操作，项目编号和项目符号的设置</td></tr>
+<tr><td>Microsoft Excel 2010或WPS 表格 2016    </td><td align="left" >创建工作表和电子表格的基本设置，公式和函数的使用，排序，图表的插入和设置，筛选、分类汇总和创建透视表等</td></tr>
+<tr><td>Microsoft PowerPoint 2010或WPS 演示 2016</td><td align="left" >采用模板制作，插入图片和艺术字，设置对象动作，添加项目符号，设置放映时间，设置循环放映等</td></tr>
+</table>
+
+<h2 id="考试安排"><a href="#考试安排" class="headerlink" title="考试安排"></a>考试安排</h2><p>考试安排如下：</p>
+<p>1、信息处理技术员全部改为上机考试！</p>
+<p>2、时间压缩，为3个小时！</p>
+<p>3、信息处理技术员1场考完，分为3个不同场次！</p>
+<p>4、每个学生按照自己的准考证参加对应的考试，不是三场考试都参加。</p>
+<p>2020年上半年考试安排（目前考试时间已推迟）：</p>
+<table>
+<tr>
+<td rowspan="3">
+2020上半年
+</td>
+<td>
+5月23日
+上午9:00—12:00（A卷）
+</td>
+
+
+<td>
+基础知识、应用技术
+</td>
+</tr>
+<tr>
+<td>
+5月23日
+下午2:00—5:00（B卷）
+</td>
+
+<td>
+基础知识、应用技术
+</td>
+</tr>
+
+<tr>
+<td>
+5月24日
+上午9:00—12:00（C卷）
+</td>
+
+<td>
+基础知识、应用技术
+</td>
+</tr>
+
+</table>
+
+<p>2020年下半年考试安排（11月7日）：</p>
+<table>
+<tr>
+<td rowspan="3">
+2020上半年
+</td>
+<td>
+11月7日
+上午9:00—12:00（A卷）
+</td>
+
+
+<td>
+基础知识、应用技术
+</td>
+</tr>
+<tr>
+<td>
+11月7日
+下午2:00—5:00（B卷）
+</td>
+
+<td>
+基础知识、应用技术
+</td>
+</tr>
+
+<tr>
+<td>
+11月7日
+上午9:00—12:00（C卷）
+</td>
+
+<td>
+基础知识、应用技术
+</td>
+</tr>
+
+</table>
+
+<h2 id="考场规则"><a href="#考场规则" class="headerlink" title="考场规则"></a>考场规则</h2><p>一、考前40分钟，应试人员应到达本专业资格考试科目所指定的考点，凭本人纸质准考证和本人有效期内的身份证原件进入考点。</p>
+<p>二、应试人员在每场考试前20分钟凭本人纸质准考证和本人有效期内的身份证原件进入指定的考场参加考试，应试人员应如实在“考场签到表”上签到，经监考人员同意后进入考场，应试人员必须对号入座，并将准考证和有效证件放在考桌右上角，以备核对。应试人员应服从考场工作人员的管理，积极配合考场工作人员的各项监督和检查。 </p>
+<p>三、按照人力资源和社会保障部文件规定，开考5分钟后应试人员一律禁止入场。专业技术人员资格考试原则上封闭2个小时，不足2小时的全程封闭。</p>
+<p>四、应试人员只准携带黑色、蓝黑签字笔、钢笔或圆珠笔、2B铅笔、削笔刀、橡皮、直尺等进入考场，不得携带任何书籍、笔记、纸张、计算器、报刊、手机、电子设备及通讯工具等考试中禁止使用的物品进入考场。开考后不得相互借用文具。</p>
+<p>五、应试人员应在答题卡（纸）上的“应试人员条形码粘贴区”粘贴本人条形码，并在指定位置准确填写个人信息。</p>
+<p>六、规定在答题卡上答题的部分，一律按要求用2B铅笔在答题卡上填涂对应的信息点，不用2B铅笔填涂或在试题本上作答的一律无效。规定在答题纸上答题的考试科目，应试人员必须使用黑色、蓝黑签字笔、钢笔或圆珠笔在规定的题号和区域内作答，超出区域的解答不予评分，答题字迹要清楚和工整。下午考试科目如有选做题，必须准确填涂选题框，否则会影响阅卷，并不能正确评分。同时，严禁将试卷、答题卡（纸）、草稿纸带出考场。</p>
+<p>七、应试人员应确保答题卡（纸）版面整洁、干净、平整，严禁乱涂乱画或折叠，不得在答题卡（纸）规定以外位置标注本人信息或者其他特殊标记。</p>
+<p>八、应试人员不得要求监考人员解释试题。如遇试卷分发错误，试卷字迹模糊、有折皱和污损等问题，应试人员可举手询问。</p>
+<p>九、应试人员不得故意伪造证件参加考试。不得损坏试卷、答题卡（纸）、电子化系统设施。十、应试人员不得相互传递试卷、答题卡（纸）、草稿纸与考试内容相关的资料。</p>
+<p>十一、应试人员应自觉维护考试工作场所秩序，服从考试工作人员管理，遵守考场纪律，违纪违规者，按照《专业技术人员资格考试违纪违规行为处理规定》（人力资源和社会保障部令第31号）严肃处理。</p>
+<p>十二、根据中华人民共和国刑法（修正案九），代替他人或者让他人代替自己参加考试；使用伪造、变造或者盗用他人的身份证件；提供或使用无线电设备等作弊器材；提供或买卖试题、答案；组织或者协助作弊等均属犯罪行为，处以拘役、管制、罚金、三年以下有期徒刑，情节严重的，处三年以上七年以下有期徒刑。</p>
+<p>十三、考试结束铃响，应试人员应立即停止答题，将答题卡（纸）反面向上放在桌子上，经监考人员允许后方可离开考场。</p>
+<p>十四、准考证不得涂改或转借他人，也不得用于记录考试试题或答案等相关信息。</p>
+<p>十五、应试人员应提前熟悉准考证上指定的考试地点，确认考点的具体位置和乘车路线。在考试当天请预留足够的时间并尽量选择公共交通工具前往所在考点，自觉遵守交通法规，避免影响正常考试。
+ </p>
+<h2 id="考试注意事项"><a href="#考试注意事项" class="headerlink" title="考试注意事项"></a>考试注意事项</h2><h3 id="选择题作答注意事项："><a href="#选择题作答注意事项：" class="headerlink" title="选择题作答注意事项："></a>选择题作答注意事项：</h3><ol>
+<li>考试前提前几天找到自己考试的学校和教室，以免考试当天比较匆忙。</li>
+<li>考试当天务必提前到达，开考后5分钟不能进考场。</li>
+<li>开考前一天准备好所有的材料：准考证、身份证原件、考试专用2B铅笔 、橡皮擦、黑色中性笔等。（准备一个透明文件袋，提前将证件放入袋中，避免入场监考老师检查证件时慌乱掏出而丢失。）</li>
+<li>准考证打印：A4纸打印，黑白的即可；尽量打印在一页上，建议使用UC浏览器打印，去掉页眉页脚；或者在附近打印店打印即可。</li>
+<li>建议多打印几份准考证，如果考场没有发草稿纸，可以当草稿纸使用。</li>
+<li>提前查好乘车路线，请提前30分钟左右到达考场，考试不得迟到。如果距离太远建议提前订好酒店，以免耽误考试。</li>
+<li>请仔细阅读准考证上的考生须知，考试所需物品上面都有说明。</li>
+<li>如考试遇到任何问题请及时举手示意监考老师。</li>
+<li>考前一天记得定好闹钟，保证充足的睡眠，放松心情~</li>
+<li>开考后请将手机调至关闭/静音状态。</li>
+<li>选择题作答技巧：遇到不会的先放一边，遇到自己算了5分钟还没算出来的放一边，等全部答完了再回过来继续思考，迭代答题，第一轮先将自己确定的做完！不确定的题，可以先排除错误选项！</li>
+<li>读完题再答题，一定要仔细细心，不要慌乱，不要遗漏题干信息！</li>
+<li>注意到底是选择正确还是不正确、包含还是不包含，属于或不属于，建议多留意一下！</li>
+<li>不要着急写答案和追求速度，时间是足够的！</li>
+<li>做完后一定要进行检查。有时间可以多检查几遍！</li>
+</ol>
+<h3 id="操作题注意事项："><a href="#操作题注意事项：" class="headerlink" title="操作题注意事项："></a>操作题注意事项：</h3><ol>
+<li>作答时，不要在文档里面插入空行，包括：文档的开头和结尾处、段落与段落之间、文字与文字之间、段落与图片或艺术字之间都不允许有多余的空行；</li>
+<li>在作答时输入的文字内容一定要注意其准确性，不要漏字、错字；</li>
+<li>设置文字或段落的格式时请一定要完全选中题目要求的所有文字或段落；</li>
+<li>在word操作题中要求插入文本框或者自选图形时不能在画布中插入；</li>
+<li>保存答案时只能点击“保存”按钮，不能点击“另存为”，否则不能正常评阅试卷，其后果由考生承担；</li>
+<li>试题中如果没有显示素材，请直接点击“开始作答”，在打开的应用程序中会自动显示可编辑的素材。</li>
+<li>考试过程中，考生不能随意更改计算机的系统配置，不能执行与考试无关的操作，否则将导致考试意外，其后果将由考生承担。</li>
+</ol>
+<h2 id="技术员模拟上机系统"><a href="#技术员模拟上机系统" class="headerlink" title="技术员模拟上机系统"></a>技术员模拟上机系统</h2><h3 id="软件下载"><a href="#软件下载" class="headerlink" title="软件下载"></a>软件下载</h3><p>信息处理技术员模拟系统下载链接：链接：<a href="https://pan.baidu.com/s/1c2hJw0k1os0yaRhoolsX2A" target="_blank" rel="noopener" title="信息处理技术员模拟操作系统">https://pan.baidu.com/s/1c2hJw0k1os0yaRhoolsX2A</a> 提取码：6nvs </p>
+<h3 id="操作方法"><a href="#操作方法" class="headerlink" title="操作方法"></a>操作方法</h3><p>（1）双击打开软件（注意一定要有压缩软件，否则打不开）<br><img src="https://img-blog.csdnimg.cn/20200608152447515.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>注意：参考答案放于光盘根目录下的“答案”目录下，可直接打开查看。</p>
+<p>（2）然后双击“工信部单机版-标准版”文件夹。<br><img src="https://img-blog.csdnimg.cn/20200608152447516.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>（3）进入文件夹后，找到 ExamStudent.exe 程序。双击打开，打开后界面如下。<br><img src="https://img-blog.csdnimg.cn/20200608152447644.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<ul>
+<li>点击模拟测试可以进入模拟考试阶段</li>
+<li>查看分数：目前这个只能自己去核对答案哦</li>
+<li>退出系统则退出整个模拟系统界面</li>
+</ul>
+<p>（4）单击“模拟测试”按钮，进入“试卷选择”界面，选择“仿真试卷1”至“仿真试卷5”，单击“确定”按钮进入登录界面。这时可以随意选择任何一个仿真试卷，但是每套试卷的题目都不同，可以自行练习。<br><img src="https://img-blog.csdnimg.cn/20200608152637709.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>（5）选择“准考证号”下拉菜单，随意选择一个准考证号，单击“登录”按钮，进入开始考试界面。<br><img src="https://img-blog.csdnimg.cn/20200608152828984.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>（6）此时会出现正在抽卷，稍微等待一下即可。<br><img src="https://img-blog.csdnimg.cn/20200608152828978.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>（7）单击“开始考试”按钮，进入考生作答界面，考生可以开始考试了。<br><img src="https://img-blog.csdnimg.cn/20200608153306552.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>（8）答题界面如下：<br><img src="https://img-blog.csdnimg.cn/20200608153306599.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<ul>
+<li>点击开始作答，系统自动调用Office软件，如果没有安装，则打不开，请提前安装好Office软件。 </li>
+<li>点击本题已做，可以标记已经做完的题。</li>
+<li>点击重做本题，可以将之前的操作全部取消，即恢复到最初的状态，一般不会点击，除非之前做的有很大的错误。</li>
+<li>点击查看答案，可以查看该题答案，一般都不支持的。</li>
+</ul>
+<p>（9）右上角有以下按钮：<br><img src="https://img-blog.csdnimg.cn/20200608153742817.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<ul>
+<li>答题检查可以查看自己所有的题的作答状态。</li>
+<li>保存答案可以保存自己所做的更改，一般做一题都要点击一下。</li>
+<li>交卷则上传所有答案，不可更改。如果全部作答完毕，时间到了，可以点击交卷。</li>
+</ul>
+<p>（10）考生作答结束后，单击“交卷”按钮结束考试。<br><img src="https://img-blog.csdnimg.cn/20200608153941714.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h2 id="技术员考试上机系统"><a href="#技术员考试上机系统" class="headerlink" title="技术员考试上机系统"></a>技术员考试上机系统</h2><p>考试上机系统与模拟系统操作相类似，可以简单过一遍流程即可。</p>
+<p>1、双击桌面上的“全国计算机技术与软件专业技术资格（水平）考试上机考试系统-作答系统”图标，打开考生作答系统。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200608154803690.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>2、系统自动下载考试数据完成后弹出“考生须知”界面，界面将在10秒后自动关闭，跳转到考生登录界面（也可以在考生登录界面上点击“查看考生须知”查看，见下图））。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200608154803700.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>3、输入正确的考生准考证号、姓名、证件号码信息。其中，准考证号和姓名必须正确填写(证件号码可不填写)。</p>
+<p>4、点击“登录”按钮后，进入考生信息确认界面</p>
+<p><img src="https://img-blog.csdnimg.cn/20200608154803701.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>5、确认考生信息无误后，点击“确认”开始抽卷；如考生信息有问题，点击“返回”按钮并联系监考老师修改。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200608154803707.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>6、在监考老师发布开始考试命令后，考生点击“开始考试”进入考生作答界面,或者等待几秒钟，考生端自动进入考生作答界面。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200608154804482.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>7、在考生作答界面上点击“开始作答”按钮开始作答，系统会自动标记“本题已做”。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200608154803702.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>8、在应用程序中作答时，请直接点击应用程序的“保存”按钮保存答案。作答完成后点击关闭按钮关闭应用程序。作答过程中可根据需要调整操作题提示工具栏大小。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200608154804547.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>9、如果要修改已经作答的题目，可点击“开始作答”或者“操作题工具栏”中的“打开素材”图标进行修改。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200608155714846.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>10、如果要对已作答的试题进行重新作答，可以点击界面上的“重做本题”按钮。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200608160034271.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>11、检查所有题目是否已做完，可点击“答题检查”按钮。考试过程中，系统每5分钟自动保存答案，考生如需要手动保存答案，可点击“上传答案”按钮。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200608154804506.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>12、答完所有试题并检查无误以后，单击界面上的“交卷”按钮，根据提示检查答题数量，单击“确认”后即交卷完成。</p>
+<p>13、如遇计算机系统故障，请举手向监考老师报告，等待监考老师处理。</p>
+<h2 id="word文字处理问题"><a href="#word文字处理问题" class="headerlink" title="word文字处理问题"></a>word文字处理问题</h2><p>关于word文字处理这块的详细介绍，会专门设置一个新的板块进行讲解，请移步：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/categories/">前言——第02节 word文字处理常见问题解答</a></p>
+<h3 id="Word文字题："><a href="#Word文字题：" class="headerlink" title="Word文字题："></a>Word文字题：</h3><ol>
+<li><p>对于文字题，标题不需要设置首行缩进，文段正文需要设置首行缩进2字符设置方式：选中文字，右击——段落——弹出的段落对话框——特殊格式——首行缩进2字符。不要直接通过空格设置，可能会导致不是2字符。</p>
+</li>
+<li><p>一般不要有多余的空行，即看有没有多余的回车符，如果有，则要删除。特别注意标题和段落中间、段落和段落中间及段落末尾处有没有多余的回车，然后还有页眉处是否有多余的回车符。 </p>
+</li>
+<li><p>注意录入的文字是否正确，特别是下面有绿色或红色波浪线，是表示有拼写与语法错误，尤其要注意，如果没有问题，则保持原样即可。另外，空格和标点符号要一致。</p>
+</li>
+<li><p>给正文段落添加边框，是段落边框，不是页面边框，选择开始里面的边框设置——边框和底纹设置，然后设置线型、颜色和宽度等，如下所示：</p>
+</li>
+</ol>
+<p><img src="https://img-blog.csdnimg.cn/20200627165741960.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<ol>
+<li><p>分栏如何多栏是均衡的？先多按一个回车（或者插入分隔符），然后选择要分栏的段落（不要加下面的回车），然后再进行分栏设置即可</p>
+</li>
+<li><p>分栏和段落边框不能同时设置，所以操作过程如下：</p>
+</li>
+</ol>
+<p>①段落后先多加一个回车符</p>
+<p>②不要选中任何文字，选择插入选项卡-插入简单文本框</p>
+<p>③绘制文本框，调整文本框位置和大小，遮挡住正文内容，不要遮挡了标题</p>
+<p>④选中文本框，设置文本框为无填充色或者设置文本框衬于文字下方</p>
+<p>⑤再对文本框的轮廓设置线型和宽度，及填充色</p>
+<ol>
+<li>页面内容居中对齐（页面设置对话框——版式——垂直对齐对齐方式——居中）如下图：</li>
+</ol>
+<p><img src="https://img-blog.csdnimg.cn/2020062716574210.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<ol>
+<li><p>首字下沉只有一个字符下沉的时候，直接可以再后面录入，然后删除掉多余的字符即可。</p>
+</li>
+<li><p>如果有首字下沉和边框设置，请先设置边框后，再设置首字下沉，否则会出现问题，首字下沉如果之前设置时只有一个字符的话，在后面可以添加的。如果是WPS做这种类型的题，那么首字下沉和边框也是没办法一起设置，因此参考分栏和边框同时设置，即将文本框作为边框。</p>
+</li>
+<li><p>关于颜色：</p>
+</li>
+</ol>
+<p>①一般颜色选择标准色，如果没有，再选择主题色，还没有就到其他颜色里面去找找</p>
+<p>②白色，背景1，深色25%是一种颜色，第一列最中间的那个颜色（一般水印可能会考这个），如下图：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627165742104.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
+<p>③灰色-25%——颜色，其他颜色，下面的灰色，前面第3个左右，如下图。如果想再确认下，可以点击确定，返回后移动到该颜色上即可查看</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627165741954.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
+<p>④填充底纹是40%，是在底纹设置对话框，样式里面进行选择40%，如下图：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627165741976.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
+<ol>
+<li><p>阴文、阳文、亦幻亦真效果10版本的一般情况下是没有的~</p>
+</li>
+<li><p>方框是插入的，最好不要用形状里面的方框（方框内打勾，先插入✔，然后加框）</p>
+</li>
+<li><p>页眉——直接双击页眉区，上面的横线不需要删除，注意不要有多余的回车，字体没有要求，按照默认的即可</p>
+</li>
+<li><p>字体的话，亦真亦幻设置不了，03版才有；阴文和阳文一般设置不了，07和03有</p>
+</li>
+</ol>
+<h3 id="Word中表格题："><a href="#Word中表格题：" class="headerlink" title="Word中表格题："></a>Word中表格题：</h3><ol>
+<li><p>插入-表格-插入表格，填入对应的行数和列数。最好先数好行数，设置对应行数，然后再进行拆分或合并</p>
+</li>
+<li><p>注意对齐，一般是居中对齐，如下设置，如果没有要求，那就按照图示中的要求来做，之前是左对齐就左对齐，但一定是下图中的中间一排的这些对齐方式</p>
+</li>
+</ol>
+<p><img src="https://img-blog.csdnimg.cn/20200627165741961.png" alt="在这里插入图片描述"> </p>
+<ol>
+<li><p>标题是在表格以外的，请不要放在表格中</p>
+</li>
+<li><p>不要有多余的空行，一般直接拖拽调整行高，也可以用回车</p>
+</li>
+<li><p>表格的行高要差不多和图示一致</p>
+</li>
+<li><p>调整列宽如果要整体调整，不要选中单元格再拖动边框，如果只有一个单元格，则选中单元格后拖拽，当要对齐时，可以按住Alt辅助对齐某不边框</p>
+</li>
+</ol>
+<h2 id="Excel电子表格问题"><a href="#Excel电子表格问题" class="headerlink" title="Excel电子表格问题"></a>Excel电子表格问题</h2><p>关于Excel电子表格这块的详细介绍，会专门设置一个新的板块进行讲解，请移步：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/categories/">前言——第03节 Excel电子表格常见问题解答</a></p>
+<p>总结如下：</p>
+<ol>
+<li>注意标题栏要设置可视的边框（第一个单元格）</li>
+<li>注意表格的位置，先看有没有规定是什么区域，如果没有规定，则默认是从A1单元格开始录入</li>
+<li>先按图示进行录入，然后对齐方式一般是居中，部分可能是靠左对齐，要稍设置</li>
+<li>一定要注意录入的数据准确性，否则后面计算就会有错误，请多次核对</li>
+<li>录入完成后可以稍微调整下行高和列宽，保证界面美观，内容能够完全看到，如果有图，建议一打开就可以看到图，不要跟表格数据相隔太远</li>
+<li>空白单元格一般都是需要用公式计算的，都需要有“=”号进行设置好公式进行计算，如果有要求用函数，则一定要用函数，否则可能不给分。不允许直接在单元格内写上具体的结果数值，此时不给分</li>
+<li>常考函数有：总和sum，平均值average，计数count，有条件加if，多条件加ifs，即有countif、sumif和countifs、sumifs；分段用if，多段嵌套if；最大值max，最小值min；排名用rank<br><img src="https://img-blog.csdnimg.cn/20200616191341462.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></li>
+<li>部分数据需要保留小数位数或者百分数，设置方式是：选择单元格——右击——点击单元格格式，然后再数字选项卡中进行设置</li>
+<li>环比比上期：（当前-上期）/上期，同比比去年同期： （当前-去年同期）/去年同期，占比是countif/count</li>
+<li>斜线的绘制方法（边框里面去设置）</li>
+<li>图表题：要注意X轴和Y轴表示的内容（X轴是水平轴），如果需要更改，就选择图-设计选项卡-点击切换下行列；要注意选择的区域，如果不连续，用Ctrl选取，即先选取一个区域，然后按住Ctrl，再拖拽选择下一个区域</li>
+</ol>
+<h2 id="PPT演示文稿问题"><a href="#PPT演示文稿问题" class="headerlink" title="PPT演示文稿问题"></a>PPT演示文稿问题</h2><p>关于PPT演示文稿这块的详细介绍，会专门设置一个新的板块进行讲解，请移步：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/categories/">前言——第04节 PPT演示文稿常见问题解答</a></p>
+<p>总结如下：</p>
+<ol>
+<li>注意到底要求几页，如果要求两页，就一定要设置为两页，如果没有要求，一般为一页内容</li>
+<li>按要求录入对应的文字，包含标题和正文；可以直接在文本框中录入，也可以删除已有的文本框，重新插入文本框</li>
+<li>设置好文字的格式，并按步骤做完所有的要求</li>
+<li>目前考试不要求进行美化，如果有描述“版式、图片、配色方案、动画方案等自行选择”、“制作完成的演示文稿美观、大方”等则需要进行适当美化，可以选择主题、背景设置等进行美化，可以通过插入形状、设置动画、切换效果，设置艺术字、文本框填充色和边框都可以设置，整体色彩不宜过多~但是注意美化完成后，要再核对下格式、字体等各项要求是否一致</li>
+<li>题目的硬性规定一定要完全满足,整体做完后再记得再核对一下有没有完成所有要求，以及有没有录入错误</li>
+</ol>
+<p>最后，祝大家都能顺利通过考试！加油！</p>
+
+    </div>
+
+    
+    
+    
+        <div class="reward-container">
+  <div>坚持原创技术分享，您的支持将鼓励我继续创作！</div>
+  <button disable="enable" onclick="var qr = document.getElementById(&quot;qr&quot;); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
+    打赏
+  </button>
+  <div id="qr" style="display: none;">
+      
+      <div style="display: inline-block;">
+        <img src="/Nolimited-Study.github.io/images/wechatpay.png" alt="Nolimited-Study 微信支付">
+        <p>微信支付</p>
+      </div>
+      
+      <div style="display: inline-block;">
+        <img src="/Nolimited-Study.github.io/images/alipay.png" alt="Nolimited-Study 支付宝">
+        <p>支付宝</p>
+      </div>
+
+  </div>
+</div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/Nolimited-Study.github.io/tags/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/" rel="tag"># 信息处理技术员</a>
+              <a href="/Nolimited-Study.github.io/tags/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/" rel="tag"># 常见问题</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-next post-nav-item">
+                <a href="/Nolimited-Study.github.io/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%894%20PPT%E6%BC%94%E7%A4%BA%E6%96%87%E7%A8%BF%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/" rel="next" title="信息处理技术员PPT演示文稿常见问题解答">
+                  <i class="fa fa-chevron-left"></i> 信息处理技术员PPT演示文稿常见问题解答
+                </a>
+            </div>
+
+            <span class="post-nav-divider"></span>
+
+            <div class="post-nav-prev post-nav-item">
+            </div>
+          </div>
+      </footer>
+    
+  </article>
+  <div>
+    
+    <div>
+    
+        <div style="text-align:center;color: #66cdaa;font-size:18px;">------ 本文已结束，感谢您的阅读 ------</div>
+    
+</div>
+
+    
+ </div>
+  
+  
+  
+
+  </div>
+
+
+          </div>
+          
+    
+  <div class="comments" id="comments">
+    <div id="lv-container" data-id="city" data-uid="MTAyMC80ODIwMC8yNDY5Ng=="></div>
+  </div>
+  
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#考试内容"><span class="nav-number">2.</span> <span class="nav-text">考试内容</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#一-考试大纲"><span class="nav-number">2.1.</span> <span class="nav-text">(一)考试大纲</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二-选择题部分"><span class="nav-number">2.2.</span> <span class="nav-text">(二)选择题部分</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#考试安排"><span class="nav-number">3.</span> <span class="nav-text">考试安排</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#考场规则"><span class="nav-number">4.</span> <span class="nav-text">考场规则</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#考试注意事项"><span class="nav-number">5.</span> <span class="nav-text">考试注意事项</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#选择题作答注意事项："><span class="nav-number">5.1.</span> <span class="nav-text">选择题作答注意事项：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#操作题注意事项："><span class="nav-number">5.2.</span> <span class="nav-text">操作题注意事项：</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#技术员模拟上机系统"><span class="nav-number">6.</span> <span class="nav-text">技术员模拟上机系统</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#软件下载"><span class="nav-number">6.1.</span> <span class="nav-text">软件下载</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#操作方法"><span class="nav-number">6.2.</span> <span class="nav-text">操作方法</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#技术员考试上机系统"><span class="nav-number">7.</span> <span class="nav-text">技术员考试上机系统</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#word文字处理问题"><span class="nav-number">8.</span> <span class="nav-text">word文字处理问题</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Word文字题："><span class="nav-number">8.1.</span> <span class="nav-text">Word文字题：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Word中表格题："><span class="nav-number">8.2.</span> <span class="nav-text">Word中表格题：</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Excel电子表格问题"><span class="nav-number">9.</span> <span class="nav-text">Excel电子表格问题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#PPT演示文稿问题"><span class="nav-number">10.</span> <span class="nav-text">PPT演示文稿问题</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Nolimited-Study"
+      src="/Nolimited-Study.github.io/images/avatar.gif">
+  <p class="site-author-name" itemprop="name">Nolimited-Study</p>
+  <div class="site-description" itemprop="description">每一刻都是学习时间</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/Nolimited-Study.github.io/archives/">
+        
+          <span class="site-state-item-count">22</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/Nolimited-Study.github.io/categories/">
+          
+        <span class="site-state-item-count">27</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/Nolimited-Study.github.io/tags/">
+          
+        <span class="site-state-item-count">16</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="feed-link motion-element">
+    <a href="/Nolimited-Study.github.io/atom.xml" rel="alternate">
+      <i class="fa fa-rss"></i>RSS
+    </a>
+  </div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/Nolimited-Study" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;Nolimited-Study" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/Nolimited-Study.github.io/1259799181@qq.com" title="E-Mail → 1259799181@qq.com"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://blog.csdn.net/wzh0709zml" title="CSDN → https:&#x2F;&#x2F;blog.csdn.net&#x2F;wzh0709zml" rel="noopener" target="_blank"><i class="fa fa-fw fa-crosshairs"></i>CSDN</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Nolimited-Study</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v4.0.0
+  </div>
+  <span class="post-meta-divider">|</span>
+  <div class="theme-info">主题 – <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.5.0
+  </div>
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="post-meta-item-icon">
+      <i class="fa fa-user"></i>
++   网站总访客数
+    </span>
+    <span class="site-uv" title="总访客量">
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span> 
+    </span>
+  
+
+  
+
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/Nolimited-Study.github.io/lib/anime.min.js"></script>
+  <script src="/Nolimited-Study.github.io/lib/velocity/velocity.min.js"></script>
+  <script src="/Nolimited-Study.github.io/lib/velocity/velocity.ui.min.js"></script>
+<script src="/Nolimited-Study.github.io/js/utils.js"></script><script src="/Nolimited-Study.github.io/js/motion.js"></script>
+<script src="/Nolimited-Study.github.io/js/schemes/pisces.js"></script>
+<script src="/Nolimited-Study.github.io/js/next-boot.js"></script>
+
+
+
+  
+
+
+
+
+  <script src="/Nolimited-Study.github.io/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+<script>
+if (document.querySelectorAll('pre.mermaid').length) {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js', () => {
+    mermaid.initialize({
+      theme: 'neutral',
+      logLevel: 3,
+      flowchart: { curve: 'linear' },
+      gantt: { axisFormat: '%m/%d/%Y' },
+      sequence: { actorMargin: 50 }
+    });
+  }, window.mermaid);
+}
+</script>
+
+
+
+  
+
+  
+
+<script>
+  window.livereOptions = {
+    refer: location.pathname.replace(CONFIG.root, '').replace('index.html', '')
+  };
+  (function(d, s) {
+    var j, e = d.getElementsByTagName(s)[0];
+    if (typeof LivereTower === 'function') { return; }
+    j = d.createElement(s);
+    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+    j.async = true;
+    e.parentNode.insertBefore(j, e);
+  })(document, 'script');
+</script>
+
+
+  
+	<script type="text/javascript"
+		color="0,255,255" opacity='0.6' zIndex="-1" count ="240" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
+
+<script src="/Nolimited-Study.github.io/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/Nolimited-Study.github.io/live2dw/assets/assets/koharu.model.json"},"display":{"position":"right","width":150,"height":300},"react":{"opacity":0.7},"mobile":{"show":true},"log":false});</script></body>
+</html>
