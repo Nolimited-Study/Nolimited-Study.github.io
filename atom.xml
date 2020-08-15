@@ -3,7 +3,7 @@
   <title>Nolimited-Study</title>
   <icon>https://nolimited-study.site/icon.png</icon>
   <subtitle>学习无极限</subtitle>
-  <link href="/Nolimited-Study/Nolimited-Study.github.io/atom.xml" rel="self"/>
+  <link href="/Nolimited-Study.github.io/blog/atom.xml" rel="self"/>
   
   <link href="https://nolimited-study.site/"/>
   <updated>2020-08-13T08:30:17.736Z</updated>
@@ -72,33 +72,6 @@
   </entry>
   
   <entry>
-    <title>信息处理技术员word文字处理常见问题解答</title>
-    <link href="https://nolimited-study.site/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%892%20word%E6%96%87%E5%AD%97%E5%A4%84%E7%90%86%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/"/>
-    <id>https://nolimited-study.site/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%892%20word%E6%96%87%E5%AD%97%E5%A4%84%E7%90%86%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/</id>
-    <published>2020-06-06T06:10:10.000Z</published>
-    <updated>2020-07-01T06:33:57.771Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;本文主要针对的是信息处理技术员的学员定制，根据学员经常提的word文字处理这块的问题进行归纳总结，帮助大家更好的掌握知识点，并顺利通过考试。&lt;br&gt;
-    
-    </summary>
-    
-    
-      <category term="信息处理技术员" scheme="https://nolimited-study.site/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/"/>
-    
-      <category term="第00章 前言" scheme="https://nolimited-study.site/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/%E7%AC%AC00%E7%AB%A0-%E5%89%8D%E8%A8%80/"/>
-    
-      <category term="第02节 word文字处理常见问题解答" scheme="https://nolimited-study.site/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/%E7%AC%AC00%E7%AB%A0-%E5%89%8D%E8%A8%80/%E7%AC%AC02%E8%8A%82-word%E6%96%87%E5%AD%97%E5%A4%84%E7%90%86%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/"/>
-    
-    
-      <category term="信息处理技术员" scheme="https://nolimited-study.site/tags/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/"/>
-    
-      <category term="常见问题" scheme="https://nolimited-study.site/tags/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/"/>
-    
-  </entry>
-  
-  <entry>
     <title>信息处理技术员Excel电子表格常见问题解答</title>
     <link href="https://nolimited-study.site/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%893%20Excel%E7%94%B5%E5%AD%90%E8%A1%A8%E6%A0%BC%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/"/>
     <id>https://nolimited-study.site/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%893%20Excel%E7%94%B5%E5%AD%90%E8%A1%A8%E6%A0%BC%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/</id>
@@ -144,6 +117,33 @@
       <category term="第00章 前言" scheme="https://nolimited-study.site/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/%E7%AC%AC00%E7%AB%A0-%E5%89%8D%E8%A8%80/"/>
     
       <category term="第04节 PPT演示文稿常见问题解答" scheme="https://nolimited-study.site/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/%E7%AC%AC00%E7%AB%A0-%E5%89%8D%E8%A8%80/%E7%AC%AC04%E8%8A%82-PPT%E6%BC%94%E7%A4%BA%E6%96%87%E7%A8%BF%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/"/>
+    
+    
+      <category term="信息处理技术员" scheme="https://nolimited-study.site/tags/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/"/>
+    
+      <category term="常见问题" scheme="https://nolimited-study.site/tags/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>信息处理技术员word文字处理常见问题解答</title>
+    <link href="https://nolimited-study.site/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%892%20word%E6%96%87%E5%AD%97%E5%A4%84%E7%90%86%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/"/>
+    <id>https://nolimited-study.site/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%892%20word%E6%96%87%E5%AD%97%E5%A4%84%E7%90%86%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/</id>
+    <published>2020-06-06T06:10:10.000Z</published>
+    <updated>2020-07-01T06:33:57.771Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;本文主要针对的是信息处理技术员的学员定制，根据学员经常提的word文字处理这块的问题进行归纳总结，帮助大家更好的掌握知识点，并顺利通过考试。&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="信息处理技术员" scheme="https://nolimited-study.site/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/"/>
+    
+      <category term="第00章 前言" scheme="https://nolimited-study.site/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/%E7%AC%AC00%E7%AB%A0-%E5%89%8D%E8%A8%80/"/>
+    
+      <category term="第02节 word文字处理常见问题解答" scheme="https://nolimited-study.site/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/%E7%AC%AC00%E7%AB%A0-%E5%89%8D%E8%A8%80/%E7%AC%AC02%E8%8A%82-word%E6%96%87%E5%AD%97%E5%A4%84%E7%90%86%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/"/>
     
     
       <category term="信息处理技术员" scheme="https://nolimited-study.site/tags/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/"/>
@@ -431,9 +431,9 @@
       <category term="WINDOWS操作" scheme="https://nolimited-study.site/categories/WINDOWS%E6%93%8D%E4%BD%9C/"/>
     
     
-      <category term="WINDOWS操作" scheme="https://nolimited-study.site/tags/WINDOWS%E6%93%8D%E4%BD%9C/"/>
-    
       <category term="图标异常" scheme="https://nolimited-study.site/tags/%E5%9B%BE%E6%A0%87%E5%BC%82%E5%B8%B8/"/>
+    
+      <category term="WINDOWS操作" scheme="https://nolimited-study.site/tags/WINDOWS%E6%93%8D%E4%BD%9C/"/>
     
   </entry>
   
