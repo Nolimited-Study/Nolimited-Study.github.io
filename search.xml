@@ -119,6 +119,304 @@
       </tags>
   </entry>
   <entry>
+    <title>信息处理技术员word文字处理常见问题解答</title>
+    <url>/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%892%20word%E6%96%87%E5%AD%97%E5%A4%84%E7%90%86%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/</url>
+    <content><![CDATA[<p>本文主要针对的是信息处理技术员的学员定制，根据学员经常提的word文字处理这块的问题进行归纳总结，帮助大家更好的掌握知识点，并顺利通过考试。<br><a id="more"></a></p>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>因文章篇幅较长，为节约大家的时间，建议大家直接搜索自己想问的问题。搜索方式如下：</p>
+<p>按住Ctrl，然后按下F，在弹出的搜索框内输入想要查找的关键字，注意，请简要描述，例如想搜索如何进行分栏操作，可以直接搜索分栏，如想知道页面内容居中对齐如何设置，可直接搜索居中即可。</p>
+<p>输入完后按enter，然后可以跳转到下一个，查看相关内容。</p>
+<p>不过，如果是初次学习，建议可以大致浏览下哦。</p>
+<h2 id="后台操作题答题要求"><a href="#后台操作题答题要求" class="headerlink" title="后台操作题答题要求"></a>后台操作题答题要求</h2><p>目前没有内嵌的word和excel及PPT可供直接操作，因此需要用自己电脑的对应软件进行操作，注意：不是在答题框内直接操作。</p>
+<p>目前后台还不支持上传word、Excel和ppt文件，仅支持上传图片。因此，需要将做好的word、excel和PPT文档截图或者拍照并保存为图片形式再进行上传文件。</p>
+<p>如果是APP，则可以用电脑作答后，直接点击APP答题下方的拍照按钮，拍完后点击确认后即可上传，最后还要记得点击提交答案。</p>
+<p>如果是电脑端浏览器界面，则需要进行拍照或者截图后，点击上传文件，找到你保存的图片，然后点击上传。上传完成后，也要记得最后点击提交答案。</p>
+<p>简单的截图可以用QQ，打开QQ后，可以用Ctrl+Alt+A进行截图。然后键盘上的Printscreen可以截全屏。或可以直接在系统自带的在开始菜单—搜索栏搜索“截图工具”；或自行安装下载的其他截图工具均可。</p>
+<p>如果文字过多表格太大，则可以按住Ctrl，向下滑动鼠标滚轮，缩小整个界面再截图。如果还是不好调整，可以直接上传多张图片哦~</p>
+<p>截图的其他操作方式可以参考链接：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/2019/11/27/WINDOWS%201%20%E5%A4%9A%E7%A7%8D%E6%88%AA%E5%9B%BE%E6%96%B9%E5%BC%8F%E4%BB%A5%E5%8F%8A%E5%A6%82%E4%BD%95%E6%88%AA%E5%8F%96%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%EF%BC%9F/" target="_blank" rel="noopener">截图方法</a></p>
+<p>考试的时候不需要截图上传，每个操作完成后点击保存按钮或者使用快捷键Ctrl+S保存文件，最后再进行提交答案。可以参考最后一个关于考试的文章：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%895%20%E6%8A%80%E6%9C%AF%E5%91%98%E8%80%83%E8%AF%95%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/" target="_blank" rel="noopener">信息处理技术员考试考场常见问题解答</a></p>
+<h2 id="考点"><a href="#考点" class="headerlink" title="考点"></a>考点</h2><p>建议在做题前，先提前查看视频。</p>
+<p>对于Word考试，主要考2个方面的内容，包含文字题和表格题。因此，我们分两块来看。</p>
+<p>首先是文字题，主要考察文字的格式设置（字体、字号、文字颜色、加粗、倾斜、下划线等设置），段落格式设置（段落居中、段落间距和行间距等），页面设置（页面方向、页面大小、纸张大小、分栏等设置），插入设置（插入页眉页脚页码、插入符号、首字下沉等设置）、边框和底纹的设置。该题主要是给出标题与文字，然后根据给定要求完成对应的操作，有可能需要录入一部分文字，可以使用五笔输入法或者拼音输入法都可以。一般虽然没有说首行缩进，但是正文一般都需要进行设置。</p>
+<p>然后是word表格题，给出一个表格，然后绘制出大致一致的表格，再完成字体字号等设置即可。</p>
+<h2 id="视频资源"><a href="#视频资源" class="headerlink" title="视频资源"></a>视频资源</h2><p>信息处理技术员精讲班视频教程：<a href="https://www.educity.cn/shipin/v4105.html" target="_blank" rel="noopener">https://www.educity.cn/shipin/v4105.html</a></p>
+<p>第5章 Word讲解 请先看完视频后再做练习题。</p>
+<p>视频链接：<a href="https://www.educity.cn/wangxiao/spj87234.html#a_116776" target="_blank" rel="noopener">PPT下午考试题基本做法</a> </p>
+<p>另外，如果想看真题讲解视频，可以打开真题考点视频进行观看，地址：<a href="https://www.educity.cn/shipin/v411055.html" target="_blank" rel="noopener">https://www.educity.cn/shipin/v411055.html</a></p>
+<h2 id="其他补充资源"><a href="#其他补充资源" class="headerlink" title="其他补充资源"></a>其他补充资源</h2><p>另外以下内容有详细的图示讲解过程，可以点击最后面的链接进行查看。</p>
+<p><a href="https://dilidonglong.site/2019/11/14/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98word%E8%AF%95%E9%A2%98/#%E6%A1%88%E4%BE%8B1" target="_blank" rel="noopener">文字题——奥林匹克运动会</a></p>
+<p><a href="https://dilidonglong.site/2019/11/14/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98word%E8%AF%95%E9%A2%98/#%E6%A1%88%E4%BE%8B2" target="_blank" rel="noopener">表格题——公司签呈</a></p>
+<p><a href="https://dilidonglong.site/2019/11/14/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98word%E8%AF%95%E9%A2%98/#%E6%A1%88%E4%BE%8B3" target="_blank" rel="noopener">文字题——丽江古城</a></p>
+<p><a href="https://dilidonglong.site/2019/11/14/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98word%E8%AF%95%E9%A2%98/#%E6%A1%88%E4%BE%8B4" target="_blank" rel="noopener">表格题——应聘人员登记表</a></p>
+<p><a href="https://dilidonglong.site/2019/11/14/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98word%E8%AF%95%E9%A2%98/#案例5" target="_blank" rel="noopener">文字题——新时期中共党史阶段划分</a></p>
+<p><a href="https://dilidonglong.site/2019/11/14/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98word%E8%AF%95%E9%A2%98/#案例6" target="_blank" rel="noopener">图形题——机构改革示意图</a></p>
+<p><a href="https://dilidonglong.site/2019/11/14/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98word%E8%AF%95%E9%A2%98/#案例7" target="_blank" rel="noopener">文字题——金砖国家</a></p>
+<h2 id="首行缩进问题"><a href="#首行缩进问题" class="headerlink" title="首行缩进问题"></a>首行缩进问题</h2><p>设置首行缩进2字符（选中，右击——段落对话框——特殊格式，不要通过空格或者标尺去进行设置）首行缩进虽然题目没有要求，但是文字题默认都要去设置下首行缩进2字符。设置方式如下：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627102939160.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
+<h2 id="快速替换文本"><a href="#快速替换文本" class="headerlink" title="快速替换文本"></a>快速替换文本</h2><p>按照试题的要求将“颗粒物”替换为 红色加粗的“颗粒物”。</p>
+<p>首先选择“开始”选项卡中编辑的“替换”（或者利用快捷键Ctrl+H），打开“查找与替换”对话框：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627102939125.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>在打开的“查找与替换对话框中”设置查找内容、替换内容，如果查找和替换对格式有要求的话，则要点击下面的更多，然后点击格式，选择字体设置，设置完成后如下图所示：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627102939157.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
+<p>单击“格式”选择“字体”可打开，对文本的格式进行设置，全部设置完毕后，选择“全部替换”即可。</p>
+<p><img src="https://img-blog.csdnimg.cn/2020062710293975.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
+<p>常见错误点：</p>
+<ol>
+<li><p>替换时选择的是“替换”而不是“全部替换”，导致替换未全部完成，此时重新替换一次即可。</p>
+</li>
+<li><p>替换时未对替换内容进行格式设置，导致替换后的效果有误。此时可撤销上一次的设置结果，重新替换并对格式进行设置。</p>
+</li>
+</ol>
+<h2 id="文本的底纹设置"><a href="#文本的底纹设置" class="headerlink" title="文本的底纹设置"></a>文本的底纹设置</h2><p>1、从“页面布局”选项卡找到“页面边框”，单击进入，打开“边框与底纹”对话框：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627102939161.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>或者可以在“开始”选项卡中表格框线设置进入设置，如下图：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627103620919.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>2、在“边框与底纹”对话框里选择第三个选项卡“底纹”，如果是灰色-25%或者灰色-50%，可以点击下面的填充——其他颜色——选择对应的颜色即可。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627165741954.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
+<p>3、    还可以选择下面的样式下拉菜单，选择对应的百分比，如下是灰色-40%的设置。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627102939139.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
+<h2 id="字符底纹"><a href="#字符底纹" class="headerlink" title="字符底纹"></a>字符底纹</h2><p>设置底纹时文本下方显示非底纹颜色，这种情况通常是由于文本是从其他地方复制而来所导致的，如下图所示，需要注意的是，正式考试的时候是不能复制的。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627102939100.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
+<p>出现这种情况时，可采用字体中的“字符底纹”来清除当前段落的原底纹。</p>
+<p>即选择文字，点击开始选项卡，点击下字符底纹，如果不行，可以再点击一下取消。如下图：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627102939114.png" alt="在这里插入图片描述"></p>
+<h2 id="文本的边框设置"><a href="#文本的边框设置" class="headerlink" title="文本的边框设置"></a>文本的边框设置</h2><p>1、可以在“开始”选项卡中表格框线设置进入设置，如下图：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627103620919.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p> 或者从“页面布局”选项卡找到“页面边框”，单击进入，打开“边框与底纹”对话框。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627103620989.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>2、在“边框与底纹”对话框里选择第一个选项卡“边框”，并设置线型和颜色，在预览处单击四个按钮，最后单击“确定”即可为段落添加边框。</p>
+<p>其中：</p>
+<p>1、    样式里面可以选择边框的线型，如双线型、虚线型等；</p>
+<p>2、    颜色可以设置边框的颜色，如红色、蓝色等；</p>
+<p>3、    宽度可以设置边框的宽度，如3磅，6磅等；</p>
+<p>4、    应用于要选中段落。</p>
+<p>3、最后点击确定即可。</p>
+<h2 id="页面边框"><a href="#页面边框" class="headerlink" title="页面边框"></a>页面边框</h2><p>word中目前没有考察过页面边框，但是大家需要区分页面边框和段落边框的区别。段落边框针对的是一个文段，给其四周加上边框，而页面边框则是针对于一个页面，整个页面都加上边框，如果多增加一页，则下面一页的页面边框也会自动添加。<br>页面边框的样式如下：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200701143348362.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h2 id="首字下沉设置"><a href="#首字下沉设置" class="headerlink" title="首字下沉设置"></a>首字下沉设置</h2><p>操作过程：</p>
+<p>首先选择需要下沉的文字，然后在“插入”选项卡中选择“首字下沉”的“首字下沉选项”，打开“首字下沉”对话框：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627103620814.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
+<p>在“位置”中选择“下沉”，在“字体”和“下沉行数”选择题目要求格式并单击“确定”。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627103620200.png" alt="在这里插入图片描述"> </p>
+<p>如果设置完成后若发现只有一个字下沉，可以再已经下沉部分的后面继续输入需要下沉的其他文字即可，然后后面的多余的文字再删除处理。</p>
+<p>特别注意：当下沉和边框同时需要设置时，此时先做首字下沉再做边框就会出现两个边框，因此要先设置边框再设置下沉即可避免这种情况出现。不过，WPS版本还是有问题，此时，如果是用WPS版本，则建议边框变成文本框来进行设置。可参考下面的分栏讲解。</p>
+<h2 id="设置分栏"><a href="#设置分栏" class="headerlink" title="设置分栏"></a>设置分栏</h2><h3 id="分栏基本设置"><a href="#分栏基本设置" class="headerlink" title="分栏基本设置"></a>分栏基本设置</h3><p>单击“页面布局”的“分栏”，选择“更多分栏”打开“分栏”对话框，如下图-10所示：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627103620921.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
+<p>在打开的“分栏”对话框中，设置栏数和分隔线后点击确定即可。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627103620241.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
+<p>此时可能会发现分好的页面只有一栏，如下图所示：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627103620308.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
+<p>此时先按ctrl+z，撤销之前的分栏效果，然后需要进行以下任意一种设置，再重新按照上述操作执行一次即可。</p>
+<h3 id="分栏只有一栏问题处理"><a href="#分栏只有一栏问题处理" class="headerlink" title="分栏只有一栏问题处理"></a>分栏只有一栏问题处理</h3><p>方式1：</p>
+<p>插入分隔符：</p>
+<p>可以将光标定位在文章末尾，然后点击页面布局——分隔符——然后选择自动换行符或者连续。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627103620917.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
+<p>插入完成之后，不要选择后面的分隔符，再进行设置分栏。</p>
+<p>方法2：</p>
+<p>在文段末尾多增加一个回车，然后不选择最后的回车，只选择段落文本部分，再进行分栏设置。如下所示：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627103620737.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h3 id="分栏及文本框同时设置"><a href="#分栏及文本框同时设置" class="headerlink" title="分栏及文本框同时设置"></a>分栏及文本框同时设置</h3><p>1、    先设置好分栏效果（以中间一段设置分栏并加边框为例）</p>
+<p><img src="https://img-blog.csdnimg.cn/2020062710505145.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
+<p>2、不要选择任何文字，插入文本框</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627105051292.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>3、调整文本框大小，覆盖文本，删除里面的文字</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627132328937.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>4、设置文本框，衬于文字下方</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627105050994.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>5、设置完成</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627105050277.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
+<h3 id="分栏边框底纹设置"><a href="#分栏边框底纹设置" class="headerlink" title="分栏边框底纹设置"></a>分栏边框底纹设置</h3><p>此时，如果要添加底纹，则用文本框来设置填充色。先选中文本框，然后在绘图工具选项卡中的形状填充菜单中设置相应的颜色，如下图所示：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627111249389.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h2 id="设置页眉-页脚"><a href="#设置页眉-页脚" class="headerlink" title="设置页眉/页脚"></a>设置页眉/页脚</h2><p>方法一：直接双击页眉/页脚，进入页眉/页脚的编辑状态，打开如下图所示：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627105050649.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
+<p>方法二：单击“插入”，选择“页眉”或“页脚”，如下图所示：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627105050545.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
+<p>注意页眉下面的横线不需要删除哦~</p>
+<h2 id="设置页码"><a href="#设置页码" class="headerlink" title="设置页码"></a>设置页码</h2><p>一般情况下，直接选择插入选项卡，然后页码，设置居中的页码即可。</p>
+<p>有一题需要设置第几页共几页的页码，则设置方式如下：</p>
+<p>1、在“插入”选项卡中选择“页码”下的“页面底端”，如图：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627105050714.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
+<p>2、接下来选择样式X/Y中的第二种样式。设置好页码样式后打开页脚进行文本编辑，如图所示：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627105050611.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
+<h2 id="设置下划线"><a href="#设置下划线" class="headerlink" title="设置下划线"></a>设置下划线</h2><p>按照试题要求为文本设置下划线，并设置线型为波浪线或横线等。</p>
+<p>选中需要设置下划线的文本，单击“开始”选项卡中“字体”右下角进入“字体”对话框，在下划线线型中选择相应线型即可，如下图所示：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627105755817.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h2 id="设置水印"><a href="#设置水印" class="headerlink" title="设置水印"></a>设置水印</h2><h3 id="基本设置"><a href="#基本设置" class="headerlink" title="基本设置"></a>基本设置</h3><p>单击“页面边框”选择“水印”中的“自定义水印”，如图所示：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627105755816.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>在打开的“水印”对话框中选择“文字水印”，并设置水印显示的相应的文字、字体以及颜色，如图所示：<br><img src="https://img-blog.csdnimg.cn/20200627105755750.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
+<p>然后半透明、斜式看下要求有没有提及，如果有则一定要勾选上。</p>
+<p>最后点击应用即可，再关闭对话框。</p>
+<h3 id="水印颜色问题"><a href="#水印颜色问题" class="headerlink" title="水印颜色问题"></a>水印颜色问题</h3><p>对于颜色如何选择，部分颜色可以直接在主题颜色或者标准色下面查找，如白色背景1深色25%，是在第一列里面的第三个：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627105755722.png" alt="在这里插入图片描述"> </p>
+<p>如果是灰色25%，则可以在颜色的下拉列表中选择其他颜色，会弹出一个对话框，如图：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627105755762.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
+<p>单击选择一个颜色并应用，此时点击关闭，将光标移动到“最近使用的颜色”下方的颜色，会显示颜色相应的百分比，尝试几次就可以找到对应的颜色了，如图所示：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627132918524.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h2 id="特殊符号的输入"><a href="#特殊符号的输入" class="headerlink" title="特殊符号的输入"></a>特殊符号的输入</h2><h3 id="添加着重号"><a href="#添加着重号" class="headerlink" title="添加着重号"></a>添加着重号</h3><p>先选中好需要设置的文字，然后右击，选择“字体”，在弹出的对话框中，选择着重号设置，如下图所示：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627105755760.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
+<h3 id="破折号和下划线"><a href="#破折号和下划线" class="headerlink" title="破折号和下划线"></a>破折号和下划线</h3><p>中文输入状态下，输入shift+减号，则是破折号（———）。</p>
+<p>英文输入状态下，输入shift+减号，则是下划线（<em>_</em>）。</p>
+<p>在宋体状态下，破折号输入后中间会有分隔，感觉是断开的，此时更换为其他字体即可。不过考试的时候不需要设置，按照要求的字体即可。</p>
+<h3 id="波浪号和点的输入"><a href="#波浪号和点的输入" class="headerlink" title="波浪号和点的输入"></a>波浪号和点的输入</h3><p>如果想要输入~这种波浪线，则按住shift+键盘上面1前面的那个按键。（~）</p>
+<p>如果要输入点，则是中文输入法下，直接按该按键即可。（·）</p>
+<p>注意：文段中下面的绿色或者红色的波浪线是表示有语法或拼写错误，请先核对，如果无误，则没有关系。</p>
+<h3 id="箭头"><a href="#箭头" class="headerlink" title="箭头"></a>箭头</h3><p>箭头属于特殊符号，可在“插入”选项卡“符号”的“其他符号”进行设置，如下图：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627105755806.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
+<p>打开“符号”对话框后，在“子集”中查找“箭头”即可：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627105755755.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
+<p>有的输入法可以直接通过输入“jiantou”插入符号（该方法可能有些输入法不支持），如下： </p>
+<p><img src="https://img-blog.csdnimg.cn/20200627105755721.png" alt="在这里插入图片描述"> </p>
+<h3 id="插入符号方框"><a href="#插入符号方框" class="headerlink" title="插入符号方框"></a>插入符号方框</h3><p>箭头属于特殊符号，可在“插入”选项卡“符号”的“其他符号”进行设置，再在子集中选择几何图形符，如下图：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627110415904.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>或者也可以直接输入“fangkuang”（该方法可能有些输入法不支持）：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627110415589.png" alt="在这里插入图片描述"></p>
+<h3 id="插入符号✔"><a href="#插入符号✔" class="headerlink" title="插入符号✔"></a>插入符号✔</h3><p>箭头属于特殊符号，可在“插入”选项卡“符号”的“其他符号”进行设置，再在子集中选择数学运算符，如下图：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627110415902.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
+<p>也可以直接输入“dui” （该方法可能有些输入法不支持）：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627110415513.png" alt="在这里插入图片描述"> </p>
+<h3 id="插入表格中勾选的方框"><a href="#插入表格中勾选的方框" class="headerlink" title="插入表格中勾选的方框"></a>插入表格中勾选的方框</h3><p>先按照上面的方法插入√，然后选中“√”，单击“开始”选项卡下“字体”中的“带圈字符”，如下图所示，设置勾选的外围为方框即可：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627110415764.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
+<h3 id="插入大于等于等符号"><a href="#插入大于等于等符号" class="headerlink" title="插入大于等于等符号"></a>插入大于等于等符号</h3><p>箭头属于特殊符号，可在“插入”选项卡“符号”的“其他符号”进行设置，再在子集中选择数学运算符，如下图：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627110415858.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
+<p>也可以直接输入“dayudengyu” （该方法可能有些输入法不支持）：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627110415647.png" alt="在这里插入图片描述"> </p>
+<h2 id="设置艺术字"><a href="#设置艺术字" class="headerlink" title="设置艺术字"></a>设置艺术字</h2><h3 id="艺术字的基本设置"><a href="#艺术字的基本设置" class="headerlink" title="艺术字的基本设置"></a>艺术字的基本设置</h3><p>1、在“插入”选项卡中选择“艺术字”，如下图所示，一般如果要设置艺术字直接选择第一个即可：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627110415863.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
+<p>2、如果有样式要求，则选择试题要求样式后，显示如图所示：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627110415683.png" alt="在这里插入图片描述"> </p>
+<p>3、此时双击文本框中的文字位置，输入题目所要求的文字，如图所示：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627110415719.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
+<p>4、选中艺术字，右击选择“设置形状格式”，可打开设置形状格式对话框，可对艺术字进行三维效果、阴影等设置，如图所示：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627110415660.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
+<h3 id="艺术字位置设置"><a href="#艺术字位置设置" class="headerlink" title="艺术字位置设置"></a>艺术字位置设置</h3><p>另外，如果要将艺术字设置居中，则可以选择艺术字后，在格式选项卡——位置中选择居中，如下：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627112234903.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
+<p>如果要设置艺术字为上下型环绕，则可以选择艺术字，然后“格式”选项卡中，点击“自动换行”下拉菜单，选择“上下型环绕”。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627112234852.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h2 id="纸张16开"><a href="#纸张16开" class="headerlink" title="纸张16开"></a>纸张16开</h2><p>点击页面布局选项卡，选择纸张大小——其他页面大小，如下图：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627102939144.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>然后在弹出的菜单中，选择纸张菜单里面的纸张大小下拉菜单，点击16开，最后选择确定即可：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627102939113.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h2 id="阴文、阳文设置"><a href="#阴文、阳文设置" class="headerlink" title="阴文、阳文设置"></a>阴文、阳文设置</h2><p>阴文设置：先选中文字，然后右击——字体，如果弹出的对话框下面有阳文/阴文，就勾选一下，如下图：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627112521899.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>如果没有，那就别设置了。如下图：</p>
+<p><img src="https://img-blog.csdnimg.cn/2020062711252224.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>一般情况下，2010版本以上的都没有该可选项。如果考试有考到，且不能设置，那就不设置了，这个最多扣一分，也没有多大关系的哦！</p>
+<p>然后还有亦真亦幻文字效果的设置，这个是2003版本才有的，也不需要掌握。</p>
+<h2 id="字符缩放"><a href="#字符缩放" class="headerlink" title="字符缩放"></a>字符缩放</h2><p>选中文字，右击——字体——高级选项卡，设置字符缩放200%设置方式如下：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200821203925793.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<h2 id="文本框填充图案"><a href="#文本框填充图案" class="headerlink" title="文本框填充图案"></a>文本框填充图案</h2><p>选择文本框，然后选择格式选项卡，点击形状填充下拉菜单，选择图案，如下：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627113223430.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
+<p>在该对话框中，可以设置图片的样式，如上选择的就是球体。</p>
+<p>下面的前景和背景可以按要求进行设置，最后点击确定即可。</p>
+<h2 id="页面内容居中对齐"><a href="#页面内容居中对齐" class="headerlink" title="页面内容居中对齐"></a>页面内容居中对齐</h2><p>题目中经常会要求设置页面内容居中对齐，则设置方式如下：</p>
+<p>点击“页面布局”选项卡，然后点击“页面设置对话框启动器”，在弹出的对话框中选择“版式”，再选择垂直对齐方式中的“居中”即可，如下图：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627112521952.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
+<p>注意：WPS没有这个功能，所以需要稍微熟悉下Office 2010如何进行操作即可。</p>
+<h2 id="表格设置"><a href="#表格设置" class="headerlink" title="表格设置"></a>表格设置</h2><p>要提前录入标题，如果后面才想起来没有录入标题部分，建议先剪切表格，然后再录入完成标题后再进行粘贴。</p>
+<p>建议这部分先提前看下视频，学起来会更快哦~</p>
+<h3 id="表格操作过程"><a href="#表格操作过程" class="headerlink" title="表格操作过程"></a>表格操作过程</h3><p>1、选择“插入”选项卡，点击“表格”下拉菜单，然后选择插入表格（不要用绘制表格，操作不方便，不方便修改）：</p>
+<p><img src="https://img-blog.csdnimg.cn/2020062711252229.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>2、对于比较复杂的表格，建议先设置好对应的行数，列数可以直接设置为1，如下图：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627112521966.png" alt="在这里插入图片描述"></p>
+<p>3、后续进行合并和拆分单元格，来将表格的基本样式设置好。可以在布局选项卡中设置，也可以直接选择后右击，然后进行设置。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627112522104.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>4、接下来依次录入文本，录入完成之后，再调整行高和列宽。差不多了之后，再设置单元格的对齐方式。</p>
+<h3 id="单元格内容居中对齐"><a href="#单元格内容居中对齐" class="headerlink" title="单元格内容居中对齐"></a>单元格内容居中对齐</h3><p>很多表格内容都需要设置居中对齐，可以再“布局”选项卡中点击最中间的进行设置，如下图：</p>
+<p><img src="https://img-blog.csdnimg.cn/2020062711252248.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>或者选择单元格后，然后右击，选择对齐方式进行设置。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627133545894.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述">  </p>
+<h3 id="行高列宽设置"><a href="#行高列宽设置" class="headerlink" title="行高列宽设置"></a>行高列宽设置</h3><p>可以直接拖拽边框进行调整，但是注意如果要统一调整，则不要选择单元格，如果是某个单元格的要调整，则需要选择单元格。如下所示：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627112521950.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>然后还可以在“布局”选项卡中，高度和宽度中进行设置，如下所示：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627113417406.png" alt="在这里插入图片描述"></p>
+<h3 id="分布行列"><a href="#分布行列" class="headerlink" title="分布行列"></a>分布行列</h3><p>有的时候需要设置相同的行高和列宽来进行美化，可以在“布局”选项卡中点击分布行或分布列，如下所示：</p>
+<p><img src="https://img-blog.csdnimg.cn/2020062711252245.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h3 id="添加斜线表头"><a href="#添加斜线表头" class="headerlink" title="添加斜线表头"></a>添加斜线表头</h3><p>如果是斜线表头的话，可以在“设计”选项卡中边框下拉菜单，点击斜上框线或者斜下框线。或者也可以点击下面的绘制表格，通过笔画一下可以添加。如下图：</p>
+<p><img src="https://img-blog.csdnimg.cn/2020062711252250.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
+<p>添加完成后，再录入文字，如果有两行，按下回车再录入，再设置上面的标题内容靠右对齐即可，如下图：</p>
+<p><img src="https://img-blog.csdnimg.cn/2020062711252236.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>如果有三线表头，则可以通过绘制形状的方式插入，但是要注意改变形状的颜色为黑色，粗细也要适当调整，如下所示：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627112521947.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>对于里面的文本，则可以利用文本框来录入。</p>
+<h2 id="各类命令符号含义"><a href="#各类命令符号含义" class="headerlink" title="各类命令符号含义"></a>各类命令符号含义</h2><p>各类选项卡命令中有很多具有不同含义的符号。</p>
+<h3 id="省略号表示有对话框"><a href="#省略号表示有对话框" class="headerlink" title="省略号表示有对话框"></a>省略号表示有对话框</h3><p>如果菜单右边带有省略号，表示单击该项会弹出一个对话框。</p>
+<p><img src="https://img-blog.csdnimg.cn/202006271125225.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h3 id="倒三角表示有下拉菜单"><a href="#倒三角表示有下拉菜单" class="headerlink" title="倒三角表示有下拉菜单"></a>倒三角表示有下拉菜单</h3><p>如果菜单右边带有黑色倒三角形，表示该项是子菜单的名称，鼠标指向该选项会弹出子菜单。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627112521993.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h3 id="文字变灰表示无效命令"><a href="#文字变灰表示无效命令" class="headerlink" title="文字变灰表示无效命令"></a>文字变灰表示无效命令</h3><p>如果菜单中文字颜色变灰，表示该选项无效，单击它不会有任何反应。</p>
+<p><img src="https://img-blog.csdnimg.cn/2020062711252222.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h3 id="方框内打勾表示可多选"><a href="#方框内打勾表示可多选" class="headerlink" title="方框内打勾表示可多选"></a>方框内打勾表示可多选</h3><p>如果菜单左边带对号，表示多选项目的选中标记。该菜单是一组多选项目中的一项，并处于选中状态。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627113442752.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h3 id="可选择圆点表示单选"><a href="#可选择圆点表示单选" class="headerlink" title="可选择圆点表示单选"></a>可选择圆点表示单选</h3><p>如果菜单左边带圆点符号，表示单选项目的选中标记。该菜单是一组单选项目中的一项，并处于选中状态。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627113529386.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><h3 id="Word文字题："><a href="#Word文字题：" class="headerlink" title="Word文字题："></a>Word文字题：</h3><h4 id="首行缩进问题-1"><a href="#首行缩进问题-1" class="headerlink" title="首行缩进问题"></a>首行缩进问题</h4><p>对于文字题，标题不需要设置首行缩进，文段正文需要设置首行缩进2字符设置方式：选中文字，右击——段落——弹出的段落对话框——特殊格式——首行缩进2字符。不要直接通过空格设置，可能会导致不是2字符。</p>
+<h4 id="空行问题"><a href="#空行问题" class="headerlink" title="空行问题"></a>空行问题</h4><p>一般不要有多余的空行，即看有没有多余的回车符，如果有，则要删除。特别注意标题和段落中间、段落和段落中间及段落末尾处有没有多余的回车，然后还有页眉处是否有多余的回车符。</p>
+<h4 id="自动波浪线问题"><a href="#自动波浪线问题" class="headerlink" title="自动波浪线问题"></a>自动波浪线问题</h4><p>注意录入的文字是否正确，特别是下面有绿色或红色波浪线，是表示有拼写与语法错误，尤其要注意，如果没有问题，则保持原样即可。另外，空格和标点符号要一致。</p>
+<h4 id="添加边框问题"><a href="#添加边框问题" class="headerlink" title="添加边框问题"></a>添加边框问题</h4><p>给正文段落添加边框，是段落边框，不是页面边框，选择开始里面的边框设置——边框和底纹设置，然后设置线型、颜色和宽度等，如下所示：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200627165741960.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h4 id="分栏设置问题"><a href="#分栏设置问题" class="headerlink" title="分栏设置问题"></a>分栏设置问题</h4><ol>
+<li>分栏如何多栏是均衡的？先多按一个回车（或者插入分隔符），然后选择要分栏的段落（不要加下面的回车），然后再进行分栏设置即可</li>
+<li>分栏和段落边框不能同时设置，所以操作过程如下：</li>
+</ol>
+<ul>
+<li><p>段落后先多加一个回车符</p>
+</li>
+<li><p>不要选中任何文字，选择插入选项卡-插入简单文本框</p>
+</li>
+<li><p>绘制文本框，调整文本框位置和大小，遮挡住正文内容，不要遮挡了标题</p>
+</li>
+<li><p>选中文本框，设置文本框为无填充色或者设置文本框衬于文字下方</p>
+</li>
+<li><p>再对文本框的轮廓设置线型和宽度，及填充色</p>
+</li>
+</ul>
+<h4 id="居中对齐问题"><a href="#居中对齐问题" class="headerlink" title="居中对齐问题"></a>居中对齐问题</h4><p>一般说的对齐是文字段落水平对齐，选择文字，点击开始选项卡中，段落组中的居中对齐即可。</p>
+<p>如果说页面内容居中对齐，则通过页面设置对话框——版式——垂直对齐对齐方式——居中进行设置。如下图：</p>
+<p><img src="https://img-blog.csdnimg.cn/2020062716574210.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h4 id="首字下沉问题"><a href="#首字下沉问题" class="headerlink" title="首字下沉问题"></a>首字下沉问题</h4><p>首字下沉只有一个字符下沉的时候，直接可以再后面录入，然后删除掉多余的字符即可。</p>
+<p>如果有首字下沉和边框设置，请先设置边框后，再设置首字下沉，否则会出现问题，首字下沉如果之前设置时只有一个字符的话，在后面可以添加的。如果是WPS做这种类型的题，那么首字下沉和边框也是没办法一起设置，因此参考分栏和边框同时设置，即将文本框作为边框。</p>
+<h4 id="颜色问题"><a href="#颜色问题" class="headerlink" title="颜色问题"></a>颜色问题</h4><ul>
+<li><p>一般颜色选择标准色，如果没有，再选择主题色，还没有就到其他颜色里面去找找</p>
+</li>
+<li><p>白色，背景1，深色25%是一种颜色，第一列最中间的那个颜色（一般水印可能会考这个），如下图：</p>
+</li>
+</ul>
+<p><img src="https://img-blog.csdnimg.cn/20200627165742104.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
+<ul>
+<li>灰色-25%——颜色，其他颜色，下面的灰色，前面第3个左右，如下图。如果想再确认下，可以点击确定，返回后移动到该颜色上即可查看</li>
+</ul>
+<p><img src="https://img-blog.csdnimg.cn/20200627165741954.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
+<ul>
+<li>填充底纹是40%，是在底纹设置对话框，样式里面进行选择40%，如下图：</li>
+</ul>
+<p><img src="https://img-blog.csdnimg.cn/20200627165741976.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
+<h4 id="字体问题"><a href="#字体问题" class="headerlink" title="字体问题"></a>字体问题</h4><p>字体的话，亦真亦幻设置不了，03版才有；阴文和阳文一般设置不了，07和03有，所以看到阴文、阳文、亦真亦幻等文字效果都不用设置啦~</p>
+<h4 id="特殊符号问题"><a href="#特殊符号问题" class="headerlink" title="特殊符号问题"></a>特殊符号问题</h4><p>方框□、箭头→、对号√都是选择插入选项卡——符号，然后进行选择，最好不要用形状里面的类似形状。如果需要设置方框内打勾，先插入✔，然后添加带圈字符。</p>
+<h4 id="页眉问题"><a href="#页眉问题" class="headerlink" title="页眉问题"></a>页眉问题</h4><p>页眉——直接双击页眉区，上面的横线不需要删除，注意不要有多余的回车，字体没有要求，按照默认的即可</p>
+<h3 id="Word中表格题："><a href="#Word中表格题：" class="headerlink" title="Word中表格题："></a>Word中表格题：</h3><ol>
+<li>插入-表格-插入表格，填入对应的行数和列数。最好先数好行数，设置对应行数，然后再进行拆分或合并</li>
+<li>注意对齐，一般是居中对齐，如下设置，如果没有要求，那就按照图示中的要求来做，之前是左对齐就左对齐，但一定是下图中的中间一排的这些对齐方式</li>
+</ol>
+<p><img src="https://img-blog.csdnimg.cn/20200627165741961.png" alt="在这里插入图片描述"> </p>
+<ol>
+<li>标题是在表格以外的，请不要放在表格中</li>
+<li>不要有多余的空行，一般直接拖拽调整行高，也可以用回车</li>
+<li>表格的行高要差不多和图示一致,不要求一模一样</li>
+<li>调整列宽如果要整体调整，不要选中单元格再拖动边框，如果只有一个单元格，则选中单元格后拖拽，当要对齐时，可以按住Alt辅助对齐某不边框</li>
+</ol>
+<h2 id="Excel电子表格问题"><a href="#Excel电子表格问题" class="headerlink" title="Excel电子表格问题"></a>Excel电子表格问题</h2><p>关于Excel电子表格这块，会专门设置一个新的板块进行讲解，请移步：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%893%20Excel%E7%94%B5%E5%AD%90%E8%A1%A8%E6%A0%BC%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/" target="_blank" rel="noopener">前言——第03节 Excel电子表格常见问题解答</a></p>
+<h2 id="PPT演示文稿问题"><a href="#PPT演示文稿问题" class="headerlink" title="PPT演示文稿问题"></a>PPT演示文稿问题</h2><p>关于PPT演示文稿这块，会专门设置一个新的板块进行讲解，请移步：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%894%20PPT%E6%BC%94%E7%A4%BA%E6%96%87%E7%A8%BF%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/" target="_blank" rel="noopener">前言——第04节 PPT演示文稿常见问题解答</a></p>
+<h2 id="技术员考试有关问题"><a href="#技术员考试有关问题" class="headerlink" title="技术员考试有关问题"></a>技术员考试有关问题</h2><p>关于信息处理技术员考试这块，会专门设置一个新的板块进行讲解，请移步：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%895%20%E6%8A%80%E6%9C%AF%E5%91%98%E8%80%83%E8%AF%95%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/" target="_blank" rel="noopener">前言——第05节 技术员考试考场常见问题解答</a></p>
+<p>最后，祝大家都能顺利通过考试！加油！</p>
+]]></content>
+      <categories>
+        <category>信息处理技术员</category>
+        <category>第00章 前言</category>
+        <category>第02节 word文字处理常见问题解答</category>
+      </categories>
+      <tags>
+        <tag>信息处理技术员</tag>
+        <tag>常见问题</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>信息处理技术员Excel电子表格常见问题解答</title>
     <url>/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%893%20Excel%E7%94%B5%E5%AD%90%E8%A1%A8%E6%A0%BC%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/</url>
     <content><![CDATA[<p>本文主要针对的是信息处理技术员的学员定制，根据学员经常提的Excel电子表格这块的问题进行归纳总结，帮助大家更好的掌握知识点，并顺利通过考试。<br><a id="more"></a></p>
@@ -144,7 +442,7 @@
 <p>5、<a href="https://dilidonglong.site/2019/11/20/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E8%A1%A8%E6%A0%BC%E5%A4%84%E7%90%86%E7%9C%9F%E9%A2%98/#%E6%A1%88%E4%BE%8B2" target="_blank" rel="noopener">学生成绩表</a></p>
 <p>6、<a href="https://dilidonglong.site/2019/11/20/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E8%A1%A8%E6%A0%BC%E5%A4%84%E7%90%86%E7%9C%9F%E9%A2%98/#%E6%A1%88%E4%BE%8B3" target="_blank" rel="noopener">学生成绩统计表</a></p>
 <p>另外还有以下补充资料：</p>
-<p>1、学生考试情况表（语文、数学、英语及格人数和不及格人数判断）：<a href="https://www.educity.cn/rk/2094408.html" target="_blank" rel="noopener">https://www.educity.cn/rk/2094408.html</a></p>
+<p>1、<a href="https://www.educity.cn/rk/2094408.html" target="_blank" rel="noopener">学生考试情况表（语文、数学、英语及格人数和不及格人数判断）</a></p>
 <p>2、<a href="https://www.educity.cn/rk/2094420.html" target="_blank" rel="noopener">供应商评价表</a></p>
 <p>3、<a href="https://www.educity.cn/rk/2094453.html" target="_blank" rel="noopener">各类产品销量情况表</a></p>
 <p>4、<a href="https://www.educity.cn/rk/2094467.html" target="_blank" rel="noopener">员工考勤情况表</a></p>
@@ -236,102 +534,6 @@
         <category>信息处理技术员</category>
         <category>第00章 前言</category>
         <category>第03节 Excel电子表格常见问题解答</category>
-      </categories>
-      <tags>
-        <tag>信息处理技术员</tag>
-        <tag>常见问题</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>信息处理技术员PPT演示文稿常见问题解答</title>
-    <url>/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%894%20PPT%E6%BC%94%E7%A4%BA%E6%96%87%E7%A8%BF%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/</url>
-    <content><![CDATA[<p>本文主要针对的是信息处理技术员的学员定制，根据学员经常提的PPT演示文稿这块的问题进行归纳总结，帮助大家更好的掌握知识点，并顺利通过考试。<br><a id="more"></a></p>
-<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>因文章篇幅较长，为节约大家的时间，建议大家直接搜索自己想问的问题。搜索方式如下：</p>
-<p>按住Ctrl，然后按下F，在弹出的搜索框内输入想要查找的关键字，注意，请简要描述，例如想搜索如何进行设置飞入动画，可以直接搜索动画，如想知道每五秒自动循环播放如何设置，可直接搜索循环播放即可。</p>
-<p>输入完后按enter，然后可以跳转到下一个，查看相关内容。</p>
-<p>不过，如果是初次学习，建议可以大致浏览下哦。</p>
-<h2 id="后台操作题答题要求"><a href="#后台操作题答题要求" class="headerlink" title="后台操作题答题要求"></a>后台操作题答题要求</h2><p>目前没有内嵌的word和excel及PPT可供直接操作，因此需要用自己电脑的对应软件进行操作，注意：不是在答题框内直接操作。</p>
-<p>目前后台还不支持上传word、Excel和ppt文件，仅支持上传图片。因此，需要将做好的word、excel和PPT文档截图或者拍照并保存为图片形式再进行上传文件。</p>
-<p>如果是APP，则可以用电脑作答后，直接点击APP答题下方的拍照按钮，拍完后点击确认后即可上传，最后还要记得点击提交答案。</p>
-<p>如果是电脑端浏览器界面，则需要进行拍照或者截图后，点击上传文件，找到你保存的图片，然后点击上传。上传完成后，也要记得最后点击提交答案。</p>
-<p>简单的截图可以用QQ，打开QQ后，可以用Ctrl+Alt+A进行截图。然后键盘上的Printscreen可以截全屏。或可以直接在系统自带的在开始菜单—搜索栏搜索“截图工具”；或自行安装下载的其他截图工具均可。</p>
-<p>如果文字过多表格太大，则可以按住Ctrl，向下滑动鼠标滚轮，缩小整个界面再截图。如果还是不好调整，可以直接上传多张图片哦~</p>
-<p>截图的其他操作方式有：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/2019/11/27/WINDOWS%201%20%E5%A4%9A%E7%A7%8D%E6%88%AA%E5%9B%BE%E6%96%B9%E5%BC%8F%E4%BB%A5%E5%8F%8A%E5%A6%82%E4%BD%95%E6%88%AA%E5%8F%96%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%EF%BC%9F/" target="_blank" rel="noopener">截图方法</a></p>
-<p>考试的时候不需要截图上传，每个操作完成后点击保存按钮或者使用快捷键Ctrl+S保存文件，最后再进行提交答案。可以参考最后一个关于考试的文章：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%895%20%E6%8A%80%E6%9C%AF%E5%91%98%E8%80%83%E8%AF%95%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/" target="_blank" rel="noopener">信息处理技术员考试考场常见问题解答</a></p>
-<h2 id="视频指导"><a href="#视频指导" class="headerlink" title="视频指导"></a>视频指导</h2><p>信息处理技术员精讲班视频教程：<a href="https://www.educity.cn/shipin/v4105.html" target="_blank" rel="noopener">https://www.educity.cn/shipin/v4105.html</a></p>
-<p>第7章 PPT讲解 请先看完视频后再做练习题。</p>
-<p>视频链接：<a href="https://www.educity.cn/wangxiao/spj87234.html#a_116776" target="_blank" rel="noopener">PPT下午考试题基本做法</a> </p>
-<p>另外，如果想看真题讲解视频，可以打开真题考点视频进行观看，地址：<a href="https://www.educity.cn/shipin/v411055.html" target="_blank" rel="noopener">https://www.educity.cn/shipin/v411055.html</a></p>
-<p>目前已经录制了部分真题讲解视频，大家可以观看，后续将会继续补充完善。</p>
-<h2 id="选择题部分考查重点"><a href="#选择题部分考查重点" class="headerlink" title="选择题部分考查重点"></a>选择题部分考查重点</h2><h3 id="演示文稿、幻灯片和对象"><a href="#演示文稿、幻灯片和对象" class="headerlink" title="演示文稿、幻灯片和对象"></a>演示文稿、幻灯片和对象</h3><p>演示文稿是文件，后缀名是pptx。一个演示文稿是由若干张幻灯片组成的。</p>
-<p>幻灯片：一张幻灯片对应演示文稿中的一页，是演示文稿制作的核心。每一张幻灯片由若干个对象组成的，</p>
-<p>对象：幻灯片里面的具体的内容，是幻灯片重要的组成元素。包含文字、图片、形状等。对象可以是文本框、表格、图表、图形、图像、组织结构图等等。可以选择对象、修改对象的内容和大小，移动和复制或删除对象。还可以改变对象的属性，如颜色、阴影、边框等。也可以说制作一个幻灯片的过程就是制作其中每一个被指定的对象的过程。</p>
-<h3 id="模板、母版、版式、主题和背景"><a href="#模板、母版、版式、主题和背景" class="headerlink" title="模板、母版、版式、主题和背景"></a>模板、母版、版式、主题和背景</h3><p>模板：演示文稿中的特殊一类文件,扩展名为.potx。用于提供样式文稿的格式、主题、动画、配色方案、母版样式及产生特效的字体样式等。应用设计模板可快速生成风格统一的演示文稿。事先定义好格式的一批演示文稿方案，包括背景风格，配色方案。模版里面可以有文字、图片等多种对象。</p>
-<p>主题：模版包含主题。主题是组成模板的元素，包括主题颜色、字体、效果（没有动画）等，都是主题的要素。不含有文字，只有文字的格式设置。<br>主题包含版式。模板是把这些主题元素组合起来，并保存为PPT模板文件，可以反复调用的。</p>
-<p>母版：使用母版可以定义每张幻灯片共同具有的一些统一特征。可以理解为版式的集合，这些特征包括：对象的位置与格式（即版式），主题样式、背景图案和动画等，还可以在每张幻灯片上显示页码、页脚及日期等。母版体现了演示文稿的外观，包含了演示文稿中的共有信息。另外，如果想所有幻灯片每一页设置相同的内容，则可以在母版的第一页中设置。每个演示文稿提供了一个母版集合，包括：幻灯片母版、标题母版、讲义母版、备注母版等母版集合。​</p>
-<p>版式：指的是幻灯片内容在幻灯片上的排列方式，这些内容不是具体的内容，还是用占位符的方式替代。即页面的各个对象的排版布局。模版和版式都能改变幻灯片的外观样式，设计模版的应用范围默认状态下是所有的幻灯片，而版式的应用范围是被应用的那张幻灯片。</p>
-<p>背景：是幻灯片的底色，每张幻灯片都可以是不同的背景，可能是图案或者是纯色，图片等，然后在应用时点击关闭，则应用于该选中的幻灯片上，如果点击全部应用则该演示文稿的所有幻灯片都进行了应用所设置的背景。</p>
-<h3 id="动画、排练计时和超链接"><a href="#动画、排练计时和超链接" class="headerlink" title="动画、排练计时和超链接"></a>动画、排练计时和超链接</h3><p>动画：内容很多的时候，表格和数据太多，图表或其他内容太多放不下，内容比较杂乱的时候，可以用动画分批进行展示。</p>
-<p>排练计时：放映时每一张幻灯片自动切换，即可以使幻灯片能够按照设置的排练计时实现自动进行放映。实际操作中，可以用排练计时计算大致讲解需要花多长的时间，方便做出规划。但是考试的时候，一般要设置准确的时间，则最好是点击切换选项卡中的设置自动换片时间。先勾选，再设置具体的时长，如如果是5秒中，则时间里面设置为“00:05.00”即可。</p>
-<p>超链接（动作按钮）：可以从当前幻灯片链接到另一幻灯片，或另一程序，另一文件或互联网上的任何一个地方。一般可以在对象上可以设置，像文本、图片、形状等，但背景不可以设置超链接。</p>
-<h2 id="操作过程"><a href="#操作过程" class="headerlink" title="操作过程"></a>操作过程</h2><p>主要过程如下：</p>
-<ol>
-<li>新建或打开PowerPoint，看要求几页，如果要求两页，就一定要设置为两页，在后面插入一页幻灯片即可，如果没有要求，一般为一页内容</li>
-<li>如果是一页，版式最好选择<strong>标题和内容</strong>那个，如果是两页，则第一页版式选择为<strong>仅标题</strong>，第二页版式选择为<strong>标题与内容</strong>，关于版式如何选，请看本页后面的内容（当然考试没有要求，其实也可以自己插入文本框）</li>
-<li>接下来按要求录入对应的文字，包含标题和正文，可以直接在文本框中录入，也可以删除已有的文本框，重新插入文本框</li>
-<li>设置好文字的格式，并按步骤做完所有的要求</li>
-<li>目前考试不要求进行美化，如果有描述“版式、图片、配色方案、动画方案等自行选择”、“制作完成的演示文稿美观、大方”等则需要进行适当美化，可以选择主题、背景设置等进行美化，但是注意美化完成后，要再核对下格式、字体等各项要求是否一致。</li>
-</ol>
-<h2 id="模板与母版"><a href="#模板与母版" class="headerlink" title="模板与母版"></a>模板与母版</h2><p>模板：是一个文件，可以快速生成一系列样式相似、内容不同的多个演示文稿。你可以先尝试做一个演示文稿，然后另存为模板dotm格式放到桌面，再双击打开后会创建一个一模一样的演示文稿。</p>
-<p>母版：是针对于一个演示文稿而言的，对一个文稿中有一些通用的部分，如logo、页眉、页脚等设置，通常都会在母版中去进行操作。可以打开视图-母版里面去添加下内容，然后再关闭，查看幻灯片的最终的效果。</p>
-<p>版式：版式是一种常规排版的格式，实际上就是对幻灯片上各种对象的合理布局。是一张幻灯片上文字、图片、表格等的格式和排列方式。</p>
-<p>占位符：幻灯片版式中自动给出相应的标题区域、文本区域和其他对象区域，它们分别用一个虚框表示，该虚框被称为占位符，单击占位符可以添加文字，或者单击图标添加指定的对象。占位符的编辑与普通文本框的编辑完全一样。用户还可以通过改变幻灯片版式来更改幻灯片中占位符的类型和数量。</p>
-<h2 id="版式设置"><a href="#版式设置" class="headerlink" title="版式设置"></a>版式设置</h2><p>如下，选择幻灯片，然后右击，选择版式，点击即可设置成对应的版式。</p>
-<p>如：仅标题版式：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200608144026758.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p>如下是标题与内容版式：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200608144026662.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h2 id="切换设置"><a href="#切换设置" class="headerlink" title="切换设置"></a>切换设置</h2><p>点击应用切换后，可以按F5从第一页开始进行播放，按shift+F5从当前页开始播放。</p>
-<h3 id="1）切换设置"><a href="#1）切换设置" class="headerlink" title="1）切换设置"></a>1）切换设置</h3><p>点击切换选项卡，然后下面有很多切换效果，选择后即可设置。<br>如果要只对其中一张进行设置，则直接点击即可，如果需要对多张设置相同的切换效果，则选择多张之后，再点击切换选项卡中的对应效果。<br>如擦除效果：<br><img src="https://img-blog.csdnimg.cn/20200603161447826.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p>切换效果没有中速、快速、慢速设置，按照默认设置即可。</p>
-<h3 id="2）幻灯片切换时间设置"><a href="#2）幻灯片切换时间设置" class="headerlink" title="2）幻灯片切换时间设置"></a>2）幻灯片切换时间设置</h3><p>如果要求每5秒自动切换幻灯片，则点击切换选项卡——最右侧——计时组里面，设置自动换片时间为00:05.00<br><img src="https://img-blog.csdnimg.cn/20200603161447851.png" alt="在这里插入图片描述"><br>当然，这个切换时间也可以通过排练计时来设置，但是排练计时操作起来会稍微复杂点，且不能准确把握到精准的时间。可以自行尝试下。</p>
-<p>排练计时的位置如下：<br><img src="https://img-blog.csdnimg.cn/20200603163621272.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"><br>然后手动控制下每张幻灯片的播放时间。</p>
-<h3 id="3）循环放映设置"><a href="#3）循环放映设置" class="headerlink" title="3）循环放映设置"></a>3）循环放映设置</h3><p>如果要求循环播放幻灯片，则点击幻灯片放映选项卡——设置幻灯片放映，在弹出的对话框里勾选——循环方式，按ESC键终止。<br><img src="https://img-blog.csdnimg.cn/20200603161447887.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h2 id="主题设置"><a href="#主题设置" class="headerlink" title="主题设置"></a>主题设置</h2><p>如果有要求设置主题，则点击设计选项卡，然后依次看是否是对应的主题样式，点选即可（看下是否要应用要所有幻灯片，如果需要则右击选择应用于所有幻灯片和应用于选定幻灯片）。<br><img src="https://img-blog.csdnimg.cn/20200603163208903.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"><br>如龙腾四海效果如下：<br><img src="https://img-blog.csdnimg.cn/20200603161447909.png" alt="在这里插入图片描述"><br>都市主题如下：<br><img src="https://img-blog.csdnimg.cn/20200603161447856.png" alt="在这里插入图片描述"> </p>
-<h2 id="动画设置"><a href="#动画设置" class="headerlink" title="动画设置"></a>动画设置</h2><h3 id="1）动画设置方式"><a href="#1）动画设置方式" class="headerlink" title="1）动画设置方式"></a>1）动画设置方式</h3><p>选中好对象，先去动画选项卡中看是否有要求的动画效果，如果有点击即可设置<br><img src="https://img-blog.csdnimg.cn/20200603161447808.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p>如果没有，则点击添加动画，看是否有对应的，如果没有，则看是进入动画、还是退出还是强调动画，目前一般考进入动画，则点击进入动画去选择相应的动画。</p>
-<p><img src="https://img-blog.csdnimg.cn/2020060316144876.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p><img src="https://img-blog.csdnimg.cn/20200603161446408.png" alt="在这里插入图片描述"></p>
-<p>例如：如果要做阶梯状的动画：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200603161446471.png" alt="在这里插入图片描述"> </p>
-<h3 id="2）动画速度设置"><a href="#2）动画速度设置" class="headerlink" title="2）动画速度设置"></a>2）动画速度设置</h3><p>如果要求动画为中速、快速或者慢速等速度，则可以点击动画选项卡，然后点击动画窗格，右击选择计时，在弹出的对话框中进行设置要求的时间。<br><img src="https://img-blog.csdnimg.cn/20200603161447966.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h3 id="3）动画效果设置"><a href="#3）动画效果设置" class="headerlink" title="3）动画效果设置"></a>3）动画效果设置</h3><p>如果要求对动画设置一些效果，如垂直，水平方向，左上角等等这种，可以设置好动画后，在动画选项卡，然后效果选项中进行设置。如要设置百叶窗——垂直效果的方式如下：<br><img src="https://img-blog.csdnimg.cn/2020080112063231.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h3 id="4）PPT整体出现动画"><a href="#4）PPT整体出现动画" class="headerlink" title="4）PPT整体出现动画"></a>4）PPT整体出现动画</h3><p>如果要求所有文字整体出现某一动画，则可以点击动画选项卡，然后点击动画窗格，右击——计时，在弹出的对话框中正文文本对象中进行设置为作为一个对象即可。</p>
-<p><img src="https://img-blog.csdnimg.cn/20200603161447981.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h3 id="5）分行设置动画效果"><a href="#5）分行设置动画效果" class="headerlink" title="5）分行设置动画效果"></a>5）分行设置动画效果</h3><p>选中之后，点击对应的动画设置，如果前面出现不同的数字，则就是分行动画效果。</p>
-<p><img src="https://img-blog.csdnimg.cn/20200603161447931.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
-<h2 id="占位符位置调整"><a href="#占位符位置调整" class="headerlink" title="占位符位置调整"></a>占位符位置调整</h2><p>选中文本框，然后右击——位置与大小，进行设置：<br><img src="https://img-blog.csdnimg.cn/20200603161446520.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
-<p>有些考题中考查到文本框垂直距离为5cm，则选择文本框，然后右击，选择位置与大小，再点击位置，做如下设置：<br><img src="https://img-blog.csdnimg.cn/2020060814450624.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h2 id="文本框长线型设置"><a href="#文本框长线型设置" class="headerlink" title="文本框长线型设置"></a>文本框长线型设置</h2><p>选择文本框，右击，选择设置形状格式，然后进行如下设置:<br><img src="https://img-blog.csdnimg.cn/20200603161446730.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h2 id="插入页眉页脚问题"><a href="#插入页眉页脚问题" class="headerlink" title="插入页眉页脚问题"></a>插入页眉页脚问题</h2><p>在插入选项卡中点击页眉和页脚，然后再点击幻灯片中的页脚区域进行录入文字即可，点击全部应用则是所有幻灯片添加页脚，如果点击应用则是只在这一页幻灯片中添加。后续样式可以不做调整，因为现在不考察PPT的美化。</p>
-<p>注意：一定要选中对话框的幻灯片选项卡，备注和讲义中做页眉页脚则不显示在幻灯片中。另外，页眉和页脚实际都是在这个页脚中进行设置。</p>
-<p>具体操作方式如下：<br><img src="https://img-blog.csdnimg.cn/20200615170301640.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><ol>
-<li>注意到底要求几页，如果要求两页，就一定要设置为两页，如果没有要求，一般为一页内容</li>
-<li>按要求录入对应的文字，包含标题和正文；可以直接在文本框中录入，也可以删除已有的文本框，重新插入文本框</li>
-<li>设置好文字的格式，并按步骤做完所有的要求</li>
-<li>目前考试不要求进行美化，如果有描述“版式、图片、配色方案、动画方案等自行选择”、“制作完成的演示文稿美观、大方”等则需要进行适当美化，可以选择主题、背景设置等进行美化，可以通过插入形状、设置动画、切换效果，设置艺术字、文本框填充色和边框都可以设置，整体色彩不宜过多~但是注意美化完成后，要再核对下格式、字体等各项要求是否一致</li>
-<li>题目的硬性规定一定要完全满足,整体做完后再记得再核对一下有没有完成所有要求，以及有没有录入错误</li>
-</ol>
-<h2 id="word文字处理问题"><a href="#word文字处理问题" class="headerlink" title="word文字处理问题"></a>word文字处理问题</h2><p>关于word文字处理这块，会专门设置一个新的板块进行讲解，请移步：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%892%20word%E6%96%87%E5%AD%97%E5%A4%84%E7%90%86%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/" target="_blank" rel="noopener">前言——第02节 word文字处理常见问题解答</a></p>
-<h2 id="Excel电子表格问题"><a href="#Excel电子表格问题" class="headerlink" title="Excel电子表格问题"></a>Excel电子表格问题</h2><p>关于Excel电子表格这块，会专门设置一个新的板块进行讲解，请移步：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%893%20Excel%E7%94%B5%E5%AD%90%E8%A1%A8%E6%A0%BC%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/" target="_blank" rel="noopener">前言——第03节 Excel电子表格常见问题解答</a></p>
-<h2 id="技术员考试有关问题"><a href="#技术员考试有关问题" class="headerlink" title="技术员考试有关问题"></a>技术员考试有关问题</h2><p>关于PPT演示文稿这块，会专门设置一个新的板块进行讲解，请移步：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%895%20%E6%8A%80%E6%9C%AF%E5%91%98%E8%80%83%E8%AF%95%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/" target="_blank" rel="noopener">前言——第05节 技术员考试考场常见问题解答</a></p>
-<p>最后，祝大家都能顺利通过考试！加油！</p>
-]]></content>
-      <categories>
-        <category>信息处理技术员</category>
-        <category>第00章 前言</category>
-        <category>第04节 PPT演示文稿常见问题解答</category>
       </categories>
       <tags>
         <tag>信息处理技术员</tag>
@@ -834,11 +1036,11 @@
       </tags>
   </entry>
   <entry>
-    <title>信息处理技术员word文字处理常见问题解答</title>
-    <url>/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%892%20word%E6%96%87%E5%AD%97%E5%A4%84%E7%90%86%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/</url>
-    <content><![CDATA[<p>本文主要针对的是信息处理技术员的学员定制，根据学员经常提的word文字处理这块的问题进行归纳总结，帮助大家更好的掌握知识点，并顺利通过考试。<br><a id="more"></a></p>
+    <title>信息处理技术员PPT演示文稿常见问题解答</title>
+    <url>/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%894%20PPT%E6%BC%94%E7%A4%BA%E6%96%87%E7%A8%BF%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/</url>
+    <content><![CDATA[<p>本文主要针对的是信息处理技术员的学员定制，根据学员经常提的PPT演示文稿这块的问题进行归纳总结，帮助大家更好的掌握知识点，并顺利通过考试。<br><a id="more"></a></p>
 <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>因文章篇幅较长，为节约大家的时间，建议大家直接搜索自己想问的问题。搜索方式如下：</p>
-<p>按住Ctrl，然后按下F，在弹出的搜索框内输入想要查找的关键字，注意，请简要描述，例如想搜索如何进行分栏操作，可以直接搜索分栏，如想知道页面内容居中对齐如何设置，可直接搜索居中即可。</p>
+<p>按住Ctrl，然后按下F，在弹出的搜索框内输入想要查找的关键字，注意，请简要描述，例如想搜索如何进行设置飞入动画，可以直接搜索动画，如想知道每五秒自动循环播放如何设置，可直接搜索循环播放即可。</p>
 <p>输入完后按enter，然后可以跳转到下一个，查看相关内容。</p>
 <p>不过，如果是初次学习，建议可以大致浏览下哦。</p>
 <h2 id="后台操作题答题要求"><a href="#后台操作题答题要求" class="headerlink" title="后台操作题答题要求"></a>后台操作题答题要求</h2><p>目前没有内嵌的word和excel及PPT可供直接操作，因此需要用自己电脑的对应软件进行操作，注意：不是在答题框内直接操作。</p>
@@ -847,284 +1049,82 @@
 <p>如果是电脑端浏览器界面，则需要进行拍照或者截图后，点击上传文件，找到你保存的图片，然后点击上传。上传完成后，也要记得最后点击提交答案。</p>
 <p>简单的截图可以用QQ，打开QQ后，可以用Ctrl+Alt+A进行截图。然后键盘上的Printscreen可以截全屏。或可以直接在系统自带的在开始菜单—搜索栏搜索“截图工具”；或自行安装下载的其他截图工具均可。</p>
 <p>如果文字过多表格太大，则可以按住Ctrl，向下滑动鼠标滚轮，缩小整个界面再截图。如果还是不好调整，可以直接上传多张图片哦~</p>
-<p>截图的其他操作方式可以参考链接：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/2019/11/27/WINDOWS%201%20%E5%A4%9A%E7%A7%8D%E6%88%AA%E5%9B%BE%E6%96%B9%E5%BC%8F%E4%BB%A5%E5%8F%8A%E5%A6%82%E4%BD%95%E6%88%AA%E5%8F%96%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%EF%BC%9F/" target="_blank" rel="noopener">截图方法</a></p>
+<p>截图的其他操作方式有：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/2019/11/27/WINDOWS%201%20%E5%A4%9A%E7%A7%8D%E6%88%AA%E5%9B%BE%E6%96%B9%E5%BC%8F%E4%BB%A5%E5%8F%8A%E5%A6%82%E4%BD%95%E6%88%AA%E5%8F%96%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%EF%BC%9F/" target="_blank" rel="noopener">截图方法</a></p>
 <p>考试的时候不需要截图上传，每个操作完成后点击保存按钮或者使用快捷键Ctrl+S保存文件，最后再进行提交答案。可以参考最后一个关于考试的文章：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%895%20%E6%8A%80%E6%9C%AF%E5%91%98%E8%80%83%E8%AF%95%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/" target="_blank" rel="noopener">信息处理技术员考试考场常见问题解答</a></p>
-<h2 id="考点"><a href="#考点" class="headerlink" title="考点"></a>考点</h2><p>建议在做题前，先提前查看视频。</p>
-<p>对于Word考试，主要考2个方面的内容，包含文字题和表格题。因此，我们分两块来看。</p>
-<p>首先是文字题，主要考察文字的格式设置（字体、字号、文字颜色、加粗、倾斜、下划线等设置），段落格式设置（段落居中、段落间距和行间距等），页面设置（页面方向、页面大小、纸张大小、分栏等设置），插入设置（插入页眉页脚页码、插入符号、首字下沉等设置）、边框和底纹的设置。该题主要是给出标题与文字，然后根据给定要求完成对应的操作，有可能需要录入一部分文字，可以使用五笔输入法或者拼音输入法都可以。一般虽然没有说首行缩进，但是正文一般都需要进行设置。</p>
-<p>然后是word表格题，给出一个表格，然后绘制出大致一致的表格，再完成字体字号等设置即可。</p>
-<h2 id="视频资源"><a href="#视频资源" class="headerlink" title="视频资源"></a>视频资源</h2><p>信息处理技术员精讲班视频教程：<a href="https://www.educity.cn/shipin/v4105.html" target="_blank" rel="noopener">https://www.educity.cn/shipin/v4105.html</a></p>
-<p>第5章 Word讲解 请先看完视频后再做练习题。</p>
+<h2 id="视频指导"><a href="#视频指导" class="headerlink" title="视频指导"></a>视频指导</h2><p>信息处理技术员精讲班视频教程：<a href="https://www.educity.cn/shipin/v4105.html" target="_blank" rel="noopener">https://www.educity.cn/shipin/v4105.html</a></p>
+<p>第7章 PPT讲解 请先看完视频后再做练习题。</p>
 <p>视频链接：<a href="https://www.educity.cn/wangxiao/spj87234.html#a_116776" target="_blank" rel="noopener">PPT下午考试题基本做法</a> </p>
 <p>另外，如果想看真题讲解视频，可以打开真题考点视频进行观看，地址：<a href="https://www.educity.cn/shipin/v411055.html" target="_blank" rel="noopener">https://www.educity.cn/shipin/v411055.html</a></p>
-<h2 id="其他补充资源"><a href="#其他补充资源" class="headerlink" title="其他补充资源"></a>其他补充资源</h2><p>另外以下内容有详细的图示讲解过程，可以点击最后面的链接进行查看。</p>
-<p><a href="https://dilidonglong.site/2019/11/14/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98word%E8%AF%95%E9%A2%98/#%E6%A1%88%E4%BE%8B1" target="_blank" rel="noopener">文字题——奥林匹克运动会</a></p>
-<p><a href="https://dilidonglong.site/2019/11/14/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98word%E8%AF%95%E9%A2%98/#%E6%A1%88%E4%BE%8B2" target="_blank" rel="noopener">表格题——公司签呈</a></p>
-<p><a href="https://dilidonglong.site/2019/11/14/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98word%E8%AF%95%E9%A2%98/#%E6%A1%88%E4%BE%8B3" target="_blank" rel="noopener">文字题——丽江古城</a></p>
-<p><a href="https://dilidonglong.site/2019/11/14/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98word%E8%AF%95%E9%A2%98/#%E6%A1%88%E4%BE%8B4" target="_blank" rel="noopener">表格题——应聘人员登记表</a></p>
-<p><a href="https://dilidonglong.site/2019/11/14/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98word%E8%AF%95%E9%A2%98/#案例5" target="_blank" rel="noopener">文字题——新时期中共党史阶段划分</a></p>
-<p><a href="https://dilidonglong.site/2019/11/14/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98word%E8%AF%95%E9%A2%98/#案例6" target="_blank" rel="noopener">图形题——机构改革示意图</a></p>
-<p><a href="https://dilidonglong.site/2019/11/14/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98word%E8%AF%95%E9%A2%98/#案例7" target="_blank" rel="noopener">文字题——金砖国家</a></p>
-<h2 id="首行缩进问题"><a href="#首行缩进问题" class="headerlink" title="首行缩进问题"></a>首行缩进问题</h2><p>设置首行缩进2字符（选中，右击——段落对话框——特殊格式，不要通过空格或者标尺去进行设置）首行缩进虽然题目没有要求，但是文字题默认都要去设置下首行缩进2字符。设置方式如下：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627102939160.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
-<h2 id="快速替换文本"><a href="#快速替换文本" class="headerlink" title="快速替换文本"></a>快速替换文本</h2><p>按照试题的要求将“颗粒物”替换为 红色加粗的“颗粒物”。</p>
-<p>首先选择“开始”选项卡中编辑的“替换”（或者利用快捷键Ctrl+H），打开“查找与替换”对话框：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627102939125.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p>在打开的“查找与替换对话框中”设置查找内容、替换内容，如果查找和替换对格式有要求的话，则要点击下面的更多，然后点击格式，选择字体设置，设置完成后如下图所示：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627102939157.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
-<p>单击“格式”选择“字体”可打开，对文本的格式进行设置，全部设置完毕后，选择“全部替换”即可。</p>
-<p><img src="https://img-blog.csdnimg.cn/2020062710293975.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
-<p>常见错误点：</p>
+<p>目前已经录制了部分真题讲解视频，大家可以观看，后续将会继续补充完善。</p>
+<h2 id="选择题部分考查重点"><a href="#选择题部分考查重点" class="headerlink" title="选择题部分考查重点"></a>选择题部分考查重点</h2><h3 id="演示文稿、幻灯片和对象"><a href="#演示文稿、幻灯片和对象" class="headerlink" title="演示文稿、幻灯片和对象"></a>演示文稿、幻灯片和对象</h3><p>演示文稿是文件，后缀名是pptx。一个演示文稿是由若干张幻灯片组成的。</p>
+<p>幻灯片：一张幻灯片对应演示文稿中的一页，是演示文稿制作的核心。每一张幻灯片由若干个对象组成的，</p>
+<p>对象：幻灯片里面的具体的内容，是幻灯片重要的组成元素。包含文字、图片、形状等。对象可以是文本框、表格、图表、图形、图像、组织结构图等等。可以选择对象、修改对象的内容和大小，移动和复制或删除对象。还可以改变对象的属性，如颜色、阴影、边框等。也可以说制作一个幻灯片的过程就是制作其中每一个被指定的对象的过程。</p>
+<h3 id="模板、母版、版式、主题和背景"><a href="#模板、母版、版式、主题和背景" class="headerlink" title="模板、母版、版式、主题和背景"></a>模板、母版、版式、主题和背景</h3><p>模板：演示文稿中的特殊一类文件,扩展名为.potx。用于提供样式文稿的格式、主题、动画、配色方案、母版样式及产生特效的字体样式等。应用设计模板可快速生成风格统一的演示文稿。事先定义好格式的一批演示文稿方案，包括背景风格，配色方案。模版里面可以有文字、图片等多种对象。</p>
+<p>主题：模版包含主题。主题是组成模板的元素，包括主题颜色、字体、效果（没有动画）等，都是主题的要素。不含有文字，只有文字的格式设置。<br>主题包含版式。模板是把这些主题元素组合起来，并保存为PPT模板文件，可以反复调用的。</p>
+<p>母版：使用母版可以定义每张幻灯片共同具有的一些统一特征。可以理解为版式的集合，这些特征包括：对象的位置与格式（即版式），主题样式、背景图案和动画等，还可以在每张幻灯片上显示页码、页脚及日期等。母版体现了演示文稿的外观，包含了演示文稿中的共有信息。另外，如果想所有幻灯片每一页设置相同的内容，则可以在母版的第一页中设置。每个演示文稿提供了一个母版集合，包括：幻灯片母版、标题母版、讲义母版、备注母版等母版集合。​</p>
+<p>版式：指的是幻灯片内容在幻灯片上的排列方式，这些内容不是具体的内容，还是用占位符的方式替代。即页面的各个对象的排版布局。模版和版式都能改变幻灯片的外观样式，设计模版的应用范围默认状态下是所有的幻灯片，而版式的应用范围是被应用的那张幻灯片。</p>
+<p>背景：是幻灯片的底色，每张幻灯片都可以是不同的背景，可能是图案或者是纯色，图片等，然后在应用时点击关闭，则应用于该选中的幻灯片上，如果点击全部应用则该演示文稿的所有幻灯片都进行了应用所设置的背景。</p>
+<h3 id="动画、排练计时和超链接"><a href="#动画、排练计时和超链接" class="headerlink" title="动画、排练计时和超链接"></a>动画、排练计时和超链接</h3><p>动画：内容很多的时候，表格和数据太多，图表或其他内容太多放不下，内容比较杂乱的时候，可以用动画分批进行展示。</p>
+<p>排练计时：放映时每一张幻灯片自动切换，即可以使幻灯片能够按照设置的排练计时实现自动进行放映。实际操作中，可以用排练计时计算大致讲解需要花多长的时间，方便做出规划。但是考试的时候，一般要设置准确的时间，则最好是点击切换选项卡中的设置自动换片时间。先勾选，再设置具体的时长，如如果是5秒中，则时间里面设置为“00:05.00”即可。</p>
+<p>超链接（动作按钮）：可以从当前幻灯片链接到另一幻灯片，或另一程序，另一文件或互联网上的任何一个地方。一般可以在对象上可以设置，像文本、图片、形状等，但背景不可以设置超链接。</p>
+<h2 id="操作过程"><a href="#操作过程" class="headerlink" title="操作过程"></a>操作过程</h2><p>主要过程如下：</p>
 <ol>
-<li><p>替换时选择的是“替换”而不是“全部替换”，导致替换未全部完成，此时重新替换一次即可。</p>
-</li>
-<li><p>替换时未对替换内容进行格式设置，导致替换后的效果有误。此时可撤销上一次的设置结果，重新替换并对格式进行设置。</p>
-</li>
+<li>新建或打开PowerPoint，看要求几页，如果要求两页，就一定要设置为两页，在后面插入一页幻灯片即可，如果没有要求，一般为一页内容</li>
+<li>如果是一页，版式最好选择<strong>标题和内容</strong>那个，如果是两页，则第一页版式选择为<strong>仅标题</strong>，第二页版式选择为<strong>标题与内容</strong>，关于版式如何选，请看本页后面的内容（当然考试没有要求，其实也可以自己插入文本框）</li>
+<li>接下来按要求录入对应的文字，包含标题和正文，可以直接在文本框中录入，也可以删除已有的文本框，重新插入文本框</li>
+<li>设置好文字的格式，并按步骤做完所有的要求</li>
+<li>目前考试不要求进行美化，如果有描述“版式、图片、配色方案、动画方案等自行选择”、“制作完成的演示文稿美观、大方”等则需要进行适当美化，可以选择主题、背景设置等进行美化，但是注意美化完成后，要再核对下格式、字体等各项要求是否一致。</li>
 </ol>
-<h2 id="文本的底纹设置"><a href="#文本的底纹设置" class="headerlink" title="文本的底纹设置"></a>文本的底纹设置</h2><p>1、从“页面布局”选项卡找到“页面边框”，单击进入，打开“边框与底纹”对话框：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627102939161.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p>或者可以在“开始”选项卡中表格框线设置进入设置，如下图：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627103620919.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p>2、在“边框与底纹”对话框里选择第三个选项卡“底纹”，如果是灰色-25%或者灰色-50%，可以点击下面的填充——其他颜色——选择对应的颜色即可。</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627165741954.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
-<p>3、    还可以选择下面的样式下拉菜单，选择对应的百分比，如下是灰色-40%的设置。</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627102939139.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
-<h2 id="字符底纹"><a href="#字符底纹" class="headerlink" title="字符底纹"></a>字符底纹</h2><p>设置底纹时文本下方显示非底纹颜色，这种情况通常是由于文本是从其他地方复制而来所导致的，如下图所示，需要注意的是，正式考试的时候是不能复制的。</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627102939100.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
-<p>出现这种情况时，可采用字体中的“字符底纹”来清除当前段落的原底纹。</p>
-<p>即选择文字，点击开始选项卡，点击下字符底纹，如果不行，可以再点击一下取消。如下图：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627102939114.png" alt="在这里插入图片描述"></p>
-<h2 id="文本的边框设置"><a href="#文本的边框设置" class="headerlink" title="文本的边框设置"></a>文本的边框设置</h2><p>1、可以在“开始”选项卡中表格框线设置进入设置，如下图：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627103620919.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p> 或者从“页面布局”选项卡找到“页面边框”，单击进入，打开“边框与底纹”对话框。</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627103620989.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p>2、在“边框与底纹”对话框里选择第一个选项卡“边框”，并设置线型和颜色，在预览处单击四个按钮，最后单击“确定”即可为段落添加边框。</p>
-<p>其中：</p>
-<p>1、    样式里面可以选择边框的线型，如双线型、虚线型等；</p>
-<p>2、    颜色可以设置边框的颜色，如红色、蓝色等；</p>
-<p>3、    宽度可以设置边框的宽度，如3磅，6磅等；</p>
-<p>4、    应用于要选中段落。</p>
-<p>3、最后点击确定即可。</p>
-<h2 id="页面边框"><a href="#页面边框" class="headerlink" title="页面边框"></a>页面边框</h2><p>word中目前没有考察过页面边框，但是大家需要区分页面边框和段落边框的区别。段落边框针对的是一个文段，给其四周加上边框，而页面边框则是针对于一个页面，整个页面都加上边框，如果多增加一页，则下面一页的页面边框也会自动添加。<br>页面边框的样式如下：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200701143348362.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h2 id="首字下沉设置"><a href="#首字下沉设置" class="headerlink" title="首字下沉设置"></a>首字下沉设置</h2><p>操作过程：</p>
-<p>首先选择需要下沉的文字，然后在“插入”选项卡中选择“首字下沉”的“首字下沉选项”，打开“首字下沉”对话框：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627103620814.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
-<p>在“位置”中选择“下沉”，在“字体”和“下沉行数”选择题目要求格式并单击“确定”。</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627103620200.png" alt="在这里插入图片描述"> </p>
-<p>如果设置完成后若发现只有一个字下沉，可以再已经下沉部分的后面继续输入需要下沉的其他文字即可，然后后面的多余的文字再删除处理。</p>
-<p>特别注意：当下沉和边框同时需要设置时，此时先做首字下沉再做边框就会出现两个边框，因此要先设置边框再设置下沉即可避免这种情况出现。不过，WPS版本还是有问题，此时，如果是用WPS版本，则建议边框变成文本框来进行设置。可参考下面的分栏讲解。</p>
-<h2 id="设置分栏"><a href="#设置分栏" class="headerlink" title="设置分栏"></a>设置分栏</h2><h3 id="分栏基本设置"><a href="#分栏基本设置" class="headerlink" title="分栏基本设置"></a>分栏基本设置</h3><p>单击“页面布局”的“分栏”，选择“更多分栏”打开“分栏”对话框，如下图-10所示：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627103620921.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
-<p>在打开的“分栏”对话框中，设置栏数和分隔线后点击确定即可。</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627103620241.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
-<p>此时可能会发现分好的页面只有一栏，如下图所示：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627103620308.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
-<p>此时先按ctrl+z，撤销之前的分栏效果，然后需要进行以下任意一种设置，再重新按照上述操作执行一次即可。</p>
-<h3 id="分栏只有一栏问题处理"><a href="#分栏只有一栏问题处理" class="headerlink" title="分栏只有一栏问题处理"></a>分栏只有一栏问题处理</h3><p>方式1：</p>
-<p>插入分隔符：</p>
-<p>可以将光标定位在文章末尾，然后点击页面布局——分隔符——然后选择自动换行符或者连续。</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627103620917.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
-<p>插入完成之后，不要选择后面的分隔符，再进行设置分栏。</p>
-<p>方法2：</p>
-<p>在文段末尾多增加一个回车，然后不选择最后的回车，只选择段落文本部分，再进行分栏设置。如下所示：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627103620737.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h3 id="分栏及文本框同时设置"><a href="#分栏及文本框同时设置" class="headerlink" title="分栏及文本框同时设置"></a>分栏及文本框同时设置</h3><p>1、    先设置好分栏效果（以中间一段设置分栏并加边框为例）</p>
-<p><img src="https://img-blog.csdnimg.cn/2020062710505145.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
-<p>2、不要选择任何文字，插入文本框</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627105051292.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p>3、调整文本框大小，覆盖文本，删除里面的文字</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627132328937.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p>4、设置文本框，衬于文字下方</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627105050994.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p>5、设置完成</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627105050277.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
-<h3 id="分栏边框底纹设置"><a href="#分栏边框底纹设置" class="headerlink" title="分栏边框底纹设置"></a>分栏边框底纹设置</h3><p>此时，如果要添加底纹，则用文本框来设置填充色。先选中文本框，然后在绘图工具选项卡中的形状填充菜单中设置相应的颜色，如下图所示：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627111249389.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h2 id="设置页眉-页脚"><a href="#设置页眉-页脚" class="headerlink" title="设置页眉/页脚"></a>设置页眉/页脚</h2><p>方法一：直接双击页眉/页脚，进入页眉/页脚的编辑状态，打开如下图所示：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627105050649.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
-<p>方法二：单击“插入”，选择“页眉”或“页脚”，如下图所示：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627105050545.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
-<p>注意页眉下面的横线不需要删除哦~</p>
-<h2 id="设置页码"><a href="#设置页码" class="headerlink" title="设置页码"></a>设置页码</h2><p>一般情况下，直接选择插入选项卡，然后页码，设置居中的页码即可。</p>
-<p>有一题需要设置第几页共几页的页码，则设置方式如下：</p>
-<p>1、在“插入”选项卡中选择“页码”下的“页面底端”，如图：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627105050714.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
-<p>2、接下来选择样式X/Y中的第二种样式。设置好页码样式后打开页脚进行文本编辑，如图所示：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627105050611.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
-<h2 id="设置下划线"><a href="#设置下划线" class="headerlink" title="设置下划线"></a>设置下划线</h2><p>按照试题要求为文本设置下划线，并设置线型为波浪线或横线等。</p>
-<p>选中需要设置下划线的文本，单击“开始”选项卡中“字体”右下角进入“字体”对话框，在下划线线型中选择相应线型即可，如下图所示：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627105755817.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h2 id="设置水印"><a href="#设置水印" class="headerlink" title="设置水印"></a>设置水印</h2><h3 id="基本设置"><a href="#基本设置" class="headerlink" title="基本设置"></a>基本设置</h3><p>单击“页面边框”选择“水印”中的“自定义水印”，如图所示：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627105755816.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>在打开的“水印”对话框中选择“文字水印”，并设置水印显示的相应的文字、字体以及颜色，如图所示：<br><img src="https://img-blog.csdnimg.cn/20200627105755750.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
-<p>然后半透明、斜式看下要求有没有提及，如果有则一定要勾选上。</p>
-<p>最后点击应用即可，再关闭对话框。</p>
-<h3 id="水印颜色问题"><a href="#水印颜色问题" class="headerlink" title="水印颜色问题"></a>水印颜色问题</h3><p>对于颜色如何选择，部分颜色可以直接在主题颜色或者标准色下面查找，如白色背景1深色25%，是在第一列里面的第三个：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627105755722.png" alt="在这里插入图片描述"> </p>
-<p>如果是灰色25%，则可以在颜色的下拉列表中选择其他颜色，会弹出一个对话框，如图：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627105755762.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
-<p>单击选择一个颜色并应用，此时点击关闭，将光标移动到“最近使用的颜色”下方的颜色，会显示颜色相应的百分比，尝试几次就可以找到对应的颜色了，如图所示：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627132918524.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h2 id="特殊符号的输入"><a href="#特殊符号的输入" class="headerlink" title="特殊符号的输入"></a>特殊符号的输入</h2><h3 id="添加着重号"><a href="#添加着重号" class="headerlink" title="添加着重号"></a>添加着重号</h3><p>先选中好需要设置的文字，然后右击，选择“字体”，在弹出的对话框中，选择着重号设置，如下图所示：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627105755760.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
-<h3 id="破折号和下划线"><a href="#破折号和下划线" class="headerlink" title="破折号和下划线"></a>破折号和下划线</h3><p>中文输入状态下，输入shift+减号，则是破折号（———）。</p>
-<p>英文输入状态下，输入shift+减号，则是下划线（<em>_</em>）。</p>
-<p>在宋体状态下，破折号输入后中间会有分隔，感觉是断开的，此时更换为其他字体即可。不过考试的时候不需要设置，按照要求的字体即可。</p>
-<h3 id="波浪号和点的输入"><a href="#波浪号和点的输入" class="headerlink" title="波浪号和点的输入"></a>波浪号和点的输入</h3><p>如果想要输入~这种波浪线，则按住shift+键盘上面1前面的那个按键。（~）</p>
-<p>如果要输入点，则是中文输入法下，直接按该按键即可。（·）</p>
-<p>注意：文段中下面的绿色或者红色的波浪线是表示有语法或拼写错误，请先核对，如果无误，则没有关系。</p>
-<h3 id="箭头"><a href="#箭头" class="headerlink" title="箭头"></a>箭头</h3><p>箭头属于特殊符号，可在“插入”选项卡“符号”的“其他符号”进行设置，如下图：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627105755806.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
-<p>打开“符号”对话框后，在“子集”中查找“箭头”即可：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627105755755.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
-<p>有的输入法可以直接通过输入“jiantou”插入符号（该方法可能有些输入法不支持），如下： </p>
-<p><img src="https://img-blog.csdnimg.cn/20200627105755721.png" alt="在这里插入图片描述"> </p>
-<h3 id="插入符号方框"><a href="#插入符号方框" class="headerlink" title="插入符号方框"></a>插入符号方框</h3><p>箭头属于特殊符号，可在“插入”选项卡“符号”的“其他符号”进行设置，再在子集中选择几何图形符，如下图：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627110415904.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p>或者也可以直接输入“fangkuang”（该方法可能有些输入法不支持）：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627110415589.png" alt="在这里插入图片描述"></p>
-<h3 id="插入符号✔"><a href="#插入符号✔" class="headerlink" title="插入符号✔"></a>插入符号✔</h3><p>箭头属于特殊符号，可在“插入”选项卡“符号”的“其他符号”进行设置，再在子集中选择数学运算符，如下图：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627110415902.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
-<p>也可以直接输入“dui” （该方法可能有些输入法不支持）：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627110415513.png" alt="在这里插入图片描述"> </p>
-<h3 id="插入表格中勾选的方框"><a href="#插入表格中勾选的方框" class="headerlink" title="插入表格中勾选的方框"></a>插入表格中勾选的方框</h3><p>先按照上面的方法插入√，然后选中“√”，单击“开始”选项卡下“字体”中的“带圈字符”，如下图所示，设置勾选的外围为方框即可：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627110415764.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
-<h3 id="插入大于等于等符号"><a href="#插入大于等于等符号" class="headerlink" title="插入大于等于等符号"></a>插入大于等于等符号</h3><p>箭头属于特殊符号，可在“插入”选项卡“符号”的“其他符号”进行设置，再在子集中选择数学运算符，如下图：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627110415858.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
-<p>也可以直接输入“dayudengyu” （该方法可能有些输入法不支持）：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627110415647.png" alt="在这里插入图片描述"> </p>
-<h2 id="设置艺术字"><a href="#设置艺术字" class="headerlink" title="设置艺术字"></a>设置艺术字</h2><h3 id="艺术字的基本设置"><a href="#艺术字的基本设置" class="headerlink" title="艺术字的基本设置"></a>艺术字的基本设置</h3><p>1、在“插入”选项卡中选择“艺术字”，如下图所示，一般如果要设置艺术字直接选择第一个即可：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627110415863.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
-<p>2、如果有样式要求，则选择试题要求样式后，显示如图所示：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627110415683.png" alt="在这里插入图片描述"> </p>
-<p>3、此时双击文本框中的文字位置，输入题目所要求的文字，如图所示：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627110415719.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
-<p>4、选中艺术字，右击选择“设置形状格式”，可打开设置形状格式对话框，可对艺术字进行三维效果、阴影等设置，如图所示：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627110415660.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
-<h3 id="艺术字位置设置"><a href="#艺术字位置设置" class="headerlink" title="艺术字位置设置"></a>艺术字位置设置</h3><p>另外，如果要将艺术字设置居中，则可以选择艺术字后，在格式选项卡——位置中选择居中，如下：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627112234903.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
-<p>如果要设置艺术字为上下型环绕，则可以选择艺术字，然后“格式”选项卡中，点击“自动换行”下拉菜单，选择“上下型环绕”。</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627112234852.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h2 id="纸张16开"><a href="#纸张16开" class="headerlink" title="纸张16开"></a>纸张16开</h2><p>点击页面布局选项卡，选择纸张大小——其他页面大小，如下图：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627102939144.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p>然后在弹出的菜单中，选择纸张菜单里面的纸张大小下拉菜单，点击16开，最后选择确定即可：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627102939113.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h2 id="阴文、阳文设置"><a href="#阴文、阳文设置" class="headerlink" title="阴文、阳文设置"></a>阴文、阳文设置</h2><p>阴文设置：先选中文字，然后右击——字体，如果弹出的对话框下面有阳文/阴文，就勾选一下，如下图：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627112521899.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p>如果没有，那就别设置了。如下图：</p>
-<p><img src="https://img-blog.csdnimg.cn/2020062711252224.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br>一般情况下，2010版本以上的都没有该可选项。如果考试有考到，且不能设置，那就不设置了，这个最多扣一分，也没有多大关系的哦！</p>
-<p>然后还有亦真亦幻文字效果的设置，这个是2003版本才有的，也不需要掌握。</p>
-<h2 id="字符缩放"><a href="#字符缩放" class="headerlink" title="字符缩放"></a>字符缩放</h2><p>选中文字，右击——字体——高级选项卡，设置字符缩放200%设置方式如下：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200821203925793.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
-<h2 id="文本框填充图案"><a href="#文本框填充图案" class="headerlink" title="文本框填充图案"></a>文本框填充图案</h2><p>选择文本框，然后选择格式选项卡，点击形状填充下拉菜单，选择图案，如下：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627113223430.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
-<p>在该对话框中，可以设置图片的样式，如上选择的就是球体。</p>
-<p>下面的前景和背景可以按要求进行设置，最后点击确定即可。</p>
-<h2 id="页面内容居中对齐"><a href="#页面内容居中对齐" class="headerlink" title="页面内容居中对齐"></a>页面内容居中对齐</h2><p>题目中经常会要求设置页面内容居中对齐，则设置方式如下：</p>
-<p>点击“页面布局”选项卡，然后点击“页面设置对话框启动器”，在弹出的对话框中选择“版式”，再选择垂直对齐方式中的“居中”即可，如下图：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627112521952.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
-<p>注意：WPS没有这个功能，所以需要稍微熟悉下Office 2010如何进行操作即可。</p>
-<h2 id="表格设置"><a href="#表格设置" class="headerlink" title="表格设置"></a>表格设置</h2><p>要提前录入标题，如果后面才想起来没有录入标题部分，建议先剪切表格，然后再录入完成标题后再进行粘贴。</p>
-<p>建议这部分先提前看下视频，学起来会更快哦~</p>
-<h3 id="表格操作过程"><a href="#表格操作过程" class="headerlink" title="表格操作过程"></a>表格操作过程</h3><p>1、选择“插入”选项卡，点击“表格”下拉菜单，然后选择插入表格（不要用绘制表格，操作不方便，不方便修改）：</p>
-<p><img src="https://img-blog.csdnimg.cn/2020062711252229.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p>2、对于比较复杂的表格，建议先设置好对应的行数，列数可以直接设置为1，如下图：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627112521966.png" alt="在这里插入图片描述"></p>
-<p>3、后续进行合并和拆分单元格，来将表格的基本样式设置好。可以在布局选项卡中设置，也可以直接选择后右击，然后进行设置。</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627112522104.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p>4、接下来依次录入文本，录入完成之后，再调整行高和列宽。差不多了之后，再设置单元格的对齐方式。</p>
-<h3 id="单元格内容居中对齐"><a href="#单元格内容居中对齐" class="headerlink" title="单元格内容居中对齐"></a>单元格内容居中对齐</h3><p>很多表格内容都需要设置居中对齐，可以再“布局”选项卡中点击最中间的进行设置，如下图：</p>
-<p><img src="https://img-blog.csdnimg.cn/2020062711252248.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p>或者选择单元格后，然后右击，选择对齐方式进行设置。</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627133545894.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述">  </p>
-<h3 id="行高列宽设置"><a href="#行高列宽设置" class="headerlink" title="行高列宽设置"></a>行高列宽设置</h3><p>可以直接拖拽边框进行调整，但是注意如果要统一调整，则不要选择单元格，如果是某个单元格的要调整，则需要选择单元格。如下所示：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627112521950.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p>然后还可以在“布局”选项卡中，高度和宽度中进行设置，如下所示：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627113417406.png" alt="在这里插入图片描述"></p>
-<h3 id="分布行列"><a href="#分布行列" class="headerlink" title="分布行列"></a>分布行列</h3><p>有的时候需要设置相同的行高和列宽来进行美化，可以在“布局”选项卡中点击分布行或分布列，如下所示：</p>
-<p><img src="https://img-blog.csdnimg.cn/2020062711252245.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h3 id="添加斜线表头"><a href="#添加斜线表头" class="headerlink" title="添加斜线表头"></a>添加斜线表头</h3><p>如果是斜线表头的话，可以在“设计”选项卡中边框下拉菜单，点击斜上框线或者斜下框线。或者也可以点击下面的绘制表格，通过笔画一下可以添加。如下图：</p>
-<p><img src="https://img-blog.csdnimg.cn/2020062711252250.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
-<p>添加完成后，再录入文字，如果有两行，按下回车再录入，再设置上面的标题内容靠右对齐即可，如下图：</p>
-<p><img src="https://img-blog.csdnimg.cn/2020062711252236.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p>如果有三线表头，则可以通过绘制形状的方式插入，但是要注意改变形状的颜色为黑色，粗细也要适当调整，如下所示：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627112521947.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p>对于里面的文本，则可以利用文本框来录入。</p>
-<h2 id="各类命令符号含义"><a href="#各类命令符号含义" class="headerlink" title="各类命令符号含义"></a>各类命令符号含义</h2><p>各类选项卡命令中有很多具有不同含义的符号。</p>
-<h3 id="省略号表示有对话框"><a href="#省略号表示有对话框" class="headerlink" title="省略号表示有对话框"></a>省略号表示有对话框</h3><p>如果菜单右边带有省略号，表示单击该项会弹出一个对话框。</p>
-<p><img src="https://img-blog.csdnimg.cn/202006271125225.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h3 id="倒三角表示有下拉菜单"><a href="#倒三角表示有下拉菜单" class="headerlink" title="倒三角表示有下拉菜单"></a>倒三角表示有下拉菜单</h3><p>如果菜单右边带有黑色倒三角形，表示该项是子菜单的名称，鼠标指向该选项会弹出子菜单。</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627112521993.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h3 id="文字变灰表示无效命令"><a href="#文字变灰表示无效命令" class="headerlink" title="文字变灰表示无效命令"></a>文字变灰表示无效命令</h3><p>如果菜单中文字颜色变灰，表示该选项无效，单击它不会有任何反应。</p>
-<p><img src="https://img-blog.csdnimg.cn/2020062711252222.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h3 id="方框内打勾表示可多选"><a href="#方框内打勾表示可多选" class="headerlink" title="方框内打勾表示可多选"></a>方框内打勾表示可多选</h3><p>如果菜单左边带对号，表示多选项目的选中标记。该菜单是一组多选项目中的一项，并处于选中状态。</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627113442752.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h3 id="可选择圆点表示单选"><a href="#可选择圆点表示单选" class="headerlink" title="可选择圆点表示单选"></a>可选择圆点表示单选</h3><p>如果菜单左边带圆点符号，表示单选项目的选中标记。该菜单是一组单选项目中的一项，并处于选中状态。</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627113529386.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><h3 id="Word文字题："><a href="#Word文字题：" class="headerlink" title="Word文字题："></a>Word文字题：</h3><h4 id="首行缩进问题-1"><a href="#首行缩进问题-1" class="headerlink" title="首行缩进问题"></a>首行缩进问题</h4><p>对于文字题，标题不需要设置首行缩进，文段正文需要设置首行缩进2字符设置方式：选中文字，右击——段落——弹出的段落对话框——特殊格式——首行缩进2字符。不要直接通过空格设置，可能会导致不是2字符。</p>
-<h4 id="空行问题"><a href="#空行问题" class="headerlink" title="空行问题"></a>空行问题</h4><p>一般不要有多余的空行，即看有没有多余的回车符，如果有，则要删除。特别注意标题和段落中间、段落和段落中间及段落末尾处有没有多余的回车，然后还有页眉处是否有多余的回车符。</p>
-<h4 id="自动波浪线问题"><a href="#自动波浪线问题" class="headerlink" title="自动波浪线问题"></a>自动波浪线问题</h4><p>注意录入的文字是否正确，特别是下面有绿色或红色波浪线，是表示有拼写与语法错误，尤其要注意，如果没有问题，则保持原样即可。另外，空格和标点符号要一致。</p>
-<h4 id="添加边框问题"><a href="#添加边框问题" class="headerlink" title="添加边框问题"></a>添加边框问题</h4><p>给正文段落添加边框，是段落边框，不是页面边框，选择开始里面的边框设置——边框和底纹设置，然后设置线型、颜色和宽度等，如下所示：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200627165741960.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h4 id="分栏设置问题"><a href="#分栏设置问题" class="headerlink" title="分栏设置问题"></a>分栏设置问题</h4><ol>
-<li>分栏如何多栏是均衡的？先多按一个回车（或者插入分隔符），然后选择要分栏的段落（不要加下面的回车），然后再进行分栏设置即可</li>
-<li>分栏和段落边框不能同时设置，所以操作过程如下：</li>
+<h2 id="模板与母版"><a href="#模板与母版" class="headerlink" title="模板与母版"></a>模板与母版</h2><p>模板：是一个文件，可以快速生成一系列样式相似、内容不同的多个演示文稿。你可以先尝试做一个演示文稿，然后另存为模板dotm格式放到桌面，再双击打开后会创建一个一模一样的演示文稿。</p>
+<p>母版：是针对于一个演示文稿而言的，对一个文稿中有一些通用的部分，如logo、页眉、页脚等设置，通常都会在母版中去进行操作。可以打开视图-母版里面去添加下内容，然后再关闭，查看幻灯片的最终的效果。</p>
+<p>版式：版式是一种常规排版的格式，实际上就是对幻灯片上各种对象的合理布局。是一张幻灯片上文字、图片、表格等的格式和排列方式。</p>
+<p>占位符：幻灯片版式中自动给出相应的标题区域、文本区域和其他对象区域，它们分别用一个虚框表示，该虚框被称为占位符，单击占位符可以添加文字，或者单击图标添加指定的对象。占位符的编辑与普通文本框的编辑完全一样。用户还可以通过改变幻灯片版式来更改幻灯片中占位符的类型和数量。</p>
+<h2 id="版式设置"><a href="#版式设置" class="headerlink" title="版式设置"></a>版式设置</h2><p>如下，选择幻灯片，然后右击，选择版式，点击即可设置成对应的版式。</p>
+<p>如：仅标题版式：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200608144026758.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>如下是标题与内容版式：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200608144026662.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h2 id="切换设置"><a href="#切换设置" class="headerlink" title="切换设置"></a>切换设置</h2><p>点击应用切换后，可以按F5从第一页开始进行播放，按shift+F5从当前页开始播放。</p>
+<h3 id="1）切换设置"><a href="#1）切换设置" class="headerlink" title="1）切换设置"></a>1）切换设置</h3><p>点击切换选项卡，然后下面有很多切换效果，选择后即可设置。<br>如果要只对其中一张进行设置，则直接点击即可，如果需要对多张设置相同的切换效果，则选择多张之后，再点击切换选项卡中的对应效果。<br>如擦除效果：<br><img src="https://img-blog.csdnimg.cn/20200603161447826.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>切换效果没有中速、快速、慢速设置，按照默认设置即可。</p>
+<h3 id="2）幻灯片切换时间设置"><a href="#2）幻灯片切换时间设置" class="headerlink" title="2）幻灯片切换时间设置"></a>2）幻灯片切换时间设置</h3><p>如果要求每5秒自动切换幻灯片，则点击切换选项卡——最右侧——计时组里面，设置自动换片时间为00:05.00<br><img src="https://img-blog.csdnimg.cn/20200603161447851.png" alt="在这里插入图片描述"><br>当然，这个切换时间也可以通过排练计时来设置，但是排练计时操作起来会稍微复杂点，且不能准确把握到精准的时间。可以自行尝试下。</p>
+<p>排练计时的位置如下：<br><img src="https://img-blog.csdnimg.cn/20200603163621272.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"><br>然后手动控制下每张幻灯片的播放时间。</p>
+<h3 id="3）循环放映设置"><a href="#3）循环放映设置" class="headerlink" title="3）循环放映设置"></a>3）循环放映设置</h3><p>如果要求循环播放幻灯片，则点击幻灯片放映选项卡——设置幻灯片放映，在弹出的对话框里勾选——循环方式，按ESC键终止。<br><img src="https://img-blog.csdnimg.cn/20200603161447887.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h2 id="主题设置"><a href="#主题设置" class="headerlink" title="主题设置"></a>主题设置</h2><p>如果有要求设置主题，则点击设计选项卡，然后依次看是否是对应的主题样式，点选即可（看下是否要应用要所有幻灯片，如果需要则右击选择应用于所有幻灯片和应用于选定幻灯片）。<br><img src="https://img-blog.csdnimg.cn/20200603163208903.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"><br>如龙腾四海效果如下：<br><img src="https://img-blog.csdnimg.cn/20200603161447909.png" alt="在这里插入图片描述"><br>都市主题如下：<br><img src="https://img-blog.csdnimg.cn/20200603161447856.png" alt="在这里插入图片描述"> </p>
+<h2 id="动画设置"><a href="#动画设置" class="headerlink" title="动画设置"></a>动画设置</h2><h3 id="1）动画设置方式"><a href="#1）动画设置方式" class="headerlink" title="1）动画设置方式"></a>1）动画设置方式</h3><p>选中好对象，先去动画选项卡中看是否有要求的动画效果，如果有点击即可设置<br><img src="https://img-blog.csdnimg.cn/20200603161447808.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>如果没有，则点击添加动画，看是否有对应的，如果没有，则看是进入动画、还是退出还是强调动画，目前一般考进入动画，则点击进入动画去选择相应的动画。</p>
+<p><img src="https://img-blog.csdnimg.cn/2020060316144876.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p><img src="https://img-blog.csdnimg.cn/20200603161446408.png" alt="在这里插入图片描述"></p>
+<p>例如：如果要做阶梯状的动画：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200603161446471.png" alt="在这里插入图片描述"> </p>
+<h3 id="2）动画速度设置"><a href="#2）动画速度设置" class="headerlink" title="2）动画速度设置"></a>2）动画速度设置</h3><p>如果要求动画为中速、快速或者慢速等速度，则可以点击动画选项卡，然后点击动画窗格，右击选择计时，在弹出的对话框中进行设置要求的时间。<br><img src="https://img-blog.csdnimg.cn/20200603161447966.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h3 id="3）动画效果设置"><a href="#3）动画效果设置" class="headerlink" title="3）动画效果设置"></a>3）动画效果设置</h3><p>如果要求对动画设置一些效果，如垂直，水平方向，左上角等等这种，可以设置好动画后，在动画选项卡，然后效果选项中进行设置。如要设置百叶窗——垂直效果的方式如下：<br><img src="https://img-blog.csdnimg.cn/2020080112063231.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h3 id="4）PPT整体出现动画"><a href="#4）PPT整体出现动画" class="headerlink" title="4）PPT整体出现动画"></a>4）PPT整体出现动画</h3><p>如果要求所有文字整体出现某一动画，则可以点击动画选项卡，然后点击动画窗格，右击——计时，在弹出的对话框中正文文本对象中进行设置为作为一个对象即可。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200603161447981.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h3 id="5）分行设置动画效果"><a href="#5）分行设置动画效果" class="headerlink" title="5）分行设置动画效果"></a>5）分行设置动画效果</h3><p>选中之后，点击对应的动画设置，如果前面出现不同的数字，则就是分行动画效果。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200603161447931.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
+<h2 id="占位符位置调整"><a href="#占位符位置调整" class="headerlink" title="占位符位置调整"></a>占位符位置调整</h2><p>选中文本框，然后右击——位置与大小，进行设置：<br><img src="https://img-blog.csdnimg.cn/20200603161446520.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
+<p>有些考题中考查到文本框垂直距离为5cm，则选择文本框，然后右击，选择位置与大小，再点击位置，做如下设置：<br><img src="https://img-blog.csdnimg.cn/2020060814450624.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h2 id="文本框长线型设置"><a href="#文本框长线型设置" class="headerlink" title="文本框长线型设置"></a>文本框长线型设置</h2><p>选择文本框，右击，选择设置形状格式，然后进行如下设置:<br><img src="https://img-blog.csdnimg.cn/20200603161446730.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h2 id="插入页眉页脚问题"><a href="#插入页眉页脚问题" class="headerlink" title="插入页眉页脚问题"></a>插入页眉页脚问题</h2><p>在插入选项卡中点击页眉和页脚，然后再点击幻灯片中的页脚区域进行录入文字即可，点击全部应用则是所有幻灯片添加页脚，如果点击应用则是只在这一页幻灯片中添加。后续样式可以不做调整，因为现在不考察PPT的美化。</p>
+<p>注意：一定要选中对话框的幻灯片选项卡，备注和讲义中做页眉页脚则不显示在幻灯片中。另外，页眉和页脚实际都是在这个页脚中进行设置。</p>
+<p>具体操作方式如下：<br><img src="https://img-blog.csdnimg.cn/20200615170301640.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><ol>
+<li>注意到底要求几页，如果要求两页，就一定要设置为两页，如果没有要求，一般为一页内容</li>
+<li>按要求录入对应的文字，包含标题和正文；可以直接在文本框中录入，也可以删除已有的文本框，重新插入文本框</li>
+<li>设置好文字的格式，并按步骤做完所有的要求</li>
+<li>目前考试不要求进行美化，如果有描述“版式、图片、配色方案、动画方案等自行选择”、“制作完成的演示文稿美观、大方”等则需要进行适当美化，可以选择主题、背景设置等进行美化，可以通过插入形状、设置动画、切换效果，设置艺术字、文本框填充色和边框都可以设置，整体色彩不宜过多~但是注意美化完成后，要再核对下格式、字体等各项要求是否一致</li>
+<li>题目的硬性规定一定要完全满足,整体做完后再记得再核对一下有没有完成所有要求，以及有没有录入错误</li>
 </ol>
-<ul>
-<li><p>段落后先多加一个回车符</p>
-</li>
-<li><p>不要选中任何文字，选择插入选项卡-插入简单文本框</p>
-</li>
-<li><p>绘制文本框，调整文本框位置和大小，遮挡住正文内容，不要遮挡了标题</p>
-</li>
-<li><p>选中文本框，设置文本框为无填充色或者设置文本框衬于文字下方</p>
-</li>
-<li><p>再对文本框的轮廓设置线型和宽度，及填充色</p>
-</li>
-</ul>
-<h4 id="居中对齐问题"><a href="#居中对齐问题" class="headerlink" title="居中对齐问题"></a>居中对齐问题</h4><p>一般说的对齐是文字段落水平对齐，选择文字，点击开始选项卡中，段落组中的居中对齐即可。</p>
-<p>如果说页面内容居中对齐，则通过页面设置对话框——版式——垂直对齐对齐方式——居中进行设置。如下图：</p>
-<p><img src="https://img-blog.csdnimg.cn/2020062716574210.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h4 id="首字下沉问题"><a href="#首字下沉问题" class="headerlink" title="首字下沉问题"></a>首字下沉问题</h4><p>首字下沉只有一个字符下沉的时候，直接可以再后面录入，然后删除掉多余的字符即可。</p>
-<p>如果有首字下沉和边框设置，请先设置边框后，再设置首字下沉，否则会出现问题，首字下沉如果之前设置时只有一个字符的话，在后面可以添加的。如果是WPS做这种类型的题，那么首字下沉和边框也是没办法一起设置，因此参考分栏和边框同时设置，即将文本框作为边框。</p>
-<h4 id="颜色问题"><a href="#颜色问题" class="headerlink" title="颜色问题"></a>颜色问题</h4><ul>
-<li><p>一般颜色选择标准色，如果没有，再选择主题色，还没有就到其他颜色里面去找找</p>
-</li>
-<li><p>白色，背景1，深色25%是一种颜色，第一列最中间的那个颜色（一般水印可能会考这个），如下图：</p>
-</li>
-</ul>
-<p><img src="https://img-blog.csdnimg.cn/20200627165742104.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
-<ul>
-<li>灰色-25%——颜色，其他颜色，下面的灰色，前面第3个左右，如下图。如果想再确认下，可以点击确定，返回后移动到该颜色上即可查看</li>
-</ul>
-<p><img src="https://img-blog.csdnimg.cn/20200627165741954.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
-<ul>
-<li>填充底纹是40%，是在底纹设置对话框，样式里面进行选择40%，如下图：</li>
-</ul>
-<p><img src="https://img-blog.csdnimg.cn/20200627165741976.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
-<h4 id="字体问题"><a href="#字体问题" class="headerlink" title="字体问题"></a>字体问题</h4><p>字体的话，亦真亦幻设置不了，03版才有；阴文和阳文一般设置不了，07和03有，所以看到阴文、阳文、亦真亦幻等文字效果都不用设置啦~</p>
-<h4 id="特殊符号问题"><a href="#特殊符号问题" class="headerlink" title="特殊符号问题"></a>特殊符号问题</h4><p>方框□、箭头→、对号√都是选择插入选项卡——符号，然后进行选择，最好不要用形状里面的类似形状。如果需要设置方框内打勾，先插入✔，然后添加带圈字符。</p>
-<h4 id="页眉问题"><a href="#页眉问题" class="headerlink" title="页眉问题"></a>页眉问题</h4><p>页眉——直接双击页眉区，上面的横线不需要删除，注意不要有多余的回车，字体没有要求，按照默认的即可</p>
-<h3 id="Word中表格题："><a href="#Word中表格题：" class="headerlink" title="Word中表格题："></a>Word中表格题：</h3><ol>
-<li>插入-表格-插入表格，填入对应的行数和列数。最好先数好行数，设置对应行数，然后再进行拆分或合并</li>
-<li>注意对齐，一般是居中对齐，如下设置，如果没有要求，那就按照图示中的要求来做，之前是左对齐就左对齐，但一定是下图中的中间一排的这些对齐方式</li>
-</ol>
-<p><img src="https://img-blog.csdnimg.cn/20200627165741961.png" alt="在这里插入图片描述"> </p>
-<ol>
-<li>标题是在表格以外的，请不要放在表格中</li>
-<li>不要有多余的空行，一般直接拖拽调整行高，也可以用回车</li>
-<li>表格的行高要差不多和图示一致,不要求一模一样</li>
-<li>调整列宽如果要整体调整，不要选中单元格再拖动边框，如果只有一个单元格，则选中单元格后拖拽，当要对齐时，可以按住Alt辅助对齐某不边框</li>
-</ol>
+<h2 id="word文字处理问题"><a href="#word文字处理问题" class="headerlink" title="word文字处理问题"></a>word文字处理问题</h2><p>关于word文字处理这块，会专门设置一个新的板块进行讲解，请移步：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%892%20word%E6%96%87%E5%AD%97%E5%A4%84%E7%90%86%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/" target="_blank" rel="noopener">前言——第02节 word文字处理常见问题解答</a></p>
 <h2 id="Excel电子表格问题"><a href="#Excel电子表格问题" class="headerlink" title="Excel电子表格问题"></a>Excel电子表格问题</h2><p>关于Excel电子表格这块，会专门设置一个新的板块进行讲解，请移步：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%893%20Excel%E7%94%B5%E5%AD%90%E8%A1%A8%E6%A0%BC%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/" target="_blank" rel="noopener">前言——第03节 Excel电子表格常见问题解答</a></p>
-<h2 id="PPT演示文稿问题"><a href="#PPT演示文稿问题" class="headerlink" title="PPT演示文稿问题"></a>PPT演示文稿问题</h2><p>关于PPT演示文稿这块，会专门设置一个新的板块进行讲解，请移步：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%894%20PPT%E6%BC%94%E7%A4%BA%E6%96%87%E7%A8%BF%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/" target="_blank" rel="noopener">前言——第04节 PPT演示文稿常见问题解答</a></p>
-<h2 id="技术员考试有关问题"><a href="#技术员考试有关问题" class="headerlink" title="技术员考试有关问题"></a>技术员考试有关问题</h2><p>关于信息处理技术员考试这块，会专门设置一个新的板块进行讲解，请移步：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%895%20%E6%8A%80%E6%9C%AF%E5%91%98%E8%80%83%E8%AF%95%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/" target="_blank" rel="noopener">前言——第05节 技术员考试考场常见问题解答</a></p>
+<h2 id="技术员考试有关问题"><a href="#技术员考试有关问题" class="headerlink" title="技术员考试有关问题"></a>技术员考试有关问题</h2><p>关于PPT演示文稿这块，会专门设置一个新的板块进行讲解，请移步：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%895%20%E6%8A%80%E6%9C%AF%E5%91%98%E8%80%83%E8%AF%95%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/" target="_blank" rel="noopener">前言——第05节 技术员考试考场常见问题解答</a></p>
 <p>最后，祝大家都能顺利通过考试！加油！</p>
 ]]></content>
       <categories>
         <category>信息处理技术员</category>
         <category>第00章 前言</category>
-        <category>第02节 word文字处理常见问题解答</category>
+        <category>第04节 PPT演示文稿常见问题解答</category>
       </categories>
       <tags>
         <tag>信息处理技术员</tag>
