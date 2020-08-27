@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://nolimited-study.site/"/>
-  <updated>2020-08-25T07:36:20.574Z</updated>
+  <updated>2020-08-27T08:06:08.211Z</updated>
   <id>https://nolimited-study.site/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于工资条的制作技巧</title>
+    <link href="https://nolimited-study.site/2020/08/27/%E5%8A%9E%E5%85%AC%E8%BD%AF%E4%BB%B6%EF%BC%883%EF%BC%893%20%E5%85%B3%E4%BA%8E%E5%B7%A5%E8%B5%84%E6%9D%A1%E7%9A%84%E5%88%B6%E4%BD%9C%E6%8A%80%E5%B7%A7/"/>
+    <id>https://nolimited-study.site/2020/08/27/%E5%8A%9E%E5%85%AC%E8%BD%AF%E4%BB%B6%EF%BC%883%EF%BC%893%20%E5%85%B3%E4%BA%8E%E5%B7%A5%E8%B5%84%E6%9D%A1%E7%9A%84%E5%88%B6%E4%BD%9C%E6%8A%80%E5%B7%A7/</id>
+    <published>2020-08-27T08:05:07.000Z</published>
+    <updated>2020-08-27T08:06:08.211Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;制作工资条，是人资或财务的最常用excel操作技巧。今天给大家介绍三种方式来创建工资条。&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="办公软件" scheme="https://nolimited-study.site/categories/%E5%8A%9E%E5%85%AC%E8%BD%AF%E4%BB%B6/"/>
+    
+      <category term="第3章 Excel部分" scheme="https://nolimited-study.site/categories/%E5%8A%9E%E5%85%AC%E8%BD%AF%E4%BB%B6/%E7%AC%AC3%E7%AB%A0-Excel%E9%83%A8%E5%88%86/"/>
+    
+    
+      <category term="Excel技巧" scheme="https://nolimited-study.site/tags/Excel%E6%8A%80%E5%B7%A7/"/>
+    
+      <category term="工资条制作" scheme="https://nolimited-study.site/tags/%E5%B7%A5%E8%B5%84%E6%9D%A1%E5%88%B6%E4%BD%9C/"/>
+    
+  </entry>
   
   <entry>
     <title>Excel自定义序列的设置与用法</title>
@@ -91,33 +116,6 @@
       <category term="信息处理技术员" scheme="https://nolimited-study.site/tags/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/"/>
     
       <category term="WORD" scheme="https://nolimited-study.site/tags/WORD/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>信息处理技术员常见问题解答</title>
-    <link href="https://nolimited-study.site/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%891%20%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/"/>
-    <id>https://nolimited-study.site/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%891%20%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/</id>
-    <published>2020-06-06T06:10:10.000Z</published>
-    <updated>2020-07-01T06:26:58.391Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;本文主要针对的是信息处理技术员的学员定制，根据学员经常提的问题进行归纳总结，帮助大家更好的掌握知识点，并顺利通过考试。&lt;br&gt;
-    
-    </summary>
-    
-    
-      <category term="信息处理技术员" scheme="https://nolimited-study.site/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/"/>
-    
-      <category term="第00章 前言" scheme="https://nolimited-study.site/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/%E7%AC%AC00%E7%AB%A0-%E5%89%8D%E8%A8%80/"/>
-    
-      <category term="第01节 信息处理技术员常见问题解答" scheme="https://nolimited-study.site/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/%E7%AC%AC00%E7%AB%A0-%E5%89%8D%E8%A8%80/%E7%AC%AC01%E8%8A%82-%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/"/>
-    
-    
-      <category term="信息处理技术员" scheme="https://nolimited-study.site/tags/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/"/>
-    
-      <category term="常见问题" scheme="https://nolimited-study.site/tags/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/"/>
     
   </entry>
   
@@ -221,6 +219,33 @@
       <category term="第00章 前言" scheme="https://nolimited-study.site/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/%E7%AC%AC00%E7%AB%A0-%E5%89%8D%E8%A8%80/"/>
     
       <category term="第05节 技术员考试考场常见问题解答" scheme="https://nolimited-study.site/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/%E7%AC%AC00%E7%AB%A0-%E5%89%8D%E8%A8%80/%E7%AC%AC05%E8%8A%82-%E6%8A%80%E6%9C%AF%E5%91%98%E8%80%83%E8%AF%95%E8%80%83%E5%9C%BA%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/"/>
+    
+    
+      <category term="信息处理技术员" scheme="https://nolimited-study.site/tags/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/"/>
+    
+      <category term="常见问题" scheme="https://nolimited-study.site/tags/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>信息处理技术员常见问题解答</title>
+    <link href="https://nolimited-study.site/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%891%20%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/"/>
+    <id>https://nolimited-study.site/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%891%20%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/</id>
+    <published>2020-06-06T06:10:10.000Z</published>
+    <updated>2020-07-01T06:26:58.391Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;本文主要针对的是信息处理技术员的学员定制，根据学员经常提的问题进行归纳总结，帮助大家更好的掌握知识点，并顺利通过考试。&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="信息处理技术员" scheme="https://nolimited-study.site/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/"/>
+    
+      <category term="第00章 前言" scheme="https://nolimited-study.site/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/%E7%AC%AC00%E7%AB%A0-%E5%89%8D%E8%A8%80/"/>
+    
+      <category term="第01节 信息处理技术员常见问题解答" scheme="https://nolimited-study.site/categories/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/%E7%AC%AC00%E7%AB%A0-%E5%89%8D%E8%A8%80/%E7%AC%AC01%E8%8A%82-%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/"/>
     
     
       <category term="信息处理技术员" scheme="https://nolimited-study.site/tags/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/"/>
@@ -511,31 +536,6 @@
       <category term="信息处理技术员" scheme="https://nolimited-study.site/tags/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98/"/>
     
       <category term="EXCEL" scheme="https://nolimited-study.site/tags/EXCEL/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>相册型PPT制作指导</title>
-    <link href="https://nolimited-study.site/2019/12/16/%E5%8A%9E%E5%85%AC%E8%BD%AF%E4%BB%B6%EF%BC%884%EF%BC%891%20%E7%9B%B8%E5%86%8C%E5%9E%8BPPT%E5%88%B6%E4%BD%9C%E6%8C%87%E5%AF%BC/"/>
-    <id>https://nolimited-study.site/2019/12/16/%E5%8A%9E%E5%85%AC%E8%BD%AF%E4%BB%B6%EF%BC%884%EF%BC%891%20%E7%9B%B8%E5%86%8C%E5%9E%8BPPT%E5%88%B6%E4%BD%9C%E6%8C%87%E5%AF%BC/</id>
-    <published>2019-12-16T01:47:07.000Z</published>
-    <updated>2020-08-17T08:44:49.534Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;在工作和生活中，我们经常会需要制作一些相册集，如公司年会的总结展示，成员介绍、活动回顾、亲子相册等都可能会用到。如果会用视频编辑软件或者动画制作软件的话，那肯定是最好的，但是如果不会，我们也不用担心，用PowerPoint也能够很快的制作相册。以下，提供在PPT中制作相册的几种方式，以及如何进行美化。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="办公软件" scheme="https://nolimited-study.site/categories/%E5%8A%9E%E5%85%AC%E8%BD%AF%E4%BB%B6/"/>
-    
-      <category term="第4章 PPT部分" scheme="https://nolimited-study.site/categories/%E5%8A%9E%E5%85%AC%E8%BD%AF%E4%BB%B6/%E7%AC%AC4%E7%AB%A0-PPT%E9%83%A8%E5%88%86/"/>
-    
-    
-      <category term="PPT使用" scheme="https://nolimited-study.site/tags/PPT%E4%BD%BF%E7%94%A8/"/>
-    
-      <category term="相册" scheme="https://nolimited-study.site/tags/%E7%9B%B8%E5%86%8C/"/>
     
   </entry>
   
