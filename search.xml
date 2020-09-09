@@ -1,6 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>信息处理技术员——word真题讲解（金砖国家）</title>
+    <url>/2020/09/09/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%884%EF%BC%892%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E2%80%94%E2%80%94Word%E7%9C%9F%E9%A2%98%E8%AE%B2%E8%A7%A3%EF%BC%88%E9%87%91%E7%A0%96%E5%9B%BD%E5%AE%B6%EF%BC%89/</url>
+    <content><![CDATA[<p>很多人问这个金钻国家这一题怎么做，接下来给大家详细的讲解一下~</p>
+<a id="more"></a>
+<h2 id="题目："><a href="#题目：" class="headerlink" title="题目："></a>题目：</h2><p>金砖国家<br>“金砖国家”最初是指巴西、俄罗斯、印度和中国。因为这四个国家英文首字母组成的“BRIC”一词，其发音与英文的“砖块”非常相似，所以被称为“金砖四国”。2010年2月，“金砖四国”一致商定，吸收南非作为正式成员加入该合作组织，改称为“金砖国家”英文缩写为“BRICS”。目前，金砖国家国土面积占全世界领土面积26%，人口占世界总人口的42%左右。近年来，金砖国家经济总体保持稳定快速增长，成为全球经济增长的引擎。金砖国家国内生产总值约占全球总重20%，贸易额占全球贸易额15%，对全球的经济贡献率约50%。</p>
+<h2 id="要求："><a href="#要求：" class="headerlink" title="要求："></a>要求：</h2><ol>
+<li>将文章标题设置为宋体、二号、加粗、居中；正文设置为宋体、小四。</li>
+<li>将正文内容分为两栏，栏间设置分隔线。</li>
+<li>为正文添加双线型文本框，粗细为3磅，颜色为红色，并将底纹填充为灰色-40%。</li>
+<li>为文档添加页眉，内容为“金砖国家——BRICS”。</li>
+</ol>
+<h2 id="解答："><a href="#解答：" class="headerlink" title="解答："></a>解答：</h2><h3 id="设置文字和段落格式"><a href="#设置文字和段落格式" class="headerlink" title="设置文字和段落格式"></a>设置文字和段落格式</h3><p>先进行录入，将文章标题设置为宋体、二号、加粗、居中；正文设置为宋体、小四。注意，正文需要设置首行缩进2字符，首行缩进在段落对话框中设置特殊格式——首行缩进——2字符，设置好后，点击确定即可。其余的字体、字号、加粗等在开始选项卡——字体组里面进行设置。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200909153012600.gif#pic_center" alt="在这里插入图片描述"></p>
+<h3 id="设置分栏"><a href="#设置分栏" class="headerlink" title="设置分栏"></a>设置分栏</h3><p>将正文内容分为两栏，栏间设置分隔线。<br>这里要注意将后面多增加一些回车，然后只选择要分栏的正文文本，不选择后面多余的回车，再进行分栏。<br>进行分栏时，点击页面布局选项卡，分栏——更多分栏，在弹出的对话框中设置两栏，并勾选分隔线，最后点击确定。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200909153012426.gif#pic_center" alt="在这里插入图片描述"></p>
+<h3 id="设置文本框"><a href="#设置文本框" class="headerlink" title="设置文本框"></a>设置文本框</h3><p>为正文添加双线型文本框，粗细为3磅，颜色为红色，并将底纹填充为灰色-40%。注意在这里已经说到了文本框，其实就是提醒你使用文本框来设置边框。</p>
+<ol>
+<li>插入文本框。首先插入文本框，选择插入选项卡，然后文本框——绘制文本框。将文本框拉到合适大小，能够覆盖掉文字且不遮挡标题。</li>
+<li>设置文本框的线型。然后选中文本框后，右击，设置形状格式，在对话框中，依次设置线条颜色为红色，然后设置线型为3磅，双线型。</li>
+<li>设置文本框的底纹。选中文本框后，右击，设置形状格式，在对话框中，设置填充为灰色中间的几个。（注意，这里是没有40%的选项让你选，所以题目中的这步你无法做出，只能找个类似的替代）</li>
+<li>设置文本框衬于文字下方。点击上面的格式选项卡，然后下移一层下拉菜单中的衬于文字下方。再删除掉最后多余的空行。</li>
+</ol>
+<p><img src="https://img-blog.csdnimg.cn/20200909153012651.gif#pic_center" alt="在这里插入图片描述"></p>
+<h3 id="设置页眉"><a href="#设置页眉" class="headerlink" title="设置页眉"></a>设置页眉</h3><p>为文档添加页眉，内容为“金砖国家——BRICS”。鼠标双击页眉区，写上相应文字即可。最后点击文件保存按钮完成该题的操作。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200909153012345.gif#pic_center" alt="在这里插入图片描述"><br>好了，这道题就讲到这里，如果还有问题，请在下面留言说明哦~</p>
+]]></content>
+      <categories>
+        <category>信息处理技术员</category>
+        <category>第04章 文字处理</category>
+        <category>第02节 真题讲解</category>
+      </categories>
+      <tags>
+        <tag>信息处理技术员</tag>
+        <tag>WORD</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>关于工资条的制作技巧</title>
     <url>/2020/08/27/%E5%8A%9E%E5%85%AC%E8%BD%AF%E4%BB%B6%EF%BC%883%EF%BC%893%20%E5%85%B3%E4%BA%8E%E5%B7%A5%E8%B5%84%E6%9D%A1%E7%9A%84%E5%88%B6%E4%BD%9C%E6%8A%80%E5%B7%A7/</url>
     <content><![CDATA[<p>制作工资条，是人资或财务的最常用excel操作技巧。今天给大家介绍三种方式来创建工资条。<br><a id="more"></a></p>
@@ -655,6 +692,177 @@
       </tags>
   </entry>
   <entry>
+    <title>信息处理技术员常见问题解答</title>
+    <url>/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%891%20%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/</url>
+    <content><![CDATA[<p>本文主要针对的是信息处理技术员的学员定制，根据学员经常提的问题进行归纳总结，帮助大家更好的掌握知识点，并顺利通过考试。<br><a id="more"></a></p>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>因文章篇幅较长，为节约大家的时间，建议大家直接搜索自己想问的问题。在电脑端搜索方式如下：<br>按住Ctrl，然后按下F，在弹出的搜索框内输入想要查找的关键字，注意，请简要描述，例如想搜索学习流程，可以直接搜索学习流程或流程，如想知道精讲视频位置，可直接搜索精讲视频即可。<br>输入完后按enter，然后可以跳转到下一个，查看相关内容。<br>不过，如果是初次学习，建议可以大致浏览下哦。</p>
+<h2 id="关于学员群问题"><a href="#关于学员群问题" class="headerlink" title="关于学员群问题"></a>关于学员群问题</h2><h3 id="一-如何入群、进群"><a href="#一-如何入群、进群" class="headerlink" title="(一) 如何入群、进群"></a>(一) 如何入群、进群</h3><p>目前希赛信息处理技术员群较多，有的是QQ群，有的是微信群。需要销售老师邀请入群，如未进群，请联系自己的销售老师。</p>
+<h3 id="二-群管理规范"><a href="#二-群管理规范" class="headerlink" title="(二)    群管理规范"></a>(二)    群管理规范</h3><p>加群后，请修改群名片，改成自己的姓名+所在城市即可。</p>
+<p>加群后可以查看群文件，阅读有关APP操作、电脑端操作等视频，还有关于学习指导文件，方便更加顺利的进入学习。</p>
+<p>加群后可以在群内讨论关于考试与学习的相关问题，学员之间可以相互交流，如有学习问题，可以@下教学老师进行答疑，目前教学老师有展宏老师、杨菲老师、张帅阳老师和段秀云老师。如有平台操作问题，可以@薛妹妹，如直播课程中遇到问题，可以@值班小哥哥，如有关于报名费用等问题，可以联系自己的销售老师。</p>
+<h2 id="关于培训资料问题"><a href="#关于培训资料问题" class="headerlink" title="关于培训资料问题"></a>关于培训资料问题</h2><h3 id="一-培训资料类型"><a href="#一-培训资料类型" class="headerlink" title="(一)    培训资料类型"></a>(一)    培训资料类型</h3><p>目前大家可能会收到数量不一的书本，这是因为每个人的报名的班型不同。整体来说，主要包含以下三本：</p>
+<p>1）    《信息处理技术员培训讲义》</p>
+<p>2）    《信息处理技术员教程（第三版）》</p>
+<p>3）    《信息处理技术员试题分类精解》</p>
+<p>如果只有其中一本或者几本，希望购买其他书目的，可以联系自己的销售老师咨询下。</p>
+<p>但是一般情况下，直播课只需要有信息处理技术员培训讲义即可。</p>
+<h3 id="二-书本介绍"><a href="#二-书本介绍" class="headerlink" title="(二)    书本介绍"></a>(二)    书本介绍</h3><p>1）《信息处理技术员培训讲义》</p>
+<p>这本书是希赛独家出品，是希赛直播课程配套资料，实质是希赛上课的PPT课间内容。直播课将按照该书本来讲解，详略得当，重点突出，然后有留白，方便做笔记。</p>
+<p>该本书的答案在直播课上会讲解，如有问题，可以在直播课上提出，或者在群或平台提问。</p>
+<p>2）《信息处理技术员教程（第三版）》</p>
+<p>这本书是针对信息处理技术员的官方教材，是直播课程辅助资料，可选择性购买。对于该书，内容充实，有习题练习，但是知识点相对比较分散，且书中有较多错误，可以在时间充裕的情况下翻阅。如果发现书中有和直播课或者希赛题库中答案不一致的，以直播课和希赛题库中的为准。<br>这本书的答案在学习资料中可以查看，但目前操作题和解析都还没有，如有问题，可以提问。</p>
+<p>3）《信息处理技术员试题分类精解》</p>
+<p>这本书是希赛根据信息处理技术员历年真题整理汇编而成，对近10套的试卷进行归纳知识点，并配上答案和详细的解析。如果希望看纸质版的题，可以购买。如果习惯用手机或电脑做题，则不用购买，电子书籍中已经配有该资料，可以前往学习查看。<br>这本书直接配有答案和解析，直接查看即可。</p>
+<h2 id="关于如何学习及学习流程"><a href="#关于如何学习及学习流程" class="headerlink" title="关于如何学习及学习流程"></a>关于如何学习及学习流程</h2><p>1)查看群文件，了解希赛APP和电脑端如何使用，了解希赛APP操作方法和希赛官网做题和看视频等方式，从而更好地找到资源及使用希赛平台</p>
+<p>2)听直播课中的第一节课——信息处理技术员公开课的内容，了解考试内容、考试形式、学习方式等，如果没有开课，可以先听信息处理技术员精讲视频中的第一课的内容</p>
+<p>3)之后按照老师要求听直播课，预习——听直播——复习做题等，每一阶段的安排如下：</p>
+<ol>
+<li>预习阶段： 可以提前听信息处理技术员精讲视频中的内容，并做好笔记，做下培训讲义中的练习题</li>
+<li>直播阶段：听课，记笔记，划重点，如有问题，可以直接在直播课上提出</li>
+<li>复习阶段：回顾直播课程内容，进行归纳总结，做章节练习和每日五题，进行巩固练习</li>
+</ol>
+<p>4)直播课程完全结束后，为刷题冲刺阶段，可以做真题练习和模拟题练习，做完后也要记得总结一下，如有知识点有疑问，可以回看知识点相关视频，还可以提问，想了解更多内容，可以百度一下，扩展自己的知识面，从而理解更到位，更加顺利通过考试。</p>
+<h2 id="关于安装软件问题"><a href="#关于安装软件问题" class="headerlink" title="关于安装软件问题"></a>关于安装软件问题</h2><h3 id="一-软件类型"><a href="#一-软件类型" class="headerlink" title="(一)    软件类型"></a>(一)    软件类型</h3><p>目前信息处理技术员考试使用的软件是Microsoft Office 2010版本，尽量版本与考试版本一致。实在觉得安装麻烦，也可以使用Office 2007、Office 2013、Office 2019或者WPS版本也可以，但是请不要使用Office 2003版本，这个版本与Office 2010差别较大，不建议使用。</p>
+<p>安装的Office 版本一定要包含以下三种：Word、Excel和PPT，这个是考试必备软件。如果没有，请重新安装。</p>
+<p>操作系统使用Windows 7比较合适，但这个没有太大关系。</p>
+<h3 id="二-软件安装"><a href="#二-软件安装" class="headerlink" title="(二)    软件安装"></a>(二)    软件安装</h3><p>请自行下载安装Office 2010版本，目前不提供软件安装。可以参考链接：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/2020/06/02/%E5%8A%9E%E5%85%AC%E8%BD%AF%E4%BB%B6%EF%BC%881%EF%BC%891%20Office%202010%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85%E4%B8%8E%E6%BF%80%E6%B4%BB/" target="_blank" rel="noopener">OFFICE 2010安装教程</a></p>
+<h2 id="关于考试内容的问题"><a href="#关于考试内容的问题" class="headerlink" title="关于考试内容的问题"></a>关于考试内容的问题</h2><h3 id="一-考试大纲"><a href="#一-考试大纲" class="headerlink" title="(一)    考试大纲"></a>(一)    考试大纲</h3><ol>
+<li>了解信息技术的基本概念；</li>
+<li>熟悉信息处理基础知识；</li>
+<li>熟悉计算机的组成、各主要部件的功能和性能指标；</li>
+<li>了解计算机网络与多媒体基础知识；</li>
+<li>熟悉信息处理常用设备；</li>
+<li>熟悉计算机系统安装和维护的基本知识；</li>
+<li>熟练掌握操作系统和文件管理的基本概念和Windows基本操作；</li>
+<li>熟练掌握文字处理的基本知识和WPS Office版、Microsoft Office版文字处理的基本操作；</li>
+<li>熟练掌握电子表格的基本知识和WPS Office版、Microsoft Office版电子表格的基本操作；</li>
+<li>熟练掌握演示文稿的基本知识和WPS Office版、Microsoft Office版演示文稿的基本操作；</li>
+<li>熟练掌握新闻/海报的基本知识和Microsoft Publisher版的基本操作；</li>
+<li>熟练掌握图形设计的基本知识和Microsoft Visio版的基本操作；</li>
+<li>熟练掌握数据库应用的基本概念、基本理论和基本操作； </li>
+<li>熟练掌握Internet及其常用软件的基本操作；</li>
+<li>了解计算机与信息安全基本知识；</li>
+<li>了解有关的法律、法规要点；</li>
+<li>正确阅读和理解计算机使用中常见的简单英文及语句（常用专业英语词汇与例句）。</li>
+</ol>
+<h3 id="二-选择题部分"><a href="#二-选择题部分" class="headerlink" title="(二)    选择题部分"></a>(二)    选择题部分</h3><table>
+<tr><th>章节</th><th>重要考点列举  </th></tr>
+<tr><td>信息处理技术基础</td><td align="left">信息概念，信息技术，信息化和信息社会，信息系统，数列，排列组合，数据的简单统计和图表，信息处理的概念，数据处理方法过程和信息处理实务</td></tr>
+<tr><td>计算机系统基础知识</td><td align="left" >计算机系统概述，硬件基础知识，软件基础知识，多媒体基础知识</td></tr>
+<tr><td>操作系统</td><td align="left" >操作系统的概念和类型等，windows 7 各项基本操作，文件及文件管理</td></tr>
+<tr><td>文字信息处理</td><td align="left" >文档编辑，界面认识，文字编辑，文字格式设置，段落格式设置，页面设置，对象插入和编辑，表格设计，样式，目录，邮件合并等</td></tr>
+<tr><td>电子表格处理    </td><td align="left" >工作表操作，数据录入，单元格设置，公式及函数，图表制作，数据管理统计</td></tr>
+<tr><td>演示文稿处理</td><td align="left" >基本概念，常见软件操作，制作方法，对象，动画，播放等基本设置</td></tr>
+<tr><td>数据库操作</td><td align="left" >基本概念，关系运算，数据库和数据表的创建，设置主键，使用查询创建表</td></tr>
+<tr><td>计算机网络及应用</td><td align="left" >网络相关概念，网络协议，IP地址，电子邮件，信息浏览，互联网，新技术等</td></tr>
+<tr><td>信息安全和法律法规</td><td align="left" >计算机连接知识和计算机病毒防治，计算机保护条例和知识产权，标准化知识</td></tr>
+<tr><td>计算机英语知识</td><td align="left" >主板，内存，显示器，网络，程序，系统等基本英语知识</td></tr>
+<table>
+
+###  (三)    操作题部分
+
+<table>
+<tr><th>考试操作软件</th><th >考查具体内容</th></tr>
+<tr><td>Microsoft Word 2010 或WPS 文字2016</td><td align="left" >文字录入，编排，分栏，设置页眉，页脚和页码，页面大小，纸张方向，首字下沉，段落边框和底纹，插入表格，编排艺术字，绘图工具的使用，文本框的操作，项目编号和项目符号的设置</td></tr>
+<tr><td>Microsoft Excel 2010或WPS 表格 2016    </td><td align="left" >创建工作表和电子表格的基本设置，公式和函数的使用，排序，图表的插入和设置，筛选、分类汇总和创建透视表等</td></tr>
+<tr><td>Microsoft PowerPoint 2010或WPS 演示 2016</td><td align="left" >采用模板制作，插入图片和艺术字，设置对象动作，添加项目符号，设置放映时间，设置循环放映等</td></tr>
+</table>
+
+<h2 id="视频链接"><a href="#视频链接" class="headerlink" title="视频链接"></a>视频链接</h2><h3 id="一-公开课链接"><a href="#一-公开课链接" class="headerlink" title="(一)    公开课链接"></a>(一)    公开课链接</h3><p>目前给大家讲了一部分信息处理技术员难点的公开课，想看的同学可以点击一下链接：</p>
+<table>
+<tr><th>日期</th><th >内容</th></tr>
+<tr><td>2020年3月31日</td><td><a href="https://www.educity.cn/wangxiao/op410638.html" target="_blank" rel="noopener">初等数学-图表知识</td></tr>
+<tr><td>2020年4月1日</td><td><a href="https://www.educity.cn/wangxiao/op410639.html" target="_blank" rel="noopener">初等数学-统计知识</td></tr>
+<tr><td>2020年4月7日</td><td><a href="https://www.educity.cn/wangxiao/op410640.html?fcode=w1693" target="_blank" rel="noopener">未知数法+ Excel函数——IF函数</td></tr>
+<tr><td>2020年4月9日</td><td><a href="https://www.educity.cn/wangxiao/op410641.html?fcode=w1693" target="_blank" rel="noopener">Excel函数——统计类、技术类函数</td></tr>
+</table>
+
+<p>注意：视频开头有的会有一段音乐，大概十分钟，后续即是正课内容。</p>
+<h3 id="二-精讲视频地址"><a href="#二-精讲视频地址" class="headerlink" title="(二)    精讲视频地址"></a>(二)    精讲视频地址</h3><p>精讲视频地址：<a href="https://www.educity.cn/shipin/v4105.html" target="_blank" rel="noopener">https://www.educity.cn/shipin/v4105.html</a></p>
+<h3 id="三-真题视频地址"><a href="#三-真题视频地址" class="headerlink" title="(三)    真题视频地址"></a>(三)    真题视频地址</h3><p>真题视频讲解地址：<a href="https://www.educity.cn/shipin/v411055.html" target="_blank" rel="noopener">https://www.educity.cn/shipin/v411055.html</a><br>目前已经录制了部分真题讲解视频，大家可以观看，后续将会继续补充完善。</p>
+<h3 id="四-直播视频地址"><a href="#四-直播视频地址" class="headerlink" title="(四)    直播视频地址"></a>(四)    直播视频地址</h3><p>对于直播视频地址，对于报名不同班型的学员地址链接不同，统一的观看方式是进入学习中心，直播课程中可以看到。<br>直播视频支持回放，分为录播回放视频和直播回放视频，录播视频一般要1~2个工作日才会公布，直播回放视频在课程结束后的2个小时左右一般就可以观看。</p>
+<p>所有的视频都支持回放，手机端还可以下载。<br>其余学习资料还可以参考：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/categories/" target="_blank" rel="noopener">其他学习讲解内容</a>，点击其中的信息处理技术员内容进行学习。</p>
+<h2 id="希赛学习平台使用问题"><a href="#希赛学习平台使用问题" class="headerlink" title="希赛学习平台使用问题"></a>希赛学习平台使用问题</h2><h3 id="一-登录及进入个人中心"><a href="#一-登录及进入个人中心" class="headerlink" title="(一)    登录及进入个人中心"></a>(一)    登录及进入个人中心</h3><p>可以直接点击<a href="http://www.educity.cn" target="_blank" rel="noopener">www.educity.cn</a>进入希赛网，点击左上角的登录，进入登录界面：</p>
+<p>如果还没有注册，请先注册后登陆。（建议使用谷歌浏览器）</p>
+<p><img src="https://img-blog.csdnimg.cn/20200531214244683.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70,#pic_center" alt="在这里插入图片描述"></p>
+<p>登陆可以选择账号密码登录，或者手机号登录，登录界面如下所示：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200531214244655.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70,#pic_center" alt="在这里插入图片描述"></p>
+<p> 输入完成后，即可进入希赛，然后再次点击上面的个人中心，进入自己的个人中心界面，如下：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200531214244695.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70,#pic_center" alt="在这里插入图片描述"></p>
+<p>学员首次进入个人中心后，会跳出对话框显示需要签订学习合同，大家仔细阅读合同，完善信息再点击同意协议！点击确定后，点击确定后会再跳出对话框，填完签订完合同会提醒加入学员群（可点我已入群）。</p>
+<p>然后点击基本信息里“学籍卡”，将自己的个人信息填写完整（尽量填的详细一点！因为老师会根据你的信息给你制定学习计划！）</p>
+<p>“学习计划”里可以查看老师给你制定的学习计划；</p>
+<p>“学习情况”里对于你视频学习、做题情况有一个记录，及统计分析。 </p>
+<h3 id="二-如何查看学习计划"><a href="#二-如何查看学习计划" class="headerlink" title="(二)    如何查看学习计划"></a>(二)    如何查看学习计划</h3><p>进入个人中心后，点击基本信息——学习计划（学习计划只能在网页查看）</p>
+<p><img src="https://img-blog.csdnimg.cn/20200531214244473.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70,#pic_center" alt="在这里插入图片描述"></p>
+<h3 id="三-如何观看直播课"><a href="#三-如何观看直播课" class="headerlink" title="(三)如何观看直播课"></a>(三)如何观看直播课</h3><p>方法一：</p>
+<p>进入个人中心—学员中心，找到并选择自己报考科目“信息处理技术员”，选择直播课，并在课程目录中查看课表课程安排，点击表上相应课时即可直接观看直播或观看直播回放。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200531214244517.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70,#pic_center" alt="在这里插入图片描述"></p>
+<p>方法二：</p>
+<p>直播上课前，班主任老师会在学员群内（微信群与QQ群）会发送上课提醒及直播课程的链接，如：直播班：<a href="https://www.educity.cn/zhibo/v378122.html" target="_blank" rel="noopener">https://www.educity.cn/zhibo/v378122.html</a></p>
+<p>学员直接点击链接即可进入观看。（要注意的是大家要按照自己的班次来点击对应的链接！！！否则会显示还未购买该课程！）</p>
+<p> 要特别注意的一点是：直播课，分为三步。</p>
+<p>1、课前完成当日直播课讲解内容的精讲视频学习。</p>
+<p>2、观看直播课。</p>
+<p>3、完成直播课后去题做对应直播的章节练习题。</p>
+<h3 id="四-如何看视频"><a href="#四-如何看视频" class="headerlink" title="(四)    如何看视频"></a>(四)    如何看视频</h3><p>进入个人中心—学员中心，找到并选择自己报考科目“信息处理技术员”，选择视频课程，在已购买视频课程中找到相关视频，点击立即学习，进入学习。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200531214244581.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70,#pic_center" alt="在这里插入图片描述"></p>
+<p>主要可以看真题视频和最后面的精讲视频。 </p>
+<h3 id="五-如何做题？"><a href="#五-如何做题？" class="headerlink" title="(五)    如何做题？"></a>(五)    如何做题？</h3><p>方法一：进入个人中心—学员中心，找到并选择自己报考科目“信息处理技术员”，选择题库，找到自己想做试题的种类，点击立即练习，也可点击“测试记录”查看往期自己做题记录，“评估报告”查看自己做题数据统计及正确率，“错题库”查看所有做错的题，可反复强化练习。<br>其中，考试模式需要答完题后才可以查看解析，练习模式可以边练习边查看解析和答案。<br>注意：平时练习操作题时需要用自己电脑上对应的软件打开进行操作后，再截图或拍照并保存图片形式，然后再点击上传图片文件即可。<br>上传内容为截图图片文件而并非Office文件。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200531214244518.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70,#pic_center" alt="在这里插入图片描述"></p>
+<h3 id="六-查看和下载学习资料"><a href="#六-查看和下载学习资料" class="headerlink" title="(六)    查看和下载学习资料"></a>(六)    查看和下载学习资料</h3><p>学习资料是老师另外配发的有关学习的补充资料，建议下载。下载最后用电脑进行，因为很多都是压缩包形式。查看及下载方式如下：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200531214244533.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70,,#pic_center" alt="在这里插入图片描述"></p>
+<p>可以点击批量下载全部一次性下载。</p>
+<h3 id="七-如何进行学习提问？"><a href="#七-如何进行学习提问？" class="headerlink" title="(七)    如何进行学习提问？"></a>(七)    如何进行学习提问？</h3><p>进入个人中心—学员中心，找到并选择自己报考科目“信息处理技术员”，选择“问答”，选择并点击“向专家提问”，进行提问。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200531214244489.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70,,#pic_center" alt="在这里插入图片描述"></p>
+<p>如果是题目或者视频有疑问，可以直接在题目后面点击提问。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200531214244652.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70,,#pic_center" alt="在这里插入图片描述"></p>
+<p><img src="https://img-blog.csdnimg.cn/20200531214244426.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70,,#pic_center" alt="在这里插入图片描述"></p>
+<h3 id="八-电子教材如何阅读？"><a href="#八-电子教材如何阅读？" class="headerlink" title="(八)    电子教材如何阅读？"></a>(八)    电子教材如何阅读？</h3><p>进入个人中心—学员中心，找到并选择自己报考科目“信息处理技术员”，选择“云阅读”，选择自己想要观看的教材，点击立即学习，进行阅读。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200531214244531.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70,#pic_center" alt="在这里插入图片描述"></p>
+<h2 id="APP使用问题"><a href="#APP使用问题" class="headerlink" title="APP使用问题"></a>APP使用问题</h2><h3 id="一-APP下载及安装"><a href="#一-APP下载及安装" class="headerlink" title="(一)    APP下载及安装"></a>(一)    APP下载及安装</h3><p>首先呢，大家先在自己的应用市场中搜索希赛网APP，并下载安排到手机上（也可扫描下方二维下载）。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200531215513207.png#pic_center" alt="在这里插入图片描述"></p>
+<p>下载后点击打开APP，选择你所参加的考试，及具体的考试科目。先选中软考，然后拖到下面，点击初级下面的信息处理技术员科目，点击完成即可。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200531215055130.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<p>报班后学员首次登陆之后首先会有一个直播班辅导协议，填写完自己的信息然后签订协议就能开通权限开始学习了！（在PC及H5已经有签订过协议学员，APP刚不会显示协议弹窗）</p>
+<h3 id="二-直播课的学习"><a href="#二-直播课的学习" class="headerlink" title="(二)    直播课的学习"></a>(二)    直播课的学习</h3><p>方法一：点击APP首页，“直播课程”或底部“课程”，选择直播课堂中自己所购买的直播课堂,并点击进入。</p>
+<p>在直播课堂详情页，点击课程目录，查看课表安排。直播课开始后“未开课”的提示会变成“正在直播”，点击“正在直播”即可进入直播课堂。有错过直播的同学依然也是进入这个界面观看课程的回放。</p>
+<p>方法二：点击APP首页底部“我的”，选择“我的课程”，选择自己购买的直播课堂，如下图：2019下半年信息处理技术员网络直播2班，并点击进入。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200531215939482.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<p>PS：“我的课程”页面包括学员拥有权限的所有直播或视频课程，直播班型优先排在前面，图片显示为红色，视频课程排在后面，图片显示为蓝色。</p>
+<h3 id="三-视频课的学习"><a href="#三-视频课的学习" class="headerlink" title="(三)    视频课的学习"></a>(三)    视频课的学习</h3><p>依旧是在我的课程中，下方蓝色图标的课程即为视频课。选择我们要看的视频教程，例如信息处理技术员精讲班视频教程，在课程目录中选择自己要看的章节。App版是可以缓存视频的，有需要的学员可以自行下载以供学习（可直接在课程详情页点击“下载教程”全部勾选下载，或下载需要的章节。也可点开需下载章节后，点击右上角的下载按钮进行下载，“下载管理”在个人中心）。</p>
+<p>右下角可以选择视频倍速，大家依个人喜好调整即可。</p>
+<h3 id="四-题库"><a href="#四-题库" class="headerlink" title="(四)    题库"></a>(四)    题库</h3><p>点击下面的题库——进入题库。章节练习是我们直播课结束后要完成的对应的练习题。历年真题里包括真题及希赛老师独家的真题解析（练习模式下有解析，考试模式无解析有时间限制）。多多练习有助于提高我们的答题速度，考试过关更有把握。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200531220235327.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<p>App内对于做过的题目都会有记录，可以点击下方我的—做题记录查看。遇到经典的题或是难题也可以收藏，在收藏夹中查看即可。</p>
+<h3 id="五-云阅读"><a href="#五-云阅读" class="headerlink" title="(五)云阅读"></a>(五)云阅读</h3><p>如图所示，“云阅读”也就是我们的电子教材。点击我的—云阅读进入，找到自己想要的内容，点击目录即可开始学习。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200531215939482.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<p>开始学习后，点击右下角的书签标记即可将该页加入书签，左下角目录可以选择自己想要看的章节内容。</p>
+<h2 id="后台操作题答题要求"><a href="#后台操作题答题要求" class="headerlink" title="后台操作题答题要求"></a>后台操作题答题要求</h2><p>目前没有内嵌的word和excel及PPT可供直接操作，因此需要用自己电脑的对应软件进行操作，注意：不是在答题框内直接操作。</p>
+<p>目前后台还不支持上传word、Excel和ppt文件，仅支持上传图片。因此，需要将做好的word、excel和PPT文档截图或者拍照并保存为图片形式再进行上传文件。</p>
+<p>如果是APP，则可以用电脑作答后，直接点击APP答题下方的拍照按钮，拍完后点击确认后即可上传，最后还要记得点击提交答案。</p>
+<p>如果是电脑端浏览器界面，则需要进行拍照或者截图后，点击上传文件，找到你保存的图片，然后点击上传。上传完成后，也要记得最后点击提交答案。</p>
+<p>简单的截图可以用QQ，打开QQ后，可以用Ctrl+Alt+A进行截图。然后键盘上的Printscreen可以截全屏。或可以直接在系统自带的在开始菜单—搜索栏搜索“截图工具”；或自行安装下载的其他截图工具均可。</p>
+<p>如果文字过多表格太大，则可以按住Ctrl，向下滑动鼠标滚轮，缩小整个界面再截图。如果还是不好调整，可以直接上传多张图片哦~</p>
+<p>截图的其他操作方式有：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/2019/11/27/WINDOWS%201%20%E5%A4%9A%E7%A7%8D%E6%88%AA%E5%9B%BE%E6%96%B9%E5%BC%8F%E4%BB%A5%E5%8F%8A%E5%A6%82%E4%BD%95%E6%88%AA%E5%8F%96%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%EF%BC%9F/" target="_blank" rel="noopener">截图方法</a></p>
+<p>考试的时候不需要截图上传，每个操作完成后点击保存按钮或者使用快捷键Ctrl+S保存文件，最后再进行提交答案。可以参考最后一个关于考试的文章：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/categories/" target="_blank" rel="noopener">信息处理技术员考试考场常见问题解答</a></p>
+<h2 id="word文字处理问题"><a href="#word文字处理问题" class="headerlink" title="word文字处理问题"></a>word文字处理问题</h2><p>关于word文字处理这块，会专门设置一个新的板块进行讲解，请移步：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%892%20word%E6%96%87%E5%AD%97%E5%A4%84%E7%90%86%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/" target="_blank" rel="noopener">前言——第02节 word文字处理常见问题解答</a></p>
+<h2 id="Excel电子表格问题"><a href="#Excel电子表格问题" class="headerlink" title="Excel电子表格问题"></a>Excel电子表格问题</h2><p>关于Excel电子表格这块，会专门设置一个新的板块进行讲解，请移步：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%893%20Excel%E7%94%B5%E5%AD%90%E8%A1%A8%E6%A0%BC%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/" target="_blank" rel="noopener">前言——第03节 Excel电子表格常见问题解答</a></p>
+<h2 id="PPT演示文稿问题"><a href="#PPT演示文稿问题" class="headerlink" title="PPT演示文稿问题"></a>PPT演示文稿问题</h2><p>关于PPT演示文稿这块，会专门设置一个新的板块进行讲解，请移步：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%894%20PPT%E6%BC%94%E7%A4%BA%E6%96%87%E7%A8%BF%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/" target="_blank" rel="noopener">前言——第04节 PPT演示文稿常见问题解答</a></p>
+<h2 id="技术员考试有关问题"><a href="#技术员考试有关问题" class="headerlink" title="技术员考试有关问题"></a>技术员考试有关问题</h2><p>关于信息处理技术员考试这块，会专门设置一个新的板块进行讲解，请移步：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%895%20%E6%8A%80%E6%9C%AF%E5%91%98%E8%80%83%E8%AF%95%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/" target="_blank" rel="noopener">前言——第05节 技术员考试考场常见问题解答</a></p>
+<p>最后，祝大家都能顺利通过考试！加油！</p>
+]]></content>
+      <categories>
+        <category>信息处理技术员</category>
+        <category>第00章 前言</category>
+        <category>第01节 信息处理技术员常见问题解答</category>
+      </categories>
+      <tags>
+        <tag>信息处理技术员</tag>
+        <tag>常见问题</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>信息处理技术员考试考场常见问题解答</title>
     <url>/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%895%20%E6%8A%80%E6%9C%AF%E5%91%98%E8%80%83%E8%AF%95%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/</url>
     <content><![CDATA[<p>本文主要针对的是信息处理技术员的学员定制，根据学员经常提的考试这块的问题进行归纳总结，帮助大家更好的掌握知识点，并顺利通过考试。<br><a id="more"></a></p>
@@ -972,177 +1180,6 @@
         <category>信息处理技术员</category>
         <category>第00章 前言</category>
         <category>第05节 技术员考试考场常见问题解答</category>
-      </categories>
-      <tags>
-        <tag>信息处理技术员</tag>
-        <tag>常见问题</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>信息处理技术员常见问题解答</title>
-    <url>/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%891%20%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/</url>
-    <content><![CDATA[<p>本文主要针对的是信息处理技术员的学员定制，根据学员经常提的问题进行归纳总结，帮助大家更好的掌握知识点，并顺利通过考试。<br><a id="more"></a></p>
-<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>因文章篇幅较长，为节约大家的时间，建议大家直接搜索自己想问的问题。在电脑端搜索方式如下：<br>按住Ctrl，然后按下F，在弹出的搜索框内输入想要查找的关键字，注意，请简要描述，例如想搜索学习流程，可以直接搜索学习流程或流程，如想知道精讲视频位置，可直接搜索精讲视频即可。<br>输入完后按enter，然后可以跳转到下一个，查看相关内容。<br>不过，如果是初次学习，建议可以大致浏览下哦。</p>
-<h2 id="关于学员群问题"><a href="#关于学员群问题" class="headerlink" title="关于学员群问题"></a>关于学员群问题</h2><h3 id="一-如何入群、进群"><a href="#一-如何入群、进群" class="headerlink" title="(一) 如何入群、进群"></a>(一) 如何入群、进群</h3><p>目前希赛信息处理技术员群较多，有的是QQ群，有的是微信群。需要销售老师邀请入群，如未进群，请联系自己的销售老师。</p>
-<h3 id="二-群管理规范"><a href="#二-群管理规范" class="headerlink" title="(二)    群管理规范"></a>(二)    群管理规范</h3><p>加群后，请修改群名片，改成自己的姓名+所在城市即可。</p>
-<p>加群后可以查看群文件，阅读有关APP操作、电脑端操作等视频，还有关于学习指导文件，方便更加顺利的进入学习。</p>
-<p>加群后可以在群内讨论关于考试与学习的相关问题，学员之间可以相互交流，如有学习问题，可以@下教学老师进行答疑，目前教学老师有展宏老师、杨菲老师、张帅阳老师和段秀云老师。如有平台操作问题，可以@薛妹妹，如直播课程中遇到问题，可以@值班小哥哥，如有关于报名费用等问题，可以联系自己的销售老师。</p>
-<h2 id="关于培训资料问题"><a href="#关于培训资料问题" class="headerlink" title="关于培训资料问题"></a>关于培训资料问题</h2><h3 id="一-培训资料类型"><a href="#一-培训资料类型" class="headerlink" title="(一)    培训资料类型"></a>(一)    培训资料类型</h3><p>目前大家可能会收到数量不一的书本，这是因为每个人的报名的班型不同。整体来说，主要包含以下三本：</p>
-<p>1）    《信息处理技术员培训讲义》</p>
-<p>2）    《信息处理技术员教程（第三版）》</p>
-<p>3）    《信息处理技术员试题分类精解》</p>
-<p>如果只有其中一本或者几本，希望购买其他书目的，可以联系自己的销售老师咨询下。</p>
-<p>但是一般情况下，直播课只需要有信息处理技术员培训讲义即可。</p>
-<h3 id="二-书本介绍"><a href="#二-书本介绍" class="headerlink" title="(二)    书本介绍"></a>(二)    书本介绍</h3><p>1）《信息处理技术员培训讲义》</p>
-<p>这本书是希赛独家出品，是希赛直播课程配套资料，实质是希赛上课的PPT课间内容。直播课将按照该书本来讲解，详略得当，重点突出，然后有留白，方便做笔记。</p>
-<p>该本书的答案在直播课上会讲解，如有问题，可以在直播课上提出，或者在群或平台提问。</p>
-<p>2）《信息处理技术员教程（第三版）》</p>
-<p>这本书是针对信息处理技术员的官方教材，是直播课程辅助资料，可选择性购买。对于该书，内容充实，有习题练习，但是知识点相对比较分散，且书中有较多错误，可以在时间充裕的情况下翻阅。如果发现书中有和直播课或者希赛题库中答案不一致的，以直播课和希赛题库中的为准。<br>这本书的答案在学习资料中可以查看，但目前操作题和解析都还没有，如有问题，可以提问。</p>
-<p>3）《信息处理技术员试题分类精解》</p>
-<p>这本书是希赛根据信息处理技术员历年真题整理汇编而成，对近10套的试卷进行归纳知识点，并配上答案和详细的解析。如果希望看纸质版的题，可以购买。如果习惯用手机或电脑做题，则不用购买，电子书籍中已经配有该资料，可以前往学习查看。<br>这本书直接配有答案和解析，直接查看即可。</p>
-<h2 id="关于如何学习及学习流程"><a href="#关于如何学习及学习流程" class="headerlink" title="关于如何学习及学习流程"></a>关于如何学习及学习流程</h2><p>1)查看群文件，了解希赛APP和电脑端如何使用，了解希赛APP操作方法和希赛官网做题和看视频等方式，从而更好地找到资源及使用希赛平台</p>
-<p>2)听直播课中的第一节课——信息处理技术员公开课的内容，了解考试内容、考试形式、学习方式等，如果没有开课，可以先听信息处理技术员精讲视频中的第一课的内容</p>
-<p>3)之后按照老师要求听直播课，预习——听直播——复习做题等，每一阶段的安排如下：</p>
-<ol>
-<li>预习阶段： 可以提前听信息处理技术员精讲视频中的内容，并做好笔记，做下培训讲义中的练习题</li>
-<li>直播阶段：听课，记笔记，划重点，如有问题，可以直接在直播课上提出</li>
-<li>复习阶段：回顾直播课程内容，进行归纳总结，做章节练习和每日五题，进行巩固练习</li>
-</ol>
-<p>4)直播课程完全结束后，为刷题冲刺阶段，可以做真题练习和模拟题练习，做完后也要记得总结一下，如有知识点有疑问，可以回看知识点相关视频，还可以提问，想了解更多内容，可以百度一下，扩展自己的知识面，从而理解更到位，更加顺利通过考试。</p>
-<h2 id="关于安装软件问题"><a href="#关于安装软件问题" class="headerlink" title="关于安装软件问题"></a>关于安装软件问题</h2><h3 id="一-软件类型"><a href="#一-软件类型" class="headerlink" title="(一)    软件类型"></a>(一)    软件类型</h3><p>目前信息处理技术员考试使用的软件是Microsoft Office 2010版本，尽量版本与考试版本一致。实在觉得安装麻烦，也可以使用Office 2007、Office 2013、Office 2019或者WPS版本也可以，但是请不要使用Office 2003版本，这个版本与Office 2010差别较大，不建议使用。</p>
-<p>安装的Office 版本一定要包含以下三种：Word、Excel和PPT，这个是考试必备软件。如果没有，请重新安装。</p>
-<p>操作系统使用Windows 7比较合适，但这个没有太大关系。</p>
-<h3 id="二-软件安装"><a href="#二-软件安装" class="headerlink" title="(二)    软件安装"></a>(二)    软件安装</h3><p>请自行下载安装Office 2010版本，目前不提供软件安装。可以参考链接：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/2020/06/02/%E5%8A%9E%E5%85%AC%E8%BD%AF%E4%BB%B6%EF%BC%881%EF%BC%891%20Office%202010%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85%E4%B8%8E%E6%BF%80%E6%B4%BB/" target="_blank" rel="noopener">OFFICE 2010安装教程</a></p>
-<h2 id="关于考试内容的问题"><a href="#关于考试内容的问题" class="headerlink" title="关于考试内容的问题"></a>关于考试内容的问题</h2><h3 id="一-考试大纲"><a href="#一-考试大纲" class="headerlink" title="(一)    考试大纲"></a>(一)    考试大纲</h3><ol>
-<li>了解信息技术的基本概念；</li>
-<li>熟悉信息处理基础知识；</li>
-<li>熟悉计算机的组成、各主要部件的功能和性能指标；</li>
-<li>了解计算机网络与多媒体基础知识；</li>
-<li>熟悉信息处理常用设备；</li>
-<li>熟悉计算机系统安装和维护的基本知识；</li>
-<li>熟练掌握操作系统和文件管理的基本概念和Windows基本操作；</li>
-<li>熟练掌握文字处理的基本知识和WPS Office版、Microsoft Office版文字处理的基本操作；</li>
-<li>熟练掌握电子表格的基本知识和WPS Office版、Microsoft Office版电子表格的基本操作；</li>
-<li>熟练掌握演示文稿的基本知识和WPS Office版、Microsoft Office版演示文稿的基本操作；</li>
-<li>熟练掌握新闻/海报的基本知识和Microsoft Publisher版的基本操作；</li>
-<li>熟练掌握图形设计的基本知识和Microsoft Visio版的基本操作；</li>
-<li>熟练掌握数据库应用的基本概念、基本理论和基本操作； </li>
-<li>熟练掌握Internet及其常用软件的基本操作；</li>
-<li>了解计算机与信息安全基本知识；</li>
-<li>了解有关的法律、法规要点；</li>
-<li>正确阅读和理解计算机使用中常见的简单英文及语句（常用专业英语词汇与例句）。</li>
-</ol>
-<h3 id="二-选择题部分"><a href="#二-选择题部分" class="headerlink" title="(二)    选择题部分"></a>(二)    选择题部分</h3><table>
-<tr><th>章节</th><th>重要考点列举  </th></tr>
-<tr><td>信息处理技术基础</td><td align="left">信息概念，信息技术，信息化和信息社会，信息系统，数列，排列组合，数据的简单统计和图表，信息处理的概念，数据处理方法过程和信息处理实务</td></tr>
-<tr><td>计算机系统基础知识</td><td align="left" >计算机系统概述，硬件基础知识，软件基础知识，多媒体基础知识</td></tr>
-<tr><td>操作系统</td><td align="left" >操作系统的概念和类型等，windows 7 各项基本操作，文件及文件管理</td></tr>
-<tr><td>文字信息处理</td><td align="left" >文档编辑，界面认识，文字编辑，文字格式设置，段落格式设置，页面设置，对象插入和编辑，表格设计，样式，目录，邮件合并等</td></tr>
-<tr><td>电子表格处理    </td><td align="left" >工作表操作，数据录入，单元格设置，公式及函数，图表制作，数据管理统计</td></tr>
-<tr><td>演示文稿处理</td><td align="left" >基本概念，常见软件操作，制作方法，对象，动画，播放等基本设置</td></tr>
-<tr><td>数据库操作</td><td align="left" >基本概念，关系运算，数据库和数据表的创建，设置主键，使用查询创建表</td></tr>
-<tr><td>计算机网络及应用</td><td align="left" >网络相关概念，网络协议，IP地址，电子邮件，信息浏览，互联网，新技术等</td></tr>
-<tr><td>信息安全和法律法规</td><td align="left" >计算机连接知识和计算机病毒防治，计算机保护条例和知识产权，标准化知识</td></tr>
-<tr><td>计算机英语知识</td><td align="left" >主板，内存，显示器，网络，程序，系统等基本英语知识</td></tr>
-<table>
-
-###  (三)    操作题部分
-
-<table>
-<tr><th>考试操作软件</th><th >考查具体内容</th></tr>
-<tr><td>Microsoft Word 2010 或WPS 文字2016</td><td align="left" >文字录入，编排，分栏，设置页眉，页脚和页码，页面大小，纸张方向，首字下沉，段落边框和底纹，插入表格，编排艺术字，绘图工具的使用，文本框的操作，项目编号和项目符号的设置</td></tr>
-<tr><td>Microsoft Excel 2010或WPS 表格 2016    </td><td align="left" >创建工作表和电子表格的基本设置，公式和函数的使用，排序，图表的插入和设置，筛选、分类汇总和创建透视表等</td></tr>
-<tr><td>Microsoft PowerPoint 2010或WPS 演示 2016</td><td align="left" >采用模板制作，插入图片和艺术字，设置对象动作，添加项目符号，设置放映时间，设置循环放映等</td></tr>
-</table>
-
-<h2 id="视频链接"><a href="#视频链接" class="headerlink" title="视频链接"></a>视频链接</h2><h3 id="一-公开课链接"><a href="#一-公开课链接" class="headerlink" title="(一)    公开课链接"></a>(一)    公开课链接</h3><p>目前给大家讲了一部分信息处理技术员难点的公开课，想看的同学可以点击一下链接：</p>
-<table>
-<tr><th>日期</th><th >内容</th></tr>
-<tr><td>2020年3月31日</td><td><a href="https://www.educity.cn/wangxiao/op410638.html" target="_blank" rel="noopener">初等数学-图表知识</td></tr>
-<tr><td>2020年4月1日</td><td><a href="https://www.educity.cn/wangxiao/op410639.html" target="_blank" rel="noopener">初等数学-统计知识</td></tr>
-<tr><td>2020年4月7日</td><td><a href="https://www.educity.cn/wangxiao/op410640.html?fcode=w1693" target="_blank" rel="noopener">未知数法+ Excel函数——IF函数</td></tr>
-<tr><td>2020年4月9日</td><td><a href="https://www.educity.cn/wangxiao/op410641.html?fcode=w1693" target="_blank" rel="noopener">Excel函数——统计类、技术类函数</td></tr>
-</table>
-
-<p>注意：视频开头有的会有一段音乐，大概十分钟，后续即是正课内容。</p>
-<h3 id="二-精讲视频地址"><a href="#二-精讲视频地址" class="headerlink" title="(二)    精讲视频地址"></a>(二)    精讲视频地址</h3><p>精讲视频地址：<a href="https://www.educity.cn/shipin/v4105.html" target="_blank" rel="noopener">https://www.educity.cn/shipin/v4105.html</a></p>
-<h3 id="三-真题视频地址"><a href="#三-真题视频地址" class="headerlink" title="(三)    真题视频地址"></a>(三)    真题视频地址</h3><p>真题视频讲解地址：<a href="https://www.educity.cn/shipin/v411055.html" target="_blank" rel="noopener">https://www.educity.cn/shipin/v411055.html</a><br>目前已经录制了部分真题讲解视频，大家可以观看，后续将会继续补充完善。</p>
-<h3 id="四-直播视频地址"><a href="#四-直播视频地址" class="headerlink" title="(四)    直播视频地址"></a>(四)    直播视频地址</h3><p>对于直播视频地址，对于报名不同班型的学员地址链接不同，统一的观看方式是进入学习中心，直播课程中可以看到。<br>直播视频支持回放，分为录播回放视频和直播回放视频，录播视频一般要1~2个工作日才会公布，直播回放视频在课程结束后的2个小时左右一般就可以观看。</p>
-<p>所有的视频都支持回放，手机端还可以下载。<br>其余学习资料还可以参考：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/categories/" target="_blank" rel="noopener">其他学习讲解内容</a>，点击其中的信息处理技术员内容进行学习。</p>
-<h2 id="希赛学习平台使用问题"><a href="#希赛学习平台使用问题" class="headerlink" title="希赛学习平台使用问题"></a>希赛学习平台使用问题</h2><h3 id="一-登录及进入个人中心"><a href="#一-登录及进入个人中心" class="headerlink" title="(一)    登录及进入个人中心"></a>(一)    登录及进入个人中心</h3><p>可以直接点击<a href="http://www.educity.cn" target="_blank" rel="noopener">www.educity.cn</a>进入希赛网，点击左上角的登录，进入登录界面：</p>
-<p>如果还没有注册，请先注册后登陆。（建议使用谷歌浏览器）</p>
-<p><img src="https://img-blog.csdnimg.cn/20200531214244683.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70,#pic_center" alt="在这里插入图片描述"></p>
-<p>登陆可以选择账号密码登录，或者手机号登录，登录界面如下所示：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200531214244655.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70,#pic_center" alt="在这里插入图片描述"></p>
-<p> 输入完成后，即可进入希赛，然后再次点击上面的个人中心，进入自己的个人中心界面，如下：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200531214244695.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70,#pic_center" alt="在这里插入图片描述"></p>
-<p>学员首次进入个人中心后，会跳出对话框显示需要签订学习合同，大家仔细阅读合同，完善信息再点击同意协议！点击确定后，点击确定后会再跳出对话框，填完签订完合同会提醒加入学员群（可点我已入群）。</p>
-<p>然后点击基本信息里“学籍卡”，将自己的个人信息填写完整（尽量填的详细一点！因为老师会根据你的信息给你制定学习计划！）</p>
-<p>“学习计划”里可以查看老师给你制定的学习计划；</p>
-<p>“学习情况”里对于你视频学习、做题情况有一个记录，及统计分析。 </p>
-<h3 id="二-如何查看学习计划"><a href="#二-如何查看学习计划" class="headerlink" title="(二)    如何查看学习计划"></a>(二)    如何查看学习计划</h3><p>进入个人中心后，点击基本信息——学习计划（学习计划只能在网页查看）</p>
-<p><img src="https://img-blog.csdnimg.cn/20200531214244473.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70,#pic_center" alt="在这里插入图片描述"></p>
-<h3 id="三-如何观看直播课"><a href="#三-如何观看直播课" class="headerlink" title="(三)如何观看直播课"></a>(三)如何观看直播课</h3><p>方法一：</p>
-<p>进入个人中心—学员中心，找到并选择自己报考科目“信息处理技术员”，选择直播课，并在课程目录中查看课表课程安排，点击表上相应课时即可直接观看直播或观看直播回放。</p>
-<p><img src="https://img-blog.csdnimg.cn/20200531214244517.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70,#pic_center" alt="在这里插入图片描述"></p>
-<p>方法二：</p>
-<p>直播上课前，班主任老师会在学员群内（微信群与QQ群）会发送上课提醒及直播课程的链接，如：直播班：<a href="https://www.educity.cn/zhibo/v378122.html" target="_blank" rel="noopener">https://www.educity.cn/zhibo/v378122.html</a></p>
-<p>学员直接点击链接即可进入观看。（要注意的是大家要按照自己的班次来点击对应的链接！！！否则会显示还未购买该课程！）</p>
-<p> 要特别注意的一点是：直播课，分为三步。</p>
-<p>1、课前完成当日直播课讲解内容的精讲视频学习。</p>
-<p>2、观看直播课。</p>
-<p>3、完成直播课后去题做对应直播的章节练习题。</p>
-<h3 id="四-如何看视频"><a href="#四-如何看视频" class="headerlink" title="(四)    如何看视频"></a>(四)    如何看视频</h3><p>进入个人中心—学员中心，找到并选择自己报考科目“信息处理技术员”，选择视频课程，在已购买视频课程中找到相关视频，点击立即学习，进入学习。</p>
-<p><img src="https://img-blog.csdnimg.cn/20200531214244581.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70,#pic_center" alt="在这里插入图片描述"></p>
-<p>主要可以看真题视频和最后面的精讲视频。 </p>
-<h3 id="五-如何做题？"><a href="#五-如何做题？" class="headerlink" title="(五)    如何做题？"></a>(五)    如何做题？</h3><p>方法一：进入个人中心—学员中心，找到并选择自己报考科目“信息处理技术员”，选择题库，找到自己想做试题的种类，点击立即练习，也可点击“测试记录”查看往期自己做题记录，“评估报告”查看自己做题数据统计及正确率，“错题库”查看所有做错的题，可反复强化练习。<br>其中，考试模式需要答完题后才可以查看解析，练习模式可以边练习边查看解析和答案。<br>注意：平时练习操作题时需要用自己电脑上对应的软件打开进行操作后，再截图或拍照并保存图片形式，然后再点击上传图片文件即可。<br>上传内容为截图图片文件而并非Office文件。</p>
-<p><img src="https://img-blog.csdnimg.cn/20200531214244518.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70,#pic_center" alt="在这里插入图片描述"></p>
-<h3 id="六-查看和下载学习资料"><a href="#六-查看和下载学习资料" class="headerlink" title="(六)    查看和下载学习资料"></a>(六)    查看和下载学习资料</h3><p>学习资料是老师另外配发的有关学习的补充资料，建议下载。下载最后用电脑进行，因为很多都是压缩包形式。查看及下载方式如下：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200531214244533.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70,,#pic_center" alt="在这里插入图片描述"></p>
-<p>可以点击批量下载全部一次性下载。</p>
-<h3 id="七-如何进行学习提问？"><a href="#七-如何进行学习提问？" class="headerlink" title="(七)    如何进行学习提问？"></a>(七)    如何进行学习提问？</h3><p>进入个人中心—学员中心，找到并选择自己报考科目“信息处理技术员”，选择“问答”，选择并点击“向专家提问”，进行提问。</p>
-<p><img src="https://img-blog.csdnimg.cn/20200531214244489.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70,,#pic_center" alt="在这里插入图片描述"></p>
-<p>如果是题目或者视频有疑问，可以直接在题目后面点击提问。</p>
-<p><img src="https://img-blog.csdnimg.cn/20200531214244652.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70,,#pic_center" alt="在这里插入图片描述"></p>
-<p><img src="https://img-blog.csdnimg.cn/20200531214244426.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70,,#pic_center" alt="在这里插入图片描述"></p>
-<h3 id="八-电子教材如何阅读？"><a href="#八-电子教材如何阅读？" class="headerlink" title="(八)    电子教材如何阅读？"></a>(八)    电子教材如何阅读？</h3><p>进入个人中心—学员中心，找到并选择自己报考科目“信息处理技术员”，选择“云阅读”，选择自己想要观看的教材，点击立即学习，进行阅读。</p>
-<p><img src="https://img-blog.csdnimg.cn/20200531214244531.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70,#pic_center" alt="在这里插入图片描述"></p>
-<h2 id="APP使用问题"><a href="#APP使用问题" class="headerlink" title="APP使用问题"></a>APP使用问题</h2><h3 id="一-APP下载及安装"><a href="#一-APP下载及安装" class="headerlink" title="(一)    APP下载及安装"></a>(一)    APP下载及安装</h3><p>首先呢，大家先在自己的应用市场中搜索希赛网APP，并下载安排到手机上（也可扫描下方二维下载）。</p>
-<p><img src="https://img-blog.csdnimg.cn/20200531215513207.png#pic_center" alt="在这里插入图片描述"></p>
-<p>下载后点击打开APP，选择你所参加的考试，及具体的考试科目。先选中软考，然后拖到下面，点击初级下面的信息处理技术员科目，点击完成即可。</p>
-<p><img src="https://img-blog.csdnimg.cn/20200531215055130.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
-<p>报班后学员首次登陆之后首先会有一个直播班辅导协议，填写完自己的信息然后签订协议就能开通权限开始学习了！（在PC及H5已经有签订过协议学员，APP刚不会显示协议弹窗）</p>
-<h3 id="二-直播课的学习"><a href="#二-直播课的学习" class="headerlink" title="(二)    直播课的学习"></a>(二)    直播课的学习</h3><p>方法一：点击APP首页，“直播课程”或底部“课程”，选择直播课堂中自己所购买的直播课堂,并点击进入。</p>
-<p>在直播课堂详情页，点击课程目录，查看课表安排。直播课开始后“未开课”的提示会变成“正在直播”，点击“正在直播”即可进入直播课堂。有错过直播的同学依然也是进入这个界面观看课程的回放。</p>
-<p>方法二：点击APP首页底部“我的”，选择“我的课程”，选择自己购买的直播课堂，如下图：2019下半年信息处理技术员网络直播2班，并点击进入。</p>
-<p><img src="https://img-blog.csdnimg.cn/20200531215939482.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
-<p>PS：“我的课程”页面包括学员拥有权限的所有直播或视频课程，直播班型优先排在前面，图片显示为红色，视频课程排在后面，图片显示为蓝色。</p>
-<h3 id="三-视频课的学习"><a href="#三-视频课的学习" class="headerlink" title="(三)    视频课的学习"></a>(三)    视频课的学习</h3><p>依旧是在我的课程中，下方蓝色图标的课程即为视频课。选择我们要看的视频教程，例如信息处理技术员精讲班视频教程，在课程目录中选择自己要看的章节。App版是可以缓存视频的，有需要的学员可以自行下载以供学习（可直接在课程详情页点击“下载教程”全部勾选下载，或下载需要的章节。也可点开需下载章节后，点击右上角的下载按钮进行下载，“下载管理”在个人中心）。</p>
-<p>右下角可以选择视频倍速，大家依个人喜好调整即可。</p>
-<h3 id="四-题库"><a href="#四-题库" class="headerlink" title="(四)    题库"></a>(四)    题库</h3><p>点击下面的题库——进入题库。章节练习是我们直播课结束后要完成的对应的练习题。历年真题里包括真题及希赛老师独家的真题解析（练习模式下有解析，考试模式无解析有时间限制）。多多练习有助于提高我们的答题速度，考试过关更有把握。</p>
-<p><img src="https://img-blog.csdnimg.cn/20200531220235327.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
-<p>App内对于做过的题目都会有记录，可以点击下方我的—做题记录查看。遇到经典的题或是难题也可以收藏，在收藏夹中查看即可。</p>
-<h3 id="五-云阅读"><a href="#五-云阅读" class="headerlink" title="(五)云阅读"></a>(五)云阅读</h3><p>如图所示，“云阅读”也就是我们的电子教材。点击我的—云阅读进入，找到自己想要的内容，点击目录即可开始学习。</p>
-<p><img src="https://img-blog.csdnimg.cn/20200531215939482.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
-<p>开始学习后，点击右下角的书签标记即可将该页加入书签，左下角目录可以选择自己想要看的章节内容。</p>
-<h2 id="后台操作题答题要求"><a href="#后台操作题答题要求" class="headerlink" title="后台操作题答题要求"></a>后台操作题答题要求</h2><p>目前没有内嵌的word和excel及PPT可供直接操作，因此需要用自己电脑的对应软件进行操作，注意：不是在答题框内直接操作。</p>
-<p>目前后台还不支持上传word、Excel和ppt文件，仅支持上传图片。因此，需要将做好的word、excel和PPT文档截图或者拍照并保存为图片形式再进行上传文件。</p>
-<p>如果是APP，则可以用电脑作答后，直接点击APP答题下方的拍照按钮，拍完后点击确认后即可上传，最后还要记得点击提交答案。</p>
-<p>如果是电脑端浏览器界面，则需要进行拍照或者截图后，点击上传文件，找到你保存的图片，然后点击上传。上传完成后，也要记得最后点击提交答案。</p>
-<p>简单的截图可以用QQ，打开QQ后，可以用Ctrl+Alt+A进行截图。然后键盘上的Printscreen可以截全屏。或可以直接在系统自带的在开始菜单—搜索栏搜索“截图工具”；或自行安装下载的其他截图工具均可。</p>
-<p>如果文字过多表格太大，则可以按住Ctrl，向下滑动鼠标滚轮，缩小整个界面再截图。如果还是不好调整，可以直接上传多张图片哦~</p>
-<p>截图的其他操作方式有：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/2019/11/27/WINDOWS%201%20%E5%A4%9A%E7%A7%8D%E6%88%AA%E5%9B%BE%E6%96%B9%E5%BC%8F%E4%BB%A5%E5%8F%8A%E5%A6%82%E4%BD%95%E6%88%AA%E5%8F%96%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%EF%BC%9F/" target="_blank" rel="noopener">截图方法</a></p>
-<p>考试的时候不需要截图上传，每个操作完成后点击保存按钮或者使用快捷键Ctrl+S保存文件，最后再进行提交答案。可以参考最后一个关于考试的文章：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/categories/" target="_blank" rel="noopener">信息处理技术员考试考场常见问题解答</a></p>
-<h2 id="word文字处理问题"><a href="#word文字处理问题" class="headerlink" title="word文字处理问题"></a>word文字处理问题</h2><p>关于word文字处理这块，会专门设置一个新的板块进行讲解，请移步：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%892%20word%E6%96%87%E5%AD%97%E5%A4%84%E7%90%86%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/" target="_blank" rel="noopener">前言——第02节 word文字处理常见问题解答</a></p>
-<h2 id="Excel电子表格问题"><a href="#Excel电子表格问题" class="headerlink" title="Excel电子表格问题"></a>Excel电子表格问题</h2><p>关于Excel电子表格这块，会专门设置一个新的板块进行讲解，请移步：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%893%20Excel%E7%94%B5%E5%AD%90%E8%A1%A8%E6%A0%BC%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/" target="_blank" rel="noopener">前言——第03节 Excel电子表格常见问题解答</a></p>
-<h2 id="PPT演示文稿问题"><a href="#PPT演示文稿问题" class="headerlink" title="PPT演示文稿问题"></a>PPT演示文稿问题</h2><p>关于PPT演示文稿这块，会专门设置一个新的板块进行讲解，请移步：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%894%20PPT%E6%BC%94%E7%A4%BA%E6%96%87%E7%A8%BF%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/" target="_blank" rel="noopener">前言——第04节 PPT演示文稿常见问题解答</a></p>
-<h2 id="技术员考试有关问题"><a href="#技术员考试有关问题" class="headerlink" title="技术员考试有关问题"></a>技术员考试有关问题</h2><p>关于信息处理技术员考试这块，会专门设置一个新的板块进行讲解，请移步：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%895%20%E6%8A%80%E6%9C%AF%E5%91%98%E8%80%83%E8%AF%95%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/" target="_blank" rel="noopener">前言——第05节 技术员考试考场常见问题解答</a></p>
-<p>最后，祝大家都能顺利通过考试！加油！</p>
-]]></content>
-      <categories>
-        <category>信息处理技术员</category>
-        <category>第00章 前言</category>
-        <category>第01节 信息处理技术员常见问题解答</category>
       </categories>
       <tags>
         <tag>信息处理技术员</tag>
