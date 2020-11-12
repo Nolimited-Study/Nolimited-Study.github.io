@@ -379,7 +379,10 @@ code {
 code {
   background: #eee;
   border-radius: 3px;
-  color: #555;
+  background-color: #d1ff6c;
+  color: #54001a;
+  font-family: fantasy;
+  font-weight: bold;
   padding: 2px 4px;
   overflow-wrap: break-word;
   word-wrap: break-word;
@@ -1157,7 +1160,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #0fe3d7;
+  background: #e5e232;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1551,7 +1554,7 @@ pre .javascript .function {
   opacity: 0;
 }
 .use-motion .post-body p a {
-  color: #7d26cd;
+  color: #186bac;
   font-weight: bold;
   border-bottom: none;
   border-bottom: 1px solid #cd00cd;
