@@ -1,6 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>C语言基础课程（1.2）——C语言算法的理解</title>
+    <url>/2020/11/17/C%E8%AF%AD%E8%A8%80%EF%BC%881%EF%BC%892/</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>相信大家已经对C语言结构有了基本的认识，接下来，我们还需要了解下C语言的算法。<br><a id="more"></a></p>
+<h1 id="算法的概念"><a href="#算法的概念" class="headerlink" title="算法的概念"></a>算法的概念</h1><p>对于一个问题，有不同的解题思路，这个解题思路就可以说是算法。广义地说，为解决一个问题而采取的方法和步骤，就称为“算法”。</p>
+<p>一个程序应包括两个方面的内容：</p>
+<ol>
+<li>对数据的描述：数据结构(data structure)</li>
+<li>对操作的描述：算法(algorithm)</li>
+</ol>
+<p>对于同一个问题，如果采用不同的算法，会导致其执行时间、使用空间和效率会大有不同。一个算法的优劣可以用<strong>空间复杂度</strong>与<strong>时间复杂度</strong>来衡量。在解题时，不仅要算法正确，还要考虑算法的质量，选择合适的算法。希望方法简单，运算步骤少。</p>
+<h1 id="简单算法举例"><a href="#简单算法举例" class="headerlink" title="简单算法举例"></a>简单算法举例</h1><h2 id="累加的计算"><a href="#累加的计算" class="headerlink" title="累加的计算"></a>累加的计算</h2><p>例如：我们要计算1+2+3+……+n，可以定义一个i变量，用于存储目前所累加的值，定义一个sum变量，用于存储目前前i项的累加和。</p>
+<p>因此，基本的处理流程如下：</p>
+<ol>
+<li>首先初始值为：i=1，sum=1</li>
+<li>i值+1，即i=2，sum=sum+2，则sum=3</li>
+<li>i值+1，即i=3，sum=sum+3，则sum=6</li>
+<li>i值+1，即i=4，sum=sum+4，则sum=10</li>
+<li>…… ……</li>
+<li>依次类推，直到i=n，sum=sum+i结束计算</li>
+</ol>
+<p>可以留意到i的值会进行增加，每次+1，sum是之前i-1项的和加上新增的第i项。</p>
+<p>这里会用到一个循环，i值会从1开始，到n结束循环。</p>
+<h3 id="思考"><a href="#思考" class="headerlink" title="思考"></a>思考</h3><p>接下来，我们对上面的问题稍作变换，大家可以思考下用什么算法可以解决呢？</p>
+<ol>
+<li>计算1*2*3*……*n</li>
+<li>计算2+4+6+……+n(n是偶数）</li>
+<li>计算一组学生的总分</li>
+<li>计算整个长沙市区的总电量</li>
+</ol>
+<p>可以发现，上述的算法比较相似，都是累加或者累乘的问题。</p>
+<h2 id="有条件的累加计算"><a href="#有条件的累加计算" class="headerlink" title="有条件的累加计算"></a>有条件的累加计算</h2><p>上述的思考题中，有一个计算2+4+6+……+n(n是偶数），我们可以采用以下几种算法：</p>
+<h3 id="直接将i的值设置为偶数值"><a href="#直接将i的值设置为偶数值" class="headerlink" title="直接将i的值设置为偶数值"></a>直接将i的值设置为偶数值</h3><ol>
+<li>首先初始值为：i=2，sum=2</li>
+<li>i值+2，即i=4，sum=sum+4，则sum=6</li>
+<li>i值+2，即i=6，sum=sum+6，则sum=12</li>
+<li>i值+2，即i=8，sum=sum+8，则sum=20</li>
+<li>…… ……</li>
+<li>依次类推，直到i=n，sum=sum+i结束计算</li>
+</ol>
+<p>该方法重在判断i的增量情况。</p>
+<h3 id="i值遍历所有整数，累加前判断是否是偶数"><a href="#i值遍历所有整数，累加前判断是否是偶数" class="headerlink" title="i值遍历所有整数，累加前判断是否是偶数"></a>i值遍历所有整数，累加前判断是否是偶数</h3><ol>
+<li>首先初始值为：i=2，sum=2</li>
+<li>i值+1，即i=3，奇数，sum不累加</li>
+<li>i值+1，即i=4，偶数，sum累加，sum=sum+i，得sum=6</li>
+<li>i值+1，即i=5，奇数，sum不累加</li>
+<li>i值+1，即i=6，偶数，sum累加，sum=sum+i，得sum=12</li>
+<li>…… ……</li>
+<li>依次类推，直到i=n，sum=sum+i结束计算</li>
+</ol>
+<p>这种算法则是需要进行sum的累加条件判断。</p>
+<h3 id="思考-1"><a href="#思考-1" class="headerlink" title="思考"></a>思考</h3><ol>
+<li>计算3+6+9+……+n(n是3的倍数）</li>
+<li>计算一组学生中不及格的分数的和</li>
+<li>计算整个长沙市区大于等于100度的总电量</li>
+<li>计算双今年自己所有消费中服装类所占的比重</li>
+</ol>
+<h1 id="算法的特性"><a href="#算法的特性" class="headerlink" title="算法的特性"></a>算法的特性</h1><p>算法具有如下性质：</p>
+<ol>
+<li>有穷性：包含有限的操作步骤</li>
+<li>确定性：算法中的每一个步骤都应当是确定的 </li>
+<li>有零个或多个输入：输入是指在执行算法时需要从外界取得必要的信息</li>
+<li>有一个或多个输出：算法的目的是为了求解，“解” 就是输出 </li>
+<li>有效性：算法中的每一个步骤都应当能有效地执行，并得到确定的结果</li>
+</ol>
+<h1 id="算法的表示"><a href="#算法的表示" class="headerlink" title="算法的表示"></a>算法的表示</h1><p>可以用不同的方法表示算法，常用的有：</p>
+<ol>
+<li>自然语言 </li>
+<li>传统流程图</li>
+<li>结构化流程图</li>
+<li>伪代码</li>
+<li>PAD图</li>
+</ol>
+<p>这些属于拓展知识，大家可以自己看一下哦~</p>
+<h3 id="流程图"><a href="#流程图" class="headerlink" title="流程图"></a>流程图</h3><p>这里主要对流程图做一下简单说明。</p>
+<h4 id="流程图的主要符号"><a href="#流程图的主要符号" class="headerlink" title="流程图的主要符号"></a>流程图的主要符号</h4><p>常用的流程图符号有以下几种：</p>
+<ol>
+<li>圆角矩形：起止框，表示流程的开始或者结束</li>
+<li>菱形：判断框，表示该语句要进行判断真假，再根据其逻辑结果走向不同的分支</li>
+<li>矩形：执行框或处理框，表示需要执行的语句</li>
+<li>平行四边形：输入输出框，表示该处要输入数据或者将某值进行输出</li>
+<li>一边开口的矩形：表示注释，不执行，表示另一个部分的具体含义和对应的解释</li>
+<li>箭头：流向线，不含箭头的表示上一个语句，含箭头的是下一个要执行的语句，通过流向线可以了解整体的执行顺序</li>
+<li>圆圈：连接点，部分比较复杂的流程图可能会用到连接点，用于表示两处之间的执行关系</li>
+</ol>
+<p><img src="https://img-blog.csdnimg.cn/20201117171223385.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<p>如下用流程图来表示1×2×3×4×5的过程：<br><img src="https://img-blog.csdnimg.cn/20201117171104687.png#pic_center" alt="在这里插入图片描述"></p>
+<h4 id="流程图的基本结构"><a href="#流程图的基本结构" class="headerlink" title="流程图的基本结构"></a>流程图的基本结构</h4><p>流程图中有三种基本结构：顺序结构、选择结构、循环结构</p>
+<ol>
+<li>顺序结构：依照流向线的指向顺序依次从开始到结束的执行过程，这是一个最基本最简单的流程图的类型。</li>
+<li>选择结构：选择结构中必然会含有判断框，依据判断框的结果走向不同的分支，如果成立，走Y/是这条分支，如果不成立，走N/否这条分支，选择结构又叫做分支结构。</li>
+<li>循环结构：循环结构中会有循环的语句，当某条件成立的情况下，会继续循环执行某些语句。循环结构又分成当型循环和直到型循环。</li>
+</ol>
+<p><img src="https://img-blog.csdnimg.cn/20201117171423978.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>然后看下本次的小结：</p>
+<ol>
+<li>一个程序应包括两个方面的内容：对数据的描述：数据结构(data structure)；对操作的描述：算法(algorithm)；</li>
+<li>算法的性质：有穷性、确定性、有零个或多个输入、有一个或多个输出和有效性；</li>
+<li>算法常用的表示方法有：自然语言、传统流程图、结构化流程图、伪代码和PAD图。</li>
+</ol>
+<p>关于C语言算法的理解内容就讲解到这里，上述思考里面的算法建议大家好好想一想哦~</p>
+]]></content>
+      <categories>
+        <category>C语言</category>
+        <category>第01章 C语言概述</category>
+        <category>第02节 C语言算法的理解</category>
+      </categories>
+      <tags>
+        <tag>C语言</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>信息处理技术员——word真题讲解（金砖国家）</title>
     <url>/2020/09/09/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%884%EF%BC%892%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E2%80%94%E2%80%94Word%E7%9C%9F%E9%A2%98%E8%AE%B2%E8%A7%A3%EF%BC%88%E9%87%91%E7%A0%96%E5%9B%BD%E5%AE%B6%EF%BC%89/</url>
     <content><![CDATA[<p>很多人问这个金钻国家这一题怎么做，接下来给大家详细的讲解一下~</p>
@@ -171,177 +282,6 @@
       <tags>
         <tag>信息处理技术员</tag>
         <tag>WORD</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>信息处理技术员常见问题解答</title>
-    <url>/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%891%20%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/</url>
-    <content><![CDATA[<p>本文主要针对的是信息处理技术员的学员定制，根据学员经常提的问题进行归纳总结，帮助大家更好的掌握知识点，并顺利通过考试。<br><a id="more"></a></p>
-<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>因文章篇幅较长，为节约大家的时间，建议大家直接搜索自己想问的问题。在电脑端搜索方式如下：<br>按住Ctrl，然后按下F，在弹出的搜索框内输入想要查找的关键字，注意，请简要描述，例如想搜索学习流程，可以直接搜索学习流程或流程，如想知道精讲视频位置，可直接搜索精讲视频即可。<br>输入完后按enter，然后可以跳转到下一个，查看相关内容。<br>不过，如果是初次学习，建议可以大致浏览下哦。</p>
-<h2 id="关于学员群问题"><a href="#关于学员群问题" class="headerlink" title="关于学员群问题"></a>关于学员群问题</h2><h3 id="一-如何入群、进群"><a href="#一-如何入群、进群" class="headerlink" title="(一) 如何入群、进群"></a>(一) 如何入群、进群</h3><p>目前希赛信息处理技术员群较多，有的是QQ群，有的是微信群。需要销售老师邀请入群，如未进群，请联系自己的销售老师。</p>
-<h3 id="二-群管理规范"><a href="#二-群管理规范" class="headerlink" title="(二)    群管理规范"></a>(二)    群管理规范</h3><p>加群后，请修改群名片，改成自己的姓名+所在城市即可。</p>
-<p>加群后可以查看群文件，阅读有关APP操作、电脑端操作等视频，还有关于学习指导文件，方便更加顺利的进入学习。</p>
-<p>加群后可以在群内讨论关于考试与学习的相关问题，学员之间可以相互交流，如有学习问题，可以@下教学老师进行答疑，目前教学老师有展宏老师、杨菲老师、张帅阳老师和段秀云老师。如有平台操作问题，可以@薛妹妹，如直播课程中遇到问题，可以@值班小哥哥，如有关于报名费用等问题，可以联系自己的销售老师。</p>
-<h2 id="关于培训资料问题"><a href="#关于培训资料问题" class="headerlink" title="关于培训资料问题"></a>关于培训资料问题</h2><h3 id="一-培训资料类型"><a href="#一-培训资料类型" class="headerlink" title="(一)    培训资料类型"></a>(一)    培训资料类型</h3><p>目前大家可能会收到数量不一的书本，这是因为每个人的报名的班型不同。整体来说，主要包含以下三本：</p>
-<p>1）    《信息处理技术员培训讲义》</p>
-<p>2）    《信息处理技术员教程（第三版）》</p>
-<p>3）    《信息处理技术员试题分类精解》</p>
-<p>如果只有其中一本或者几本，希望购买其他书目的，可以联系自己的销售老师咨询下。</p>
-<p>但是一般情况下，直播课只需要有信息处理技术员培训讲义即可。</p>
-<h3 id="二-书本介绍"><a href="#二-书本介绍" class="headerlink" title="(二)    书本介绍"></a>(二)    书本介绍</h3><p>1）《信息处理技术员培训讲义》</p>
-<p>这本书是希赛独家出品，是希赛直播课程配套资料，实质是希赛上课的PPT课间内容。直播课将按照该书本来讲解，详略得当，重点突出，然后有留白，方便做笔记。</p>
-<p>该本书的答案在直播课上会讲解，如有问题，可以在直播课上提出，或者在群或平台提问。</p>
-<p>2）《信息处理技术员教程（第三版）》</p>
-<p>这本书是针对信息处理技术员的官方教材，是直播课程辅助资料，可选择性购买。对于该书，内容充实，有习题练习，但是知识点相对比较分散，且书中有较多错误，可以在时间充裕的情况下翻阅。如果发现书中有和直播课或者希赛题库中答案不一致的，以直播课和希赛题库中的为准。<br>这本书的答案在学习资料中可以查看，但目前操作题和解析都还没有，如有问题，可以提问。</p>
-<p>3）《信息处理技术员试题分类精解》</p>
-<p>这本书是希赛根据信息处理技术员历年真题整理汇编而成，对近10套的试卷进行归纳知识点，并配上答案和详细的解析。如果希望看纸质版的题，可以购买。如果习惯用手机或电脑做题，则不用购买，电子书籍中已经配有该资料，可以前往学习查看。<br>这本书直接配有答案和解析，直接查看即可。</p>
-<h2 id="关于如何学习及学习流程"><a href="#关于如何学习及学习流程" class="headerlink" title="关于如何学习及学习流程"></a>关于如何学习及学习流程</h2><p>1)查看群文件，了解希赛APP和电脑端如何使用，了解希赛APP操作方法和希赛官网做题和看视频等方式，从而更好地找到资源及使用希赛平台</p>
-<p>2)听直播课中的第一节课——信息处理技术员公开课的内容，了解考试内容、考试形式、学习方式等，如果没有开课，可以先听信息处理技术员精讲视频中的第一课的内容</p>
-<p>3)之后按照老师要求听直播课，预习——听直播——复习做题等，每一阶段的安排如下：</p>
-<ol>
-<li>预习阶段： 可以提前听信息处理技术员精讲视频中的内容，并做好笔记，做下培训讲义中的练习题</li>
-<li>直播阶段：听课，记笔记，划重点，如有问题，可以直接在直播课上提出</li>
-<li>复习阶段：回顾直播课程内容，进行归纳总结，做章节练习和每日五题，进行巩固练习</li>
-</ol>
-<p>4)直播课程完全结束后，为刷题冲刺阶段，可以做真题练习和模拟题练习，做完后也要记得总结一下，如有知识点有疑问，可以回看知识点相关视频，还可以提问，想了解更多内容，可以百度一下，扩展自己的知识面，从而理解更到位，更加顺利通过考试。</p>
-<h2 id="关于安装软件问题"><a href="#关于安装软件问题" class="headerlink" title="关于安装软件问题"></a>关于安装软件问题</h2><h3 id="一-软件类型"><a href="#一-软件类型" class="headerlink" title="(一)    软件类型"></a>(一)    软件类型</h3><p>目前信息处理技术员考试使用的软件是Microsoft Office 2010版本，尽量版本与考试版本一致。实在觉得安装麻烦，也可以使用Office 2007、Office 2013、Office 2019或者WPS版本也可以，但是请不要使用Office 2003版本，这个版本与Office 2010差别较大，不建议使用。</p>
-<p>安装的Office 版本一定要包含以下三种：Word、Excel和PPT，这个是考试必备软件。如果没有，请重新安装。</p>
-<p>操作系统使用Windows 7比较合适，但这个没有太大关系。</p>
-<h3 id="二-软件安装"><a href="#二-软件安装" class="headerlink" title="(二)    软件安装"></a>(二)    软件安装</h3><p>请自行下载安装Office 2010版本，目前不提供软件安装。可以参考链接：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/2020/06/02/%E5%8A%9E%E5%85%AC%E8%BD%AF%E4%BB%B6%EF%BC%881%EF%BC%891%20Office%202010%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85%E4%B8%8E%E6%BF%80%E6%B4%BB/" target="_blank" rel="noopener">OFFICE 2010安装教程</a></p>
-<h2 id="关于考试内容的问题"><a href="#关于考试内容的问题" class="headerlink" title="关于考试内容的问题"></a>关于考试内容的问题</h2><h3 id="一-考试大纲"><a href="#一-考试大纲" class="headerlink" title="(一)    考试大纲"></a>(一)    考试大纲</h3><ol>
-<li>了解信息技术的基本概念；</li>
-<li>熟悉信息处理基础知识；</li>
-<li>熟悉计算机的组成、各主要部件的功能和性能指标；</li>
-<li>了解计算机网络与多媒体基础知识；</li>
-<li>熟悉信息处理常用设备；</li>
-<li>熟悉计算机系统安装和维护的基本知识；</li>
-<li>熟练掌握操作系统和文件管理的基本概念和Windows基本操作；</li>
-<li>熟练掌握文字处理的基本知识和WPS Office版、Microsoft Office版文字处理的基本操作；</li>
-<li>熟练掌握电子表格的基本知识和WPS Office版、Microsoft Office版电子表格的基本操作；</li>
-<li>熟练掌握演示文稿的基本知识和WPS Office版、Microsoft Office版演示文稿的基本操作；</li>
-<li>熟练掌握新闻/海报的基本知识和Microsoft Publisher版的基本操作；</li>
-<li>熟练掌握图形设计的基本知识和Microsoft Visio版的基本操作；</li>
-<li>熟练掌握数据库应用的基本概念、基本理论和基本操作； </li>
-<li>熟练掌握Internet及其常用软件的基本操作；</li>
-<li>了解计算机与信息安全基本知识；</li>
-<li>了解有关的法律、法规要点；</li>
-<li>正确阅读和理解计算机使用中常见的简单英文及语句（常用专业英语词汇与例句）。</li>
-</ol>
-<h3 id="二-选择题部分"><a href="#二-选择题部分" class="headerlink" title="(二)    选择题部分"></a>(二)    选择题部分</h3><table>
-<tr><th>章节</th><th>重要考点列举  </th></tr>
-<tr><td>信息处理技术基础</td><td align="left">信息概念，信息技术，信息化和信息社会，信息系统，数列，排列组合，数据的简单统计和图表，信息处理的概念，数据处理方法过程和信息处理实务</td></tr>
-<tr><td>计算机系统基础知识</td><td align="left" >计算机系统概述，硬件基础知识，软件基础知识，多媒体基础知识</td></tr>
-<tr><td>操作系统</td><td align="left" >操作系统的概念和类型等，windows 7 各项基本操作，文件及文件管理</td></tr>
-<tr><td>文字信息处理</td><td align="left" >文档编辑，界面认识，文字编辑，文字格式设置，段落格式设置，页面设置，对象插入和编辑，表格设计，样式，目录，邮件合并等</td></tr>
-<tr><td>电子表格处理    </td><td align="left" >工作表操作，数据录入，单元格设置，公式及函数，图表制作，数据管理统计</td></tr>
-<tr><td>演示文稿处理</td><td align="left" >基本概念，常见软件操作，制作方法，对象，动画，播放等基本设置</td></tr>
-<tr><td>数据库操作</td><td align="left" >基本概念，关系运算，数据库和数据表的创建，设置主键，使用查询创建表</td></tr>
-<tr><td>计算机网络及应用</td><td align="left" >网络相关概念，网络协议，IP地址，电子邮件，信息浏览，互联网，新技术等</td></tr>
-<tr><td>信息安全和法律法规</td><td align="left" >计算机连接知识和计算机病毒防治，计算机保护条例和知识产权，标准化知识</td></tr>
-<tr><td>计算机英语知识</td><td align="left" >主板，内存，显示器，网络，程序，系统等基本英语知识</td></tr>
-<table>
-
-###  (三)    操作题部分
-
-<table>
-<tr><th>考试操作软件</th><th >考查具体内容</th></tr>
-<tr><td>Microsoft Word 2010 或WPS 文字2016</td><td align="left" >文字录入，编排，分栏，设置页眉，页脚和页码，页面大小，纸张方向，首字下沉，段落边框和底纹，插入表格，编排艺术字，绘图工具的使用，文本框的操作，项目编号和项目符号的设置</td></tr>
-<tr><td>Microsoft Excel 2010或WPS 表格 2016    </td><td align="left" >创建工作表和电子表格的基本设置，公式和函数的使用，排序，图表的插入和设置，筛选、分类汇总和创建透视表等</td></tr>
-<tr><td>Microsoft PowerPoint 2010或WPS 演示 2016</td><td align="left" >采用模板制作，插入图片和艺术字，设置对象动作，添加项目符号，设置放映时间，设置循环放映等</td></tr>
-</table>
-
-<h2 id="视频链接"><a href="#视频链接" class="headerlink" title="视频链接"></a>视频链接</h2><h3 id="一-公开课链接"><a href="#一-公开课链接" class="headerlink" title="(一)    公开课链接"></a>(一)    公开课链接</h3><p>目前给大家讲了一部分信息处理技术员难点的公开课，想看的同学可以点击一下链接：</p>
-<table>
-<tr><th>日期</th><th >内容</th></tr>
-<tr><td>2020年3月31日</td><td><a href="https://www.educity.cn/wangxiao/op410638.html" target="_blank" rel="noopener">初等数学-图表知识</td></tr>
-<tr><td>2020年4月1日</td><td><a href="https://www.educity.cn/wangxiao/op410639.html" target="_blank" rel="noopener">初等数学-统计知识</td></tr>
-<tr><td>2020年4月7日</td><td><a href="https://www.educity.cn/wangxiao/op410640.html?fcode=w1693" target="_blank" rel="noopener">未知数法+ Excel函数——IF函数</td></tr>
-<tr><td>2020年4月9日</td><td><a href="https://www.educity.cn/wangxiao/op410641.html?fcode=w1693" target="_blank" rel="noopener">Excel函数——统计类、技术类函数</td></tr>
-</table>
-
-<p>注意：视频开头有的会有一段音乐，大概十分钟，后续即是正课内容。</p>
-<h3 id="二-精讲视频地址"><a href="#二-精讲视频地址" class="headerlink" title="(二)    精讲视频地址"></a>(二)    精讲视频地址</h3><p>精讲视频地址：<a href="https://www.educity.cn/shipin/v4105.html" target="_blank" rel="noopener">https://www.educity.cn/shipin/v4105.html</a></p>
-<h3 id="三-真题视频地址"><a href="#三-真题视频地址" class="headerlink" title="(三)    真题视频地址"></a>(三)    真题视频地址</h3><p>真题视频讲解地址：<a href="https://www.educity.cn/shipin/v411055.html" target="_blank" rel="noopener">https://www.educity.cn/shipin/v411055.html</a><br>目前已经录制了部分真题讲解视频，大家可以观看，后续将会继续补充完善。</p>
-<h3 id="四-直播视频地址"><a href="#四-直播视频地址" class="headerlink" title="(四)    直播视频地址"></a>(四)    直播视频地址</h3><p>对于直播视频地址，对于报名不同班型的学员地址链接不同，统一的观看方式是进入学习中心，直播课程中可以看到。<br>直播视频支持回放，分为录播回放视频和直播回放视频，录播视频一般要1~2个工作日才会公布，直播回放视频在课程结束后的2个小时左右一般就可以观看。</p>
-<p>所有的视频都支持回放，手机端还可以下载。<br>其余学习资料还可以参考：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/categories/" target="_blank" rel="noopener">其他学习讲解内容</a>，点击其中的信息处理技术员内容进行学习。</p>
-<h2 id="希赛学习平台使用问题"><a href="#希赛学习平台使用问题" class="headerlink" title="希赛学习平台使用问题"></a>希赛学习平台使用问题</h2><h3 id="一-登录及进入个人中心"><a href="#一-登录及进入个人中心" class="headerlink" title="(一)    登录及进入个人中心"></a>(一)    登录及进入个人中心</h3><p>可以直接点击<a href="http://www.educity.cn" target="_blank" rel="noopener">www.educity.cn</a>进入希赛网，点击左上角的登录，进入登录界面：</p>
-<p>如果还没有注册，请先注册后登陆。（建议使用谷歌浏览器）</p>
-<p><img src="https://img-blog.csdnimg.cn/20200531214244683.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70,#pic_center" alt="在这里插入图片描述"></p>
-<p>登陆可以选择账号密码登录，或者手机号登录，登录界面如下所示：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200531214244655.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70,#pic_center" alt="在这里插入图片描述"></p>
-<p> 输入完成后，即可进入希赛，然后再次点击上面的个人中心，进入自己的个人中心界面，如下：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200531214244695.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70,#pic_center" alt="在这里插入图片描述"></p>
-<p>学员首次进入个人中心后，会跳出对话框显示需要签订学习合同，大家仔细阅读合同，完善信息再点击同意协议！点击确定后，点击确定后会再跳出对话框，填完签订完合同会提醒加入学员群（可点我已入群）。</p>
-<p>然后点击基本信息里“学籍卡”，将自己的个人信息填写完整（尽量填的详细一点！因为老师会根据你的信息给你制定学习计划！）</p>
-<p>“学习计划”里可以查看老师给你制定的学习计划；</p>
-<p>“学习情况”里对于你视频学习、做题情况有一个记录，及统计分析。 </p>
-<h3 id="二-如何查看学习计划"><a href="#二-如何查看学习计划" class="headerlink" title="(二)    如何查看学习计划"></a>(二)    如何查看学习计划</h3><p>进入个人中心后，点击基本信息——学习计划（学习计划只能在网页查看）</p>
-<p><img src="https://img-blog.csdnimg.cn/20200531214244473.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70,#pic_center" alt="在这里插入图片描述"></p>
-<h3 id="三-如何观看直播课"><a href="#三-如何观看直播课" class="headerlink" title="(三)如何观看直播课"></a>(三)如何观看直播课</h3><p>方法一：</p>
-<p>进入个人中心—学员中心，找到并选择自己报考科目“信息处理技术员”，选择直播课，并在课程目录中查看课表课程安排，点击表上相应课时即可直接观看直播或观看直播回放。</p>
-<p><img src="https://img-blog.csdnimg.cn/20200531214244517.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70,#pic_center" alt="在这里插入图片描述"></p>
-<p>方法二：</p>
-<p>直播上课前，班主任老师会在学员群内（微信群与QQ群）会发送上课提醒及直播课程的链接，如：直播班：<a href="https://www.educity.cn/zhibo/v378122.html" target="_blank" rel="noopener">https://www.educity.cn/zhibo/v378122.html</a></p>
-<p>学员直接点击链接即可进入观看。（要注意的是大家要按照自己的班次来点击对应的链接！！！否则会显示还未购买该课程！）</p>
-<p> 要特别注意的一点是：直播课，分为三步。</p>
-<p>1、课前完成当日直播课讲解内容的精讲视频学习。</p>
-<p>2、观看直播课。</p>
-<p>3、完成直播课后去题做对应直播的章节练习题。</p>
-<h3 id="四-如何看视频"><a href="#四-如何看视频" class="headerlink" title="(四)    如何看视频"></a>(四)    如何看视频</h3><p>进入个人中心—学员中心，找到并选择自己报考科目“信息处理技术员”，选择视频课程，在已购买视频课程中找到相关视频，点击立即学习，进入学习。</p>
-<p><img src="https://img-blog.csdnimg.cn/20200531214244581.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70,#pic_center" alt="在这里插入图片描述"></p>
-<p>主要可以看真题视频和最后面的精讲视频。 </p>
-<h3 id="五-如何做题？"><a href="#五-如何做题？" class="headerlink" title="(五)    如何做题？"></a>(五)    如何做题？</h3><p>方法一：进入个人中心—学员中心，找到并选择自己报考科目“信息处理技术员”，选择题库，找到自己想做试题的种类，点击立即练习，也可点击“测试记录”查看往期自己做题记录，“评估报告”查看自己做题数据统计及正确率，“错题库”查看所有做错的题，可反复强化练习。<br>其中，考试模式需要答完题后才可以查看解析，练习模式可以边练习边查看解析和答案。<br>注意：平时练习操作题时需要用自己电脑上对应的软件打开进行操作后，再截图或拍照并保存图片形式，然后再点击上传图片文件即可。<br>上传内容为截图图片文件而并非Office文件。</p>
-<p><img src="https://img-blog.csdnimg.cn/20200531214244518.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70,#pic_center" alt="在这里插入图片描述"></p>
-<h3 id="六-查看和下载学习资料"><a href="#六-查看和下载学习资料" class="headerlink" title="(六)    查看和下载学习资料"></a>(六)    查看和下载学习资料</h3><p>学习资料是老师另外配发的有关学习的补充资料，建议下载。下载最后用电脑进行，因为很多都是压缩包形式。查看及下载方式如下：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200531214244533.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70,,#pic_center" alt="在这里插入图片描述"></p>
-<p>可以点击批量下载全部一次性下载。</p>
-<h3 id="七-如何进行学习提问？"><a href="#七-如何进行学习提问？" class="headerlink" title="(七)    如何进行学习提问？"></a>(七)    如何进行学习提问？</h3><p>进入个人中心—学员中心，找到并选择自己报考科目“信息处理技术员”，选择“问答”，选择并点击“向专家提问”，进行提问。</p>
-<p><img src="https://img-blog.csdnimg.cn/20200531214244489.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70,,#pic_center" alt="在这里插入图片描述"></p>
-<p>如果是题目或者视频有疑问，可以直接在题目后面点击提问。</p>
-<p><img src="https://img-blog.csdnimg.cn/20200531214244652.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70,,#pic_center" alt="在这里插入图片描述"></p>
-<p><img src="https://img-blog.csdnimg.cn/20200531214244426.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70,,#pic_center" alt="在这里插入图片描述"></p>
-<h3 id="八-电子教材如何阅读？"><a href="#八-电子教材如何阅读？" class="headerlink" title="(八)    电子教材如何阅读？"></a>(八)    电子教材如何阅读？</h3><p>进入个人中心—学员中心，找到并选择自己报考科目“信息处理技术员”，选择“云阅读”，选择自己想要观看的教材，点击立即学习，进行阅读。</p>
-<p><img src="https://img-blog.csdnimg.cn/20200531214244531.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70,#pic_center" alt="在这里插入图片描述"></p>
-<h2 id="APP使用问题"><a href="#APP使用问题" class="headerlink" title="APP使用问题"></a>APP使用问题</h2><h3 id="一-APP下载及安装"><a href="#一-APP下载及安装" class="headerlink" title="(一)    APP下载及安装"></a>(一)    APP下载及安装</h3><p>首先呢，大家先在自己的应用市场中搜索希赛网APP，并下载安排到手机上（也可扫描下方二维下载）。</p>
-<p><img src="https://img-blog.csdnimg.cn/20200531215513207.png#pic_center" alt="在这里插入图片描述"></p>
-<p>下载后点击打开APP，选择你所参加的考试，及具体的考试科目。先选中软考，然后拖到下面，点击初级下面的信息处理技术员科目，点击完成即可。</p>
-<p><img src="https://img-blog.csdnimg.cn/20200531215055130.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
-<p>报班后学员首次登陆之后首先会有一个直播班辅导协议，填写完自己的信息然后签订协议就能开通权限开始学习了！（在PC及H5已经有签订过协议学员，APP刚不会显示协议弹窗）</p>
-<h3 id="二-直播课的学习"><a href="#二-直播课的学习" class="headerlink" title="(二)    直播课的学习"></a>(二)    直播课的学习</h3><p>方法一：点击APP首页，“直播课程”或底部“课程”，选择直播课堂中自己所购买的直播课堂,并点击进入。</p>
-<p>在直播课堂详情页，点击课程目录，查看课表安排。直播课开始后“未开课”的提示会变成“正在直播”，点击“正在直播”即可进入直播课堂。有错过直播的同学依然也是进入这个界面观看课程的回放。</p>
-<p>方法二：点击APP首页底部“我的”，选择“我的课程”，选择自己购买的直播课堂，如下图：2019下半年信息处理技术员网络直播2班，并点击进入。</p>
-<p><img src="https://img-blog.csdnimg.cn/20200531215939482.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
-<p>PS：“我的课程”页面包括学员拥有权限的所有直播或视频课程，直播班型优先排在前面，图片显示为红色，视频课程排在后面，图片显示为蓝色。</p>
-<h3 id="三-视频课的学习"><a href="#三-视频课的学习" class="headerlink" title="(三)    视频课的学习"></a>(三)    视频课的学习</h3><p>依旧是在我的课程中，下方蓝色图标的课程即为视频课。选择我们要看的视频教程，例如信息处理技术员精讲班视频教程，在课程目录中选择自己要看的章节。App版是可以缓存视频的，有需要的学员可以自行下载以供学习（可直接在课程详情页点击“下载教程”全部勾选下载，或下载需要的章节。也可点开需下载章节后，点击右上角的下载按钮进行下载，“下载管理”在个人中心）。</p>
-<p>右下角可以选择视频倍速，大家依个人喜好调整即可。</p>
-<h3 id="四-题库"><a href="#四-题库" class="headerlink" title="(四)    题库"></a>(四)    题库</h3><p>点击下面的题库——进入题库。章节练习是我们直播课结束后要完成的对应的练习题。历年真题里包括真题及希赛老师独家的真题解析（练习模式下有解析，考试模式无解析有时间限制）。多多练习有助于提高我们的答题速度，考试过关更有把握。</p>
-<p><img src="https://img-blog.csdnimg.cn/20200531220235327.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
-<p>App内对于做过的题目都会有记录，可以点击下方我的—做题记录查看。遇到经典的题或是难题也可以收藏，在收藏夹中查看即可。</p>
-<h3 id="五-云阅读"><a href="#五-云阅读" class="headerlink" title="(五)云阅读"></a>(五)云阅读</h3><p>如图所示，“云阅读”也就是我们的电子教材。点击我的—云阅读进入，找到自己想要的内容，点击目录即可开始学习。</p>
-<p><img src="https://img-blog.csdnimg.cn/20200531215939482.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
-<p>开始学习后，点击右下角的书签标记即可将该页加入书签，左下角目录可以选择自己想要看的章节内容。</p>
-<h2 id="后台操作题答题要求"><a href="#后台操作题答题要求" class="headerlink" title="后台操作题答题要求"></a>后台操作题答题要求</h2><p>目前没有内嵌的word和excel及PPT可供直接操作，因此需要用自己电脑的对应软件进行操作，注意：不是在答题框内直接操作。</p>
-<p>目前后台还不支持上传word、Excel和ppt文件，仅支持上传图片。因此，需要将做好的word、excel和PPT文档截图或者拍照并保存为图片形式再进行上传文件。</p>
-<p>如果是APP，则可以用电脑作答后，直接点击APP答题下方的拍照按钮，拍完后点击确认后即可上传，最后还要记得点击提交答案。</p>
-<p>如果是电脑端浏览器界面，则需要进行拍照或者截图后，点击上传文件，找到你保存的图片，然后点击上传。上传完成后，也要记得最后点击提交答案。</p>
-<p>简单的截图可以用QQ，打开QQ后，可以用Ctrl+Alt+A进行截图。然后键盘上的Printscreen可以截全屏。或可以直接在系统自带的在开始菜单—搜索栏搜索“截图工具”；或自行安装下载的其他截图工具均可。</p>
-<p>如果文字过多表格太大，则可以按住Ctrl，向下滑动鼠标滚轮，缩小整个界面再截图。如果还是不好调整，可以直接上传多张图片哦~</p>
-<p>截图的其他操作方式有：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/2019/11/27/WINDOWS%201%20%E5%A4%9A%E7%A7%8D%E6%88%AA%E5%9B%BE%E6%96%B9%E5%BC%8F%E4%BB%A5%E5%8F%8A%E5%A6%82%E4%BD%95%E6%88%AA%E5%8F%96%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%EF%BC%9F/" target="_blank" rel="noopener">截图方法</a></p>
-<p>考试的时候不需要截图上传，每个操作完成后点击保存按钮或者使用快捷键Ctrl+S保存文件，最后再进行提交答案。可以参考最后一个关于考试的文章：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/categories/" target="_blank" rel="noopener">信息处理技术员考试考场常见问题解答</a></p>
-<h2 id="word文字处理问题"><a href="#word文字处理问题" class="headerlink" title="word文字处理问题"></a>word文字处理问题</h2><p>关于word文字处理这块，会专门设置一个新的板块进行讲解，请移步：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%892%20word%E6%96%87%E5%AD%97%E5%A4%84%E7%90%86%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/" target="_blank" rel="noopener">前言——第02节 word文字处理常见问题解答</a></p>
-<h2 id="Excel电子表格问题"><a href="#Excel电子表格问题" class="headerlink" title="Excel电子表格问题"></a>Excel电子表格问题</h2><p>关于Excel电子表格这块，会专门设置一个新的板块进行讲解，请移步：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%893%20Excel%E7%94%B5%E5%AD%90%E8%A1%A8%E6%A0%BC%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/" target="_blank" rel="noopener">前言——第03节 Excel电子表格常见问题解答</a></p>
-<h2 id="PPT演示文稿问题"><a href="#PPT演示文稿问题" class="headerlink" title="PPT演示文稿问题"></a>PPT演示文稿问题</h2><p>关于PPT演示文稿这块，会专门设置一个新的板块进行讲解，请移步：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%894%20PPT%E6%BC%94%E7%A4%BA%E6%96%87%E7%A8%BF%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/" target="_blank" rel="noopener">前言——第04节 PPT演示文稿常见问题解答</a></p>
-<h2 id="技术员考试有关问题"><a href="#技术员考试有关问题" class="headerlink" title="技术员考试有关问题"></a>技术员考试有关问题</h2><p>关于信息处理技术员考试这块，会专门设置一个新的板块进行讲解，请移步：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%895%20%E6%8A%80%E6%9C%AF%E5%91%98%E8%80%83%E8%AF%95%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/" target="_blank" rel="noopener">前言——第05节 技术员考试考场常见问题解答</a></p>
-<p>最后，祝大家都能顺利通过考试！加油！</p>
-]]></content>
-      <categories>
-        <category>信息处理技术员</category>
-        <category>第00章 前言</category>
-        <category>第01节 信息处理技术员常见问题解答</category>
-      </categories>
-      <tags>
-        <tag>信息处理技术员</tag>
-        <tag>常见问题</tag>
       </tags>
   </entry>
   <entry>
@@ -645,6 +585,137 @@
         <category>信息处理技术员</category>
         <category>第00章 前言</category>
         <category>第02节 word文字处理常见问题解答</category>
+      </categories>
+      <tags>
+        <tag>信息处理技术员</tag>
+        <tag>常见问题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>信息处理技术员Excel电子表格常见问题解答</title>
+    <url>/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%893%20Excel%E7%94%B5%E5%AD%90%E8%A1%A8%E6%A0%BC%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/</url>
+    <content><![CDATA[<p>本文主要针对的是信息处理技术员的学员定制，根据学员经常提的Excel电子表格这块的问题进行归纳总结，帮助大家更好的掌握知识点，并顺利通过考试。<br><a id="more"></a></p>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>因文章篇幅较长，为节约大家的时间，建议大家直接搜索自己想问的问题。搜索方式如下：<br>按住Ctrl，然后按下F，在弹出的搜索框内输入想要查找的关键字，注意，请简要描述，例如想搜索如何进行求及格率，可以直接搜索及格率，如想知道可视的边框如何设置，可直接搜索边框即可。<br>输入完后按enter，然后可以跳转到下一个，查看相关内容。<br>不过，如果是初次学习，建议可以大致浏览下哦。</p>
+<h2 id="后台操作题答题要求"><a href="#后台操作题答题要求" class="headerlink" title="后台操作题答题要求"></a>后台操作题答题要求</h2><p>目前没有内嵌的word和excel及PPT可供直接操作，因此需要用自己电脑的对应软件进行操作，注意：不是在答题框内直接操作。</p>
+<p>目前后台还不支持上传word、Excel和ppt文件，仅支持上传图片。因此，需要将做好的word、excel和PPT文档截图或者拍照并保存为图片形式再进行上传文件。</p>
+<p>如果是APP，则可以用电脑作答后，直接点击APP答题下方的拍照按钮，拍完后点击确认后即可上传，最后还要记得点击提交答案。</p>
+<p>如果是电脑端浏览器界面，则需要进行拍照或者截图后，点击上传文件，找到你保存的图片，然后点击上传。上传完成后，也要记得最后点击提交答案。</p>
+<p>简单的截图可以用QQ，打开QQ后，可以用Ctrl+Alt+A进行截图。然后键盘上的Printscreen可以截全屏。或可以直接在系统自带的在开始菜单—搜索栏搜索“截图工具”；或自行安装下载的其他截图工具均可。</p>
+<p>如果文字过多表格太大，则可以按住Ctrl，向下滑动鼠标滚轮，缩小整个界面再截图。如果还是不好调整，可以直接上传多张图片哦~</p>
+<p>截图的其他操作方式有：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/2019/11/27/WINDOWS%201%20%E5%A4%9A%E7%A7%8D%E6%88%AA%E5%9B%BE%E6%96%B9%E5%BC%8F%E4%BB%A5%E5%8F%8A%E5%A6%82%E4%BD%95%E6%88%AA%E5%8F%96%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%EF%BC%9F/" target="_blank" rel="noopener">截图方法</a></p>
+<p>考试的时候不需要截图上传，每个操作完成后点击保存按钮或者使用快捷键Ctrl+S保存文件，最后再进行提交答案。可以参考最后一个关于考试的文章：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%895%20%E6%8A%80%E6%9C%AF%E5%91%98%E8%80%83%E8%AF%95%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/" target="_blank" rel="noopener">信息处理技术员考试考场常见问题解答</a></p>
+<h2 id="考点"><a href="#考点" class="headerlink" title="考点"></a>考点</h2><p>建议在做题前，先提前查看视频。</p>
+<p>对于Excel考试，主要考察函数和表格的基本设置。真题如下所示：<br><img src="https://img-blog.csdnimg.cn/20200616190910126.png" alt="在这里插入图片描述"></p>
+<h2 id="视频资源"><a href="#视频资源" class="headerlink" title="视频资源"></a>视频资源</h2><p>信息处理技术员精讲班视频教程：<br><a href="https://www.educity.cn/shipin/v4105.html" target="_blank" rel="noopener">https://www.educity.cn/shipin/v4105.html</a></p>
+<p>第6章 Excel讲解 请先看完视频后再做练习题。</p>
+<p>另外，如果想看真题讲解视频，可以打开真题考点视频进行观看，目前已经录制了部分真题讲解视频，大家可以观看，后续将会继续补充完善。地址：<a href="https://www.educity.cn/shipin/v411055.html" target="_blank" rel="noopener">https://www.educity.cn/shipin/v411055.html</a></p>
+<h2 id="其他补充资源"><a href="#其他补充资源" class="headerlink" title="其他补充资源"></a>其他补充资源</h2><p>另外以下内容有详细的图示讲解过程，可以点击最后面的链接进行查看。</p>
+<p>1、<a href="https://dilidonglong.com/2019/11/20/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E8%A1%A8%E6%A0%BC%E5%A4%84%E7%90%86%E7%9C%9F%E9%A2%98/#%E4%B9%A0%E9%A2%981" target="_blank" rel="noopener">销售利润表</a></p>
+<p>2、<a href="https://dilidonglong.com/2019/11/20/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E8%A1%A8%E6%A0%BC%E5%A4%84%E7%90%86%E7%9C%9F%E9%A2%98/#%E4%B9%A0%E9%A2%982" target="_blank" rel="noopener">三好学生评选表</a></p>
+<p>3、<a href="https://dilidonglong.com/2019/11/20/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E8%A1%A8%E6%A0%BC%E5%A4%84%E7%90%86%E7%9C%9F%E9%A2%98/#%E4%B9%A0%E9%A2%983" target="_blank" rel="noopener">“学生成绩表”和“成绩统计表”</a></p>
+<p>4、<a href="https://dilidonglong.com/2019/11/20/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E8%A1%A8%E6%A0%BC%E5%A4%84%E7%90%86%E7%9C%9F%E9%A2%98/#%E6%A1%88%E4%BE%8B1" target="_blank" rel="noopener">汽车销售完成情况表</a></p>
+<p>5、<a href="https://dilidonglong.com/2019/11/20/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E8%A1%A8%E6%A0%BC%E5%A4%84%E7%90%86%E7%9C%9F%E9%A2%98/#%E6%A1%88%E4%BE%8B2" target="_blank" rel="noopener">学生成绩表</a></p>
+<p>6、<a href="https://dilidonglong.com/2019/11/20/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E8%A1%A8%E6%A0%BC%E5%A4%84%E7%90%86%E7%9C%9F%E9%A2%98/#%E6%A1%88%E4%BE%8B3" target="_blank" rel="noopener">学生成绩统计表</a></p>
+<p>另外还有以下补充资料：</p>
+<p>1、<a href="https://www.educity.cn/rk/2094408.html" target="_blank" rel="noopener">学生考试情况表（语文、数学、英语及格人数和不及格人数判断）</a></p>
+<p>2、<a href="https://www.educity.cn/rk/2094420.html" target="_blank" rel="noopener">供应商评价表</a></p>
+<p>3、<a href="https://www.educity.cn/rk/2094453.html" target="_blank" rel="noopener">各类产品销量情况表</a></p>
+<p>4、<a href="https://www.educity.cn/rk/2094467.html" target="_blank" rel="noopener">员工考勤情况表</a></p>
+<p>5、<a href="https://www.educity.cn/rk/2094476.html" target="_blank" rel="noopener">图书馆借书情况表</a></p>
+<p>6、<a href="https://www.educity.cn/rk/2094478.html" target="_blank" rel="noopener">公司项目评比表</a></p>
+<p>7、<a href="https://www.educity.cn/rk/2094481.html" target="_blank" rel="noopener">员工销售达标情况表</a></p>
+<p>8、<a href="https://www.educity.cn/rk/2094485.html" target="_blank" rel="noopener">学生成绩单</a></p>
+<p>9、<a href="https://www.educity.cn/rk/2094487.html" target="_blank" rel="noopener">学生情况入学年份、出生年份、名次等计算</a></p>
+<h2 id="操作流程"><a href="#操作流程" class="headerlink" title="操作流程"></a>操作流程</h2><p>第一步： 首先按照试题给出的图示录入对应的数据。</p>
+<p>注意事项：<br>1、数据的准确性，数据录入有误会造成后续计算错误，造成丢分；</p>
+<p>2、图示中没有直接给出的数据一律不允许直接填入数据，是需要进行公式或函数计算得到的，直接填入不得分；</p>
+<p>3、另外，特别注意数据的录入均从A1单元格开始。</p>
+<p>第二步：按照要求完成格式的设置。如字体字号、表格可视边框、合并、单元格填充颜色，居中方式、合适的行高列宽等。</p>
+<p>第三步：按试题要求计算出空白单元格的值，一定不能直接填入数据。注意，任何公式的开头都必须先输入“=”号，否则不能进行计算。</p>
+<h2 id="运算符"><a href="#运算符" class="headerlink" title="运算符"></a>运算符</h2><p><img src="https://img-blog.csdnimg.cn/20200616191341430.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
+<h2 id="重点函数及使用"><a href="#重点函数及使用" class="headerlink" title="重点函数及使用"></a>重点函数及使用</h2><p>函数最好是直接输入，防止有函数嵌套不方便使用。如果不记得函数名或者函数如何使用，可以利用F1帮助功能进行查看。</p>
+<p>操作题常考函数有：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200616191341462.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h2 id="函数总表"><a href="#函数总表" class="headerlink" title="函数总表"></a>函数总表</h2><p><img src="https://img-blog.csdnimg.cn/20200616190910212.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
+<h2 id="小数位数设置"><a href="#小数位数设置" class="headerlink" title="小数位数设置"></a>小数位数设置</h2><p>有的题需要设置小数位数保留为2位，或者小数位数为1位，可以选择单元格后右击，点击设置单元格格式，在弹出的对话框中选择数字——数值后，设置小数位数为指定位数，设置好后点击确定即可。如下图是保留为2位小数：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200616191720137.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h2 id="表格内容居中设置"><a href="#表格内容居中设置" class="headerlink" title="表格内容居中设置"></a>表格内容居中设置</h2><p>直接选择单元格后，点击开始选项卡里面的对齐方式中的居中对齐即可。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200616190910107.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h2 id="百分数设置"><a href="#百分数设置" class="headerlink" title="百分数设置"></a>百分数设置</h2><p>如果要设置为百分数，可以选择单元格后右击，点击设置单元格格式，在弹出的对话框中选择数字——百分比后，设置小数位数为指定位数，设置好后点击确定即可。如下图是保留位百分比，并显示3位小数：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200616190910101.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
+<h2 id="水绿色颜色"><a href="#水绿色颜色" class="headerlink" title="水绿色颜色"></a>水绿色颜色</h2><p>水绿色颜色位置如下所示：</p>
+<p><img src="https://img-blog.csdnimg.cn/2020061619091035.png" alt="在这里插入图片描述"> </p>
+<h2 id="环比与同比"><a href="#环比与同比" class="headerlink" title="环比与同比"></a>环比与同比</h2><p>同比是（该期-去年同期）/ 去年同期；比较周期较长。</p>
+<p>环比是（该期-上一期）/ 上一期；比较周期较短。</p>
+<p>如：</p>
+<p>今年1月份同比计算：（今年1月-去年1月）/去年1月</p>
+<p>今年1月份环比计算：（今年1月-去年12月）/去年12月</p>
+<p>今年第二季度同比计算：（今年第二季度-去年第二季度）/去年第二季度</p>
+<p>今年第二季度环比计算：（今年第二季度-今年第一季度）/今年第一季度</p>
+<h2 id="常见成绩计算问题"><a href="#常见成绩计算问题" class="headerlink" title="常见成绩计算问题"></a>常见成绩计算问题</h2><p>及格率的计算整体而言是用及格的人数除以总人数，那不及格率同样的，是用不及格的人数除以总人数。一般在Excel中计算时，如果是单列数据来进行计算及格率或不及格率时，计算公式如下：</p>
+<p>及格率=countif(数据区域,”&gt;=60”)/count(数据区域)</p>
+<p>不及格率=countif(数据区域,”&lt;60”)/count(数据区域)</p>
+<p>如果是成绩区域分成了2列，则此时要用sum分别进行将及格人数、总人数或不及格人数和总人数求和。计算公式如下：</p>
+<p>及格率=sum(<font color="red">countif(某列数据区域,”&gt;=60”),countif(另一列数据区域,”&gt;=60”)</font>)/sum(<font color="blue">count(某列数据区域),count(另一列数据区域)</font>)</p>
+<p>不及格率=sum(<font color="red">countif(某列数据区域,”&lt;60”),countif(另一列数据区域,”&lt;60”)</font>)/sum(<font color="blue">count(某列数据区域),count(另一列数据区域)</font>)</p>
+<p>如下图，有的是需要计算多列数据的情况，这时，可以用sum来进行求和。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200616190910109.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>最高分：max函数，最低分：min函数，平均值：average函数，求和:sum函数，这些都比较简单，不做赘述。</p>
+<h2 id="图表题"><a href="#图表题" class="headerlink" title="图表题"></a>图表题</h2><h3 id="图表切换行列"><a href="#图表切换行列" class="headerlink" title="图表切换行列"></a>图表切换行列</h3><p>X轴就是横坐标，横着的那个，水平的那个，Y轴是纵坐标，竖着的那个，垂直的那个。</p>
+<p>如果发现得到的结果不一致时，可以选中图后，然后点击上面的图表工具——设计选项卡——再点击切换行列即可。如下图所示：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200616191438954.png" alt="在这里插入图片描述"> </p>
+<h3 id="带有数据标记的折线图"><a href="#带有数据标记的折线图" class="headerlink" title="带有数据标记的折线图"></a>带有数据标记的折线图</h3><p>如果题目中需要插入带有数据标记的折线图，则选择好数据后，点击折线图，选择下面的带有数据标记的折线图即可。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200616191458854.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h3 id="图表项目标题不显示"><a href="#图表项目标题不显示" class="headerlink" title="图表项目标题不显示"></a>图表项目标题不显示</h3><p>2016年上半年的关于通信费用统计表很多同学的饼图上面的套餐费用、语音通信费等项目不显示，有两种方式解决：</p>
+<p>方法一：删除饼图，重新设置，先选中第2行（套餐费用、语音通信费、上网通信费等），然后按住Ctrl不放，再选择下面的总计行，然后再点击——插入选项卡——饼图，选择第一个，如下所示：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200629134615698.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>方法二：不删除饼图，重新添加数据，选择右击——选择数据——水平（分类）轴标签——编辑，然后在弹出的对话框里点击选择第2行（套餐费用、语音通信费、上网通信费等）的内容，绿色区域，然后依次点击确定即可。如下所示：</p>
+<p><img src="https://img-blog.csdnimg.cn/2020062913543696.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h3 id="布局2和样式2的选择"><a href="#布局2和样式2的选择" class="headerlink" title="布局2和样式2的选择"></a>布局2和样式2的选择</h3><p>选择图表，然后点击图标工具里面的设计选项卡，在图表布局里面的第二个就是图表布局2，在图表样式里面的第二个就是图表样式2，因此点击下该处就可以应用该布局和样式。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200629134843353.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h2 id="销售费用率"><a href="#销售费用率" class="headerlink" title="销售费用率"></a>销售费用率</h2><p>销售费用/成本率=销售费用/销售收入</p>
+<p>销售利润=销售收入-销售成本-销售费用</p>
+<p>利润率=销售利润/销售收入</p>
+<h2 id="数组最高分最低分计算"><a href="#数组最高分最低分计算" class="headerlink" title="数组最高分最低分计算"></a>数组最高分最低分计算</h2><p>一般最高分用max函数，最低分用min函数。</p>
+<p>下面这道题稍微特殊，是有条件的来进行判断最大值最小值，虽然WPS中有maxif和minif函数，但是Office 2010中目前还没有，因此，可以用以下公式来进行计算。注意：如果是数组公式，需要用Ctrl+Shift+enter结束输入才可以。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200616190910102.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
+<h2 id="Weekday求星期"><a href="#Weekday求星期" class="headerlink" title="Weekday求星期"></a>Weekday求星期</h2><p>以往的考题中有weekday函数，其表示求某日期是星期几。</p>
+<p>计算公式如下：WEEKDAY(serial_number,[return_type])</p>
+<p>Serial_number  必需。一个序列号，代表尝试查找的那一天的日期。</p>
+<p>Return_type  可选。用于确定返回值类型的数字。对于返回类型有以下几种：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200628133803157.png" alt="在这里插入图片描述"></p>
+<p>可以不用掌握，考试的时候一般Return_type设置为2，即星期一返回1，星期二返回2，依次类推，星期日返回7。</p>
+<p>考试的时候，一般会出现当次考试附近的时间，要求计算该日期是星期几。因此，如果在平时做题出现问”=WEEKDAY(“2013-5-23”，2)”、 “=WEEKDAY(“2015-5-23”，2)、”=WEEKDAY(“2014-11-9”，2)””这样类似的，问的时间比较早的，都不用管，可以自行有Excel计算一下，因为考试肯定是考试当天附近的日期，只需要了解函数意思即可。</p>
+<h2 id="问题处理"><a href="#问题处理" class="headerlink" title="问题处理"></a>问题处理</h2><h3 id="公式计算结果不正确"><a href="#公式计算结果不正确" class="headerlink" title="公式计算结果不正确"></a>公式计算结果不正确</h3><p>如果发现公式不能计算、不能得到正确结果或者公式录入不正确，请先核对一下几点问题：</p>
+<p>1、    公式中是否有中文的标点符号，像逗号、括号、双引号等，都必须使用英文格式。</p>
+<p>2、    公式的括号范围是否不正确，请再次核对检查下。</p>
+<p>3、    是否是数组公式，如果是数组公式，则输入完成后，要用Ctrl+shift+enter三个键同时按结束输入才可以。 </p>
+<h3 id="显示"><a href="#显示" class="headerlink" title="显示"></a>显示</h3><p>这个“###”错误是因为列宽不够，调整列宽即可显示完整的值。如何调整列宽？可以直接拖动该列列标处的右侧的框线即可调整。</p>
+<h3 id="列标号为数字处理"><a href="#列标号为数字处理" class="headerlink" title="列标号为数字处理"></a>列标号为数字处理</h3><p>如果出现了列号是1、2、3这样的数字形式，则可以在文件（你这个版本对应的是左上角Office按钮）——选项——公式中设置，取消勾选R1C1引用样式。如下所示：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200616190910139.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h2 id="表格内容居中"><a href="#表格内容居中" class="headerlink" title="表格内容居中"></a>表格内容居中</h2><p><img src="https://img-blog.csdnimg.cn/2020061619152337.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><ol>
+<li>注意标题栏要设置可视的边框（第一个单元格）</li>
+<li>注意表格的位置，先看有没有规定是什么区域，如果没有规定，则默认是从A1单元格开始录入</li>
+<li>先按图示进行录入，然后对齐方式一般是居中，部分可能是靠左对齐，要稍设置</li>
+<li>一定要注意录入的数据准确性，否则后面计算就会有错误，请多次核对</li>
+<li>录入完成后可以稍微调整下行高和列宽，保证界面美观，内容能够完全看到，如果有图，建议一打开就可以看到图，不要跟表格数据相隔太远</li>
+<li>空白单元格一般都是需要用公式计算的，都需要有“=”号进行设置好公式进行计算，如果有要求用函数，则一定要用函数，否则可能不给分。不允许直接在单元格内写上具体的结果数值，此时不给分</li>
+<li>常考函数有：总和sum，平均值average，计数count，有条件加if，多条件加ifs，即有countif、sumif和countifs、sumifs；分段用if，多段嵌套if；最大值max，最小值min；排名用rank<br><img src="https://img-blog.csdnimg.cn/20200616191341462.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></li>
+<li>部分数据需要保留小数位数或者百分数，设置方式是：选择单元格——右击——点击单元格格式，然后再数字选项卡中进行设置</li>
+<li>环比比上期：（当前-上期）/上期，同比比去年同期： （当前-去年同期）/去年同期，占比是countif/count</li>
+<li>斜线的绘制方法（边框里面去设置）</li>
+<li>图表题：要注意X轴和Y轴表示的内容（X轴是水平轴），如果需要更改，就选择图-设计选项卡-点击切换下行列；要注意选择的区域，如果不连续，用Ctrl选取，即先选取一个区域，然后按住Ctrl，再拖拽选择下一个区域</li>
+</ol>
+<h2 id="word文字处理问题"><a href="#word文字处理问题" class="headerlink" title="word文字处理问题"></a>word文字处理问题</h2><p>关于word文字处理这块，会专门设置一个新的板块进行讲解，请移步：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%892%20word%E6%96%87%E5%AD%97%E5%A4%84%E7%90%86%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/" target="_blank" rel="noopener">前言——第02节 word文字处理常见问题解答</a></p>
+<h2 id="PPT演示文稿问题"><a href="#PPT演示文稿问题" class="headerlink" title="PPT演示文稿问题"></a>PPT演示文稿问题</h2><p>关于PPT演示文稿这块，会专门设置一个新的板块进行讲解，请移步：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%894%20PPT%E6%BC%94%E7%A4%BA%E6%96%87%E7%A8%BF%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/" target="_blank" rel="noopener">前言——第04节 PPT演示文稿常见问题解答</a></p>
+<h2 id="技术员考试有关问题"><a href="#技术员考试有关问题" class="headerlink" title="技术员考试有关问题"></a>技术员考试有关问题</h2><p>关于信息处理技术员这块，会专门设置一个新的板块进行讲解，请移步：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%895%20%E6%8A%80%E6%9C%AF%E5%91%98%E8%80%83%E8%AF%95%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/" target="_blank" rel="noopener">前言——第05节 技术员考试考场常见问题解答</a></p>
+<p>最后，祝大家都能顺利通过考试！加油！</p>
+]]></content>
+      <categories>
+        <category>信息处理技术员</category>
+        <category>第00章 前言</category>
+        <category>第03节 Excel电子表格常见问题解答</category>
       </categories>
       <tags>
         <tag>信息处理技术员</tag>
@@ -1072,10 +1143,152 @@
       </tags>
   </entry>
   <entry>
-    <title>信息处理技术员Excel电子表格常见问题解答</title>
-    <url>/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%893%20Excel%E7%94%B5%E5%AD%90%E8%A1%A8%E6%A0%BC%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/</url>
-    <content><![CDATA[<p>本文主要针对的是信息处理技术员的学员定制，根据学员经常提的Excel电子表格这块的问题进行归纳总结，帮助大家更好的掌握知识点，并顺利通过考试。<br><a id="more"></a></p>
-<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>因文章篇幅较长，为节约大家的时间，建议大家直接搜索自己想问的问题。搜索方式如下：<br>按住Ctrl，然后按下F，在弹出的搜索框内输入想要查找的关键字，注意，请简要描述，例如想搜索如何进行求及格率，可以直接搜索及格率，如想知道可视的边框如何设置，可直接搜索边框即可。<br>输入完后按enter，然后可以跳转到下一个，查看相关内容。<br>不过，如果是初次学习，建议可以大致浏览下哦。</p>
+    <title>信息处理技术员常见问题解答</title>
+    <url>/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%891%20%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/</url>
+    <content><![CDATA[<p>本文主要针对的是信息处理技术员的学员定制，根据学员经常提的问题进行归纳总结，帮助大家更好的掌握知识点，并顺利通过考试。<br><a id="more"></a></p>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>因文章篇幅较长，为节约大家的时间，建议大家直接搜索自己想问的问题。在电脑端搜索方式如下：<br>按住Ctrl，然后按下F，在弹出的搜索框内输入想要查找的关键字，注意，请简要描述，例如想搜索学习流程，可以直接搜索学习流程或流程，如想知道精讲视频位置，可直接搜索精讲视频即可。<br>输入完后按enter，然后可以跳转到下一个，查看相关内容。<br>不过，如果是初次学习，建议可以大致浏览下哦。</p>
+<h2 id="关于学员群问题"><a href="#关于学员群问题" class="headerlink" title="关于学员群问题"></a>关于学员群问题</h2><h3 id="一-如何入群、进群"><a href="#一-如何入群、进群" class="headerlink" title="(一) 如何入群、进群"></a>(一) 如何入群、进群</h3><p>目前希赛信息处理技术员群较多，有的是QQ群，有的是微信群。需要销售老师邀请入群，如未进群，请联系自己的销售老师。</p>
+<h3 id="二-群管理规范"><a href="#二-群管理规范" class="headerlink" title="(二)    群管理规范"></a>(二)    群管理规范</h3><p>加群后，请修改群名片，改成自己的姓名+所在城市即可。</p>
+<p>加群后可以查看群文件，阅读有关APP操作、电脑端操作等视频，还有关于学习指导文件，方便更加顺利的进入学习。</p>
+<p>加群后可以在群内讨论关于考试与学习的相关问题，学员之间可以相互交流，如有学习问题，可以@下教学老师进行答疑，目前教学老师有展宏老师、杨菲老师、张帅阳老师和段秀云老师。如有平台操作问题，可以@薛妹妹，如直播课程中遇到问题，可以@值班小哥哥，如有关于报名费用等问题，可以联系自己的销售老师。</p>
+<h2 id="关于培训资料问题"><a href="#关于培训资料问题" class="headerlink" title="关于培训资料问题"></a>关于培训资料问题</h2><h3 id="一-培训资料类型"><a href="#一-培训资料类型" class="headerlink" title="(一)    培训资料类型"></a>(一)    培训资料类型</h3><p>目前大家可能会收到数量不一的书本，这是因为每个人的报名的班型不同。整体来说，主要包含以下三本：</p>
+<p>1）    《信息处理技术员培训讲义》</p>
+<p>2）    《信息处理技术员教程（第三版）》</p>
+<p>3）    《信息处理技术员试题分类精解》</p>
+<p>如果只有其中一本或者几本，希望购买其他书目的，可以联系自己的销售老师咨询下。</p>
+<p>但是一般情况下，直播课只需要有信息处理技术员培训讲义即可。</p>
+<h3 id="二-书本介绍"><a href="#二-书本介绍" class="headerlink" title="(二)    书本介绍"></a>(二)    书本介绍</h3><p>1）《信息处理技术员培训讲义》</p>
+<p>这本书是希赛独家出品，是希赛直播课程配套资料，实质是希赛上课的PPT课间内容。直播课将按照该书本来讲解，详略得当，重点突出，然后有留白，方便做笔记。</p>
+<p>该本书的答案在直播课上会讲解，如有问题，可以在直播课上提出，或者在群或平台提问。</p>
+<p>2）《信息处理技术员教程（第三版）》</p>
+<p>这本书是针对信息处理技术员的官方教材，是直播课程辅助资料，可选择性购买。对于该书，内容充实，有习题练习，但是知识点相对比较分散，且书中有较多错误，可以在时间充裕的情况下翻阅。如果发现书中有和直播课或者希赛题库中答案不一致的，以直播课和希赛题库中的为准。<br>这本书的答案在学习资料中可以查看，但目前操作题和解析都还没有，如有问题，可以提问。</p>
+<p>3）《信息处理技术员试题分类精解》</p>
+<p>这本书是希赛根据信息处理技术员历年真题整理汇编而成，对近10套的试卷进行归纳知识点，并配上答案和详细的解析。如果希望看纸质版的题，可以购买。如果习惯用手机或电脑做题，则不用购买，电子书籍中已经配有该资料，可以前往学习查看。<br>这本书直接配有答案和解析，直接查看即可。</p>
+<h2 id="关于如何学习及学习流程"><a href="#关于如何学习及学习流程" class="headerlink" title="关于如何学习及学习流程"></a>关于如何学习及学习流程</h2><p>1)查看群文件，了解希赛APP和电脑端如何使用，了解希赛APP操作方法和希赛官网做题和看视频等方式，从而更好地找到资源及使用希赛平台</p>
+<p>2)听直播课中的第一节课——信息处理技术员公开课的内容，了解考试内容、考试形式、学习方式等，如果没有开课，可以先听信息处理技术员精讲视频中的第一课的内容</p>
+<p>3)之后按照老师要求听直播课，预习——听直播——复习做题等，每一阶段的安排如下：</p>
+<ol>
+<li>预习阶段： 可以提前听信息处理技术员精讲视频中的内容，并做好笔记，做下培训讲义中的练习题</li>
+<li>直播阶段：听课，记笔记，划重点，如有问题，可以直接在直播课上提出</li>
+<li>复习阶段：回顾直播课程内容，进行归纳总结，做章节练习和每日五题，进行巩固练习</li>
+</ol>
+<p>4)直播课程完全结束后，为刷题冲刺阶段，可以做真题练习和模拟题练习，做完后也要记得总结一下，如有知识点有疑问，可以回看知识点相关视频，还可以提问，想了解更多内容，可以百度一下，扩展自己的知识面，从而理解更到位，更加顺利通过考试。</p>
+<h2 id="关于安装软件问题"><a href="#关于安装软件问题" class="headerlink" title="关于安装软件问题"></a>关于安装软件问题</h2><h3 id="一-软件类型"><a href="#一-软件类型" class="headerlink" title="(一)    软件类型"></a>(一)    软件类型</h3><p>目前信息处理技术员考试使用的软件是Microsoft Office 2010版本，尽量版本与考试版本一致。实在觉得安装麻烦，也可以使用Office 2007、Office 2013、Office 2019或者WPS版本也可以，但是请不要使用Office 2003版本，这个版本与Office 2010差别较大，不建议使用。</p>
+<p>安装的Office 版本一定要包含以下三种：Word、Excel和PPT，这个是考试必备软件。如果没有，请重新安装。</p>
+<p>操作系统使用Windows 7比较合适，但这个没有太大关系。</p>
+<h3 id="二-软件安装"><a href="#二-软件安装" class="headerlink" title="(二)    软件安装"></a>(二)    软件安装</h3><p>请自行下载安装Office 2010版本，目前不提供软件安装。可以参考链接：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/2020/06/02/%E5%8A%9E%E5%85%AC%E8%BD%AF%E4%BB%B6%EF%BC%881%EF%BC%891%20Office%202010%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85%E4%B8%8E%E6%BF%80%E6%B4%BB/" target="_blank" rel="noopener">OFFICE 2010安装教程</a></p>
+<h2 id="关于考试内容的问题"><a href="#关于考试内容的问题" class="headerlink" title="关于考试内容的问题"></a>关于考试内容的问题</h2><h3 id="一-考试大纲"><a href="#一-考试大纲" class="headerlink" title="(一)    考试大纲"></a>(一)    考试大纲</h3><ol>
+<li>了解信息技术的基本概念；</li>
+<li>熟悉信息处理基础知识；</li>
+<li>熟悉计算机的组成、各主要部件的功能和性能指标；</li>
+<li>了解计算机网络与多媒体基础知识；</li>
+<li>熟悉信息处理常用设备；</li>
+<li>熟悉计算机系统安装和维护的基本知识；</li>
+<li>熟练掌握操作系统和文件管理的基本概念和Windows基本操作；</li>
+<li>熟练掌握文字处理的基本知识和WPS Office版、Microsoft Office版文字处理的基本操作；</li>
+<li>熟练掌握电子表格的基本知识和WPS Office版、Microsoft Office版电子表格的基本操作；</li>
+<li>熟练掌握演示文稿的基本知识和WPS Office版、Microsoft Office版演示文稿的基本操作；</li>
+<li>熟练掌握新闻/海报的基本知识和Microsoft Publisher版的基本操作；</li>
+<li>熟练掌握图形设计的基本知识和Microsoft Visio版的基本操作；</li>
+<li>熟练掌握数据库应用的基本概念、基本理论和基本操作； </li>
+<li>熟练掌握Internet及其常用软件的基本操作；</li>
+<li>了解计算机与信息安全基本知识；</li>
+<li>了解有关的法律、法规要点；</li>
+<li>正确阅读和理解计算机使用中常见的简单英文及语句（常用专业英语词汇与例句）。</li>
+</ol>
+<h3 id="二-选择题部分"><a href="#二-选择题部分" class="headerlink" title="(二)    选择题部分"></a>(二)    选择题部分</h3><table>
+<tr><th>章节</th><th>重要考点列举  </th></tr>
+<tr><td>信息处理技术基础</td><td align="left">信息概念，信息技术，信息化和信息社会，信息系统，数列，排列组合，数据的简单统计和图表，信息处理的概念，数据处理方法过程和信息处理实务</td></tr>
+<tr><td>计算机系统基础知识</td><td align="left" >计算机系统概述，硬件基础知识，软件基础知识，多媒体基础知识</td></tr>
+<tr><td>操作系统</td><td align="left" >操作系统的概念和类型等，windows 7 各项基本操作，文件及文件管理</td></tr>
+<tr><td>文字信息处理</td><td align="left" >文档编辑，界面认识，文字编辑，文字格式设置，段落格式设置，页面设置，对象插入和编辑，表格设计，样式，目录，邮件合并等</td></tr>
+<tr><td>电子表格处理    </td><td align="left" >工作表操作，数据录入，单元格设置，公式及函数，图表制作，数据管理统计</td></tr>
+<tr><td>演示文稿处理</td><td align="left" >基本概念，常见软件操作，制作方法，对象，动画，播放等基本设置</td></tr>
+<tr><td>数据库操作</td><td align="left" >基本概念，关系运算，数据库和数据表的创建，设置主键，使用查询创建表</td></tr>
+<tr><td>计算机网络及应用</td><td align="left" >网络相关概念，网络协议，IP地址，电子邮件，信息浏览，互联网，新技术等</td></tr>
+<tr><td>信息安全和法律法规</td><td align="left" >计算机连接知识和计算机病毒防治，计算机保护条例和知识产权，标准化知识</td></tr>
+<tr><td>计算机英语知识</td><td align="left" >主板，内存，显示器，网络，程序，系统等基本英语知识</td></tr>
+<table>
+
+###  (三)    操作题部分
+
+<table>
+<tr><th>考试操作软件</th><th >考查具体内容</th></tr>
+<tr><td>Microsoft Word 2010 或WPS 文字2016</td><td align="left" >文字录入，编排，分栏，设置页眉，页脚和页码，页面大小，纸张方向，首字下沉，段落边框和底纹，插入表格，编排艺术字，绘图工具的使用，文本框的操作，项目编号和项目符号的设置</td></tr>
+<tr><td>Microsoft Excel 2010或WPS 表格 2016    </td><td align="left" >创建工作表和电子表格的基本设置，公式和函数的使用，排序，图表的插入和设置，筛选、分类汇总和创建透视表等</td></tr>
+<tr><td>Microsoft PowerPoint 2010或WPS 演示 2016</td><td align="left" >采用模板制作，插入图片和艺术字，设置对象动作，添加项目符号，设置放映时间，设置循环放映等</td></tr>
+</table>
+
+<h2 id="视频链接"><a href="#视频链接" class="headerlink" title="视频链接"></a>视频链接</h2><h3 id="一-公开课链接"><a href="#一-公开课链接" class="headerlink" title="(一)    公开课链接"></a>(一)    公开课链接</h3><p>目前给大家讲了一部分信息处理技术员难点的公开课，想看的同学可以点击一下链接：</p>
+<table>
+<tr><th>日期</th><th >内容</th></tr>
+<tr><td>2020年3月31日</td><td><a href="https://www.educity.cn/wangxiao/op410638.html" target="_blank" rel="noopener">初等数学-图表知识</td></tr>
+<tr><td>2020年4月1日</td><td><a href="https://www.educity.cn/wangxiao/op410639.html" target="_blank" rel="noopener">初等数学-统计知识</td></tr>
+<tr><td>2020年4月7日</td><td><a href="https://www.educity.cn/wangxiao/op410640.html?fcode=w1693" target="_blank" rel="noopener">未知数法+ Excel函数——IF函数</td></tr>
+<tr><td>2020年4月9日</td><td><a href="https://www.educity.cn/wangxiao/op410641.html?fcode=w1693" target="_blank" rel="noopener">Excel函数——统计类、技术类函数</td></tr>
+</table>
+
+<p>注意：视频开头有的会有一段音乐，大概十分钟，后续即是正课内容。</p>
+<h3 id="二-精讲视频地址"><a href="#二-精讲视频地址" class="headerlink" title="(二)    精讲视频地址"></a>(二)    精讲视频地址</h3><p>精讲视频地址：<a href="https://www.educity.cn/shipin/v4105.html" target="_blank" rel="noopener">https://www.educity.cn/shipin/v4105.html</a></p>
+<h3 id="三-真题视频地址"><a href="#三-真题视频地址" class="headerlink" title="(三)    真题视频地址"></a>(三)    真题视频地址</h3><p>真题视频讲解地址：<a href="https://www.educity.cn/shipin/v411055.html" target="_blank" rel="noopener">https://www.educity.cn/shipin/v411055.html</a><br>目前已经录制了部分真题讲解视频，大家可以观看，后续将会继续补充完善。</p>
+<h3 id="四-直播视频地址"><a href="#四-直播视频地址" class="headerlink" title="(四)    直播视频地址"></a>(四)    直播视频地址</h3><p>对于直播视频地址，对于报名不同班型的学员地址链接不同，统一的观看方式是进入学习中心，直播课程中可以看到。<br>直播视频支持回放，分为录播回放视频和直播回放视频，录播视频一般要1~2个工作日才会公布，直播回放视频在课程结束后的2个小时左右一般就可以观看。</p>
+<p>所有的视频都支持回放，手机端还可以下载。<br>其余学习资料还可以参考：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/categories/" target="_blank" rel="noopener">其他学习讲解内容</a>，点击其中的信息处理技术员内容进行学习。</p>
+<h2 id="希赛学习平台使用问题"><a href="#希赛学习平台使用问题" class="headerlink" title="希赛学习平台使用问题"></a>希赛学习平台使用问题</h2><h3 id="一-登录及进入个人中心"><a href="#一-登录及进入个人中心" class="headerlink" title="(一)    登录及进入个人中心"></a>(一)    登录及进入个人中心</h3><p>可以直接点击<a href="http://www.educity.cn" target="_blank" rel="noopener">www.educity.cn</a>进入希赛网，点击左上角的登录，进入登录界面：</p>
+<p>如果还没有注册，请先注册后登陆。（建议使用谷歌浏览器）</p>
+<p><img src="https://img-blog.csdnimg.cn/20200531214244683.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70,#pic_center" alt="在这里插入图片描述"></p>
+<p>登陆可以选择账号密码登录，或者手机号登录，登录界面如下所示：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200531214244655.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70,#pic_center" alt="在这里插入图片描述"></p>
+<p> 输入完成后，即可进入希赛，然后再次点击上面的个人中心，进入自己的个人中心界面，如下：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200531214244695.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70,#pic_center" alt="在这里插入图片描述"></p>
+<p>学员首次进入个人中心后，会跳出对话框显示需要签订学习合同，大家仔细阅读合同，完善信息再点击同意协议！点击确定后，点击确定后会再跳出对话框，填完签订完合同会提醒加入学员群（可点我已入群）。</p>
+<p>然后点击基本信息里“学籍卡”，将自己的个人信息填写完整（尽量填的详细一点！因为老师会根据你的信息给你制定学习计划！）</p>
+<p>“学习计划”里可以查看老师给你制定的学习计划；</p>
+<p>“学习情况”里对于你视频学习、做题情况有一个记录，及统计分析。 </p>
+<h3 id="二-如何查看学习计划"><a href="#二-如何查看学习计划" class="headerlink" title="(二)    如何查看学习计划"></a>(二)    如何查看学习计划</h3><p>进入个人中心后，点击基本信息——学习计划（学习计划只能在网页查看）</p>
+<p><img src="https://img-blog.csdnimg.cn/20200531214244473.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70,#pic_center" alt="在这里插入图片描述"></p>
+<h3 id="三-如何观看直播课"><a href="#三-如何观看直播课" class="headerlink" title="(三)如何观看直播课"></a>(三)如何观看直播课</h3><p>方法一：</p>
+<p>进入个人中心—学员中心，找到并选择自己报考科目“信息处理技术员”，选择直播课，并在课程目录中查看课表课程安排，点击表上相应课时即可直接观看直播或观看直播回放。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200531214244517.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70,#pic_center" alt="在这里插入图片描述"></p>
+<p>方法二：</p>
+<p>直播上课前，班主任老师会在学员群内（微信群与QQ群）会发送上课提醒及直播课程的链接，如：直播班：<a href="https://www.educity.cn/zhibo/v378122.html" target="_blank" rel="noopener">https://www.educity.cn/zhibo/v378122.html</a></p>
+<p>学员直接点击链接即可进入观看。（要注意的是大家要按照自己的班次来点击对应的链接！！！否则会显示还未购买该课程！）</p>
+<p> 要特别注意的一点是：直播课，分为三步。</p>
+<p>1、课前完成当日直播课讲解内容的精讲视频学习。</p>
+<p>2、观看直播课。</p>
+<p>3、完成直播课后去题做对应直播的章节练习题。</p>
+<h3 id="四-如何看视频"><a href="#四-如何看视频" class="headerlink" title="(四)    如何看视频"></a>(四)    如何看视频</h3><p>进入个人中心—学员中心，找到并选择自己报考科目“信息处理技术员”，选择视频课程，在已购买视频课程中找到相关视频，点击立即学习，进入学习。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200531214244581.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70,#pic_center" alt="在这里插入图片描述"></p>
+<p>主要可以看真题视频和最后面的精讲视频。 </p>
+<h3 id="五-如何做题？"><a href="#五-如何做题？" class="headerlink" title="(五)    如何做题？"></a>(五)    如何做题？</h3><p>方法一：进入个人中心—学员中心，找到并选择自己报考科目“信息处理技术员”，选择题库，找到自己想做试题的种类，点击立即练习，也可点击“测试记录”查看往期自己做题记录，“评估报告”查看自己做题数据统计及正确率，“错题库”查看所有做错的题，可反复强化练习。<br>其中，考试模式需要答完题后才可以查看解析，练习模式可以边练习边查看解析和答案。<br>注意：平时练习操作题时需要用自己电脑上对应的软件打开进行操作后，再截图或拍照并保存图片形式，然后再点击上传图片文件即可。<br>上传内容为截图图片文件而并非Office文件。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200531214244518.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70,#pic_center" alt="在这里插入图片描述"></p>
+<h3 id="六-查看和下载学习资料"><a href="#六-查看和下载学习资料" class="headerlink" title="(六)    查看和下载学习资料"></a>(六)    查看和下载学习资料</h3><p>学习资料是老师另外配发的有关学习的补充资料，建议下载。下载最后用电脑进行，因为很多都是压缩包形式。查看及下载方式如下：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200531214244533.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70,,#pic_center" alt="在这里插入图片描述"></p>
+<p>可以点击批量下载全部一次性下载。</p>
+<h3 id="七-如何进行学习提问？"><a href="#七-如何进行学习提问？" class="headerlink" title="(七)    如何进行学习提问？"></a>(七)    如何进行学习提问？</h3><p>进入个人中心—学员中心，找到并选择自己报考科目“信息处理技术员”，选择“问答”，选择并点击“向专家提问”，进行提问。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200531214244489.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70,,#pic_center" alt="在这里插入图片描述"></p>
+<p>如果是题目或者视频有疑问，可以直接在题目后面点击提问。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200531214244652.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70,,#pic_center" alt="在这里插入图片描述"></p>
+<p><img src="https://img-blog.csdnimg.cn/20200531214244426.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70,,#pic_center" alt="在这里插入图片描述"></p>
+<h3 id="八-电子教材如何阅读？"><a href="#八-电子教材如何阅读？" class="headerlink" title="(八)    电子教材如何阅读？"></a>(八)    电子教材如何阅读？</h3><p>进入个人中心—学员中心，找到并选择自己报考科目“信息处理技术员”，选择“云阅读”，选择自己想要观看的教材，点击立即学习，进行阅读。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200531214244531.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70,#pic_center" alt="在这里插入图片描述"></p>
+<h2 id="APP使用问题"><a href="#APP使用问题" class="headerlink" title="APP使用问题"></a>APP使用问题</h2><h3 id="一-APP下载及安装"><a href="#一-APP下载及安装" class="headerlink" title="(一)    APP下载及安装"></a>(一)    APP下载及安装</h3><p>首先呢，大家先在自己的应用市场中搜索希赛网APP，并下载安排到手机上（也可扫描下方二维下载）。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200531215513207.png#pic_center" alt="在这里插入图片描述"></p>
+<p>下载后点击打开APP，选择你所参加的考试，及具体的考试科目。先选中软考，然后拖到下面，点击初级下面的信息处理技术员科目，点击完成即可。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200531215055130.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<p>报班后学员首次登陆之后首先会有一个直播班辅导协议，填写完自己的信息然后签订协议就能开通权限开始学习了！（在PC及H5已经有签订过协议学员，APP刚不会显示协议弹窗）</p>
+<h3 id="二-直播课的学习"><a href="#二-直播课的学习" class="headerlink" title="(二)    直播课的学习"></a>(二)    直播课的学习</h3><p>方法一：点击APP首页，“直播课程”或底部“课程”，选择直播课堂中自己所购买的直播课堂,并点击进入。</p>
+<p>在直播课堂详情页，点击课程目录，查看课表安排。直播课开始后“未开课”的提示会变成“正在直播”，点击“正在直播”即可进入直播课堂。有错过直播的同学依然也是进入这个界面观看课程的回放。</p>
+<p>方法二：点击APP首页底部“我的”，选择“我的课程”，选择自己购买的直播课堂，如下图：2019下半年信息处理技术员网络直播2班，并点击进入。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200531215939482.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<p>PS：“我的课程”页面包括学员拥有权限的所有直播或视频课程，直播班型优先排在前面，图片显示为红色，视频课程排在后面，图片显示为蓝色。</p>
+<h3 id="三-视频课的学习"><a href="#三-视频课的学习" class="headerlink" title="(三)    视频课的学习"></a>(三)    视频课的学习</h3><p>依旧是在我的课程中，下方蓝色图标的课程即为视频课。选择我们要看的视频教程，例如信息处理技术员精讲班视频教程，在课程目录中选择自己要看的章节。App版是可以缓存视频的，有需要的学员可以自行下载以供学习（可直接在课程详情页点击“下载教程”全部勾选下载，或下载需要的章节。也可点开需下载章节后，点击右上角的下载按钮进行下载，“下载管理”在个人中心）。</p>
+<p>右下角可以选择视频倍速，大家依个人喜好调整即可。</p>
+<h3 id="四-题库"><a href="#四-题库" class="headerlink" title="(四)    题库"></a>(四)    题库</h3><p>点击下面的题库——进入题库。章节练习是我们直播课结束后要完成的对应的练习题。历年真题里包括真题及希赛老师独家的真题解析（练习模式下有解析，考试模式无解析有时间限制）。多多练习有助于提高我们的答题速度，考试过关更有把握。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200531220235327.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<p>App内对于做过的题目都会有记录，可以点击下方我的—做题记录查看。遇到经典的题或是难题也可以收藏，在收藏夹中查看即可。</p>
+<h3 id="五-云阅读"><a href="#五-云阅读" class="headerlink" title="(五)云阅读"></a>(五)云阅读</h3><p>如图所示，“云阅读”也就是我们的电子教材。点击我的—云阅读进入，找到自己想要的内容，点击目录即可开始学习。</p>
+<p><img src="https://img-blog.csdnimg.cn/20200531215939482.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<p>开始学习后，点击右下角的书签标记即可将该页加入书签，左下角目录可以选择自己想要看的章节内容。</p>
 <h2 id="后台操作题答题要求"><a href="#后台操作题答题要求" class="headerlink" title="后台操作题答题要求"></a>后台操作题答题要求</h2><p>目前没有内嵌的word和excel及PPT可供直接操作，因此需要用自己电脑的对应软件进行操作，注意：不是在答题框内直接操作。</p>
 <p>目前后台还不支持上传word、Excel和ppt文件，仅支持上传图片。因此，需要将做好的word、excel和PPT文档截图或者拍照并保存为图片形式再进行上传文件。</p>
 <p>如果是APP，则可以用电脑作答后，直接点击APP答题下方的拍照按钮，拍完后点击确认后即可上传，最后还要记得点击提交答案。</p>
@@ -1083,119 +1296,17 @@
 <p>简单的截图可以用QQ，打开QQ后，可以用Ctrl+Alt+A进行截图。然后键盘上的Printscreen可以截全屏。或可以直接在系统自带的在开始菜单—搜索栏搜索“截图工具”；或自行安装下载的其他截图工具均可。</p>
 <p>如果文字过多表格太大，则可以按住Ctrl，向下滑动鼠标滚轮，缩小整个界面再截图。如果还是不好调整，可以直接上传多张图片哦~</p>
 <p>截图的其他操作方式有：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/2019/11/27/WINDOWS%201%20%E5%A4%9A%E7%A7%8D%E6%88%AA%E5%9B%BE%E6%96%B9%E5%BC%8F%E4%BB%A5%E5%8F%8A%E5%A6%82%E4%BD%95%E6%88%AA%E5%8F%96%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%EF%BC%9F/" target="_blank" rel="noopener">截图方法</a></p>
-<p>考试的时候不需要截图上传，每个操作完成后点击保存按钮或者使用快捷键Ctrl+S保存文件，最后再进行提交答案。可以参考最后一个关于考试的文章：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%895%20%E6%8A%80%E6%9C%AF%E5%91%98%E8%80%83%E8%AF%95%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/" target="_blank" rel="noopener">信息处理技术员考试考场常见问题解答</a></p>
-<h2 id="考点"><a href="#考点" class="headerlink" title="考点"></a>考点</h2><p>建议在做题前，先提前查看视频。</p>
-<p>对于Excel考试，主要考察函数和表格的基本设置。真题如下所示：<br><img src="https://img-blog.csdnimg.cn/20200616190910126.png" alt="在这里插入图片描述"></p>
-<h2 id="视频资源"><a href="#视频资源" class="headerlink" title="视频资源"></a>视频资源</h2><p>信息处理技术员精讲班视频教程：<br><a href="https://www.educity.cn/shipin/v4105.html" target="_blank" rel="noopener">https://www.educity.cn/shipin/v4105.html</a></p>
-<p>第6章 Excel讲解 请先看完视频后再做练习题。</p>
-<p>另外，如果想看真题讲解视频，可以打开真题考点视频进行观看，目前已经录制了部分真题讲解视频，大家可以观看，后续将会继续补充完善。地址：<a href="https://www.educity.cn/shipin/v411055.html" target="_blank" rel="noopener">https://www.educity.cn/shipin/v411055.html</a></p>
-<h2 id="其他补充资源"><a href="#其他补充资源" class="headerlink" title="其他补充资源"></a>其他补充资源</h2><p>另外以下内容有详细的图示讲解过程，可以点击最后面的链接进行查看。</p>
-<p>1、<a href="https://dilidonglong.com/2019/11/20/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E8%A1%A8%E6%A0%BC%E5%A4%84%E7%90%86%E7%9C%9F%E9%A2%98/#%E4%B9%A0%E9%A2%981" target="_blank" rel="noopener">销售利润表</a></p>
-<p>2、<a href="https://dilidonglong.com/2019/11/20/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E8%A1%A8%E6%A0%BC%E5%A4%84%E7%90%86%E7%9C%9F%E9%A2%98/#%E4%B9%A0%E9%A2%982" target="_blank" rel="noopener">三好学生评选表</a></p>
-<p>3、<a href="https://dilidonglong.com/2019/11/20/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E8%A1%A8%E6%A0%BC%E5%A4%84%E7%90%86%E7%9C%9F%E9%A2%98/#%E4%B9%A0%E9%A2%983" target="_blank" rel="noopener">“学生成绩表”和“成绩统计表”</a></p>
-<p>4、<a href="https://dilidonglong.com/2019/11/20/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E8%A1%A8%E6%A0%BC%E5%A4%84%E7%90%86%E7%9C%9F%E9%A2%98/#%E6%A1%88%E4%BE%8B1" target="_blank" rel="noopener">汽车销售完成情况表</a></p>
-<p>5、<a href="https://dilidonglong.com/2019/11/20/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E8%A1%A8%E6%A0%BC%E5%A4%84%E7%90%86%E7%9C%9F%E9%A2%98/#%E6%A1%88%E4%BE%8B2" target="_blank" rel="noopener">学生成绩表</a></p>
-<p>6、<a href="https://dilidonglong.com/2019/11/20/%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E8%A1%A8%E6%A0%BC%E5%A4%84%E7%90%86%E7%9C%9F%E9%A2%98/#%E6%A1%88%E4%BE%8B3" target="_blank" rel="noopener">学生成绩统计表</a></p>
-<p>另外还有以下补充资料：</p>
-<p>1、<a href="https://www.educity.cn/rk/2094408.html" target="_blank" rel="noopener">学生考试情况表（语文、数学、英语及格人数和不及格人数判断）</a></p>
-<p>2、<a href="https://www.educity.cn/rk/2094420.html" target="_blank" rel="noopener">供应商评价表</a></p>
-<p>3、<a href="https://www.educity.cn/rk/2094453.html" target="_blank" rel="noopener">各类产品销量情况表</a></p>
-<p>4、<a href="https://www.educity.cn/rk/2094467.html" target="_blank" rel="noopener">员工考勤情况表</a></p>
-<p>5、<a href="https://www.educity.cn/rk/2094476.html" target="_blank" rel="noopener">图书馆借书情况表</a></p>
-<p>6、<a href="https://www.educity.cn/rk/2094478.html" target="_blank" rel="noopener">公司项目评比表</a></p>
-<p>7、<a href="https://www.educity.cn/rk/2094481.html" target="_blank" rel="noopener">员工销售达标情况表</a></p>
-<p>8、<a href="https://www.educity.cn/rk/2094485.html" target="_blank" rel="noopener">学生成绩单</a></p>
-<p>9、<a href="https://www.educity.cn/rk/2094487.html" target="_blank" rel="noopener">学生情况入学年份、出生年份、名次等计算</a></p>
-<h2 id="操作流程"><a href="#操作流程" class="headerlink" title="操作流程"></a>操作流程</h2><p>第一步： 首先按照试题给出的图示录入对应的数据。</p>
-<p>注意事项：<br>1、数据的准确性，数据录入有误会造成后续计算错误，造成丢分；</p>
-<p>2、图示中没有直接给出的数据一律不允许直接填入数据，是需要进行公式或函数计算得到的，直接填入不得分；</p>
-<p>3、另外，特别注意数据的录入均从A1单元格开始。</p>
-<p>第二步：按照要求完成格式的设置。如字体字号、表格可视边框、合并、单元格填充颜色，居中方式、合适的行高列宽等。</p>
-<p>第三步：按试题要求计算出空白单元格的值，一定不能直接填入数据。注意，任何公式的开头都必须先输入“=”号，否则不能进行计算。</p>
-<h2 id="运算符"><a href="#运算符" class="headerlink" title="运算符"></a>运算符</h2><p><img src="https://img-blog.csdnimg.cn/20200616191341430.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
-<h2 id="重点函数及使用"><a href="#重点函数及使用" class="headerlink" title="重点函数及使用"></a>重点函数及使用</h2><p>函数最好是直接输入，防止有函数嵌套不方便使用。如果不记得函数名或者函数如何使用，可以利用F1帮助功能进行查看。</p>
-<p>操作题常考函数有：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200616191341462.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h2 id="函数总表"><a href="#函数总表" class="headerlink" title="函数总表"></a>函数总表</h2><p><img src="https://img-blog.csdnimg.cn/20200616190910212.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
-<h2 id="小数位数设置"><a href="#小数位数设置" class="headerlink" title="小数位数设置"></a>小数位数设置</h2><p>有的题需要设置小数位数保留为2位，或者小数位数为1位，可以选择单元格后右击，点击设置单元格格式，在弹出的对话框中选择数字——数值后，设置小数位数为指定位数，设置好后点击确定即可。如下图是保留为2位小数：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200616191720137.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h2 id="表格内容居中设置"><a href="#表格内容居中设置" class="headerlink" title="表格内容居中设置"></a>表格内容居中设置</h2><p>直接选择单元格后，点击开始选项卡里面的对齐方式中的居中对齐即可。</p>
-<p><img src="https://img-blog.csdnimg.cn/20200616190910107.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h2 id="百分数设置"><a href="#百分数设置" class="headerlink" title="百分数设置"></a>百分数设置</h2><p>如果要设置为百分数，可以选择单元格后右击，点击设置单元格格式，在弹出的对话框中选择数字——百分比后，设置小数位数为指定位数，设置好后点击确定即可。如下图是保留位百分比，并显示3位小数：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200616190910101.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
-<h2 id="水绿色颜色"><a href="#水绿色颜色" class="headerlink" title="水绿色颜色"></a>水绿色颜色</h2><p>水绿色颜色位置如下所示：</p>
-<p><img src="https://img-blog.csdnimg.cn/2020061619091035.png" alt="在这里插入图片描述"> </p>
-<h2 id="环比与同比"><a href="#环比与同比" class="headerlink" title="环比与同比"></a>环比与同比</h2><p>同比是（该期-去年同期）/ 去年同期；比较周期较长。</p>
-<p>环比是（该期-上一期）/ 上一期；比较周期较短。</p>
-<p>如：</p>
-<p>今年1月份同比计算：（今年1月-去年1月）/去年1月</p>
-<p>今年1月份环比计算：（今年1月-去年12月）/去年12月</p>
-<p>今年第二季度同比计算：（今年第二季度-去年第二季度）/去年第二季度</p>
-<p>今年第二季度环比计算：（今年第二季度-今年第一季度）/今年第一季度</p>
-<h2 id="常见成绩计算问题"><a href="#常见成绩计算问题" class="headerlink" title="常见成绩计算问题"></a>常见成绩计算问题</h2><p>及格率的计算整体而言是用及格的人数除以总人数，那不及格率同样的，是用不及格的人数除以总人数。一般在Excel中计算时，如果是单列数据来进行计算及格率或不及格率时，计算公式如下：</p>
-<p>及格率=countif(数据区域,”&gt;=60”)/count(数据区域)</p>
-<p>不及格率=countif(数据区域,”&lt;60”)/count(数据区域)</p>
-<p>如果是成绩区域分成了2列，则此时要用sum分别进行将及格人数、总人数或不及格人数和总人数求和。计算公式如下：</p>
-<p>及格率=sum(<font color="red">countif(某列数据区域,”&gt;=60”),countif(另一列数据区域,”&gt;=60”)</font>)/sum(<font color="blue">count(某列数据区域),count(另一列数据区域)</font>)</p>
-<p>不及格率=sum(<font color="red">countif(某列数据区域,”&lt;60”),countif(另一列数据区域,”&lt;60”)</font>)/sum(<font color="blue">count(某列数据区域),count(另一列数据区域)</font>)</p>
-<p>如下图，有的是需要计算多列数据的情况，这时，可以用sum来进行求和。</p>
-<p><img src="https://img-blog.csdnimg.cn/20200616190910109.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p>最高分：max函数，最低分：min函数，平均值：average函数，求和:sum函数，这些都比较简单，不做赘述。</p>
-<h2 id="图表题"><a href="#图表题" class="headerlink" title="图表题"></a>图表题</h2><h3 id="图表切换行列"><a href="#图表切换行列" class="headerlink" title="图表切换行列"></a>图表切换行列</h3><p>X轴就是横坐标，横着的那个，水平的那个，Y轴是纵坐标，竖着的那个，垂直的那个。</p>
-<p>如果发现得到的结果不一致时，可以选中图后，然后点击上面的图表工具——设计选项卡——再点击切换行列即可。如下图所示：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200616191438954.png" alt="在这里插入图片描述"> </p>
-<h3 id="带有数据标记的折线图"><a href="#带有数据标记的折线图" class="headerlink" title="带有数据标记的折线图"></a>带有数据标记的折线图</h3><p>如果题目中需要插入带有数据标记的折线图，则选择好数据后，点击折线图，选择下面的带有数据标记的折线图即可。</p>
-<p><img src="https://img-blog.csdnimg.cn/20200616191458854.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h3 id="图表项目标题不显示"><a href="#图表项目标题不显示" class="headerlink" title="图表项目标题不显示"></a>图表项目标题不显示</h3><p>2016年上半年的关于通信费用统计表很多同学的饼图上面的套餐费用、语音通信费等项目不显示，有两种方式解决：</p>
-<p>方法一：删除饼图，重新设置，先选中第2行（套餐费用、语音通信费、上网通信费等），然后按住Ctrl不放，再选择下面的总计行，然后再点击——插入选项卡——饼图，选择第一个，如下所示：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200629134615698.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<p>方法二：不删除饼图，重新添加数据，选择右击——选择数据——水平（分类）轴标签——编辑，然后在弹出的对话框里点击选择第2行（套餐费用、语音通信费、上网通信费等）的内容，绿色区域，然后依次点击确定即可。如下所示：</p>
-<p><img src="https://img-blog.csdnimg.cn/2020062913543696.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h3 id="布局2和样式2的选择"><a href="#布局2和样式2的选择" class="headerlink" title="布局2和样式2的选择"></a>布局2和样式2的选择</h3><p>选择图表，然后点击图标工具里面的设计选项卡，在图表布局里面的第二个就是图表布局2，在图表样式里面的第二个就是图表样式2，因此点击下该处就可以应用该布局和样式。</p>
-<p><img src="https://img-blog.csdnimg.cn/20200629134843353.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h2 id="销售费用率"><a href="#销售费用率" class="headerlink" title="销售费用率"></a>销售费用率</h2><p>销售费用/成本率=销售费用/销售收入</p>
-<p>销售利润=销售收入-销售成本-销售费用</p>
-<p>利润率=销售利润/销售收入</p>
-<h2 id="数组最高分最低分计算"><a href="#数组最高分最低分计算" class="headerlink" title="数组最高分最低分计算"></a>数组最高分最低分计算</h2><p>一般最高分用max函数，最低分用min函数。</p>
-<p>下面这道题稍微特殊，是有条件的来进行判断最大值最小值，虽然WPS中有maxif和minif函数，但是Office 2010中目前还没有，因此，可以用以下公式来进行计算。注意：如果是数组公式，需要用Ctrl+Shift+enter结束输入才可以。</p>
-<p><img src="https://img-blog.csdnimg.cn/20200616190910102.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
-<h2 id="Weekday求星期"><a href="#Weekday求星期" class="headerlink" title="Weekday求星期"></a>Weekday求星期</h2><p>以往的考题中有weekday函数，其表示求某日期是星期几。</p>
-<p>计算公式如下：WEEKDAY(serial_number,[return_type])</p>
-<p>Serial_number  必需。一个序列号，代表尝试查找的那一天的日期。</p>
-<p>Return_type  可选。用于确定返回值类型的数字。对于返回类型有以下几种：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200628133803157.png" alt="在这里插入图片描述"></p>
-<p>可以不用掌握，考试的时候一般Return_type设置为2，即星期一返回1，星期二返回2，依次类推，星期日返回7。</p>
-<p>考试的时候，一般会出现当次考试附近的时间，要求计算该日期是星期几。因此，如果在平时做题出现问”=WEEKDAY(“2013-5-23”，2)”、 “=WEEKDAY(“2015-5-23”，2)、”=WEEKDAY(“2014-11-9”，2)””这样类似的，问的时间比较早的，都不用管，可以自行有Excel计算一下，因为考试肯定是考试当天附近的日期，只需要了解函数意思即可。</p>
-<h2 id="问题处理"><a href="#问题处理" class="headerlink" title="问题处理"></a>问题处理</h2><h3 id="公式计算结果不正确"><a href="#公式计算结果不正确" class="headerlink" title="公式计算结果不正确"></a>公式计算结果不正确</h3><p>如果发现公式不能计算、不能得到正确结果或者公式录入不正确，请先核对一下几点问题：</p>
-<p>1、    公式中是否有中文的标点符号，像逗号、括号、双引号等，都必须使用英文格式。</p>
-<p>2、    公式的括号范围是否不正确，请再次核对检查下。</p>
-<p>3、    是否是数组公式，如果是数组公式，则输入完成后，要用Ctrl+shift+enter三个键同时按结束输入才可以。 </p>
-<h3 id="显示"><a href="#显示" class="headerlink" title="显示"></a>显示</h3><p>这个“###”错误是因为列宽不够，调整列宽即可显示完整的值。如何调整列宽？可以直接拖动该列列标处的右侧的框线即可调整。</p>
-<h3 id="列标号为数字处理"><a href="#列标号为数字处理" class="headerlink" title="列标号为数字处理"></a>列标号为数字处理</h3><p>如果出现了列号是1、2、3这样的数字形式，则可以在文件（你这个版本对应的是左上角Office按钮）——选项——公式中设置，取消勾选R1C1引用样式。如下所示：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200616190910139.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h2 id="表格内容居中"><a href="#表格内容居中" class="headerlink" title="表格内容居中"></a>表格内容居中</h2><p><img src="https://img-blog.csdnimg.cn/2020061619152337.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"> </p>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><ol>
-<li>注意标题栏要设置可视的边框（第一个单元格）</li>
-<li>注意表格的位置，先看有没有规定是什么区域，如果没有规定，则默认是从A1单元格开始录入</li>
-<li>先按图示进行录入，然后对齐方式一般是居中，部分可能是靠左对齐，要稍设置</li>
-<li>一定要注意录入的数据准确性，否则后面计算就会有错误，请多次核对</li>
-<li>录入完成后可以稍微调整下行高和列宽，保证界面美观，内容能够完全看到，如果有图，建议一打开就可以看到图，不要跟表格数据相隔太远</li>
-<li>空白单元格一般都是需要用公式计算的，都需要有“=”号进行设置好公式进行计算，如果有要求用函数，则一定要用函数，否则可能不给分。不允许直接在单元格内写上具体的结果数值，此时不给分</li>
-<li>常考函数有：总和sum，平均值average，计数count，有条件加if，多条件加ifs，即有countif、sumif和countifs、sumifs；分段用if，多段嵌套if；最大值max，最小值min；排名用rank<br><img src="https://img-blog.csdnimg.cn/20200616191341462.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></li>
-<li>部分数据需要保留小数位数或者百分数，设置方式是：选择单元格——右击——点击单元格格式，然后再数字选项卡中进行设置</li>
-<li>环比比上期：（当前-上期）/上期，同比比去年同期： （当前-去年同期）/去年同期，占比是countif/count</li>
-<li>斜线的绘制方法（边框里面去设置）</li>
-<li>图表题：要注意X轴和Y轴表示的内容（X轴是水平轴），如果需要更改，就选择图-设计选项卡-点击切换下行列；要注意选择的区域，如果不连续，用Ctrl选取，即先选取一个区域，然后按住Ctrl，再拖拽选择下一个区域</li>
-</ol>
+<p>考试的时候不需要截图上传，每个操作完成后点击保存按钮或者使用快捷键Ctrl+S保存文件，最后再进行提交答案。可以参考最后一个关于考试的文章：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/categories/" target="_blank" rel="noopener">信息处理技术员考试考场常见问题解答</a></p>
 <h2 id="word文字处理问题"><a href="#word文字处理问题" class="headerlink" title="word文字处理问题"></a>word文字处理问题</h2><p>关于word文字处理这块，会专门设置一个新的板块进行讲解，请移步：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%892%20word%E6%96%87%E5%AD%97%E5%A4%84%E7%90%86%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/" target="_blank" rel="noopener">前言——第02节 word文字处理常见问题解答</a></p>
+<h2 id="Excel电子表格问题"><a href="#Excel电子表格问题" class="headerlink" title="Excel电子表格问题"></a>Excel电子表格问题</h2><p>关于Excel电子表格这块，会专门设置一个新的板块进行讲解，请移步：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%893%20Excel%E7%94%B5%E5%AD%90%E8%A1%A8%E6%A0%BC%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/" target="_blank" rel="noopener">前言——第03节 Excel电子表格常见问题解答</a></p>
 <h2 id="PPT演示文稿问题"><a href="#PPT演示文稿问题" class="headerlink" title="PPT演示文稿问题"></a>PPT演示文稿问题</h2><p>关于PPT演示文稿这块，会专门设置一个新的板块进行讲解，请移步：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%894%20PPT%E6%BC%94%E7%A4%BA%E6%96%87%E7%A8%BF%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/" target="_blank" rel="noopener">前言——第04节 PPT演示文稿常见问题解答</a></p>
-<h2 id="技术员考试有关问题"><a href="#技术员考试有关问题" class="headerlink" title="技术员考试有关问题"></a>技术员考试有关问题</h2><p>关于信息处理技术员这块，会专门设置一个新的板块进行讲解，请移步：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%895%20%E6%8A%80%E6%9C%AF%E5%91%98%E8%80%83%E8%AF%95%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/" target="_blank" rel="noopener">前言——第05节 技术员考试考场常见问题解答</a></p>
+<h2 id="技术员考试有关问题"><a href="#技术员考试有关问题" class="headerlink" title="技术员考试有关问题"></a>技术员考试有关问题</h2><p>关于信息处理技术员考试这块，会专门设置一个新的板块进行讲解，请移步：<a href="https://nolimited-study.github.io/Nolimited-Study.github.io/2020/06/06/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%880%EF%BC%895%20%E6%8A%80%E6%9C%AF%E5%91%98%E8%80%83%E8%AF%95%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E7%AD%94/" target="_blank" rel="noopener">前言——第05节 技术员考试考场常见问题解答</a></p>
 <p>最后，祝大家都能顺利通过考试！加油！</p>
 ]]></content>
       <categories>
         <category>信息处理技术员</category>
         <category>第00章 前言</category>
-        <category>第03节 Excel电子表格常见问题解答</category>
+        <category>第01节 信息处理技术员常见问题解答</category>
       </categories>
       <tags>
         <tag>信息处理技术员</tag>
@@ -3225,8 +3336,8 @@ ISO是国际标准化组织。<br>
         <category>WINDOWS操作</category>
       </categories>
       <tags>
-        <tag>WINDOWS操作</tag>
         <tag>图标异常</tag>
+        <tag>WINDOWS操作</tag>
       </tags>
   </entry>
   <entry>
@@ -3514,7 +3625,7 @@ out->e</textarea><textarea id="flowchart-0-options" style="display: none">{"scal
       </tags>
   </entry>
   <entry>
-    <title>C语言基础课程（1）——hello world程序理解</title>
+    <title>C语言基础课程（1.1）——最基本的C语言程序</title>
     <url>/2019/11/28/C%E8%AF%AD%E8%A8%80%EF%BC%881%EF%BC%891/</url>
     <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>因工作需要，特书写一套简单易入门的C语言基础教程，供大家使用。但是，注意下：该教程<b><font color="#000ccc">最适合程序小白</font></b>食用，如果已经有良好C语言基础的童鞋可以移步其他教程啦~<br><a id="more"></a></p>
 <p>另外，该教程主要讲解C语言的语法结构，不涉及具体编译器的安装和其他理论知识，大家遇到不懂的或者有错误等可以进行留言，万分感谢。<br>如果想要进行编译运行，可以下载编辑器进行本地进行编辑→编译→运行即可。编译器有：<a href="https://docs.microsoft.com/zh-cn/visualstudio/?view=vs-2019" target="_blank" rel="noopener">Visual Studio 2015/2017</a>、<a href="https://bloodshed-dev-c.en.softonic.com/" target="_blank" rel="noopener">Dev C++</a>、<a href="http://www.codeblocks.org/home" target="_blank" rel="noopener">Code ::Blocks</a>、Turbo C 2.0等。如果嫌麻烦，可以直接搜索C语言在线编译工具（如： <a href="https://tech.io/snippet" target="_blank" rel="noopener">tech.io/snippet</a>、<a href="https://rextester.com/" target="_blank" rel="noopener">rextester.com</a>、<a href="https://www.ideone.com" target="_blank" rel="noopener">www.ideone.com</a>、<a href="https://c.runoob.com/compile/11" target="_blank" rel="noopener">菜鸟工具</a>）进行编辑后运行。</p>
@@ -3527,7 +3638,7 @@ out->e</textarea><textarea id="flowchart-0-options" style="display: none">{"scal
 <p>检查好符号、单词拼写后，再看下能不能执行呢？</p>
 <p>相信大家的程序都可以执行了，但是是不是不太明白，那我们来逐句解读一下并理解下。遇到不太懂的词，可以先跳过，不用太过纠结，随着后续学习的深入，会慢慢加深自己的理解和扩充知识体系的。</p>
 <h2 id="include"><a href="#include" class="headerlink" title="include "></a>include <stdio.h></h2><p>第1句，这是预处理器指令，预处理器指令指导编译器在实际编译开始之前对信息进行预处理。所有的预处理器指令都是以 # 开始。预处理器指令不是语句，所以它们不以分号（;）结束。</p>
-<p>这句话的作用为让编译器在此程序中包含指定的头文件。目前这条语句用到的是&lt; <code>stdio.h</code> &gt; 文件，其余还有&lt; <code>math.&gt;</code> &gt;（定义数学函数）、&lt; <code>string.h </code> &gt;（字符串处理）、&lt; <code>time.h</code> &gt;（定义关于时间的函数）等等，目前大家只要知道要使用&lt; <code>stdio.h</code> &gt;这个就可以了，后续如果有用到其他的头文件我们再理解，学习就是一个循序渐进的过程(●´∀｀●)<br>我们先了解一下&lt; <code>stdio.h</code> &gt;文件，是标准输入/输出库（Standard Input and Output）。在这个库中，已经包含了一些函数供我们使用，不用再自己进行编写。像下面使用到的printf函数就是包含在这个&lt; <code>stdio.h</code> &gt;这个库中，大家可以试试，如果不写第一句，则会在编译的时候可能会出现如下的语句：</p>
+<p>这句话的作用为让编译器在此程序中包含指定的头文件。目前这条语句用到的是&lt;<code>stdio.h</code>&gt; 文件，其余还有&lt; <code> math</code>&gt;（定义数学函数）、&lt;<code>string.h </code>&gt;（字符串处理）、&lt;<code>time.h</code>&gt;（定义关于时间的函数）等等，目前大家只要知道要使用&lt;<code>stdio.h</code>&gt;这个就可以了，后续如果有用到其他的头文件我们再理解，学习就是一个循序渐进的过程(●´∀｀●)<br>我们先了解一下&lt;<code>stdio.h</code>&gt;文件，是标准输入/输出库（Standard Input and Output）。在这个库中，已经包含了一些函数供我们使用，不用再自己进行编写。像下面使用到的printf函数就是包含在这个&lt; <code>stdio.h</code> &gt;这个库中，大家可以试试，如果不写第一句，则会在编译的时候可能会出现如下的语句：</p>
 <pre><code>    warning: implicit declaration of function &#39;printf&#39; [-Wimplicit-function-declaration]
     warning: incompatible implicit declaration of built-in function &#39;printf&#39;
 </code></pre><p>如果后续大家发现有类似的报错，可以从是否书写了头文件、函数名是否拼写有误、对应的函数是否包含在头文件中来进行排查。</p>
@@ -3590,7 +3701,8 @@ out->e</textarea><textarea id="flowchart-0-options" style="display: none">{"scal
 ]]></content>
       <categories>
         <category>C语言</category>
-        <category>第01章</category>
+        <category>第01章 C语言概述</category>
+        <category>第01节 最基本的C语言程序</category>
       </categories>
       <tags>
         <tag>C语言</tag>

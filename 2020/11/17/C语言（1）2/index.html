@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.0.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <link rel="alternate" href="/atom.xml" title="Nolimited-Study" type="application/atom+xml">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+
+
+<script id="hexo-configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '7.5.0',
+    exturl: false,
+    sidebar: {"position":"left","Pisces | Gemini":320,"display":"post","offset":12,"onmobile":false},
+    copycode: {"enable":false,"show_result":false,"style":null},
+    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
+    bookmark: {"enable":false,"color":"#222","save":"auto"},
+    fancybox: false,
+    mediumzoom: false,
+    lazyload: false,
+    pangu: false,
+    algolia: {
+      appID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    },
+    localsearch: {"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
+    path: 'search.xml',
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    sidebarPadding: 40
+  };
+</script>
+
+  <meta name="description" content="前言相信大家已经对C语言结构有了基本的认识，接下来，我们还需要了解下C语言的算法。">
+<meta name="keywords" content="C语言">
+<meta property="og:type" content="article">
+<meta property="og:title" content="C语言基础课程（1.2）——C语言算法的理解">
+<meta property="og:url" content="https:&#x2F;&#x2F;nolimited-study.site&#x2F;2020&#x2F;11&#x2F;17&#x2F;C%E8%AF%AD%E8%A8%80%EF%BC%881%EF%BC%892&#x2F;index.html">
+<meta property="og:site_name" content="Nolimited-Study">
+<meta property="og:description" content="前言相信大家已经对C语言结构有了基本的认识，接下来，我们还需要了解下C语言的算法。">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20201117171223385.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70#pic_center">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20201117171104687.png#pic_center">
+<meta property="og:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20201117171423978.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70#pic_center">
+<meta property="og:updated_time" content="2020-11-17T09:39:06.755Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https:&#x2F;&#x2F;img-blog.csdnimg.cn&#x2F;20201117171223385.png?x-oss-process=image&#x2F;watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70#pic_center">
+
+<link rel="canonical" href="https://nolimited-study.site/2020/11/17/C%E8%AF%AD%E8%A8%80%EF%BC%881%EF%BC%892/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome: false,
+    isPost: true,
+    isPage: false,
+    isArchive: false
+  };
+</script>
+
+  <title>C语言基础课程（1.2）——C语言算法的理解 | Nolimited-Study</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-meta">
+
+    <div>
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Nolimited-Study</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+        <p class="site-subtitle">学习无极限</p>
+  </div>
+
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-fw fa-th"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>归档</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-fw fa-user"></i>关于</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+
+</nav>
+  <div class="site-search">
+    <div class="popup search-popup">
+    <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocorrect="off" autocapitalize="none"
+           placeholder="搜索..." spellcheck="false"
+           type="text" id="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result"></div>
+
+</div>
+<div class="search-pop-overlay"></div>
+
+  </div>
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content">
+            
+
+  <div class="posts-expand">
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://nolimited-study.site/2020/11/17/C%E8%AF%AD%E8%A8%80%EF%BC%881%EF%BC%892/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Nolimited-Study">
+      <meta itemprop="description" content="每一刻都是学习时间">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Nolimited-Study">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          C语言基础课程（1.2）——C语言算法的理解
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2020-11-17 17:32:26 / 修改时间：17:39:06" itemprop="dateCreated datePublished" datetime="2020-11-17T17:32:26+08:00">2020-11-17</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/C%E8%AF%AD%E8%A8%80/" itemprop="url" rel="index">
+                    <span itemprop="name">C语言</span>
+                  </a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/C%E8%AF%AD%E8%A8%80/%E7%AC%AC01%E7%AB%A0-C%E8%AF%AD%E8%A8%80%E6%A6%82%E8%BF%B0/" itemprop="url" rel="index">
+                    <span itemprop="name">第01章 C语言概述</span>
+                  </a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/C%E8%AF%AD%E8%A8%80/%E7%AC%AC01%E7%AB%A0-C%E8%AF%AD%E8%A8%80%E6%A6%82%E8%BF%B0/%E7%AC%AC02%E8%8A%82-C%E8%AF%AD%E8%A8%80%E7%AE%97%E6%B3%95%E7%9A%84%E7%90%86%E8%A7%A3/" itemprop="url" rel="index">
+                    <span itemprop="name">第02节 C语言算法的理解</span>
+                  </a>
+                </span>
+            </span>
+
+          
+            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>相信大家已经对C语言结构有了基本的认识，接下来，我们还需要了解下C语言的算法。<br><a id="more"></a></p>
+<h1 id="算法的概念"><a href="#算法的概念" class="headerlink" title="算法的概念"></a>算法的概念</h1><p>对于一个问题，有不同的解题思路，这个解题思路就可以说是算法。广义地说，为解决一个问题而采取的方法和步骤，就称为“算法”。</p>
+<p>一个程序应包括两个方面的内容：</p>
+<ol>
+<li>对数据的描述：数据结构(data structure)</li>
+<li>对操作的描述：算法(algorithm)</li>
+</ol>
+<p>对于同一个问题，如果采用不同的算法，会导致其执行时间、使用空间和效率会大有不同。一个算法的优劣可以用<strong>空间复杂度</strong>与<strong>时间复杂度</strong>来衡量。在解题时，不仅要算法正确，还要考虑算法的质量，选择合适的算法。希望方法简单，运算步骤少。</p>
+<h1 id="简单算法举例"><a href="#简单算法举例" class="headerlink" title="简单算法举例"></a>简单算法举例</h1><h2 id="累加的计算"><a href="#累加的计算" class="headerlink" title="累加的计算"></a>累加的计算</h2><p>例如：我们要计算1+2+3+……+n，可以定义一个i变量，用于存储目前所累加的值，定义一个sum变量，用于存储目前前i项的累加和。</p>
+<p>因此，基本的处理流程如下：</p>
+<ol>
+<li>首先初始值为：i=1，sum=1</li>
+<li>i值+1，即i=2，sum=sum+2，则sum=3</li>
+<li>i值+1，即i=3，sum=sum+3，则sum=6</li>
+<li>i值+1，即i=4，sum=sum+4，则sum=10</li>
+<li>…… ……</li>
+<li>依次类推，直到i=n，sum=sum+i结束计算</li>
+</ol>
+<p>可以留意到i的值会进行增加，每次+1，sum是之前i-1项的和加上新增的第i项。</p>
+<p>这里会用到一个循环，i值会从1开始，到n结束循环。</p>
+<h3 id="思考"><a href="#思考" class="headerlink" title="思考"></a>思考</h3><p>接下来，我们对上面的问题稍作变换，大家可以思考下用什么算法可以解决呢？</p>
+<ol>
+<li>计算1*2*3*……*n</li>
+<li>计算2+4+6+……+n(n是偶数）</li>
+<li>计算一组学生的总分</li>
+<li>计算整个长沙市区的总电量</li>
+</ol>
+<p>可以发现，上述的算法比较相似，都是累加或者累乘的问题。</p>
+<h2 id="有条件的累加计算"><a href="#有条件的累加计算" class="headerlink" title="有条件的累加计算"></a>有条件的累加计算</h2><p>上述的思考题中，有一个计算2+4+6+……+n(n是偶数），我们可以采用以下几种算法：</p>
+<h3 id="直接将i的值设置为偶数值"><a href="#直接将i的值设置为偶数值" class="headerlink" title="直接将i的值设置为偶数值"></a>直接将i的值设置为偶数值</h3><ol>
+<li>首先初始值为：i=2，sum=2</li>
+<li>i值+2，即i=4，sum=sum+4，则sum=6</li>
+<li>i值+2，即i=6，sum=sum+6，则sum=12</li>
+<li>i值+2，即i=8，sum=sum+8，则sum=20</li>
+<li>…… ……</li>
+<li>依次类推，直到i=n，sum=sum+i结束计算</li>
+</ol>
+<p>该方法重在判断i的增量情况。</p>
+<h3 id="i值遍历所有整数，累加前判断是否是偶数"><a href="#i值遍历所有整数，累加前判断是否是偶数" class="headerlink" title="i值遍历所有整数，累加前判断是否是偶数"></a>i值遍历所有整数，累加前判断是否是偶数</h3><ol>
+<li>首先初始值为：i=2，sum=2</li>
+<li>i值+1，即i=3，奇数，sum不累加</li>
+<li>i值+1，即i=4，偶数，sum累加，sum=sum+i，得sum=6</li>
+<li>i值+1，即i=5，奇数，sum不累加</li>
+<li>i值+1，即i=6，偶数，sum累加，sum=sum+i，得sum=12</li>
+<li>…… ……</li>
+<li>依次类推，直到i=n，sum=sum+i结束计算</li>
+</ol>
+<p>这种算法则是需要进行sum的累加条件判断。</p>
+<h3 id="思考-1"><a href="#思考-1" class="headerlink" title="思考"></a>思考</h3><ol>
+<li>计算3+6+9+……+n(n是3的倍数）</li>
+<li>计算一组学生中不及格的分数的和</li>
+<li>计算整个长沙市区大于等于100度的总电量</li>
+<li>计算双今年自己所有消费中服装类所占的比重</li>
+</ol>
+<h1 id="算法的特性"><a href="#算法的特性" class="headerlink" title="算法的特性"></a>算法的特性</h1><p>算法具有如下性质：</p>
+<ol>
+<li>有穷性：包含有限的操作步骤</li>
+<li>确定性：算法中的每一个步骤都应当是确定的 </li>
+<li>有零个或多个输入：输入是指在执行算法时需要从外界取得必要的信息</li>
+<li>有一个或多个输出：算法的目的是为了求解，“解” 就是输出 </li>
+<li>有效性：算法中的每一个步骤都应当能有效地执行，并得到确定的结果</li>
+</ol>
+<h1 id="算法的表示"><a href="#算法的表示" class="headerlink" title="算法的表示"></a>算法的表示</h1><p>可以用不同的方法表示算法，常用的有：</p>
+<ol>
+<li>自然语言 </li>
+<li>传统流程图</li>
+<li>结构化流程图</li>
+<li>伪代码</li>
+<li>PAD图</li>
+</ol>
+<p>这些属于拓展知识，大家可以自己看一下哦~</p>
+<h3 id="流程图"><a href="#流程图" class="headerlink" title="流程图"></a>流程图</h3><p>这里主要对流程图做一下简单说明。</p>
+<h4 id="流程图的主要符号"><a href="#流程图的主要符号" class="headerlink" title="流程图的主要符号"></a>流程图的主要符号</h4><p>常用的流程图符号有以下几种：</p>
+<ol>
+<li>圆角矩形：起止框，表示流程的开始或者结束</li>
+<li>菱形：判断框，表示该语句要进行判断真假，再根据其逻辑结果走向不同的分支</li>
+<li>矩形：执行框或处理框，表示需要执行的语句</li>
+<li>平行四边形：输入输出框，表示该处要输入数据或者将某值进行输出</li>
+<li>一边开口的矩形：表示注释，不执行，表示另一个部分的具体含义和对应的解释</li>
+<li>箭头：流向线，不含箭头的表示上一个语句，含箭头的是下一个要执行的语句，通过流向线可以了解整体的执行顺序</li>
+<li>圆圈：连接点，部分比较复杂的流程图可能会用到连接点，用于表示两处之间的执行关系</li>
+</ol>
+<p><img src="https://img-blog.csdnimg.cn/20201117171223385.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<p>如下用流程图来表示1×2×3×4×5的过程：<br><img src="https://img-blog.csdnimg.cn/20201117171104687.png#pic_center" alt="在这里插入图片描述"></p>
+<h4 id="流程图的基本结构"><a href="#流程图的基本结构" class="headerlink" title="流程图的基本结构"></a>流程图的基本结构</h4><p>流程图中有三种基本结构：顺序结构、选择结构、循环结构</p>
+<ol>
+<li>顺序结构：依照流向线的指向顺序依次从开始到结束的执行过程，这是一个最基本最简单的流程图的类型。</li>
+<li>选择结构：选择结构中必然会含有判断框，依据判断框的结果走向不同的分支，如果成立，走Y/是这条分支，如果不成立，走N/否这条分支，选择结构又叫做分支结构。</li>
+<li>循环结构：循环结构中会有循环的语句，当某条件成立的情况下，会继续循环执行某些语句。循环结构又分成当型循环和直到型循环。</li>
+</ol>
+<p><img src="https://img-blog.csdnimg.cn/20201117171423978.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d6aDA3MDl6bWw=,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>然后看下本次的小结：</p>
+<ol>
+<li>一个程序应包括两个方面的内容：对数据的描述：数据结构(data structure)；对操作的描述：算法(algorithm)；</li>
+<li>算法的性质：有穷性、确定性、有零个或多个输入、有一个或多个输出和有效性；</li>
+<li>算法常用的表示方法有：自然语言、传统流程图、结构化流程图、伪代码和PAD图。</li>
+</ol>
+<p>关于C语言算法的理解内容就讲解到这里，上述思考里面的算法建议大家好好想一想哦~</p>
+
+    </div>
+
+    
+    
+    
+        <div class="reward-container">
+  <div>坚持原创技术分享，您的支持将鼓励我继续创作！</div>
+  <button disable="enable" onclick="var qr = document.getElementById(&quot;qr&quot;); qr.style.display = (qr.style.display === 'none') ? 'block' : 'none';">
+    打赏
+  </button>
+  <div id="qr" style="display: none;">
+      
+      <div style="display: inline-block;">
+        <img src="/images/wechatpay.png" alt="Nolimited-Study 微信支付">
+        <p>微信支付</p>
+      </div>
+      
+      <div style="display: inline-block;">
+        <img src="/images/alipay.png" alt="Nolimited-Study 支付宝">
+        <p>支付宝</p>
+      </div>
+
+  </div>
+</div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/C%E8%AF%AD%E8%A8%80/" rel="tag"># C语言</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-next post-nav-item">
+                <a href="/2020/09/09/%E6%8A%80%E6%9C%AF%E5%91%98%EF%BC%884%EF%BC%892%E4%BF%A1%E6%81%AF%E5%A4%84%E7%90%86%E6%8A%80%E6%9C%AF%E5%91%98%E2%80%94%E2%80%94Word%E7%9C%9F%E9%A2%98%E8%AE%B2%E8%A7%A3%EF%BC%88%E9%87%91%E7%A0%96%E5%9B%BD%E5%AE%B6%EF%BC%89/" rel="next" title="信息处理技术员——word真题讲解（金砖国家）">
+                  <i class="fa fa-chevron-left"></i> 信息处理技术员——word真题讲解（金砖国家）
+                </a>
+            </div>
+
+            <span class="post-nav-divider"></span>
+
+            <div class="post-nav-prev post-nav-item">
+            </div>
+          </div>
+      </footer>
+    
+  </article>
+  <div>
+    
+    <div>
+    
+        <div style="text-align:center;color: #66cdaa;font-size:18px;">------ 本文已结束，感谢您的阅读 ------</div>
+    
+</div>
+
+    
+ </div>
+  
+  
+  
+
+  </div>
+
+
+          </div>
+          
+    
+  <div class="comments" id="comments">
+    <div id="lv-container" data-id="city" data-uid="MTAyMC80ODIwMC8yNDY5Ng=="></div>
+  </div>
+  
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#算法的概念"><span class="nav-number">2.</span> <span class="nav-text">算法的概念</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#简单算法举例"><span class="nav-number">3.</span> <span class="nav-text">简单算法举例</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#累加的计算"><span class="nav-number">3.1.</span> <span class="nav-text">累加的计算</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#思考"><span class="nav-number">3.1.1.</span> <span class="nav-text">思考</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#有条件的累加计算"><span class="nav-number">3.2.</span> <span class="nav-text">有条件的累加计算</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#直接将i的值设置为偶数值"><span class="nav-number">3.2.1.</span> <span class="nav-text">直接将i的值设置为偶数值</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#i值遍历所有整数，累加前判断是否是偶数"><span class="nav-number">3.2.2.</span> <span class="nav-text">i值遍历所有整数，累加前判断是否是偶数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#思考-1"><span class="nav-number">3.2.3.</span> <span class="nav-text">思考</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#算法的特性"><span class="nav-number">4.</span> <span class="nav-text">算法的特性</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#算法的表示"><span class="nav-number">5.</span> <span class="nav-text">算法的表示</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#流程图"><span class="nav-number">5.0.1.</span> <span class="nav-text">流程图</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#流程图的主要符号"><span class="nav-number">5.0.1.1.</span> <span class="nav-text">流程图的主要符号</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#流程图的基本结构"><span class="nav-number">5.0.1.2.</span> <span class="nav-text">流程图的基本结构</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#总结"><span class="nav-number">5.1.</span> <span class="nav-text">总结</span></a></li></ol></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Nolimited-Study"
+      src="/images/avatar.gif">
+  <p class="site-author-name" itemprop="name">Nolimited-Study</p>
+  <div class="site-description" itemprop="description">每一刻都是学习时间</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">28</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">33</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">21</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="feed-link motion-element">
+    <a href="/atom.xml" rel="alternate">
+      <i class="fa fa-rss"></i>RSS
+    </a>
+  </div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/Nolimited-Study" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;Nolimited-Study" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/1259799181@qq.com" title="E-Mail → 1259799181@qq.com"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://blog.csdn.net/wzh0709zml" title="CSDN → https:&#x2F;&#x2F;blog.csdn.net&#x2F;wzh0709zml" rel="noopener" target="_blank"><i class="fa fa-fw fa-crosshairs"></i>CSDN</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Nolimited-Study</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v4.0.0
+  </div>
+  <span class="post-meta-divider">|</span>
+  <div class="theme-info">主题 – <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.5.0
+  </div>
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="post-meta-item-icon">
+      <i class="fa fa-user"></i>
++   网站总访客数
+    </span>
+    <span class="site-uv" title="总访客量">
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span> 
+    </span>
+  
+
+  
+
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+<script src="/js/utils.js"></script><script src="/js/motion.js"></script>
+<script src="/js/schemes/pisces.js"></script>
+<script src="/js/next-boot.js"></script>
+
+
+
+  
+
+
+
+
+  <script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+<script>
+if (document.querySelectorAll('pre.mermaid').length) {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js', () => {
+    mermaid.initialize({
+      theme: 'neutral',
+      logLevel: 3,
+      flowchart: { curve: 'linear' },
+      gantt: { axisFormat: '%m/%d/%Y' },
+      sequence: { actorMargin: 50 }
+    });
+  }, window.mermaid);
+}
+</script>
+
+
+
+  
+
+  
+
+<script>
+  window.livereOptions = {
+    refer: location.pathname.replace(CONFIG.root, '').replace('index.html', '')
+  };
+  (function(d, s) {
+    var j, e = d.getElementsByTagName(s)[0];
+    if (typeof LivereTower === 'function') { return; }
+    j = d.createElement(s);
+    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+    j.async = true;
+    e.parentNode.insertBefore(j, e);
+  })(document, 'script');
+</script>
+
+
+  
+	<script type="text/javascript"
+		color="0,255,255" opacity='0.6' zIndex="-1" count ="240" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
+
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/assets/koharu.model.json"},"display":{"position":"right","width":150,"height":300},"react":{"opacity":0.7},"mobile":{"show":true},"log":false});</script></body>
+</html>
